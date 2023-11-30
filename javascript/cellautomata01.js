@@ -12,7 +12,7 @@ var vsize = 400;
 
 // セルオートマトンのパラメータ
 var fields_history_size = 5;
-var fields_size = 50;
+var fields_size = 20;
 var x_shift    = 40;
 var y_span     = 70;
 var y_margine  = 80;
