@@ -1,14 +1,22 @@
 
 var canvas = document.getElementById("canvas1"); 
-var canvas_size = document.body.clientWidth * 0.8;
 var ctx = canvas.getContext("2d");
-var timer = null;
+
+var client_width = document.body.clientWidth;
+var canvas_size;
+
+if(client_width > 800){
+  canvas_size  = client_width * 0.8;
+}else{
+  canvas_size  = client_width * 1;
+}
 
 canvas.width  = canvas_size;
 canvas.height = canvas_size;
 
 var vsize = 400;
 
+var timer = null;
 
 // セルオートマトンのパラメータ
 var fields_history_size = 5;
