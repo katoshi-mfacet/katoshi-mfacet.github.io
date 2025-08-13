@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://katoshi-mfacet.github.io/sitemap.xml
