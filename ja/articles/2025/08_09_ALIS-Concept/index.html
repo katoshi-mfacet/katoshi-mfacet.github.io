@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="ja"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>人工学習知能システム：ALIS構想 | katoshiの研究ノート</title><meta name="description" content="本記事は、人工学習知能システム（ALIS）という、先天的学習（ニューラルネットワークの内部学習）と後天的学習（外部知識の活用）を統合した新たなAIシステム構想について解説しています。現在の生成AIは主に先天的学習に依存していますが、ALISはこれに加えて、再利用可能な知識の抽出、保存、選択、利用を核とする後天的学習プ…"><meta name="keywords" content="AI, ソフトウェア開発, システム設計, 生命科学, 博士, エンジニア, 研究, 思考法, シミュレーション思考, リキッドウェア, フレームワーク設計, 仮想知能"><meta name="author" content="katoshi"><!-- Canonical --><link rel="canonical" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/"><!-- hreflang（x-default 含む） --><link rel="alternate" hreflang="ja" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/"><link rel="alternate" hreflang="x-default" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/"><!-- Open Graph --><meta property="og:site_name" content="katoshiの研究ノート"><meta property="og:title" content="人工学習知能システム：ALIS構想 | katoshiの研究ノート"><meta property="og:description" content="本記事は、人工学習知能システム（ALIS）という、先天的学習（ニューラルネットワークの内部学習）と後天的学習（外部知識の活用）を統合した新たなAIシステム構想について解説しています。現在の生成AIは主に先天的学習に依存していますが、ALISはこれに加えて、再利用可能な知識の抽出、保存、選択、利用を核とする後天的学習プ…"><meta property="og:url" content="https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta property="og:image:alt" content="人工学習知能システム：ALIS構想 | katoshiの研究ノート"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@katoshi_mfacet"><meta name="twitter:title" content="人工学習知能システム：ALIS構想 | katoshiの研究ノート"><meta name="twitter:description" content="本記事は、人工学習知能システム（ALIS）という、先天的学習（ニューラルネットワークの内部学習）と後天的学習（外部知識の活用）を統合した新たなAIシステム構想について解説しています。現在の生成AIは主に先天的学習に依存していますが、ALISはこれに加えて、再利用可能な知識の抽出、保存、選択、利用を核とする後天的学習プ…"><meta name="twitter:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta name="twitter:image:alt" content="人工学習知能システム：ALIS構想 | katoshiの研究ノート"><meta property="article:published_time" content="2025-08-09T00:00:00.000Z"><meta property="article:section" content="テクノロジー"><meta property="article:tag" content="artificial-learning-intelligence-system"><meta property="article:tag" content="innate-learning"><meta property="article:tag" content="acquired-learning"><meta property="article:tag" content="intelligent-processor"><meta property="article:tag" content="knowledge-store"><meta property="article:tag" content="world"><meta property="article:tag" content="state-memory"><meta property="article:tag" content="framework"><meta property="article:tag" content="knowledge-lake"><meta property="article:tag" content="knowledge-base"><meta property="article:tag" content="network-parameter-knowledge"><meta property="article:tag" content="natural-knowledge"><meta property="article:tag" content="formal-knowledge"><meta property="article:tag" content="stateless"><meta property="article:tag" content="stateful"><meta property="article:tag" content="RAG"><meta property="article:tag" content="embodied-AI"><meta property="article:tag" content="large-language-model"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"人工学習知能システム：ALIS構想","description":"本記事は、人工学習知能システム（ALIS）という、先天的学習（ニューラルネットワークの内部学習）と後天的学習（外部知識の活用）を統合した新たなAIシステム構想について解説しています。現在の生成AIは主に先天的学習に依存していますが、ALISはこれに加えて、再利用可能な知識の抽出、保存、選択、利用を核とする後天的学習プ…","url":"https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/","mainEntityOfPage":"https://katoshi-mfacet.github.io/ja/articles/2025/08_09_ALIS-Concept/","inLanguage":"ja","datePublished":"2025-08-09T00:00:00.000Z","dateModified":"2025-08-09T00:00:00.000Z","keywords":"artificial-learning-intelligence-system, innate-learning, acquired-learning, intelligent-processor, knowledge-store, world, state-memory, framework, knowledge-lake, knowledge-base, network-parameter-knowledge, natural-knowledge, formal-knowledge, stateless, stateful, RAG, embodied-AI, large-language-model","author":{"@type":"Person","name":"katoshi","url":"https://katoshi-mfacet.github.io/ja/about"},"publisher":{"@type":"Organization","name":"Katoshi's Research Notes","logo":{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png"}},"image":[{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png","width":1200,"height":630}]}</script><link rel="stylesheet" href="/_astro/_key_.4MaiDtB2.css">
-<style>.line-clamp-2[data-astro-cid-nnxgeytw]{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3[data-astro-cid-nnxgeytw],.line-clamp-3[data-astro-cid-2zkmu4eg]{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.prose[data-astro-cid-3ljf2kae].remove-first-h1>:first-child:is(h1)[data-astro-cid-3ljf2kae]{display:none!important}.prose[data-astro-cid-3ljf2kae].remove-first-h1 h1[data-astro-cid-3ljf2kae]:first-child,.prose[data-astro-cid-3ljf2kae].remove-first-h1>h1[data-astro-cid-3ljf2kae]:first-of-type{display:none!important}.prose[data-astro-cid-3ljf2kae] .youtube-embed{margin:2rem 0;position:relative;width:100%;height:0;padding-bottom:56.25%}.prose[data-astro-cid-3ljf2kae] .youtube-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:.5rem}.prose[data-astro-cid-3ljf2kae] img[data-astro-cid-3ljf2kae]{border-radius:.5rem;box-shadow:0 10px 15px -3px #0000001a}.prose[data-astro-cid-3ljf2kae] table[data-astro-cid-3ljf2kae]{border-collapse:collapse;margin:1.5rem 0}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae],.prose[data-astro-cid-3ljf2kae] td[data-astro-cid-3ljf2kae]{border:1px solid #e5e7eb;padding:.75rem;text-align:left}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae]{background-color:#f9fafb;font-weight:600}
+<style>.line-clamp-2[data-astro-cid-nnxgeytw]{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3[data-astro-cid-nnxgeytw],.line-clamp-3[data-astro-cid-2zkmu4eg]{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.prose[data-astro-cid-3ljf2kae] .youtube-embed{margin:2rem 0;position:relative;width:100%;height:0;padding-bottom:56.25%}.prose[data-astro-cid-3ljf2kae] .youtube-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:.5rem}.prose[data-astro-cid-3ljf2kae] img[data-astro-cid-3ljf2kae]{border-radius:.5rem;box-shadow:0 10px 15px -3px #0000001a}.prose[data-astro-cid-3ljf2kae] table[data-astro-cid-3ljf2kae]{border-collapse:collapse;margin:1.5rem 0}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae],.prose[data-astro-cid-3ljf2kae] td[data-astro-cid-3ljf2kae]{border:1px solid #e5e7eb;padding:.75rem;text-align:left}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae]{background-color:#f9fafb;font-weight:600}
 </style></head> <body class="min-h-screen bg-gray-50 font-sans"> <header class="bg-white shadow-sm"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center py-4"> <div class="flex items-center space-x-8"> <a href="/ja/" class="text-lg sm:text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors"> <span class="hidden sm:inline">katoshiの研究ノート</span> <span class="sm:hidden">katoshi</span> </a> <nav class="hidden lg:flex space-x-6"> <a href="/ja/articles/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> 記事一覧 </a> <a href="/ja/categories/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> カテゴリ </a> <a href="/ja/tags/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> タグ </a> <a href="/ja/about/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors">
 About
 </a> </nav> </div> <div class="flex items-center space-x-2 sm:space-x-4"> <!-- モバイル：SNSリンクを小さく --> <div class="hidden sm:block"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="Xアカウントを見る" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -39,17 +39,15 @@ About
       prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
       prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
       prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
-      prose-pre:border prose-pre:border-gray-700
-      remove-first-h1" data-astro-cid-3ljf2kae> <h1 id="人工学習知能システムalis構想">人工学習知能システム：ALIS構想</h1>
-<p>ここでは、人工学習知能システム（Artificial Learning Intelligence System: ALIS）について、コンセプトや原理から、基本設計と開発方法について整理していきたいと思います。</p>
-<h2 id="コンセプト">コンセプト</h2>
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>ここでは、人工学習知能システム（Artificial Learning Intelligence System: ALIS）について、コンセプトや原理から、基本設計と開発方法について整理していきたいと思います。</p>
+<h2>コンセプト</h2>
 <p>現在の大規模言語モデルを中心とした生成AIは、ニューラルネットワークベースの教師あり学習に基づいてトレーニングされています。</p>
 <p>学習のプロセスとして、このニューラルネットワークの学習を先天的学習と位置づけます。</p>
 <p>ALISは、先天的学習とは別に、後天的学習というプロセスを組み込むことで、両方の学習プロセスを総合した推論を可能にするシステムです。</p>
 <p>この後天的学習では、ニューラルネットワークの外部に学習した知識を蓄積して、推論の際に活用します。</p>
 <p>従って、ALISの技術的なコアは、再利用可能な知識の抽出、保存、そして推論時の知識の選択と利用になります。</p>
 <p>また、ALISは単なる一要素技術ではなく、先天的学習と後天的学習を組み合わせたシステム技術でもあります。</p>
-<h2 id="学習知能システムの要素">学習知能システムの要素</h2>
+<h2>学習知能システムの要素</h2>
 <p>ALISは、既存の先天的学習も、今後検討していく後天的学習も、学習と推論という枠組みでは同じ原理に従うという枠組みで扱います。</p>
 <p>ALISにおける学習の原理を説明するために、学習知能システムの5つの要素を定義しておきます。</p>
 <p>1つ目は、知的プロセッサです。これはナレッジを使用した推論と、学習のためのナレッジの抽出を行う処理システムを指します。</p>
@@ -63,7 +61,7 @@ About
 <p>5番目は、フレームワークです。これは、いわゆる思考の枠組みです。学習知能システムの用語で説明すると、推論時に必要になるナレッジの選択基準と、ステートメモリを整理するための論理的な状態空間構造を指します。</p>
 <p>LLMの場合は、隠れ状態の意味構造であり、一般的にはその内容は曖昧で人間には理解できません。また、ナレッジの選択は処理しているトークン毎に、どの既存のトークンを参照するかを選択するアテンションメカニズムに組み込まれています。</p>
 <p>人間の場合は、前述の通り、思考の枠組みです。特定の思考の枠組みを使って思考する際、長期記憶の中から特定のノウハウ群を思い出して短期メモリに乗せています。そして、現在把握している知覚された情報を、思考の枠組みに沿った形で整理して状況を理解します。</p>
-<h2 id="学習知能システムの原理">学習知能システムの原理</h2>
+<h2>学習知能システムの原理</h2>
 <p>学習知能システムは、以下のように動作します。</p>
 <p>知的プロセッサが、世界に対して作用をします。世界は、その作用を受けて結果を返します。</p>
 <p>知的プロセッサは、その結果から再利用可能なナレッジを抽出して、ナレッジストアに保存します。</p>
@@ -73,7 +71,7 @@ About
 <p>人間は、このナレッジの抽出、保存、選択、利用がうまくできる仕組みを持っているため、学習ができます。</p>
 <p>LLMを含むニューラルネットワークは、抽出の部分は外部の教師によって処理されますが、保存、選択、利用ができる仕組みを持っています。これにより、教師さえ与えられれば学習できるのです。</p>
 <p>また、学習知能システムは、フレームワークの抽出や保存、選択とステートメモリ上での利用方法もナレッジとして学習することで、より複雑な学習も可能になります。</p>
-<h2 id="ナレッジの種類">ナレッジの種類</h2>
+<h2>ナレッジの種類</h2>
 <p>この原理を踏まえて、後天的学習について設計する場合、後天的なナレッジがどのような形の情報であるかを明確にする必要があります。</p>
 <p>後天的なナレッジも、別途ニューラルネットワークのパラメータとして学習する方法も考えられます。</p>
 <p>しかし、後天的ナレッジは、ニューラルネットワークのパラメータのみに限る必要はありません。現実的な候補としては、自然言語でテキスト化されたナレッジが考えられます。</p>
@@ -81,20 +79,20 @@ About
 <p>さらに、自然言語でテキスト化されたナレッジは、人間や他のLLMが内容をチェックしたり、理解することも容易ですし、場合によっては編集も可能です。</p>
 <p>他の学習知能システムと共有したり、マージや分割も可能です。</p>
 <p>このため、ALIS構想の後天的ナレッジは、自然言語でテキスト化されたナレッジを最初のターゲットとして設計していきます。</p>
-<h2 id="後天的ステートメモリとフレームワーク">後天的ステートメモリとフレームワーク</h2>
+<h2>後天的ステートメモリとフレームワーク</h2>
 <p>後天的ナレッジとして自然言語でテキスト化されたナレッジを選択するメリットについて説明しました。</p>
 <p>それと同様に、推論のためのステートメモリとフレームワークにも、自然言語テキストを用いることができます。</p>
 <p>考え方の枠組みであるフレームワークも、自然言語でテキスト化されたナレッジとしてナレッジストアに保存して利用することができます。</p>
 <p>そのフレームワークで定義された構造に基づいて状態の初期化や更新を行う場合にも、テキスト形式のステートメモリを用いることができます。</p>
 <p>このように後天的ナレッジだけでなく、フレームワークやステートメモリもテキスト形式を選択して設計することで、ALISは後天的学習と推論全般に、LLMの自然言語処理能力を活用することができます。</p>
-<h2 id="形式ナレッジ">形式ナレッジ</h2>
+<h2>形式ナレッジ</h2>
 <p>後天的ナレッジ、フレームワーク、ステートメモリは、自然言語テキストだけでなく、さらにより厳密な形式言語や形式モデルを選択することもできます。</p>
 <p>選択、と書きましたが、先天的学習と後天的学習をハイブリッドに利用できるように、ALISには異なる複数の後天的ナレッジの学習の仕組みを組み込むことができることを目指します。</p>
 <p>形式言語や形式モデルによるナレッジは、より厳密で曖昧さを排除したものにできます。</p>
 <p>また、形式言語や形式モデルでフレームワークを表現し、ステートメモリ上で初期状態を展開した場合、LLMではなく形式モデルを処理できる知能プロセッサで厳密なモデルでシミュレーションや論理展開ができます。</p>
 <p>この形式言語や形式モデルの代表例は、プログラミング言語です。</p>
 <p>世界を学習していく中で、そこにある法則や概念をフレームワークとしてプログラムで表現できれば、それをコンピュータでシミュレーションすることができます。</p>
-<h2 id="コラム1ナレッジの種類">コラム1：ナレッジの種類</h2>
+<h2>コラム1：ナレッジの種類</h2>
 <p>学習知能システムのナレッジを整理していくと、大きく3系統と2タイプに大別できることが分かってきます。</p>
 <p>3系統とは、ニューラルネットワークが扱うネットワークパラメータナレッジ、自然言語による自然ナレッジ、形式言語による形式ナレッジです。</p>
 <p>2タイプとはステートレスとステートフルです。</p>
@@ -111,21 +109,21 @@ About
 <p>このように、3系統と2タイプのナレッジを駆使して、人間は知的活動を行なっていることが分かります。</p>
 <p>ALISも同じようにこの3系統、2タイプのナレッジを駆使した知的活動が行えるようにし、それを強化していくことで、その能力を飛躍的に向上させていく可能性を秘めています。</p>
 <p>特に、ALISは膨大なナレッジストアとステートメモリを利用できるという強みがあります。また、それぞれを多数用意して、切り替えたり結合したりしながら知的作業を行うことも容易にできます。</p>
-<h2 id="コラム2知的オーケストレーション">コラム2：知的オーケストレーション</h2>
+<h2>コラム2：知的オーケストレーション</h2>
 <p>ナレッジストアに大量のナレッジをため込むことができるという強みはありますが、生成AIが一度に利用できるトークン数の制限や、無関係なナレッジがノイズになるという制約があるため、ナレッジの量が多いことが単純に知的活動に有利になるというわけではありません。</p>
 <p>一方で、ナレッジストアを適切に分割し、特定の知的作業に必要な知識を集めた高密度の専門ナレッジストア化することで、トークン限界とノイズの問題を緩和できます。</p>
 <p>その代わりに、その専門ナレッジストアは特定の知的作業の際にしか使えないものになります。</p>
 <p>多くの知的活動は、様々な知的作業の複合活動になっています。このため、ナレッジを知的作業の種類ごとに専門ナレッジストアに分割しておき、知的活動を知的作業に細分化することで、ALISは専門ナレッジストアを適切に切り替えながら知的活動全体を実行することができます。</p>
 <p>これは異なる楽器を演奏するそれぞれのプロの演奏家と、その全体の指揮を執る指揮者で構成されるオーケストラのようなものです。</p>
 <p>この知的オーケストレーションというシステム技術により、ALISは知的活動を組織化することができるようになります。</p>
-<h2 id="alisの基本設計と開発方法">ALISの基本設計と開発方法</h2>
+<h2>ALISの基本設計と開発方法</h2>
 <p>ここからはALISの開発に向けた整理を行います。</p>
 <p>既に原理やコラムで書いたように、ALISは本質的に、容易に機能やリソースの拡張ができる仕組みになっています。それは、ALISの本質が、特定の機能にあるのではなく、ナレッジの抽出、保存、選択、利用というプロセスだからです。</p>
 <p>例えばナレッジの抽出を行う仕組みを複数種類用意しておき、そこから選択したり、同時に使用したりすることがシステムの設計次第で自由に選択できます。</p>
 <p>また、その選択自体をALISに行わせることもできます。</p>
 <p>保存、選択、利用も同様に選択や並列化が自由にできます。</p>
 <p>このため、ALISはウォーターフォール的に機能全体を設計せずともインクリメンタルでアジャイルに開発を進めることができます。</p>
-<h2 id="はじまりのalis">はじまりのALIS</h2>
+<h2>はじまりのALIS</h2>
 <p>では、ごくシンプルなALISを設計していきます。</p>
 <p>基本的なUIは、おなじみのチャットAIにします。初回は、ユーザからのインプットをそのままLLMに渡します。そしてLLMからの応答をUIに表示し、ユーザからの次の入力を待ちます。</p>
 <p>次の入力があると、LLMには新しい入力だけでなく、それまでのユーザとLLMの間のチャット履歴を付けてLLMに入力します。</p>
@@ -141,12 +139,12 @@ About
 <p>ここは基本的には一般的なRAGの仕組みと同じです。ユーザからの入力に対して、役立ちそうなナレッジをナレッジストアから選択し、ユーザからの入力と合わせてLLMに渡します。</p>
 <p>これにより、LLMはユーザからの入力を処理する際に、自動的にナレッジを利用します。</p>
 <p>これにより、ユーザとの会話の度にナレッジが増えていき、過去の会話で蓄積されたナレッジを利用するシンプルなALISが実現できます。</p>
-<h2 id="シンプルなシナリオ">シンプルなシナリオ</h2>
+<h2>シンプルなシナリオ</h2>
 <p>例えば、このシンプルなALISを使ってユーザがWebアプリを開発しているケースを想像してください。</p>
 <p>LLMが提案したコードに対して、ユーザが実行結果がエラーになったという報告をするでしょう。そしてユーザとLLMが協力してトラブルシュートした結果、LLMが把握していた外部APIの仕様が古く、最新のAPI仕様に合わせることで上手く動作するようになったとします。</p>
 <p>すると、このチャットスレッドから、LLMが知っているAPI仕様が古いことと、APIの最新仕様がどうなっているかというナレッジを、ナレッジストアに蓄積することができるでしょう。</p>
 <p>そして、次に同じAPIを使用するプログラムを作成する場合、ALISはこのナレッジを活かして、最初からAPIの最新仕様に基づいたプログラムを生成できるでしょう。</p>
-<h2 id="はじまりのalisの改良">はじまりのALISの改良</h2>
+<h2>はじまりのALISの改良</h2>
 <p>ただし、そのためには、ユーザからの入力に対して、このナレッジが選択される必要があります。もしかすると、ユーザの入力から直接はこのナレッジが結びつかないかもしれません。なぜならユーザの入力に、その問題となったAPI名は登場しない可能性が高いためです。</p>
 <p>その場合、LLMの応答の中で、はじめてそのAPI名が出てくることになります。</p>
 <p>そこで、シンプルなALISを少し拡張して、事前検討や事後チェックを行う仕組みを追加します。</p>
@@ -156,7 +154,7 @@ About
 <p>そして、LLMから返された結果についても、ナレッジストアからナレッジを検索します。そこで見つかったナレッジを含めて、事後チェックをLLMに依頼します。</p>
 <p>そこで問題があれば、問題点と指摘の理由を付けて、再度チャット用のLLMに渡します。</p>
 <p>こうして事前検討と事後チェックの際にナレッジを選択する機会を設けることで、蓄積したナレッジを利用できる機会を増やすことができます。</p>
-<h2 id="展望">展望</h2>
+<h2>展望</h2>
 <p>このようにはじまりのALISを作り、その弱点を補う改良を加えるという流れは、まさにアジャイル開発であり、インクリメンタルにALISを改良していくことができることを示しています。</p>
 <p>また、例に挙げたように、初期のALISはソフトウェア開発への利用が最も適しています。それは、需要が高い分野であるとともに、ナレッジを明確に蓄積しやすい分野でもあるためです。</p>
 <p>白黒がはっきり付けられるジャンルでありながら、トライ＆エラー型の試行錯誤的なナレッジの蓄積が必要かつ重要な分野です。</p>
@@ -173,7 +171,7 @@ About
 <p>これらの試行錯誤や最適化は、フレームワークの開発や改良により、学習的に進めることができます。</p>
 <p>フレームワークは、初めのうちはユーザである開発者が試行錯誤しながらALISに組み込んでいくことになるでしょう。ただしその際にも、LLM自体にフレームワークのアイデアを作らせることはできます。</p>
 <p>そして、世界から受け取った結果や抽出したナレッジを参考にして、フレームワークの改良や発見をするフレームワークをALISに組み込むことで、ALIS自身が学習的に試行錯誤や最適化を実行していくでしょう。</p>
-<h2 id="現実世界のalis">現実世界のALIS</h2>
+<h2>現実世界のALIS</h2>
 <p>この段階までALISが洗練されてくると、ソフトウェア開発の世界に限らず、広く様々な世界でALISはナレッジを学習することができるようになっているはずです。</p>
 <p>ソフトウェア開発と同様に、人間がパソコンを使って実行しているような様々な知的活動の世界に、ALISは適用範囲を広げていくはずです。</p>
 <p>こうした純粋な知的活動であっても、ALISは対象の世界に対する一種のエンボディドAI（身体を持つAI）のような性質を持ちます。</p>
@@ -182,7 +180,8 @@ About
 <p>しかし、境界が目に見えず、空間的に分散しているとしても、境界を介した知覚と作用をするという構図は物理的な身体を持つ場合と同じです。</p>
 <p>その意味で、知的活動を行うALISは、仮想的にエンボディドAIの性質を持つと考えることができます。</p>
 <p>そして、新しい未知の世界であっても適切に学習することができる段階にまでALISが洗練されると、実際に物理的な身体を持つリアルエンボディドAIの一部としてALISを組み込むことができる可能性があります。</p>
-<p>このようにして、ALISはやがて現実世界に適用され、現実世界を学習していくことになるでしょう。</p> </article>  <div class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-3ljf2kae> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm" data-astro-cid-3ljf2kae> <div class="space-y-6" data-astro-cid-3ljf2kae> <!-- カテゴリセクション - 階層パス対応 --> <div data-astro-cid-3ljf2kae> <div class="flex items-center mb-3" data-astro-cid-3ljf2kae> <div class="bg-green-100 p-2 rounded-lg mr-3" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14-7H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 00-2-2V6a2 2 0 00-2-2z" data-astro-cid-3ljf2kae></path> </svg> </div> <h3 class="text-lg font-semibold text-gray-900" data-astro-cid-3ljf2kae> カテゴリ </h3> </div> <div class="space-y-2" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-1 text-sm" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-1" data-astro-cid-3ljf2kae>  <a href="/ja/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium" data-astro-cid-3ljf2kae> テクノロジー </a> </div><div class="flex items-center space-x-1" data-astro-cid-3ljf2kae> <span class="text-gray-400" data-astro-cid-3ljf2kae>→</span> <a href="/ja/categories/technology/artificial-intelligence/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium" data-astro-cid-3ljf2kae> 人工知能 </a> </div> </div> </div> </div> </div> <!-- タグセクション --> <div data-astro-cid-3ljf2kae> <div class="flex items-center mb-3" data-astro-cid-3ljf2kae> <div class="bg-purple-100 p-2 rounded-lg mr-3" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" data-astro-cid-3ljf2kae></path> </svg> </div> <h3 class="text-lg font-semibold text-gray-900" data-astro-cid-3ljf2kae> タグ </h3> </div> <div class="flex flex-wrap gap-2" data-astro-cid-3ljf2kae> <a href="/ja/tags/artificial-learning-intelligence-system/" class="inline-block px-3 py-2 bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 text-sm rounded-full transition-colors font-medium border border-gray-200 hover:border-purple-200" data-astro-cid-3ljf2kae>
+<p>このようにして、ALISはやがて現実世界に適用され、現実世界を学習していくことになるでしょう。</p>
+</article>  <div class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-3ljf2kae> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm" data-astro-cid-3ljf2kae> <div class="space-y-6" data-astro-cid-3ljf2kae> <!-- カテゴリセクション - 階層パス対応 --> <div data-astro-cid-3ljf2kae> <div class="flex items-center mb-3" data-astro-cid-3ljf2kae> <div class="bg-green-100 p-2 rounded-lg mr-3" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14-7H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 00-2-2V6a2 2 0 00-2-2z" data-astro-cid-3ljf2kae></path> </svg> </div> <h3 class="text-lg font-semibold text-gray-900" data-astro-cid-3ljf2kae> カテゴリ </h3> </div> <div class="space-y-2" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-1 text-sm" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-1" data-astro-cid-3ljf2kae>  <a href="/ja/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium" data-astro-cid-3ljf2kae> テクノロジー </a> </div><div class="flex items-center space-x-1" data-astro-cid-3ljf2kae> <span class="text-gray-400" data-astro-cid-3ljf2kae>→</span> <a href="/ja/categories/technology/artificial-intelligence/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium" data-astro-cid-3ljf2kae> 人工知能 </a> </div> </div> </div> </div> </div> <!-- タグセクション --> <div data-astro-cid-3ljf2kae> <div class="flex items-center mb-3" data-astro-cid-3ljf2kae> <div class="bg-purple-100 p-2 rounded-lg mr-3" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" data-astro-cid-3ljf2kae></path> </svg> </div> <h3 class="text-lg font-semibold text-gray-900" data-astro-cid-3ljf2kae> タグ </h3> </div> <div class="flex flex-wrap gap-2" data-astro-cid-3ljf2kae> <a href="/ja/tags/artificial-learning-intelligence-system/" class="inline-block px-3 py-2 bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 text-sm rounded-full transition-colors font-medium border border-gray-200 hover:border-purple-200" data-astro-cid-3ljf2kae>
 #人工学習知能システム </a><a href="/ja/tags/innate-learning/" class="inline-block px-3 py-2 bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 text-sm rounded-full transition-colors font-medium border border-gray-200 hover:border-purple-200" data-astro-cid-3ljf2kae>
 #先天的学習 </a><a href="/ja/tags/acquired-learning/" class="inline-block px-3 py-2 bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 text-sm rounded-full transition-colors font-medium border border-gray-200 hover:border-purple-200" data-astro-cid-3ljf2kae>
 #後天的学習 </a><a href="/ja/tags/intelligent-processor/" class="inline-block px-3 py-2 bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 text-sm rounded-full transition-colors font-medium border border-gray-200 hover:border-purple-200" data-astro-cid-3ljf2kae>
