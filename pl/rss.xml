@@ -4,6 +4,68 @@
 <title>Articles (pl)</title>
 <link>https://katoshi-mfacet.github.io/pl/rss.xml</link>
 <description>Latest articles (pl)</description>
-
+<item>
+  <title>Orkestracja wirtualnej inteligencji</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł opisuje koncepcję „wirtualnej inteligencji”, która pozwala jednej sztucznej inteligencji (AI) symulować i wcielać wiele wirtualnych inteligencji o różnych rolach w ramach własnego przetwarzania. Jest to analogiczne do wirtualnych maszyn, gdzie wiele komputerów działa na jednym fizycznym. Autorzy argumentują, że wirtualna inteligencja umożliwia „orkiestrację inteligencji” – koordynację wielu AI poprzez proste instrukcje tekstowe (promptowanie), zamiast złożonego rozwoju systemowego wymaganego przez „orkiestrację systemową”. Ta metoda jest bardziej elastyczna i szybsza w implementacji ulepszeń i nowych funkcji. Kluczowym zastosowaniem jest „ostateczna deliberacja”, gdzie AI jest instruowana do wielokrotnej iteracji i łączenia wielu perspektyw, a nie tylko danych, co ma prowadzić do redukcji błędów, poprawy dokładności myślenia i potencjalnie nowych odkryć. Sugeruje się, że ta technika może znacząco zwiększyć możliwości AI w zadaniach wymagających ludzkiego zastępstwa w środowisku biznesowym.</description>
+</item>
+<item>
+  <title>Era Inteligencji Symfonicznej</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Symphonic-Intelligence/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Symphonic-Intelligence/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł przedstawia koncepcję „Inteligencji Symfonicznej” jako kolejny etap rozwoju generatywnej sztucznej inteligencji (AI), wykraczający poza obecne wykorzystanie jej jako narzędzia w pracy iteracyjnej. Praca iteracyjna, charakteryzująca się próbami i błędami oraz oparta na nieświadomych zadaniach, napotyka ograniczenia związane z ludzkim wąskim gardłem i różnicami w umiejętnościach. Rozwiązaniem jest transformacja w pracę przepływową i systematyzacja, gdzie zadania są standaryzowane i integrowane z AI, co umożliwia optymalizację, gromadzenie wiedzy i stopniową automatyzację. Kluczowe koncepcje to „wirtualna inteligencja” (zdolność AI do przełączania ról i wiedzy w jednym wykonaniu) oraz „orkiestracja inteligencji” (zarządzanie wieloma rolami i wiedzą), które razem tworzą Inteligencję Symfoniczną. Ten etap, analogiczny do ludzkiej inteligencji, umożliwia elastyczne wykonywanie złożonych zadań i stanowi krok w kierunku osiągnięcia ogólnej sztucznej inteligencji (AGI).</description>
+</item>
+<item>
+  <title>Wymiary Postrzegania Przestrzennego: Potencjał AI</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Space-Dimension-AI/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Space-Dimension-AI/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł analizuje potencjał sztucznej inteligencji (AI) w zakresie postrzegania wielowymiarowego, wykraczający poza ludzkie ograniczenia percepcyjne. Ludzie, ograniczając się do dwuwymiarowych danych wizualnych, tworzą trójwymiarowe reprezentacje przestrzeni, a teoretycznie mogliby rozszerzyć to na wymiary wyższe. AI, nieobciążona tymi ograniczeniami, może być trenowana do natywnego rozumienia danych w przestrzeniach cztero-, pięcio- czy nawet dwudziestowymiarowych. Umożliwia to kompleksowe wizualizowanie i analizę wielowymiarowych wykresów, identyfikację wzorców danych w różnych kombinacjach wymiarów oraz badanie optymalnych struktur wymiarowych. Ta zdolność może przyspieszyć odkrycia naukowe i innowacje paradygmatyczne, które wcześniej byłyby niemożliwe do osiągnięcia przez człowieka. AI może pomóc w zrozumieniu złożonych, wysokowymiarowych paradygmatów, odwzorowując je na formy zrozumiałe dla ludzi, choć nie zawsze w pełni uchwytne.</description>
+</item>
+<item>
+  <title>Praca oparta na przepływie i systemy: Istota wykorzystania generatywnej sztucznej inteligencji</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Tool-vs-System/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Tool-vs-System/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł omawia fundamentalną różnicę między narzędziami a systemami w kontekście pracy, wprowadzając podział na pracę iteracyjną i pracę opartą na przepływie. Praca iteracyjna polega na stopniowym tworzeniu poprzez próby i błędy, gdzie narzędzia są kluczowe. Praca oparta na przepływie to proces sekwencyjny, gdzie systemy usprawniają produktywność i jakość. Transformacja pracy iteracyjnej w pracę opartą na przepływie i jej systematyzacja, przykładem czego są Rewolucje Przemysłowa i IT, znacząco zwiększa efektywność. Generatywna sztuczna inteligencja (GenAI) stanowi narzędzie, które może wspomagać pracę iteracyjną, lecz jej pełny potencjał ujawnia się w transformacji procesów w przepływy. W odróżnieniu od ludzi, GenAI może elastycznie rekonfigurować zadania, co ułatwia ten proces. Kluczem do efektywnego wykorzystania GenAI w biznesie jest przekształcenie pracy iteracyjnej w pracę opartą na przepływie i jej systematyzacja, co ilustruje przykład obsługi zapytań pracowniczych. Pomija się powszechne nieporozumienia dotyczące niskiej efektywności GenAI, wynikające z traktowania jej wyłącznie jako narzędzia do zadań iteracyjnych. Ostatecznie, dzięki ciągłemu doskonaleniu instrukcji dla GenAI i systematyzacji procesów, możliwe jest osiągnięcie ciągłego postępu i wzrostu efektywności operacyjnej.</description>
+</item>
+<item>
+  <title>Myślenie symulacyjne a początki życia</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Simulation-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Simulation-Thinking/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł wprowadza koncepcję „myślenia symulacyjnego” – metody polegającej na stopniowym śledzeniu akumulacji i interakcji w celu logicznego zrozumienia wyników, która jest analogiczna do rozwiązania problemu podwajania kieszonkowego. Autor stosuje tę metodę do wyjaśnienia pochodzenia życia na Ziemi. Zamiast skupiać się na przypadkowym cudzie, pochodzenie życia jest postrzegane jako proces ewolucyjny wynikający z kumulatywnych reakcji chemicznych, krążenia substancji i tworzenia coraz bardziej złożonych związków. Kluczowe etapy obejmują przejście od prostych substancji chemicznych do bardziej złożonych dzięki cyrkulacji planetarnej, rolę polimerów i topografii Ziemi, a także hipotezę chmury pyłowej jako fabryki monomerów i katalizatora. Podkreślono, że „myślenie symulacyjne” opiera się na języku naturalnym („matematyka naturalna”) i jest kluczową umiejętnością w tworzeniu oprogramowania, gdzie pozwala ono na zrozumienie i realizację złożonych wymagań systemowych. Umiejętność ta jest niezbędna do rozwiązywania skomplikowanych problemów w nauce, organizacjach i społeczeństwie.</description>
+</item>
+<item>
+  <title>Wszechstronny Inżynier w Erze Liquidware</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_28_Liquidware-Allrounder/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_28_Liquidware-Allrounder/</guid>
+  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł analizuje rewolucyjny wpływ generatywnej sztucznej inteligencji (AI) na rozwój oprogramowania i rolę inżynierów. Przedstawia koncepcję "liquidware", czyli oprogramowania, które użytkownicy mogą dynamicznie modyfikować za pomocą AI, personalizując je do własnych potrzeb. Zdolność AI do automatycznego generowania kodu, w tym kodu testowego, znacząco obniża bariery wejścia i przyspiesza proces tworzenia. W obliczu tych zmian tradycyjni inżynierowie full-stack muszą ewoluować w "wszechstronnych inżynierów", posiadających szeroką wiedzę o różnych stosach systemowych i zdolność do zarządzania złożonymi, wieloplatformowymi projektami. Kluczowa staje się umiejętność integrowania różnych technologii, w tym AI, aby tworzyć oprogramowanie dopasowane do indywidualnych użytkowników i synergicznie działające w ramach ekosystemu. Artykuł podkreśla, że te zmiany są już obecne i wymagają od specjalistów IT adaptacji do nowych paradygmatów.</description>
+</item>
+<item>
+  <title>Przeznaczenie myśli: AI i ludzkość</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_12_Fate-of-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_12_Fate-of-Thinking/</guid>
+  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł analizuje wpływ postępującej sztucznej inteligencji (AI) na społeczeństwo i rolę myślenia w przyszłości. Wprowadza koncepcję "oprogramowania zorientowanego na procesy" jako następcę programowania obiektowego, gdzie proces jest centralnym modułem, co lepiej odzwierciedla ludzką intuicję. Koncentruje się na podejściu, w którym procesy, dane i warunki początkowe są zawarte w jednym module, dopuszczając redundancję, która może być łatwiejsza do zarządzania przy wsparciu AI. Autorzy sugerują przejście od globalnej optymalizacji do indywidualnej w kontekście tworzenia oprogramowania. Ta zmiana paradygmatu znajduje odzwierciedlenie w społeczeństwie, które ewoluuje w kierunku "społeczeństwa zindywidualizowanej optymalizacji", gdzie indywidualne oceny sytuacji zastępują uniwersalne standardy. Podkreślona jest waga "filozofii subiektywnej", która kładzie nacisk na wartość refleksji i indywidualnej odpowiedzialności w podejmowaniu decyzji, nawet w obliczu potencjalnych negatywnych konsekwencji. Ostatecznie, AI, choć przejmie pracę intelektualną, nie zastąpi ludzkiego myślenia, które stanie się jeszcze bardziej kluczowe dla projektowania indywidualnych ram i podejmowania ostatecznych sądów w coraz bardziej efektywnym świecie.</description>
+</item>
+<item>
+  <title>Zaproszenie do Orientacji na Procesy Biznesowe</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_11_Business-Process-Oriented/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_11_Business-Process-Oriented/</guid>
+  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł prezentuje koncepcję Oprogramowania Zorientowanego na Procesy Biznesowe (BZ-SW) jako nowatorskie podejście do tworzenia oprogramowania, analogiczne do oprogramowania zorientowanego obiektowo (OO-SW). Podczas gdy OO-SW grupuje powiązane dane i przetwarzanie w „obiekty”, BZ-SW integruje instrukcje biznesowe, pola danych i informacje kontaktowe w jednym pliku, który sam w sobie stanowi wykonywalne oprogramowanie. Ten plik, nazwany „oprogramowaniem wykonywalnym”, jest przeznaczony do wykonywania przez ludzi lub sztuczną inteligencję. Artykuł podkreśla korzyści płynące z tego podejścia, takie jak ułatwienie modyfikacji i dodawania funkcji, eliminacja kosztów i czasu związanego z tradycyjnym tworzeniem i utrzymaniem oprogramowania, oraz wspieranie gromadzenia wiedzy i ciągłego doskonalenia procesów biznesowych. AI odgrywa kluczową rolę we wspieraniu ludzi w wykonywaniu zadań, tworząc tymczasowe pliki lub dedykowane interfejsy użytkownika. Koncepcja ta prowadzi do powstania „organizacji szybko uczącej się”, gdzie wiedza jest gromadzona i procesy są optymalizowane dzięki synergii między ludźmi a AI.</description>
+</item>
+<item>
+  <title>Projektowanie Ram jako Zdolność Intelektualna</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/06_29_Framework-Design-Ability/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/06_29_Framework-Design-Ability/</guid>
+  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł przedstawia dwie podstawowe osie działalności intelektualnej: odkrywanie faktów poprzez obserwację (charakterystyczne dla nauki) oraz wynajdowanie obiektów i systemów poprzez projektowanie (charakterystyczne dla rozwoju). Choć często istnieje między nimi zależność, akademia również obejmuje działalność wynajdowania poprzez projektowanie, określaną jako „projektowanie ram”. Przykłady obejmują modele geocentryczny i heliocentryczny oraz mechanikę Newtona, teorię względności i mechanikę kwantową, które są postrzegane jako zwiększenie użytecznych opcji interpretacyjnych, a nie jedynie zmiana poglądów. Różnica między odkrywaniem a wynajdowaniem wymaga odmiennych zestawów umiejętności, co sugeruje, że nie wszyscy naukowcy posiadają zdolność projektowania ram. Inżynierowie oprogramowania, ze względu na rutynowe operowanie na abstrakcyjnych koncepcjach na poziomie meta podczas projektowania, potencjalnie posiadają umiejętności potrzebne do projektowania ram akademickich, zwłaszcza jeśli mają nawyk rozważania nowych modeli projektowych.</description>
+</item>
 </channel>
 </rss>

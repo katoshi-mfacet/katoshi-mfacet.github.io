@@ -4,6 +4,71 @@
 <title>Articles (it)</title>
 <link>https://katoshi-mfacet.github.io/it/rss.xml</link>
 <description>Latest articles (it)</description>
-
+<item>
+  <title>Orchestrazione dell'Intelligenza Virtuale</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo introduce il concetto di "intelligenza virtuale" come capacità delle IA di emulare e combinare più prospettive o ruoli all'interno di un singolo modello, analogamente a come le macchine virtuali permettono di eseguire più sistemi su un singolo hardware. Viene contrapposta all'"orchestrazione del sistema", che richiede sviluppo software per combinare diverse IA. L'"orchestrazione dell'intelligenza" sfrutta l'intelligenza virtuale per coordinare più ruoli basati su istruzioni testuali, consentendo modifiche rapide e flessibili senza ricompilazione. Questo approccio abilita la "deliberazione ultima", dove l'IA può iterare e affinare i propri processi di pensiero combinando prospettive multiple e imparando da tentativi ed errori. La deliberazione ultima mira a migliorare l'accuratezza, l'ampiezza del pensiero e stimolare la creatività, portando a una maggiore adozione dell'IA in compiti aziendali come sostituto umano.</description>
+</item>
+<item>
+  <title>L'Era dell'Intelligenza Sinfonica</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Symphonic-Intelligence/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Symphonic-Intelligence/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo introduce il concetto di "Intelligenza Sinfonica" come prossima evoluzione nell'adozione dell'IA generativa, superando l'integrazione di strumenti per il lavoro iterativo e mirando alla sistematizzazione in flussi di lavoro.
+Il lavoro iterativo, caratterizzato da tentativi ed errori e dipendente dalla competenza umana, presenta limiti di efficienza e di trasferimento del know-how. La trasformazione in lavoro a flusso standardizzato, collegato tramite sistemi tra IA generativa e umani, permette l'ottimizzazione dei compiti, la condivisione della conoscenza e un graduale spostamento delle mansioni all'IA, avvicinandosi all'automazione.
+L'"intelligenza virtuale" è definita come la capacità dell'IA generativa di simulare diversi ruoli e conoscenze all'interno di una singola esecuzione, simile alle macchine virtuali. L'"orchestrazione dell'intelligenza" è la capacità di combinare questi ruoli per svolgere compiti complessi. L'Intelligenza Sinfonica, emulando l'orchestra umana, unisce questi concetti, permettendo all'IA di eseguire sinfonie di lavoro intellettuale.
+Infine, l'articolo suggerisce che l'IA che raggiunge questa Intelligenza Sinfonica, acquisendo conoscenza in modo autonomo e condiviso, si avvicinerà all'AGI, superando la capacità di apprendimento umana.</description>
+</item>
+<item>
+  <title>Dimensioni della Percezione Spaziale: Il Potenziale dell'IA</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Space-Dimension-AI/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_30_Space-Dimension-AI/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo esplora il potenziale dell'intelligenza artificiale (IA) nel superare le limitazioni umane nella percezione spaziale, in particolare riguardo alla comprensione di dimensioni superiori. Gli esseri umani percepiscono uno spazio 3D attraverso informazioni visive 2D, mappando inversamente tali dati su una rappresentazione mentale 3D. L'autore ipotizza che questa mappatura possa essere estesa alla percezione di spazi 4D simulati, sebbene con un addestramento prolungato e applicabilità limitata per gli umani. L'IA, al contrario, può essere addestrata nativamente in spazi multidimensionali, consentendo la visualizzazione e la comprensione completa di grafici 3D e 4D senza dati nascosti. Questa capacità si estende a dimensioni arbitariamente alte, facilitando l'analisi di tendenze, la comparazione di proporzioni e la scoperta di schemi e leggi nei dati. L'IA multidimensionale nativa potrebbe accelerare le innovazioni di paradigma scientifico, permettendo la scoperta di nuove teorie e leggi, sebbene ciò possa portare a una situazione in cui gli esseri umani non comprendono appieno i principi alla base delle tecnologie avanzate.</description>
+</item>
+<item>
+  <title>Lavoro basato su flussi e sistemi: l'essenza dell'utilizzo dell'IA generativa</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_29_Tool-vs-System/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_29_Tool-vs-System/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo distingue tra lavoro iterativo e lavoro basato su flussi, argomentando che l'efficacia dell'IA generativa nel business risiede nella sua capacità di trasformare il lavoro iterativo in processi basati su flussi e poi sistematizzarli. L'uso dell'IA generativa come semplice strumento per compiti iterativi porta a miglioramenti limitati in produttività e qualità. La vera rivoluzione si ottiene riorganizzando i flussi di lavoro esistenti in sequenze definite, dove l'IA generativa può gestire segmenti specifici, migliorare l'efficienza e ridurre gli errori attraverso un continuo aggiornamento delle istruzioni. Le rivoluzioni passate, come quella industriale e IT, sono esempi di come la sistematizzazione di processi precedentemente iterativi abbia aumentato produttività e qualità. L'articolo critica la tendenza a vedere l'IA generativa solo come uno strumento o a farle svolgere compiti iterativi, sottolineando la necessità di un cambiamento di mentalità per sfruttare appieno il suo potenziale attraverso la trasformazione e la sistematizzazione dei processi lavorativi.</description>
+</item>
+<item>
+  <title>Il Pensiero Simulativo e l'Origine della Vita</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_29_Simulation-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_29_Simulation-Thinking/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo introduce il "pensiero simulativo" come una metodologia per comprendere fenomeni complessi basati sull'accumulazione e l'interazione, esemplificata dal problema della paghetta del nipote. Questa metodologia viene applicata all'origine della vita, proponendo che l'emergere di sostanze chimiche più complesse sulla Terra primordiale sia un processo graduale di accumulazione e reazione su scala planetaria, piuttosto che un evento miracoloso. Si sottolinea il ruolo della circolazione di acqua e aria, la vastità di siti sperimentali (laghi e stagni) e la presenza di polimeri. Viene introdotta l'"ipotesi della nube di polvere" come meccanismo per bloccare UV, fornire atomi rari e catalizzare la sintesi chimica. L'articolo definisce anche la "matematica naturale" come l'uso del linguaggio per esprimere concetti matematici rigorosamente, un pilastro del pensiero simulativo. Infine, si evidenzia come gli sviluppatori di software utilizzino intrinsecamente il pensiero simulativo, distinguendo tra pensiero simulativo di principio (funzionamento del computer) e semantico (realizzazione delle richieste del cliente), suggerendo che questa competenza sarà cruciale in futuri campi multidisciplinari.</description>
+</item>
+<item>
+  <title>L'Ingegnere Onnidirezionale nell'Era del Liquidware</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_28_Liquidware-Allrounder/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_28_Liquidware-Allrounder/</guid>
+  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo esplora l'impatto dell'IA generativa sulla programmazione e sul futuro dello sviluppo software, introducendo il concetto di "liquidware" e "ingegnere onnidirezionale". L'IA generativa, potenziata dai modelli linguistici di grandi dimensioni (LLM), sta diventando sempre più abile nella generazione di codice, trattando i linguaggi di programmazione come un tipo di linguaggio. Questo porta a una maggiore efficienza e alla possibilità per gli utenti non programmatori di personalizzare il software. Il "liquidware" si riferisce a software che gli utenti possono modificare attivamente tramite IA, andando oltre la flessibilità del software tradizionale. Di conseguenza, il ruolo dell'ingegnere si sta evolvendo da specialista a "ingegnere full-stack" e poi a "ingegnere onnidirezionale", in grado di comprendere e gestire diversi stack di sistema e di orchestrare lo sviluppo di software complesso, anche con l'assistenza dell'IA. L'articolo delinea scenari futuri in cui l'ingegneria onnidirezionale si estende all'ingegneria aziendale e sociale, puntando a un miglioramento olistico dei sistemi e della società.</description>
+</item>
+<item>
+  <title>Il Destino del Pensiero: AI e Umanità</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_12_Fate-of-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_12_Fate-of-Thinking/</guid>
+  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo esplora l'impatto dell'IA sul ruolo del pensiero umano, sostenendo che, anziché eliminare la necessità di pensare, l'IA richiederà un nuovo tipo di attività intellettuale. Introduce il paradigma del "software orientato ai processi", dove i processi sono unità centrali di programmazione, flessibili e adattabili, superando l'orientamento agli oggetti. Questo approccio favorisce l'ottimizzazione individuale all'interno del software, permettendo molteplici implementazioni simili ma distinte per una maggiore personalizzazione. Traslando questo concetto alla società, l'autore descrive una "società ottimizzata individualmente" in cui, liberati dal lavoro intellettuale da parte dell'IA, gli esseri umani si concentreranno su giudizi basati su circostanze specifiche anziché su standard globali. Viene introdotta la "filosofia soggettiva", un'etica della deliberazione consapevole che valorizza il processo decisionale individuale e responsabile. Infine, l'articolo sottolinea la crescente importanza della capacità di "progettare framework" individuali per comprendere e valutare la complessità, concludendo che il futuro richiederà agli esseri umani di pensare più profondamente e in modo responsabile, poiché il giudizio finale e la responsabilità rimarranno sempre un compito umano, anche con l'assistenza dell'IA.</description>
+</item>
+<item>
+  <title>Un invito all'orientamento ai processi aziendali</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/07_11_Business-Process-Oriented/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/07_11_Business-Process-Oriented/</guid>
+  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo propone un nuovo approccio allo sviluppo software chiamato "Software Orientato ai Processi Aziendali" (BPO-Software), che mira a integrare strettamente i manuali aziendali, le informazioni di input e i processi decisionali in un'unica unità coesa. A differenza del software tradizionale e del software orientato agli oggetti che separano dati ed elaborazione, il BPO-Software incapsula questi elementi all'interno di un'unità concettuale rappresentante un processo aziendale. Questo approccio semplifica la manutenzione e l'aggiornamento, poiché le modifiche ai processi aziendali richiedono solo la modifica del file del processo, anziché complessi aggiornamenti del software. Il file stesso funge da software eseguibile dagli esseri umani o dall'IA, con manuali che fungono da programmi e campi di input come memoria. L'IA può assistere nell'esecuzione di questi processi, gestendo la cooperazione uomo-macchina attraverso interfacce user-friendly e garantendo un'efficiente accumulazione di conoscenze e miglioramento continuo, portando a un'organizzazione a apprendimento rapido.</description>
+</item>
+<item>
+  <title>La Progettazione di Framework come Abilità Intellettuale</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/06_29_Framework-Design-Ability/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/06_29_Framework-Design-Ability/</guid>
+  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+  <description>L'articolo distingue tra attività intellettuali di scoperta tramite osservazione (tipica della scienza accademica) e invenzione tramite progettazione (tipica dello sviluppo). Evidenzia che anche nell'ambito accademico esiste la "progettazione di framework", esemplificata da modelli scientifici come quello geocentrico/eliocentrico e teorie fisiche come la meccanica newtoniana, che sono scelte concettuali basate sull'utilità e non sulla correttezza fattuale. Questi vengono ridefiniti come "invenzioni di paradigma" o "innovazioni di paradigma" piuttosto che "cambiamenti di paradigma". Si sottolinea che la progettazione di framework richiede un set di abilità diverso dalla mera osservazione, spesso non posseduto dalla maggior parte degli accademici. Gli ingegneri del software, tuttavia, sono considerati particolarmente adatti a questa attività a causa della loro consuetudine con la riconfigurazione di concetti astratti a livello meta nella progettazione del software, rendendoli potenziali candidati per la progettazione di framework accademici.</description>
+</item>
 </channel>
 </rss>

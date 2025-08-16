@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="ja" data-astro-cid-zetdm5md> <head><meta charset="utf-8"><title>404 - Page Not Found</title><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="/_astro/about.BGneByFV.css">
+<style>body{font-family:system-ui,-apple-system,sans-serif;text-align:center;padding:50px 20px;line-height:1.6;background:#f9fafb}.container[data-astro-cid-zetdm5md]{max-width:500px;margin:0 auto;background:#fff;padding:40px;border-radius:8px;box-shadow:0 1px 3px #0000001a}h1[data-astro-cid-zetdm5md]{color:#374151;margin-bottom:16px}p[data-astro-cid-zetdm5md]{color:#6b7280;margin-bottom:24px}a[data-astro-cid-zetdm5md]{color:#3b82f6;text-decoration:none;padding:8px 16px;border:1px solid #3B82F6;border-radius:4px;display:inline-block}a[data-astro-cid-zetdm5md]:hover{background:#3b82f6;color:#fff}
+</style></head> <body data-astro-cid-zetdm5md> <div class="container" data-astro-cid-zetdm5md> <h1 id="title" data-astro-cid-zetdm5md>Page Not Found</h1> <p id="message" data-astro-cid-zetdm5md>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p> <a href="/ja/" id="home-link" data-astro-cid-zetdm5md>Back to Home</a> </div> <script>(function(){const supportedLangs = ["ja","en","zh","hi","es","fr","ar","bn","ru","pt","ur","id","de","pa","pcm","mr","te","tr","ta","jv","ko","vi","it","fa","gu","th","pl","uk","sw","nl"];
+const defaultLang = "ja";
+const messages = "{\"ja\":{\"title\":\"ページが見つかりません\",\"message\":\"お探しのページは存在しないか、移動された可能性があります。\",\"backToHome\":\"ホームに戻る\"},\"en\":{\"title\":\"Page Not Found\",\"message\":\"The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\",\"backToHome\":\"Back to Home\"}}";
+const fallback = "{\"title\":\"Page Not Found\",\"message\":\"The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\",\"backToHome\":\"Back to Home\"}";
+
+    // URL から言語を判定
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/([a-z]{2})\//);
+    
+    // 埋め込まれた翻訳データをパース
+    const allMessages = JSON.parse(messages);
+    const fallbackMessages = JSON.parse(fallback);
+    
+    let detectedLang = defaultLang;
+    
+    if (langMatch) {
+      const lang = langMatch[1];
+      if (supportedLangs.includes(lang)) {
+        detectedLang = lang;
+      }
+    }
+    
+    // ページの言語を更新
+    document.documentElement.lang = detectedLang;
+    
+    // 翻訳テキストを適用
+    const langMessages = allMessages[detectedLang] || fallbackMessages;
+    document.getElementById('title').textContent = langMessages.title;
+    document.getElementById('message').textContent = langMessages.message;
+    
+    const homeLink = document.getElementById('home-link');
+    homeLink.textContent = langMessages.backToHome;
+    homeLink.href = `/${detectedLang}/`;
+    
+    // 少し待ってから該当言語の404ページにリダイレクト
+    setTimeout(() => {
+      if (window.location.pathname.includes('/404')) {
+        // 既に404ページにいる場合はリダイレクトしない
+        return;
+      }
+      window.location.href = `/${detectedLang}/404/`;
+    }, 2000); // 2秒後にリダイレクト
+  })();</script> </body> </html>
