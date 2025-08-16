@@ -283,6 +283,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/articles/2025/08_16_Time-Compression-Blindspot/</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/categories/</loc>
     
     <changefreq>weekly</changefreq>
@@ -571,6 +577,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/ai-applications/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/ai-assistance/</loc>
     
     <changefreq>monthly</changefreq>
@@ -584,6 +596,12 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/ai-chat/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/ai-development-acceleration/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -632,6 +650,12 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/anime-cat-robot/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/applied-technologies/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -697,6 +721,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/built-in-stabilizer/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/business-process-improvement/</loc>
     
     <changefreq>monthly</changefreq>
@@ -745,6 +775,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/chronos-scramble-society/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/chronoscramble-society/</loc>
     
     <changefreq>monthly</changefreq>
@@ -770,6 +806,12 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/cognitive-biases/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/cognitive-process/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1028,6 +1070,12 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/future-robots/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/future-vision/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1627,6 +1675,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/perception-discrepancy/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/polymers/</loc>
     
     <changefreq>monthly</changefreq>
@@ -1777,6 +1831,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/risk-benefit-balance/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/role-switching/</loc>
     
     <changefreq>monthly</changefreq>
@@ -1826,6 +1886,18 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/simulation-thinking/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/societal-blind-spots/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/socio-economic-factors/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1921,6 +1993,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/technological-progress/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/temporal-perception-gap/</loc>
     
     <changefreq>monthly</changefreq>
@@ -1952,6 +2030,12 @@
   </url>
   <url>
     <loc>https://katoshi-mfacet.github.io/en/tags/time-communication/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://katoshi-mfacet.github.io/en/tags/time-compression/</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
