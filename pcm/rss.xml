@@ -4,6 +4,68 @@
 <title>Articles (pcm)</title>
 <link>https://katoshi-mfacet.github.io/pcm/rss.xml</link>
 <description>Latest articles (pcm)</description>
-
+<item>
+  <title>How We dey Arrange Virtual Intelligence</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article introduces the concept of "virtual intelligence" (VI) as the ability for artificial intelligence to simulate human-like reasoning and role-playing, similar to how virtual machines simulate computer hardware. It explains that VI is already present in conversational AI. The core idea is "intelligence orchestration," which contrasts with "system orchestration." While system orchestration combines different AI systems, intelligence orchestration uses a single AI model that internally orchestrates multiple "virtual intelligences" through prompt instructions. This approach allows for "ultimate deliberation," enabling AIs to iteratively refine their thinking, combine diverse perspectives, and learn from mistakes without requiring extensive system development. The article concludes that VI, through intelligence orchestration and ultimate deliberation, can significantly enhance AI capabilities, allowing them to perform complex intellectual tasks and potentially replace humans in more roles.</description>
+</item>
+<item>
+  <title>Di Taim We Symphonic Intelligence Take Over</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Symphonic-Intelligence/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Symphonic-Intelligence/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article explores the evolution of generative AI from a simple tool to a core component of business operations, introducing the concept of "Symphonic Intelligence." It contrasts "iterative work," which relies on human expertise and tools, with "flow work," where tasks are systematized and can be performed by AI or humans within a system. The author argues that traditional iterative work faces limitations due to human capacity and skill gaps. To overcome this, work needs to transition to a flow-based system, allowing generative AI to specialize in tasks and enabling human knowledge integration. The article also introduces "virtual intelligence," where AI can switch between roles and knowledge within a single process, similar to virtual machines, and "intelligence orchestration" for managing these AI roles. Symphonic Intelligence is presented as the ultimate stage, where AI can perform complex intellectual tasks flexibly and adaptively, mirroring human capabilities. This level of AI could lead to Artificial General Intelligence (AGI), capable of learning and sharing knowledge across tasks, ultimately automating complex intellectual labor.</description>
+</item>
+<item>
+  <title>How We See Space: AI Fit Come Help</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Space-Dimension-AI/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_30_Space-Dimension-AI/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article explores how Artificial Intelligence (AI) can overcome human limitations in perceiving and understanding multi-dimensional spaces. While humans visualize 3D space from 2D retinal input, AI can be trained to directly process and understand higher-dimensional data, such as 4D graphs, without information loss or the need for projection. This ability allows AI to identify trends, patterns, and relationships across numerous dimensions that are imperceptible to humans. By directly analyzing multi-dimensional data in its original form, AI can significantly accelerate scientific discovery, potentially leading to breakthroughs akin to the heliocentric theory or the theories of relativity and quantum mechanics, but much faster. The article suggests that AI's advanced dimensional perception could lead to new scientific laws and paradigms. However, it also notes that humans might eventually rely on complex systems they don't fully comprehend, a situation not entirely dissimilar to current human reliance on technology.</description>
+</item>
+<item>
+  <title>Flow-Based Work and Systems: Wetin Be True-True Use Of Generative AI</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_29_Tool-vs-System/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_29_Tool-vs-System/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article explains that the true value of generative AI in business comes from transforming iterative work into flow-based processes and then systematizing them, rather than just using AI as a tool for existing iterative tasks. The author draws parallels with the Industrial and IT Revolutions, where systematizing work led to significant efficiency gains. While generative AI can adapt quickly to tasks, its potential is maximized when integrated into structured, step-by-step flows. The article critiques the common misunderstanding of using generative AI for isolated, iterative tasks, which yields limited improvements. It emphasizes that changing human-centric iterative work into flow-based processes is challenging due to human adaptability limitations, but generative AI, with its ability to learn and adapt to new instructions quickly, is well-suited for this transformation. The key is to define work processes in detail, integrate AI into these flows, and continuously refine the AI's instructions based on performance, ultimately creating self-improving systems.</description>
+</item>
+<item>
+  <title>Wetin Be "Simulation Thinking" Na Him Make Life Start</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_29_Simulation-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_29_Simulation-Thinking/</guid>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+  <description>The article introduces "simulation thinking" as a method to understand complex processes by tracing how small elements accumulate and interact step-by-step to produce a final outcome. This approach is applied to the origin of life, suggesting it wasn't a sudden miracle but a gradual process of chemical self-organization driven by Earth's environment. The author posits that early Earth had conditions favoring the formation of complex chemical substances through atmospheric circulation, dust clouds acting as monomer factories, and numerous interconnected water bodies serving as experimental sites. This initial step, marked by the existence of simple complex chemicals, laid the groundwork for further evolution towards more complex life forms. The article also highlights simulation thinking's relevance in software development, where developers use it to translate user needs and system interactions into functional programs, differentiating between "principled simulation thinking" (understanding system mechanics) and "semantic simulation thinking" (understanding user goals). The author concludes that simulation thinking, particularly when combined with "natural mathematics," is a crucial skill for tackling complex scientific and societal challenges.</description>
+</item>
+<item>
+  <title>Di Omnidirectional Engineer For Di Liquidware Era</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_28_Liquidware-Allrounder/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_28_Liquidware-Allrounder/</guid>
+  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article explores the evolving landscape of software development driven by generative AI, introducing the concepts of "liquidware" and the "omnidirectional engineer." Liquidware refers to software that users can easily customize through AI, allowing for personalized user experiences. Generative AI's ability to automate programming tasks is reducing the reliance on traditional coding skills, leading to a shift in demand from specialized full-stack engineers to "omnidirectional engineers." These engineers possess broad knowledge across multiple system stacks and can design and manage complex, integrated software systems. The article posits that this evolution will enable more agile development, user-driven customization, and ultimately, the creation of highly adaptable software solutions, impacting how businesses and society function.</description>
+</item>
+<item>
+  <title>Wetin We Go Dey Think: AI At Plenti Bobo</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_12_Fate-of-Thinking/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_12_Fate-of-Thinking/</guid>
+  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article explores the future of human thinking and society in an age of advanced AI, proposing a shift from "object-orientation" to "process-orientation" in software development and from "global optimization" to "individual optimization" in societal organization. The author argues that as AI takes over routine "sense work," humans will need to engage in "different kinds of thinking," focusing on nuanced, individual problem-solving. In software, "process-orientation" emphasizes understanding the entire flow of operations as a single unit, allowing for easier modularity and adaptation. In society, "individually optimized" systems will prioritize unique circumstances over universal rules, mirroring concepts like "extenuating circumstances" in law. This leads to the idea of "subjective philosophy," where deep, personal thinking about each situation has intrinsic value. The author concludes that AI will free humans from tasks but not from the fundamental need to think, making deep, individualistic thought and judgment essential for our future.</description>
+</item>
+<item>
+  <title>How to do Business Better (Business Process Orientation)</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/07_11_Business-Process-Oriented/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/07_11_Business-Process-Oriented/</guid>
+  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+  <description>This article introduces Business Process-Oriented Software as a novel approach to software development, contrasting it with traditional object-oriented software. It posits that aligning software design with natural human understanding of processes can lead to significant gains in maintainability and adaptability. The core concept is to encapsulate business processes, including manuals, data input, and contact information, into single, unified files. These files act as the software itself, executable by humans or AI. Unlike conventional systems that separate manuals from processing, this approach integrates them, simplifying updates and reducing development/maintenance costs. The article further explores how AI can actively assist in executing these processes, either directly or by facilitating human interaction through user-friendly interfaces. It highlights Markdown as a suitable format for AI compatibility. By centralizing process knowledge and enabling continuous improvement through AI-assisted file manipulation, organizations can achieve rapid learning and enhanced efficiency, allowing humans to focus on essential tasks while AI handles complex information and process adaptations.</description>
+</item>
+<item>
+  <title>How to Design Frameworks as Something Wey Your Brain Dey Do</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/06_29_Framework-Design-Ability/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/06_29_Framework-Design-Ability/</guid>
+  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+  <description>The article differentiates between "finding facts by observation" typical of academic research and "inventing things and systems through design" crucial for development. While basic sciences focus on discovery, engineering disciplines are seen as "practical sciences" that integrate knowledge from development. The author argues that framework design, exemplified by scientific models like geocentric/heliocentric and Newtonian mechanics, is a form of invention through design, not discovery. These frameworks are valued for their usefulness in specific contexts rather than absolute correctness. The author proposes "paradigm inventions" or "paradigm innovations" as more accurate terms than "paradigm shifts." The article highlights that while academic researchers often specialize in observation-based discovery within existing frameworks, the skill set for invention through design is distinct and often underdeveloped in academia. Conversely, software engineers are particularly well-suited for framework design because their work inherently involves rearranging abstract concepts at a meta-level, a skill transferable to academic framework design with advanced abstract concept design abilities and a habit of thinking about new design models.</description>
+</item>
 </channel>
 </rss>
