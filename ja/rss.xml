@@ -5,6 +5,13 @@
 <link>https://katoshi-mfacet.github.io/ja/rss.xml</link>
 <description>Latest articles (ja)</description>
 <item>
+  <title>時間圧縮と盲点：調速の必要性</title>
+  <link>https://katoshi-mfacet.github.io/ja/articles/2025/08_16_Time-Compression-Blindspot/</link>
+  <guid>https://katoshi-mfacet.github.io/ja/articles/2025/08_16_Time-Compression-Blindspot/</guid>
+  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+  <description>本稿は、AI技術、特に生成AIの加速度的な進歩とその社会経済的影響、およびそれに伴う「時間圧縮」と「社会的盲点」という概念を論じている。生成AIは自己強化的に進化し、ソフトウェアとの連携により能力を拡張している。この進歩は、単なる技術的側面だけでなく、投資家やエンジニアの増加といった社会経済的側面からも加速される。しかし、技術進歩の速度が一定の限界を超えると、メリットよりもリスクが大きくなる「時間圧縮」が生じる。これは、新しい技術の性質や応用範囲、社会への影響（社会的盲点）を開発者自身も完全に把握できていない状況で、進歩が社会的な認知作業の猶予時間を短縮してしまうためである。社会的盲点が埋まらないままリスクが顕在化し、被害が拡大する可能性がある。さらに、AI技術の進歩速度自体を正確に把握できない「クロノスクランブル社会」では、個々人の時代認識に大きな乖離が生じる。この状況下で、技術の社会的盲点問題と向き合うには、不変の価値や方向性を示す「ビジョン」と、時代感覚の差異を考慮した「戦略」が不可欠である。戦略の一例として、時間圧縮に対抗するため、生成AI自体の能力を活用し、AI開発を調速・制御する「社会的ビルトイン・スタビライザー」としての機能を持たせることを提案している。このためには、個々の盲点を認識し、不変の原理に基づいた思考と、加速するAIの速度自体を緩やかにする仕組み作りが求められる。</description>
+</item>
+<item>
   <title>知的鉱山としてのGitHub</title>
   <link>https://katoshi-mfacet.github.io/ja/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
   <guid>https://katoshi-mfacet.github.io/ja/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
