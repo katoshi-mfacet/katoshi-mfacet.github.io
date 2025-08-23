@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/pl/rss.xml</link>
 <description>Latest articles (pl)</description>
 <item>
+  <title>Wkraczamy w Erę Bez Granic: Tworzenie Bloga w 30 Językach</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł opisuje proces tworzenia wielojęzycznej strony internetowej blogowej z wykorzystaniem generatywnej sztucznej inteligencji (Gemini). Autor, inżynier systemowy, zbudował zautomatyzowany system, który generuje pliki HTML z brudnopisów artykułów napisanych po japońsku. Kluczowe funkcje obejmują automatyczne tworzenie treści, organizację artykułów za pomocą kategoryzacji i tagowania, obsługę 30 języków oraz poprawę dostępności. Proces ten jest wspierany przez niestandardowe programy oparte na frameworku Astro i API Gemini, które odpowiadają za generowanie kodu, tłumaczenia, klasyfikację i tagowanie. Autor podkreśla, jak generatywna SI pomogła przełamać bariery językowe i techniczne, umożliwiając stworzenie strony dostępnej dla szerszego grona odbiorców. System ten, zbudowany w około dwa tygodnie, udowadnia potencjał AI w demokratyzacji tworzenia i dystrybucji informacji.</description>
+</item>
+<item>
+  <title>Rozwój Rozwojowy i Testowanie Sterowane Refaktoryzacją</title>
+  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artykuł omawia transformację tworzenia oprogramowania napędzaną przez generatywną sztuczną inteligencję (AI). Wprowadza koncepcję „rozwoju rozwojowego”, gdzie AI jest wykorzystywana do tworzenia narzędzi wspomagających sam proces tworzenia oprogramowania, co prowadzi do zwiększenia efektywności i jakości w kolejnych projektach. Autor podkreśla znaczenie autonomicznych agentów AI jako przyszłych inżynierów oprogramowania, ale zaznacza, że obecna faza wymaga umiejętnego wykorzystania AI. Koncepcja „testowania sterowanego refaktoryzacją” jest przedstawiona jako alternatywa dla Test-Driven Development (TDD), sugerująca tworzenie testów dopiero w momencie, gdy refaktoryzacja staje się konieczna, zwłaszcza w kontekście zmian UI/UX i optymalizacji wydajności. Kluczowe jest testowanie stabilnych części kodu, a nie całości. Te nowe podejścia otwierają drogę do „rozwoju zorientowanego na doświadczenie i zachowanie” oraz rozwoju „Inżynierów Wielokierunkowych”.</description>
+</item>
+<item>
   <title>Kompresja czasu i martwe punkty: potrzeba regulacji</title>
   <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_16_Time-Compression-Blindspot/</guid>

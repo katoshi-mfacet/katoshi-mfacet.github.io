@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/nl/rss.xml</link>
 <description>Latest articles (nl)</description>
 <item>
+  <title>Een Tijdperk Zonder Grenzen Ingaan: Een Blogsite Creëren Die 30 Talen Ondersteunt</title>
+  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Dit artikel beschrijft de creatie van een meertalige blogwebsite met ondersteuning voor 30 talen, die is ontwikkeld met behulp van generatieve AI (Gemini). Het proces omvat de automatische generatie van HTML vanuit Japanse artikelconcepten, georganiseerd door middel van automatisch gegenereerde categorieën en tags. Gemini wordt ingezet voor zowel de categorisatie/tagging als voor het vertalen van website-elementen en artikelinhoud. Ook de verbetering van toegankelijkheid voor visueel gehandicapten en gebruikers met beperkte motorische vaardigheden wordt door Gemini voorgesteld en geïmplementeerd. De auteur benadrukt hoe generatieve AI barrières zoals taal en onderhoud heeft weggenomen, waardoor een individuele creatie van een dergelijke uitgebreide site mogelijk werd. Het artikel suggereert dat generatieve AI de drempel voor softwareontwikkeling verlaagt en zo individuele informatieverspreiding faciliteert, met de ambitie om een tijdperk te creëren waarin barrières geleidelijk verdwijnen.</description>
+</item>
+<item>
+  <title>Ontwikkelingsgedreven ontwikkeling en refactoring-gedreven testen</title>
+  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Dit artikel verkent hoe generatieve AI de softwareontwikkeling transformeert, door twee nieuwe benaderingen te introduceren: "ontwikkelingsgedreven ontwikkeling" en "refactoring-gedreven testen". Ontwikkelingsgedreven ontwikkeling benut generatieve AI om niet alleen eindproducten te creëren, maar ook hulpprogramma's die het ontwikkelingsproces zelf ondersteunen en verbeteren. Dit leidt tot efficiëntere workflows, hergebruikbare activa en een continue verbetering van de ontwikkelingsmethodologie. Het artikel benadrukt het belang van een mindset waarbij men objectief naar het eigen ontwikkelingsproces kijkt en proactief hulpprogramma's ontwikkelt. Refactoring-gedreven testen daarentegen stelt dat het niet altijd optimaal is om tests vooraf te specificeren, zoals bij Test-Driven Development (TDD). Vooral bij software met subjectieve elementen zoals UI/UX, is het cruciaal om eerst daadwerkelijk met de software te interageren en deze te refactoren. Pas tijdens dit refactoring-proces, wanneer de code stabieler wordt en de kans op grote wijzigingen afneemt, worden tests gericht ontwikkeld om de integriteit van de gerefactorde code te waarborgen. Beide benaderingen worden gezien als sleutels tot een nieuw tijdperk van softwareontwikkeling, gericht op ervaring en gedrag, en het worden van "Omnidirectionele Engineers".</description>
+</item>
+<item>
   <title>Tijdcompressie en blinde vlekken: De noodzaak van regulering</title>
   <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_16_Time-Compression-Blindspot/</guid>

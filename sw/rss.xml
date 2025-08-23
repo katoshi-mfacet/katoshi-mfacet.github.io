@@ -5,6 +5,24 @@
 <link>https://katoshi-mfacet.github.io/sw/rss.xml</link>
 <description>Latest articles (sw)</description>
 <item>
+  <title>Kuingia Enzi Bila Mipaka: Kuunda Tovuti ya Blogu ya Lugha 30</title>
+  <link>https://katoshi-mfacet.github.io/sw/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/sw/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Makala haya yanaelezea uundaji wa tovuti ya blogu inayotumia AI yenye uwezo wa kuzalisha (Generative AI), hasa Gemini, ili kushinda vikwazo mbalimbali. Mwandishi, mhandisi wa mifumo, alitumia Gemini kuunda mfumo wa kiotomatiki wa kuzalisha tovuti kutoka kwa rasimu za Kijapani. Mfumo huu unahusisha programu iliyotengenezwa kwa kutumia Astro, ambayo huzalisha faili za HTML kiotomatiki, na programu nyingine ya kuainisha na kuweka vitambulisho kwa kutumia API ya Gemini. Mchakato wa kuainisha na kuweka vitambulisho pia unajumuisha kutumia Gemini kuchambua makala zilizopita ili kuunda orodha za kategoria na vitambulisho. Zaidi ya hayo, Gemini hutumika kwa ajili ya kutafsiri tovuti kwa lugha 30, ikijumuisha maandishi ya jumla na rasimu za makala. Ufikiaji rahisi umeboreshwa pia, kwa Gemini akipendekeza maboresho ya ufikiaji wa tovuti, kama vile usomaji wa sauti na uwezo wa kutumia kibodi pekee. Mwandishi anasisitiza kuwa AI ya uzalishaji imeruhusu kushinda vikwazo vya lugha na ufikiaji, ambavyo vingekuwa vigumu au visivyowezekana kwa mtu binafsi kushughulikia kwa njia za jadi. Hii ni pamoja na kushughulikia tofauti za lugha katika tarehe, vitengo, na mwelekeo wa kuandika (kulia-kushoto). Mwandishi anaamini kuwa AI ya uzalishaji imepunguza vikwazo vya ukuzaji wa programu na uundaji wa tovuti, na kuwezesha usambazaji mpana zaidi wa habari binafsi. Hii, kwa upande, inafungua njia ya kushinda vikwazo zaidi vya kitamaduni na kuelekea zama ambapo vikwazo vinapotea.</description>
+</item>
+<item>
+  <title>Maendeleo Endelevu na Majaribio Yanayoendeshwa na Urekebishaji</title>
+  <link>https://katoshi-mfacet.github.io/sw/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/sw/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Makala haya yanachunguza mabadiliko katika uundaji wa programu yanayoletwa na akili bandia (AI) ya kuzalisha, na kuanzisha dhana mbili mpya: "maendeleo ya maendeleo" na "upimaji unaoendeshwa na urekebishaji". Maendeleo, kwa ujumla, yanaelezewa kama uundaji wa mara kwa mara wa vipengele vipya na vyenye manufaa, vinavyotofautiana na utengenezaji. Inajumuisha maendeleo ya bidhaa, kukuza uwezo wa mtu binafsi au jamii, na maendeleo ya teknolojia na maarifa. Maendeleo ya teknolojia na maarifa yana sifa ya kushirikiwa kwa urahisi na uwezo wa kuchangia maendeleo zaidi.
+
+AI ya kuzalisha inabadilisha kwa kiasi kikubwa uundaji wa programu kwa kuwezesha mawakala huru wa AI kufanya kama wahandisi wa programu. Hii inaitwa "ujenzi wa programu unaoendeshwa na AI". Hata hivyo, badala ya kutegemea tu AI ya kuzalisha kwa uundaji wa programu, makala yanapendekeza dhana ya "maendeleo ya maendeleo". Hii inahusisha kuunda programu zinazosaidia mchakato wa uundaji wenyewe, na hivyo kuongeza ufanisi na ubora kwa kila mradi unaofuata. Kuunda programu saidizi hizi kwa kutumia AI ya kuzalisha kunafanya iwe rahisi na haraka, hasa kwa kazi zinazohusisha usindikaji ulio wazi. Mafanikio katika uundaji huu yanaweza kusababisha uundaji wa zana muhimu kwa uundaji unaoendelea, na kubadilisha mbinu ya uundaji yenyewe.
+
+Dhana ya pili iliyoletwa ni "upimaji unaoendeshwa na urekebishaji". Hii inapingana na Ukuzaji Unaoendeshwa na Majaribio (TDD), ambayo huunda majaribio kwanza. Makala yanabainisha kuwa kwa programu zinazohusisha vipengele vya kibinafsi kama vile urahisi wa matumizi na muundo, uzoefu wa mtumiaji na mwingiliano hupata kipaumbele. Wakati mabadiliko makubwa yanapohitajika kutokana na kutoridhika kwa UI/UX, urekebishaji unakuwa muhimu. Katika hatua hii, kuunda programu za majaribio ili kuthibitisha kwamba marekebisho hayajaingiza hitilafu kunakuwa muhimu. Hii inahusisha kupima sehemu zilizoimarishwa ambazo hazitarajiwi kubadilika sana, huku sehemu zinazobadilika zikiachwa bila majaribio ya kiotomatiki. Hii inaruhusu ufanisi zaidi katika michakato ya ukuzaji wa programu, ambayo inatoa faida kubwa kwa timu zinazozitumia ikilinganishwa na zile zinazotegemea tu zana za AI za kuzalisha.</description>
+</item>
+<item>
   <title>Mgandamizo wa Wakati na Maeneo Pofufu: Uhitaji wa Udhibiti</title>
   <link>https://katoshi-mfacet.github.io/sw/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/sw/articles/2025/08_16_Time-Compression-Blindspot/</guid>

@@ -1,0 +1,384 @@
+<!DOCTYPE html><html lang="th" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet"><title>ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา | บันทึกการวิจัยของ Katoshi</title><meta name="description" content="บทความนี้อธิบายถึงกระบวนการสร้างเว็บไซต์บล็อกที่รองรับ 30 ภาษาโดยใช้ AI สร้างสรรค์ (Gemini) ผู้เขียนซึ่งเป็นวิศวกรระบบ ได้พัฒนาโปรแกรมที่ทำงานบนเฟรมเวิร์ก Astr… (Translated from Japanese)"><meta name="keywords" content="AI, การพัฒนาซอฟต์แวร์, การออกแบบระบบ, วิทยาศาสตร์ชีวภาพ, ปริญญาเอก, วิศวกร, การวิจัย, วิธีการคิด, การคิดเชิงจำลอง, liquidware, การออกแบบเฟรมเวิร์ก, ปัญญาเสมือน"><meta name="author"><!-- Canonical --><link rel="canonical" href="https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/"><!-- hreflang（x-default 含む） --><link rel="alternate" hreflang="ja" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="en" href="https://katoshi-mfacet.github.io/en/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="zh" href="https://katoshi-mfacet.github.io/zh/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="hi" href="https://katoshi-mfacet.github.io/hi/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="es" href="https://katoshi-mfacet.github.io/es/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="fr" href="https://katoshi-mfacet.github.io/fr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ar" href="https://katoshi-mfacet.github.io/ar/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="bn" href="https://katoshi-mfacet.github.io/bn/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ru" href="https://katoshi-mfacet.github.io/ru/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pt" href="https://katoshi-mfacet.github.io/pt/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ur" href="https://katoshi-mfacet.github.io/ur/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="id" href="https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="de" href="https://katoshi-mfacet.github.io/de/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pa" href="https://katoshi-mfacet.github.io/pa/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pcm" href="https://katoshi-mfacet.github.io/pcm/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="mr" href="https://katoshi-mfacet.github.io/mr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="te" href="https://katoshi-mfacet.github.io/te/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="tr" href="https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ta" href="https://katoshi-mfacet.github.io/ta/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="jv" href="https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ko" href="https://katoshi-mfacet.github.io/ko/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="vi" href="https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="it" href="https://katoshi-mfacet.github.io/it/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="fa" href="https://katoshi-mfacet.github.io/fa/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="gu" href="https://katoshi-mfacet.github.io/gu/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="th" href="https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pl" href="https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="uk" href="https://katoshi-mfacet.github.io/uk/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="sw" href="https://katoshi-mfacet.github.io/sw/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="nl" href="https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="x-default" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><!-- Open Graph --><meta property="og:site_name" content="บันทึกการวิจัยของ Katoshi"><meta property="og:title" content="ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา | บันทึกการวิจัยของ Katoshi"><meta property="og:description" content="บทความนี้อธิบายถึงกระบวนการสร้างเว็บไซต์บล็อกที่รองรับ 30 ภาษาโดยใช้ AI สร้างสรรค์ (Gemini) ผู้เขียนซึ่งเป็นวิศวกรระบบ ได้พัฒนาโปรแกรมที่ทำงานบนเฟรมเวิร์ก Astr… (Translated from Japanese)"><meta property="og:url" content="https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/"><meta property="og:type" content="article"><meta property="og:locale" content="th_TH"><meta property="og:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta property="og:image:alt" content="ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา | บันทึกการวิจัยของ Katoshi"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@katoshi_mfacet"><meta name="twitter:title" content="ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา | บันทึกการวิจัยของ Katoshi"><meta name="twitter:description" content="บทความนี้อธิบายถึงกระบวนการสร้างเว็บไซต์บล็อกที่รองรับ 30 ภาษาโดยใช้ AI สร้างสรรค์ (Gemini) ผู้เขียนซึ่งเป็นวิศวกรระบบ ได้พัฒนาโปรแกรมที่ทำงานบนเฟรมเวิร์ก Astr… (Translated from Japanese)"><meta name="twitter:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta name="twitter:image:alt" content="ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา | บันทึกการวิจัยของ Katoshi"><meta property="article:published_time" content="2025-08-24T00:00:00.000Z"><meta property="article:section" content="เทคโนโลยี"><meta property="article:tag" content="generative-ai"><meta property="article:tag" content="gemini"><meta property="article:tag" content="astro"><meta property="article:tag" content="natural-language-processing"><meta property="article:tag" content="api"><meta property="article:tag" content="html"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา","description":"บทความนี้อธิบายถึงกระบวนการสร้างเว็บไซต์บล็อกที่รองรับ 30 ภาษาโดยใช้ AI สร้างสรรค์ (Gemini) ผู้เขียนซึ่งเป็นวิศวกรระบบ ได้พัฒนาโปรแกรมที่ทำงานบนเฟรมเวิร์ก Astr… (Translated from Japanese)","url":"https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/","mainEntityOfPage":"https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/","inLanguage":"th","datePublished":"2025-08-24T00:00:00.000Z","dateModified":"2025-08-24T00:00:00.000Z","keywords":"generative-ai, gemini, astro, natural-language-processing, api, html","author":{"@type":"Person","url":"https://katoshi-mfacet.github.io/th/about/"},"publisher":{"@type":"Organization","name":"บันทึกการวิจัยของ Katoshi","logo":{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png"}},"image":[{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png","width":1200,"height":630}]}</script><meta name="translation-method" content="AI"><meta name="translation-source-language" content="ja"><link rel="stylesheet" href="/_astro/about.CtrjYwGM.css">
+<style>.line-clamp-2[data-astro-cid-nnxgeytw]{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3[data-astro-cid-nnxgeytw],.line-clamp-3[data-astro-cid-2zkmu4eg]{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.prose[data-astro-cid-3ljf2kae] .youtube-embed{margin:2rem 0;position:relative;width:100%;height:0;padding-bottom:56.25%}.prose[data-astro-cid-3ljf2kae] .youtube-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:.5rem}.prose[data-astro-cid-3ljf2kae] img[data-astro-cid-3ljf2kae]{border-radius:.5rem;box-shadow:0 10px 15px -3px #0000001a}.prose[data-astro-cid-3ljf2kae] table[data-astro-cid-3ljf2kae]{border-collapse:collapse;margin:1.5rem 0}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae],.prose[data-astro-cid-3ljf2kae] td[data-astro-cid-3ljf2kae]{border:1px solid #e5e7eb;padding:.75rem;text-align:left}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae]{background-color:#f9fafb;font-weight:600}
+#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=open]{display:block}#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=closed]{display:none}[dir=rtl] .rtl-flip{transform:scaleX(-1)}@keyframes glow{0%,to{background-color:#3b82f61a;box-shadow:0 0 4px #3b82f64d;border-color:#3b82f633}50%{background-color:#3b82f633;box-shadow:0 0 12px #3b82f680;border-color:#3b82f680}}@keyframes glow-dark{0%,to{background-color:#60a5fa26;box-shadow:0 0 5px #60a5fa66;border-color:#60a5fa4d}50%{background-color:#60a5fa40;box-shadow:0 0 14px #60a5fa99;border-color:#60a5fa99}}.highlight-language{border:2px solid transparent;animation:glow 2s infinite ease-in-out}:root.dark .highlight-language{animation-name:glow-dark}
+</style></head> <body class="min-h-screen bg-gray-50 font-sans "> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50 focus:outline-none focus:ring-2 focus:ring-blue-500"> ข้ามไปยังเนื้อหา </a> <header class="bg-white shadow-sm sticky top-0 z-40"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center py-4"> <div class="flex items-center space-x-8"> <a href="/th/" class="text-lg sm:text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors"> <span class="hidden sm:inline">บันทึกการวิจัยของ Katoshi</span> <span class="sm:hidden">Katoshi</span> </a> <nav class="hidden lg:flex space-x-6" role="navigation" aria-label="เมนูหลัก"> <a href="/th/articles/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> บทความ </a> <a href="/th/categories/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> หมวดหมู่ </a> <a href="/th/tags/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> แท็ก </a> <a href="/th/archive/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> คลังเก็บ </a> <a href="/th/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> คำศัพท์ </a> <a href="/th/about/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> เกี่ยวกับ </a> </nav> </div> <div class="flex items-center space-x-2 sm:space-x-4"> <!-- モバイル：SNSリンクを小さく --> <div class="hidden sm:block"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="ติดตามบน X" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ติดตามบน Note" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="สมัครสมาชิกบน YouTube" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ติดตามบน Medium" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> <!-- 言語切り替え --> <div class="flex items-center"> <span class="text-xs sm:text-sm text-gray-600 hidden sm:inline mr-2"> ภาษา: </span> <div id="lang-switcher-container" class="relative" data-astro-cid-a2mxz4y6> <div id="lang-switcher-visible" class="flex items-center gap-1 sm:gap-2" data-astro-cid-a2mxz4y6></div> <div id="lang-switcher-panel" class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10" data-state="closed" data-astro-cid-a2mxz4y6> <div class="border-b border-gray-200 p-3" data-astro-cid-a2mxz4y6> <p class="text-sm font-semibold text-gray-800" data-astro-cid-a2mxz4y6></p> </div> <div id="lang-switcher-list" class="py-1 max-h-60 overflow-y-auto" role="menu" aria-orientation="vertical" data-astro-cid-a2mxz4y6></div> </div> </div>  <script>(function(){const currentLang = "th";
+const allLanguages = [{"code":"ja","name":"日本語","englishName":"Japanese","direction":"ltr","locale":"ja-JP","promptHint":"This is the original source text. Ensure all nuances are preserved for the pivot translation."},{"code":"en","name":"English","englishName":"English","direction":"ltr","locale":"en-US","promptHint":"Translate from Japanese into clear, academic English. This will serve as the pivot source for all other languages. Preserve the technical and philosophical nuances of the original Japanese text."},{"code":"zh","name":"中文","englishName":"Chinese","direction":"ltr","locale":"zh-CN","promptHint":"Translate from English into Simplified Chinese (简体中文). The original Japanese text may be provided for additional context. Use terminology common in mainland China's tech and academic communities."},{"code":"hi","name":"हिन्दी","englishName":"Hindi","direction":"ltr","locale":"hi-IN","promptHint":"Translate from English into standard Hindi using the Devanagari script. The original Japanese text may be provided for additional context. Ensure technical terms are appropriately transliterated or translated."},{"code":"es","name":"Español","englishName":"Spanish","direction":"ltr","locale":"es-ES","promptHint":"Translate from English into neutral, formal Spanish suitable for both Spain and Latin America. The original Japanese text may be provided for additional context."},{"code":"fr","name":"Français","englishName":"French","direction":"ltr","locale":"fr-FR","promptHint":"Translate from English into formal French, paying close attention to technical and philosophical nuances. The original Japanese text may be provided for additional context."},{"code":"ar","name":"العربية","englishName":"Arabic","direction":"rtl","locale":"ar-SA","promptHint":"Translate from English into Modern Standard Arabic. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"bn","name":"বাংলা","englishName":"Bengali","direction":"ltr","locale":"bn-BD","promptHint":"Translate from English into Bengali. The original Japanese text may be provided for additional context."},{"code":"ru","name":"Русский","englishName":"Russian","direction":"ltr","locale":"ru-RU","promptHint":"Translate from English into Russian. The original Japanese text may be provided for additional context."},{"code":"pt","name":"Português","englishName":"Portuguese","direction":"ltr","locale":"pt-PT","promptHint":"Translate from English into standard Portuguese (European). The original Japanese text may be provided for additional context."},{"code":"ur","name":"اردو","englishName":"Urdu","direction":"rtl","locale":"ur-PK","promptHint":"Translate from English into Urdu. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"id","name":"Bahasa Indonesia","englishName":"Indonesian","direction":"ltr","locale":"id-ID","promptHint":"Translate from English into Indonesian. The original Japanese text may be provided for additional context."},{"code":"de","name":"Deutsch","englishName":"German","direction":"ltr","locale":"de-DE","promptHint":"Translate from English into formal German. The original Japanese text may be provided for additional context."},{"code":"pa","name":"ਪੰਜਾਬੀ","englishName":"Punjabi","direction":"ltr","locale":"pa-IN","promptHint":"Translate from English into Punjabi, using the Gurmukhi script. The original Japanese text may be provided for additional context."},{"code":"pcm","name":"Nigerian Pidgin","englishName":"Nigerian Pidgin","direction":"ltr","locale":"en-NG","promptHint":"Translate from English into Nigerian Pidgin. Be careful to maintain the original meaning in this creole language. The original Japanese text may be provided for additional context."},{"code":"mr","name":"मराठी","englishName":"Marathi","direction":"ltr","locale":"mr-IN","promptHint":"Translate from English into Marathi. The original Japanese text may be provided for additional context."},{"code":"te","name":"తెలుగు","englishName":"Telugu","direction":"ltr","locale":"te-IN","promptHint":"Translate from English into Telugu. The original Japanese text may be provided for additional context."},{"code":"tr","name":"Türkçe","englishName":"Turkish","direction":"ltr","locale":"tr-TR","promptHint":"Translate from English into Turkish. The original Japanese text may be provided for additional context."},{"code":"ta","name":"தமிழ்","englishName":"Tamil","direction":"ltr","locale":"ta-IN","promptHint":"Translate from English into Tamil. The original Japanese text may be provided for additional context."},{"code":"jv","name":"Basa Jawa","englishName":"Javanese","direction":"ltr","locale":"jv-ID","promptHint":"Translate from English into Javanese. The original Japanese text may be provided for additional context."},{"code":"ko","name":"한국어","englishName":"Korean","direction":"ltr","locale":"ko-KR","promptHint":"Translate from English into Korean. The original Japanese text may be provided for additional context."},{"code":"vi","name":"Tiếng Việt","englishName":"Vietnamese","direction":"ltr","locale":"vi-VN","promptHint":"Translate from English into Vietnamese. The original Japanese text may be provided for additional context."},{"code":"it","name":"Italiano","englishName":"Italian","direction":"ltr","locale":"it-IT","promptHint":"Translate from English into Italian. The original Japanese text may be provided for additional context."},{"code":"fa","name":"فارسی","englishName":"Persian","direction":"rtl","locale":"fa-IR","promptHint":"Translate from English into Persian. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"gu","name":"ગુજરાતી","englishName":"Gujarati","direction":"ltr","locale":"gu-IN","promptHint":"Translate from English into Gujarati. The original Japanese text may be provided for additional context."},{"code":"th","name":"ไทย","englishName":"Thai","direction":"ltr","locale":"th-TH","promptHint":"Translate from English into Thai. The original Japanese text may be provided for additional context."},{"code":"pl","name":"Polski","englishName":"Polish","direction":"ltr","locale":"pl-PL","promptHint":"Translate from English into Polish. The original Japanese text may be provided for additional context."},{"code":"uk","name":"Українська","englishName":"Ukrainian","direction":"ltr","locale":"uk-UA","promptHint":"Translate from English into Ukrainian. The original Japanese text may be provided for additional context."},{"code":"sw","name":"Kiswahili","englishName":"Swahili","direction":"ltr","locale":"sw-KE","promptHint":"Translate from English into Swahili. The original Japanese text may be provided for additional context."},{"code":"nl","name":"Nederlands","englishName":"Dutch","direction":"ltr","locale":"nl-NL","promptHint":"Translate from English into Dutch. The original Japanese text may be provided for additional context."}];
+const selectLanguageText = "เลือกภาษา";
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('lang-switcher-container');
+    if (!container) return;
+
+    const visibleContainer = document.getElementById('lang-switcher-visible');
+    const toggleButton = document.createElement('button');
+    const panel = document.getElementById('lang-switcher-panel');
+    const list = document.getElementById('lang-switcher-list');
+    const panelHeader = panel.querySelector('p');
+
+    if (!visibleContainer || !panel || !list || !panelHeader) return;
+    
+    const translations = {
+      ja: { all_languages_supported: '全{count}言語に対応' },
+      en: { all_languages_supported: '{count} Languages Supported' },
+    };
+    const count = allLanguages.length;
+    panelHeader.textContent = (translations[currentLang]?.all_languages_supported || translations.en.all_languages_supported).replace('{count}', count);
+
+    const getPreferredLanguage = () => {
+      const browserLangs = navigator.languages || [navigator.language];
+      for (const lang of browserLangs) {
+        const langCode = lang.split('-')[0].toLowerCase();
+        if (allLanguages.some(l => l.code === langCode)) return langCode;
+      }
+      return null;
+    };
+
+    const preferredLang = getPreferredLanguage();
+    let displayedLangCodes = [currentLang];
+
+    const createButton = (langInfo, isCurrent, isPreferred) => {
+      const button = document.createElement('a');
+      button.href = getRedirectUrl(langInfo.code);
+      button.textContent = langInfo.name.substring(0, 3);
+      button.title = langInfo.name;
+      button.className = `px-1.5 py-0.5 text-xs sm:text-sm rounded transition-colors ${
+        isCurrent
+          ? 'bg-blue-600 text-white font-semibold cursor-default border-2 border-transparent'
+          : 'bg-gray-200 text-gray-700 hover:bg-gray-300 border-2 border-transparent'
+      }`;
+      if (isPreferred) {
+        button.classList.add('highlight-language');
+      }
+      return button;
+    };
+    
+    const getRedirectUrl = (targetLangCode) => {
+      const currentPath = window.location.pathname;
+      if (currentPath.includes(`/${currentLang}/articles/`)) {
+        return currentPath.replace(`/${currentLang}/`, `/${targetLangCode}/`);
+      }
+      return `/${targetLangCode}/`;
+    };
+
+    (() => {
+      visibleContainer.innerHTML = '';
+      list.innerHTML = '';
+
+      const currentLangInfo = allLanguages.find(l => l.code === currentLang);
+      if (currentLangInfo) {
+        visibleContainer.appendChild(createButton(currentLangInfo, true, false));
+      }
+
+      if (preferredLang && preferredLang !== currentLang) {
+        const preferredLangInfo = allLanguages.find(l => l.code === preferredLang);
+        if (preferredLangInfo) {
+          visibleContainer.appendChild(createButton(preferredLangInfo, false, true));
+          displayedLangCodes.push(preferredLang);
+        }
+      }
+
+      toggleButton.id = 'lang-switcher-toggle';
+      toggleButton.type = 'button';
+      toggleButton.setAttribute('aria-label', selectLanguageText);
+      // ▼▼▼ 地球儀アイコンをシンプルで太い線に変更 ▼▼▼
+      toggleButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><title>言語選択アイコン</title><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"></path><path d="M12 2a15.3 15.3 0 0 0-4 10 15.3 15.3 0 0 0 4 10"></path></svg>`;
+      // ▲▲▲ 修正ここまで ▲▲▲
+      toggleButton.className = 'p-1.5 rounded-full bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors border-2 border-transparent';
+      visibleContainer.appendChild(toggleButton);
+
+      allLanguages.forEach(langInfo => {
+        const link = document.createElement('a');
+        link.href = getRedirectUrl(langInfo.code);
+        link.textContent = langInfo.name;
+        link.className = `text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 ${langInfo.code === currentLang ? 'font-bold bg-blue-50' : ''}`;
+        link.role = 'menuitem';
+        list.appendChild(link);
+      });
+    })();
+
+    toggleButton.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = panel.dataset.state === 'open';
+      panel.dataset.state = isOpen ? 'closed' : 'open';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!container.contains(e.target)) {
+        panel.dataset.state = 'closed';
+      }
+    });
+  });
+})();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="เปิดเมนู" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/th/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> บทความ </a> <a href="/th/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> หมวดหมู่ </a> <a href="/th/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> แท็ก </a> <a href="/th/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> คลังเก็บ </a> <a href="/th/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> คำศัพท์ </a> <a href="/th/about/" class="text-gray-600 hover:text-gray-900 font-medium"> เกี่ยวกับ </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="ติดตามบน X" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ติดตามบน Note" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="สมัครสมาชิกบน YouTube" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ติดตามบน Medium" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/th/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> หน้าหลัก </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/th/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> บทความ </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/th/articles/2025/08_19_Dev-Development/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ก่อนหน้า </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> การพัฒนาแบบเน้นการพัฒนาและการทดสอบที่ขับเคลื่อนด้วยการปรับโครงสร้างโค้ด </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 19 ส.ค. 2568 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw>  </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/th/articles/2025/08_19_Dev-Development/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ก่อนหน้า </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> การพัฒนาแบบเน้นการพัฒนาและการทดสอบที่ขับเคลื่อนด้วยการปรับโครงสร้างโค้ด </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 19 ส.ค. 2568 </div> </a>  </div> </nav>  <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center justify-between" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-blue-900" data-astro-cid-3ljf2kae>บทความนี้ได้รับการแปลจากภาษาญี่ปุ่นโดยใช้ AI</span> </div> <a href="/ja/articles/2025/08_24_Wall-Free-Era/" class="text-blue-600 hover:text-blue-800 text-sm font-medium underline" data-astro-cid-3ljf2kae> อ่านฉบับภาษาญี่ปุ่น </a> </div> </div>  <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>บทความนี้อยู่ในสาธารณสมบัติ (CC0) โปรดใช้งานได้อย่างอิสระ</span> <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" data-astro-cid-3ljf2kae> <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0 Universal" style="border-style: none;" class="ml-2" data-astro-cid-3ljf2kae> </a> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae> ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา </h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-08-24" data-astro-cid-3ljf2kae> 24 สิงหาคม 2568 </time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="ก้าวสู่ยุคไร้พรมแดน: สร้างเว็บไซต์บล็อก 30 ภาษา" data-date="24 สิงหาคม 2568" data-author="Katoshi" data-content="
+ผมใช้ AI สร้างสรรค์ (Gemini) ในการสร้างเว็บไซต์ของตัวเอง เพื่อจัดระเบียบและรวบรวมบทความที่ผมเขียนลงบล็อก
+
+บันทึกการวิจัยของ Katoshi
+https://katoshi-mfacet.github.io/
+
+เว็บไซต์นี้ถูกสร้างขึ้นโดยอัตโนมัติจากฉบับร่างบทความในบล็อกที่เขียนเป็นภาษาญี่ปุ่น
+
+คุณสมบัติของเว็บไซต์ได้แก่:
+
+*   สร้างอัตโนมัติจากฉบับร่างบทความ
+*   จัดระเบียบบทความด้วยการจัดหมวดหมู่และแท็ก
+*   รองรับ 30 ภาษาและการเข้าถึง
+
+## กลไกพื้นฐาน
+
+กลไกพื้นฐานเกี่ยวข้องกับโปรแกรมที่สร้างขึ้นเองบนเฟรมเวิร์ก Astro ซึ่งจะสร้างไฟล์ HTML โดยอัตโนมัติจากฉบับร่างบทความ
+
+ผมพัฒนาโปรแกรมนี้ขึ้นมาเองโดยการสนทนากับ Gemini ของ Google
+
+ด้วยกลไกนี้ เมื่อผมเขียนฉบับร่างบทความและเริ่มกระบวนการสร้างใหม่ ไฟล์ HTML จะได้รับการอัปเดตและแสดงผลบนเว็บไซต์โดยอัตโนมัติ
+
+## การจัดหมวดหมู่และติดแท็ก
+
+ผมยังได้พัฒนาโปรแกรมแยกต่างหากสำหรับการจัดหมวดหมู่และติดแท็ก
+
+โปรแกรมนี้จะส่งบทความไปยัง Gemini ผ่าน API เพื่อให้ Gemini จัดหมวดหมู่และติดแท็กโดยอัตโนมัติ
+
+ด้วยการให้รายการหมวดหมู่และแท็กพร้อมกับบทความ Gemini จะตีความความหมายของบทความและแนะนำสิ่งที่เหมาะสมได้อย่างเชี่ยวชาญ
+
+นอกจากนี้ รายการหมวดหมู่และแท็กเองก็ถูกกำหนดโดยการดึงข้อมูลจากบทความเก่าโดยใช้โปรแกรมที่สร้างขึ้นเองอีกโปรแกรมหนึ่ง ในส่วนนี้ก็ยังใช้ Gemini ด้วยเช่นกัน
+
+บทความเก่าจะถูกส่งไปยัง Gemini ผ่าน API ตามลำดับ เพื่อให้ Gemini ส่งออกหมวดหมู่และแท็กที่เป็นไปได้ จากนั้น หมวดหมู่และแท็กที่เป็นไปได้ที่ดึงมาจากบทความทั้งหมดจะถูกส่งไปยัง Gemini เพื่อสรุปรายการหมวดหมู่และแท็ก
+
+กระบวนการทั้งหมดนี้ยังถูกทำให้เป็นอัตโนมัติด้วยโปรแกรม
+
+## การแปลหลายภาษา
+
+การแปลเป็นสิ่งจำเป็นสำหรับการสนับสนุนหลายภาษา แน่นอนว่า Gemini ก็ถูกนำมาใช้สำหรับการแปลนี้ด้วย
+
+มีรูปแบบการแปลสองแบบ:
+
+แบบแรกคือการแปลข้อความที่ใช้ทั่วไปทั่วทั้งเว็บไซต์ โดยไม่คำนึงถึงบทความ ซึ่งรวมถึงชื่อเมนู การแนะนำตัว และข้อความอื่น ๆ ที่คล้ายกัน
+
+อีกแบบคือการแปลฉบับร่างบทความเอง
+
+สำหรับการแปลทั้งสองประเภทนี้ ผมได้สร้างโปรแกรมที่กำหนดเองซึ่งดำเนินการแปลโดยใช้ API ของ Gemini
+
+## การเข้าถึง
+
+การเข้าถึงได้รับการปรับปรุงโดยการเพิ่มคุณสมบัติหลายอย่างลงในไฟล์ HTML โดยพิจารณาว่าผู้พิการทางสายตาอาจต้องการฟังเนื้อหาบทความผ่านเสียง หรือผู้ที่มีปัญหาในการใช้เมาส์อาจต้องการเรียกดูเว็บไซต์ด้วยการควบคุมด้วยคีย์บอร์ดเท่านั้น
+
+ผมมีความรู้เรื่องการเข้าถึงน้อยมาก Gemini เป็นผู้แนะนำการปรับปรุงเหล่านี้ในระหว่างการสนทนาเกี่ยวกับการเขียนโปรแกรมของเรา
+
+และสำหรับการเปลี่ยนแปลง HTML เพื่อปรับปรุงการเข้าถึงเหล่านี้ ผมได้ถาม Gemini ถึงวิธีนำไปใช้ในระหว่างการสนทนาของเราและนำการปรับเปลี่ยนไปใช้
+
+## การหายไปของอุปสรรค
+
+AI สร้างสรรค์ถูกนำมาใช้ในหลากหลายวิธีเพื่อสร้างเว็บไซต์นี้ รวมถึงการสร้างโปรแกรม, การประมวลผลภาษาธรรมชาติสำหรับการแปลและการจัดระเบียบหมวดหมู่และแท็ก, และการเสนอประเด็นละเอียดอ่อนอย่างเช่นการเข้าถึง
+
+นอกจากนี้ การสร้างระบบอัปเดตอัตโนมัติเมื่อมีการเพิ่มบทความ ซึ่งรวมถึงการสร้าง HTML และการประมวลผลภาษาธรรมชาติสำหรับหมวดหมู่และแท็ก ทำให้ผมสามารถสร้างเว็บไซต์ที่เติบโตไปพร้อมกับบทความใหม่แต่ละบทความ
+
+จากการสร้างเว็บไซต์นี้ ผมรู้สึกอย่างแท้จริงว่าอุปสรรคต่าง ๆ สามารถเอาชนะได้ง่ายขึ้นด้วย AI สร้างสรรค์
+
+ประการแรกคืออุปสรรคทางภาษา การรองรับ 30 ภาษาในอดีตคงเป็นไปไม่ได้สำหรับบุคคลคนเดียว แม้จะพิจารณาถึงเรื่องการแปลก็ตาม
+
+นอกจากนี้ ยังมีความกังวลว่าบล็อกที่แปลแล้วจะสื่อถึงความหมายที่ตั้งใจไว้หรือไม่ และการแสดงออกอาจจะดูแปลกหรือน่ารังเกียจสำหรับเจ้าของภาษาหรือไม่
+
+การแปลของ AI สร้างสรรค์สามารถสื่อถึงความหมายที่ละเอียดอ่อนได้อย่างแม่นยำยิ่งขึ้น และใช้การแสดงออกที่เป็นธรรมชาติมากกว่าการแปลด้วยเครื่องจักรแบบดั้งเดิม ยิ่งไปกว่านั้น ผลลัพธ์ที่แปลแล้วยังสามารถป้อนกลับไปยัง AI สร้างสรรค์เพื่อตรวจสอบการใช้ถ้อยคำที่ผิดธรรมชาติหรือไม่เหมาะสมได้
+
+จากมุมมองของการทำให้เว็บไซต์เป็นหลายภาษา การจัดการองค์ประกอบต่างๆ เช่น วันที่และหน่วย ซึ่งมีการแสดงออกที่แตกต่างกันไปในแต่ละภาษา เป็นความท้าทาย
+
+ตัวอย่างเช่น หากมีบทความหนึ่งในหมวดหมู่แรก สองบทความในหมวดหมู่ที่สอง และสิบบทความในหมวดหมู่ที่สาม ในภาษาญี่ปุ่น จะเขียนง่ายๆ ว่า &#34;1記事 (1 article), 2記事 (2 articles), 10記事 (10 articles)&#34; โดยการต่อท้ายหน่วย &#34;記事&#34; หลังตัวเลข
+
+อย่างไรก็ตาม ในภาษาอังกฤษ คุณต้องแยกความแตกต่างระหว่างเอกพจน์และพหูพจน์ เช่น &#34;1 article, 2 articles, 10 articles&#34; นอกจากนี้ ในบางภาษา การแสดงออกยังสามารถเปลี่ยนแปลงได้สำหรับจำนวนพหูพจน์น้อย ๆ เทียบกับจำนวนพหูพจน์มาก ๆ
+
+ยิ่งไปกว่านั้น สำหรับภาษาอย่างภาษาอาหรับ ซึ่งเขียนจากขวาไปซ้าย เรายังต้องพิจารณาการจัดวางเว็บไซต์ทั้งหมดให้เป็นไปตามการเคลื่อนไหวของสายตาผู้อ่านจากขวาไปซ้ายเพื่อการไหลที่เป็นธรรมชาติ หากมีการใช้ลูกศรในข้อความหรือรูปภาพ อาจจำเป็นต้องพลิกกลับในแนวนอน ประเด็นเหล่านี้ยังได้รับการแก้ไขโดยให้ AI สร้างสรรค์ตรวจสอบ
+
+ด้วยการทำงานเกี่ยวกับการทำให้เว็บไซต์เป็นหลายภาษาด้วย AI สร้างสรรค์ ผมสามารถจัดการกับประเด็นต่างๆ ที่อาจถูกมองข้ามหรือไม่ได้รับการพิจารณาด้วยวิธีการแบบดั้งเดิมได้อย่างละเอียดถี่ถ้วน
+
+เช่นเดียวกับการพิจารณาด้านการเข้าถึง ก่อนหน้านี้ ผมสามารถพิจารณาได้เฉพาะผู้ที่ดูเว็บไซต์ในลักษณะเดียวกับผมเท่านั้น
+
+อย่างไรก็ตาม AI สร้างสรรค์สามารถรวมข้อพิจารณาที่ผมอาจไม่สังเกตเห็น หรือที่ผมอาจละเลยเนื่องจากความพยายามที่เกี่ยวข้องได้อย่างง่ายดาย
+
+แม้ว่าการทำให้เป็นหลายภาษาและการเข้าถึงจะยังไม่สมบูรณ์แบบ แต่ผมเชื่อว่าคุณภาพของพวกเขาสูงกว่าอย่างท่วมท้นเมื่อเทียบกับสิ่งที่ผมสามารถทำได้ด้วยการคิดและค้นคว้าด้วยตัวเองเพียงลำพัง
+
+ด้วยวิธีนี้ AI สร้างสรรค์ได้ขจัดอุปสรรคมากมายต่อความพยายามของผมในการเผยแพร่ข้อมูลผ่านบทความบล็อก
+
+## สุดท้ายนี้
+
+ผมเป็นวิศวกรระบบที่มีประสบการณ์ด้านการเขียนโปรแกรมอย่างกว้างขวาง แม้ว่าผมจะไม่ได้สร้างเว็บไซต์สำหรับการทำงาน แต่ผมเคยสร้างโฮมเพจส่วนตัวหลายแห่งเป็นงานอดิเรกในอดีต
+
+ด้วยประสบการณ์นี้ และผ่านการสนทนากับ AI สร้างสรรค์ ทำให้ผมสามารถสร้างระบบสร้างเว็บไซต์บล็อกหลายภาษาอัตโนมัตินี้ได้ภายในเวลาประมาณสองสัปดาห์
+
+หากไม่มี AI สร้างสรรค์ ผมคงไม่คิดที่จะรองรับหลายภาษาเลย ในแง่นั้น อาจกล่าวได้ว่ามันก้าวข้ามขีดจำกัดของจินตนาการ
+
+ยิ่งไปกว่านั้น เมื่อพิจารณาถึงความพยายามในการจัดหมวดหมู่และติดแท็กทุกครั้งที่มีการเพิ่มบทความ มีความเป็นไปได้สูงที่เว็บไซต์จะหยุดการอัปเดตหลังจากสร้างเสร็จในครั้งแรก
+ด้วยระบบอัตโนมัติที่เกิดขึ้นได้จากการประมวลผลภาษาธรรมชาติของ AI สร้างสรรค์ ผมจึงสามารถเอาชนะอุปสรรคของการบำรุงรักษาและการอัปเดตได้
+
+นอกจากนี้ ระบบนี้ยังสามารถสร้างได้แม้กระทั่งผู้ที่ไม่มีประสบการณ์ด้านการเขียนโปรแกรมหรือการสร้างเว็บไซต์เช่นเดียวกับผม หากคุณแสดงบทความนี้ให้ AI สร้างสรรค์เช่น Gemini และแสดงความต้องการที่จะสร้างเว็บไซต์ดังกล่าว มันควรจะสอนวิธีให้คุณได้
+
+แม้ว่าผมจะสามารถเผยแพร่โปรแกรมของผมเพื่อการใช้งานอย่างแพร่หลายได้ แต่ในขณะที่ AI สร้างสรรค์กำลังกลายเป็นวิศวกรซอฟต์แวร์อย่างเต็มตัว ข้อมูลที่มีค่าที่สุดที่จะแบ่งปันจะไม่ใช่ตัวโปรแกรมเอง แต่เป็นการอธิบายแนวคิดและกลไกต่างๆ เช่นเดียวกับบทความนี้ แนวคิดและกลไกพื้นฐานสามารถเปลี่ยนแปลง ปรับปรุง และรวมเข้าด้วยกันได้ง่ายกว่าโปรแกรมเสียอีก
+
+สิ่งนี้บ่งชี้ว่าเมื่ออุปสรรคในการพัฒนาซอฟต์แวร์และการสร้างเว็บไซต์หายไป อุปสรรคในการเผยแพร่ข้อมูลของแต่ละบุคคลก็จะหายไปเช่นกัน
+
+ในทางเทคโนโลยี อินเทอร์เน็ตได้ขจัดอุปสรรคของการแลกเปลี่ยนข้อมูลไปเกือบทั้งหมดแล้ว แต่เราก็ยังคงถูกขัดขวางด้วยอุปสรรคต่างๆ เช่น ภาษาและการเข้าถึง
+
+แม้ว่าเราจะสามารถเอาชนะอุปสรรคเหล่านี้ได้ในระดับหนึ่งด้วยความเฉลียวฉลาดของผู้รับโดยใช้การแปลด้วยเครื่องและการแปลงข้อความเป็นคำพูด แต่ก็มีบางส่วนที่ไม่สามารถเอาชนะได้เว้นแต่ผู้ส่งข้อมูลจะดำเนินการและพิจารณา
+
+AI สร้างสรรค์ช่วยขจัดอุปสรรคเหล่านั้นที่ผู้ส่งข้อมูลต้องเอาชนะได้อย่างแม่นยำ
+
+แม้ว่าอุปสรรคทางภาษาและการเข้าถึงจะหายไป แต่ก็ยังคงมีอุปสรรคเพิ่มเติมอย่างหลีกเลี่ยงไม่ได้ เช่น ความแตกต่างทางวัฒนธรรม ประเพณี และค่านิยม สิ่งเหล่านี้อาจยากยิ่งกว่าที่จะเอาชนะ
+
+อย่างไรก็ตาม เพื่อเอาชนะอุปสรรคที่ยากลำบากเหล่านั้น เราต้องเอาชนะอุปสรรคที่อยู่ก่อนหน้าพวกมันก่อน เมื่อเราอยู่ตรงหน้าอุปสรรคนั้น แนวคิดและเทคนิคใหม่ๆ สำหรับการเอาชนะมันก็จะปรากฏขึ้น
+
+ด้วยวิธีนี้ เราอาจกำลังเข้าสู่ยุคที่อุปสรรคต่างๆ กำลังหายไปจากโลก นี่คือสิ่งที่ผมรู้สึกผ่านการสร้างเว็บไซต์นี้
+
+" data-copy-text="คัดลอก" data-copied-text="คัดลอกแล้ว!" data-copy-failed-text="คัดลอกไม่สำเร็จ" data-astro-cid-3ljf2kae> คัดลอก </button> </div> </header>  <article class="prose prose-lg max-w-none 
+      prose-headings:text-gray-900 prose-headings:font-bold
+      prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
+      prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
+      prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6
+      prose-h4:text-lg prose-h4:mb-2 prose-h4:mt-4
+      prose-p:text-lg prose-p:leading-relaxed prose-p:text-gray-800 prose-p:mb-6
+      prose-a:text-blue-600 prose-a:hover:text-blue-800 prose-a:underline
+      prose-strong:text-gray-900 prose-strong:font-semibold
+      prose-em:text-gray-700 prose-em:italic
+      prose-ul:text-lg prose-ol:text-lg prose-li:text-gray-800 prose-li:mb-2
+      prose-blockquote:border-l-4 prose-blockquote:border-blue-500 
+      prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-700
+      prose-blockquote:bg-blue-50 prose-blockquote:py-4 prose-blockquote:my-6 prose-blockquote:rounded-r-lg
+      prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded 
+      prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
+      prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
+      prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>ผมใช้ AI สร้างสรรค์ (Gemini) ในการสร้างเว็บไซต์ของตัวเอง เพื่อจัดระเบียบและรวบรวมบทความที่ผมเขียนลงบล็อก</p>
+<p>บันทึกการวิจัยของ Katoshi
+<a href="https://katoshi-mfacet.github.io/">https://katoshi-mfacet.github.io/</a></p>
+<p>เว็บไซต์นี้ถูกสร้างขึ้นโดยอัตโนมัติจากฉบับร่างบทความในบล็อกที่เขียนเป็นภาษาญี่ปุ่น</p>
+<p>คุณสมบัติของเว็บไซต์ได้แก่:</p>
+<ul>
+<li>สร้างอัตโนมัติจากฉบับร่างบทความ</li>
+<li>จัดระเบียบบทความด้วยการจัดหมวดหมู่และแท็ก</li>
+<li>รองรับ 30 ภาษาและการเข้าถึง</li>
+</ul>
+<h2>กลไกพื้นฐาน</h2>
+<p>กลไกพื้นฐานเกี่ยวข้องกับโปรแกรมที่สร้างขึ้นเองบนเฟรมเวิร์ก Astro ซึ่งจะสร้างไฟล์ HTML โดยอัตโนมัติจากฉบับร่างบทความ</p>
+<p>ผมพัฒนาโปรแกรมนี้ขึ้นมาเองโดยการสนทนากับ Gemini ของ Google</p>
+<p>ด้วยกลไกนี้ เมื่อผมเขียนฉบับร่างบทความและเริ่มกระบวนการสร้างใหม่ ไฟล์ HTML จะได้รับการอัปเดตและแสดงผลบนเว็บไซต์โดยอัตโนมัติ</p>
+<h2>การจัดหมวดหมู่และติดแท็ก</h2>
+<p>ผมยังได้พัฒนาโปรแกรมแยกต่างหากสำหรับการจัดหมวดหมู่และติดแท็ก</p>
+<p>โปรแกรมนี้จะส่งบทความไปยัง Gemini ผ่าน API เพื่อให้ Gemini จัดหมวดหมู่และติดแท็กโดยอัตโนมัติ</p>
+<p>ด้วยการให้รายการหมวดหมู่และแท็กพร้อมกับบทความ Gemini จะตีความความหมายของบทความและแนะนำสิ่งที่เหมาะสมได้อย่างเชี่ยวชาญ</p>
+<p>นอกจากนี้ รายการหมวดหมู่และแท็กเองก็ถูกกำหนดโดยการดึงข้อมูลจากบทความเก่าโดยใช้โปรแกรมที่สร้างขึ้นเองอีกโปรแกรมหนึ่ง ในส่วนนี้ก็ยังใช้ Gemini ด้วยเช่นกัน</p>
+<p>บทความเก่าจะถูกส่งไปยัง Gemini ผ่าน API ตามลำดับ เพื่อให้ Gemini ส่งออกหมวดหมู่และแท็กที่เป็นไปได้ จากนั้น หมวดหมู่และแท็กที่เป็นไปได้ที่ดึงมาจากบทความทั้งหมดจะถูกส่งไปยัง Gemini เพื่อสรุปรายการหมวดหมู่และแท็ก</p>
+<p>กระบวนการทั้งหมดนี้ยังถูกทำให้เป็นอัตโนมัติด้วยโปรแกรม</p>
+<h2>การแปลหลายภาษา</h2>
+<p>การแปลเป็นสิ่งจำเป็นสำหรับการสนับสนุนหลายภาษา แน่นอนว่า Gemini ก็ถูกนำมาใช้สำหรับการแปลนี้ด้วย</p>
+<p>มีรูปแบบการแปลสองแบบ:</p>
+<p>แบบแรกคือการแปลข้อความที่ใช้ทั่วไปทั่วทั้งเว็บไซต์ โดยไม่คำนึงถึงบทความ ซึ่งรวมถึงชื่อเมนู การแนะนำตัว และข้อความอื่น ๆ ที่คล้ายกัน</p>
+<p>อีกแบบคือการแปลฉบับร่างบทความเอง</p>
+<p>สำหรับการแปลทั้งสองประเภทนี้ ผมได้สร้างโปรแกรมที่กำหนดเองซึ่งดำเนินการแปลโดยใช้ API ของ Gemini</p>
+<h2>การเข้าถึง</h2>
+<p>การเข้าถึงได้รับการปรับปรุงโดยการเพิ่มคุณสมบัติหลายอย่างลงในไฟล์ HTML โดยพิจารณาว่าผู้พิการทางสายตาอาจต้องการฟังเนื้อหาบทความผ่านเสียง หรือผู้ที่มีปัญหาในการใช้เมาส์อาจต้องการเรียกดูเว็บไซต์ด้วยการควบคุมด้วยคีย์บอร์ดเท่านั้น</p>
+<p>ผมมีความรู้เรื่องการเข้าถึงน้อยมาก Gemini เป็นผู้แนะนำการปรับปรุงเหล่านี้ในระหว่างการสนทนาเกี่ยวกับการเขียนโปรแกรมของเรา</p>
+<p>และสำหรับการเปลี่ยนแปลง HTML เพื่อปรับปรุงการเข้าถึงเหล่านี้ ผมได้ถาม Gemini ถึงวิธีนำไปใช้ในระหว่างการสนทนาของเราและนำการปรับเปลี่ยนไปใช้</p>
+<h2>การหายไปของอุปสรรค</h2>
+<p>AI สร้างสรรค์ถูกนำมาใช้ในหลากหลายวิธีเพื่อสร้างเว็บไซต์นี้ รวมถึงการสร้างโปรแกรม, การประมวลผลภาษาธรรมชาติสำหรับการแปลและการจัดระเบียบหมวดหมู่และแท็ก, และการเสนอประเด็นละเอียดอ่อนอย่างเช่นการเข้าถึง</p>
+<p>นอกจากนี้ การสร้างระบบอัปเดตอัตโนมัติเมื่อมีการเพิ่มบทความ ซึ่งรวมถึงการสร้าง HTML และการประมวลผลภาษาธรรมชาติสำหรับหมวดหมู่และแท็ก ทำให้ผมสามารถสร้างเว็บไซต์ที่เติบโตไปพร้อมกับบทความใหม่แต่ละบทความ</p>
+<p>จากการสร้างเว็บไซต์นี้ ผมรู้สึกอย่างแท้จริงว่าอุปสรรคต่าง ๆ สามารถเอาชนะได้ง่ายขึ้นด้วย AI สร้างสรรค์</p>
+<p>ประการแรกคืออุปสรรคทางภาษา การรองรับ 30 ภาษาในอดีตคงเป็นไปไม่ได้สำหรับบุคคลคนเดียว แม้จะพิจารณาถึงเรื่องการแปลก็ตาม</p>
+<p>นอกจากนี้ ยังมีความกังวลว่าบล็อกที่แปลแล้วจะสื่อถึงความหมายที่ตั้งใจไว้หรือไม่ และการแสดงออกอาจจะดูแปลกหรือน่ารังเกียจสำหรับเจ้าของภาษาหรือไม่</p>
+<p>การแปลของ AI สร้างสรรค์สามารถสื่อถึงความหมายที่ละเอียดอ่อนได้อย่างแม่นยำยิ่งขึ้น และใช้การแสดงออกที่เป็นธรรมชาติมากกว่าการแปลด้วยเครื่องจักรแบบดั้งเดิม ยิ่งไปกว่านั้น ผลลัพธ์ที่แปลแล้วยังสามารถป้อนกลับไปยัง AI สร้างสรรค์เพื่อตรวจสอบการใช้ถ้อยคำที่ผิดธรรมชาติหรือไม่เหมาะสมได้</p>
+<p>จากมุมมองของการทำให้เว็บไซต์เป็นหลายภาษา การจัดการองค์ประกอบต่างๆ เช่น วันที่และหน่วย ซึ่งมีการแสดงออกที่แตกต่างกันไปในแต่ละภาษา เป็นความท้าทาย</p>
+<p>ตัวอย่างเช่น หากมีบทความหนึ่งในหมวดหมู่แรก สองบทความในหมวดหมู่ที่สอง และสิบบทความในหมวดหมู่ที่สาม ในภาษาญี่ปุ่น จะเขียนง่ายๆ ว่า &quot;1記事 (1 article), 2記事 (2 articles), 10記事 (10 articles)&quot; โดยการต่อท้ายหน่วย &quot;記事&quot; หลังตัวเลข</p>
+<p>อย่างไรก็ตาม ในภาษาอังกฤษ คุณต้องแยกความแตกต่างระหว่างเอกพจน์และพหูพจน์ เช่น &quot;1 article, 2 articles, 10 articles&quot; นอกจากนี้ ในบางภาษา การแสดงออกยังสามารถเปลี่ยนแปลงได้สำหรับจำนวนพหูพจน์น้อย ๆ เทียบกับจำนวนพหูพจน์มาก ๆ</p>
+<p>ยิ่งไปกว่านั้น สำหรับภาษาอย่างภาษาอาหรับ ซึ่งเขียนจากขวาไปซ้าย เรายังต้องพิจารณาการจัดวางเว็บไซต์ทั้งหมดให้เป็นไปตามการเคลื่อนไหวของสายตาผู้อ่านจากขวาไปซ้ายเพื่อการไหลที่เป็นธรรมชาติ หากมีการใช้ลูกศรในข้อความหรือรูปภาพ อาจจำเป็นต้องพลิกกลับในแนวนอน ประเด็นเหล่านี้ยังได้รับการแก้ไขโดยให้ AI สร้างสรรค์ตรวจสอบ</p>
+<p>ด้วยการทำงานเกี่ยวกับการทำให้เว็บไซต์เป็นหลายภาษาด้วย AI สร้างสรรค์ ผมสามารถจัดการกับประเด็นต่างๆ ที่อาจถูกมองข้ามหรือไม่ได้รับการพิจารณาด้วยวิธีการแบบดั้งเดิมได้อย่างละเอียดถี่ถ้วน</p>
+<p>เช่นเดียวกับการพิจารณาด้านการเข้าถึง ก่อนหน้านี้ ผมสามารถพิจารณาได้เฉพาะผู้ที่ดูเว็บไซต์ในลักษณะเดียวกับผมเท่านั้น</p>
+<p>อย่างไรก็ตาม AI สร้างสรรค์สามารถรวมข้อพิจารณาที่ผมอาจไม่สังเกตเห็น หรือที่ผมอาจละเลยเนื่องจากความพยายามที่เกี่ยวข้องได้อย่างง่ายดาย</p>
+<p>แม้ว่าการทำให้เป็นหลายภาษาและการเข้าถึงจะยังไม่สมบูรณ์แบบ แต่ผมเชื่อว่าคุณภาพของพวกเขาสูงกว่าอย่างท่วมท้นเมื่อเทียบกับสิ่งที่ผมสามารถทำได้ด้วยการคิดและค้นคว้าด้วยตัวเองเพียงลำพัง</p>
+<p>ด้วยวิธีนี้ AI สร้างสรรค์ได้ขจัดอุปสรรคมากมายต่อความพยายามของผมในการเผยแพร่ข้อมูลผ่านบทความบล็อก</p>
+<h2>สุดท้ายนี้</h2>
+<p>ผมเป็นวิศวกรระบบที่มีประสบการณ์ด้านการเขียนโปรแกรมอย่างกว้างขวาง แม้ว่าผมจะไม่ได้สร้างเว็บไซต์สำหรับการทำงาน แต่ผมเคยสร้างโฮมเพจส่วนตัวหลายแห่งเป็นงานอดิเรกในอดีต</p>
+<p>ด้วยประสบการณ์นี้ และผ่านการสนทนากับ AI สร้างสรรค์ ทำให้ผมสามารถสร้างระบบสร้างเว็บไซต์บล็อกหลายภาษาอัตโนมัตินี้ได้ภายในเวลาประมาณสองสัปดาห์</p>
+<p>หากไม่มี AI สร้างสรรค์ ผมคงไม่คิดที่จะรองรับหลายภาษาเลย ในแง่นั้น อาจกล่าวได้ว่ามันก้าวข้ามขีดจำกัดของจินตนาการ</p>
+<p>ยิ่งไปกว่านั้น เมื่อพิจารณาถึงความพยายามในการจัดหมวดหมู่และติดแท็กทุกครั้งที่มีการเพิ่มบทความ มีความเป็นไปได้สูงที่เว็บไซต์จะหยุดการอัปเดตหลังจากสร้างเสร็จในครั้งแรก
+ด้วยระบบอัตโนมัติที่เกิดขึ้นได้จากการประมวลผลภาษาธรรมชาติของ AI สร้างสรรค์ ผมจึงสามารถเอาชนะอุปสรรคของการบำรุงรักษาและการอัปเดตได้</p>
+<p>นอกจากนี้ ระบบนี้ยังสามารถสร้างได้แม้กระทั่งผู้ที่ไม่มีประสบการณ์ด้านการเขียนโปรแกรมหรือการสร้างเว็บไซต์เช่นเดียวกับผม หากคุณแสดงบทความนี้ให้ AI สร้างสรรค์เช่น Gemini และแสดงความต้องการที่จะสร้างเว็บไซต์ดังกล่าว มันควรจะสอนวิธีให้คุณได้</p>
+<p>แม้ว่าผมจะสามารถเผยแพร่โปรแกรมของผมเพื่อการใช้งานอย่างแพร่หลายได้ แต่ในขณะที่ AI สร้างสรรค์กำลังกลายเป็นวิศวกรซอฟต์แวร์อย่างเต็มตัว ข้อมูลที่มีค่าที่สุดที่จะแบ่งปันจะไม่ใช่ตัวโปรแกรมเอง แต่เป็นการอธิบายแนวคิดและกลไกต่างๆ เช่นเดียวกับบทความนี้ แนวคิดและกลไกพื้นฐานสามารถเปลี่ยนแปลง ปรับปรุง และรวมเข้าด้วยกันได้ง่ายกว่าโปรแกรมเสียอีก</p>
+<p>สิ่งนี้บ่งชี้ว่าเมื่ออุปสรรคในการพัฒนาซอฟต์แวร์และการสร้างเว็บไซต์หายไป อุปสรรคในการเผยแพร่ข้อมูลของแต่ละบุคคลก็จะหายไปเช่นกัน</p>
+<p>ในทางเทคโนโลยี อินเทอร์เน็ตได้ขจัดอุปสรรคของการแลกเปลี่ยนข้อมูลไปเกือบทั้งหมดแล้ว แต่เราก็ยังคงถูกขัดขวางด้วยอุปสรรคต่างๆ เช่น ภาษาและการเข้าถึง</p>
+<p>แม้ว่าเราจะสามารถเอาชนะอุปสรรคเหล่านี้ได้ในระดับหนึ่งด้วยความเฉลียวฉลาดของผู้รับโดยใช้การแปลด้วยเครื่องและการแปลงข้อความเป็นคำพูด แต่ก็มีบางส่วนที่ไม่สามารถเอาชนะได้เว้นแต่ผู้ส่งข้อมูลจะดำเนินการและพิจารณา</p>
+<p>AI สร้างสรรค์ช่วยขจัดอุปสรรคเหล่านั้นที่ผู้ส่งข้อมูลต้องเอาชนะได้อย่างแม่นยำ</p>
+<p>แม้ว่าอุปสรรคทางภาษาและการเข้าถึงจะหายไป แต่ก็ยังคงมีอุปสรรคเพิ่มเติมอย่างหลีกเลี่ยงไม่ได้ เช่น ความแตกต่างทางวัฒนธรรม ประเพณี และค่านิยม สิ่งเหล่านี้อาจยากยิ่งกว่าที่จะเอาชนะ</p>
+<p>อย่างไรก็ตาม เพื่อเอาชนะอุปสรรคที่ยากลำบากเหล่านั้น เราต้องเอาชนะอุปสรรคที่อยู่ก่อนหน้าพวกมันก่อน เมื่อเราอยู่ตรงหน้าอุปสรรคนั้น แนวคิดและเทคนิคใหม่ๆ สำหรับการเอาชนะมันก็จะปรากฏขึ้น</p>
+<p>ด้วยวิธีนี้ เราอาจกำลังเข้าสู่ยุคที่อุปสรรคต่างๆ กำลังหายไปจากโลก นี่คือสิ่งที่ผมรู้สึกผ่านการสร้างเว็บไซต์นี้</p>
+</article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <div class="flex items-center mb-3"> <div class="bg-green-100 p-2 rounded-lg mr-3">  </div> <h3 class="text-lg font-semibold text-gray-900"> หมวดหมู่ </h3> </div> <div class="space-y-2"> <div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/th/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> เทคโนโลยี </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/th/categories/artificial-intelligence/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ปัญญาประดิษฐ์ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/th/categories/ai-applications/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> การประยุกต์ใช้ AI </a> </div> </div> </div><div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/th/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> เทคโนโลยี </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/th/categories/software-development/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> การพัฒนาซอฟต์แวร์ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/th/categories/tools-frameworks/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> เครื่องมือและเฟรมเวิร์ก </a> </div> </div> </div><div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/th/categories/business/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ธุรกิจ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/th/categories/digital-marketing/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> การตลาดดิจิทัล </a> </div> </div> </div> </div> </div> <div> <div class="flex items-center mb-3"> <div class="bg-purple-100 p-2 rounded-lg mr-3">  </div> <h3 class="text-lg font-semibold text-gray-900"> แท็ก </h3> </div> <div class="flex flex-wrap gap-2"> <a href="/th/tags/generative-ai/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="AI สร้างสรรค์ (คำศัพท์มาตรฐาน)"> <span></span>
+#AI สร้างสรรค์  </a><a href="/th/tags/gemini/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="Gemini (คำศัพท์มาตรฐาน)"> <span></span>
+#Gemini  </a><a href="/th/tags/astro/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="Astro (คำศัพท์มาตรฐาน)"> <span></span>
+#Astro  </a><a href="/th/tags/natural-language-processing/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="การประมวลผลภาษาธรรมชาติ (คำศัพท์มาตรฐาน)"> <span></span>
+#การประมวลผลภาษาธรรมชาติ  </a><a href="/th/tags/api/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="API (คำศัพท์มาตรฐาน)"> <span></span>
+#API  </a><a href="/th/tags/html/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="HTML (คำศัพท์มาตรฐาน)"> <span></span>
+#HTML  </a> </div> </div> </div> </div> </div>  <div class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-2zkmu4eg> <!-- セクションタイトル --> <div class="flex items-center mb-8" data-astro-cid-2zkmu4eg> <div class="bg-blue-100 p-3 rounded-full mr-4" data-astro-cid-2zkmu4eg> <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" data-astro-cid-2zkmu4eg></path> </svg> </div> <div data-astro-cid-2zkmu4eg> <h3 class="text-2xl font-bold text-gray-900" data-astro-cid-2zkmu4eg> บทความที่เกี่ยวข้อง </h3> <p class="text-gray-600 mt-1" data-astro-cid-2zkmu4eg> บทความอื่นๆ ที่เกี่ยวข้องกับหัวข้อนี้ </p> </div> </div> <!-- 関連記事リスト --> <div class="grid gap-6 md:grid-cols-2" data-astro-cid-2zkmu4eg> <a href="/th/articles/2025/07_12_Fate-of-Thinking/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> ชะตากรรมของการคิด: AI และมนุษยชาติ </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>อ่านเพิ่มเติม</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/th/articles/2025/07_30_Virtual-Intelligence-Orchestration/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> การจัดการปัญญาเสมือน </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>อ่านเพิ่มเติม</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/th/articles/2025/08_06_Micro-VM-Intelligence/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> กลไกความใส่ใจในฐานะปัญญาประดิษฐ์เสมือนขนาดเล็ก </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>อ่านเพิ่มเติม</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/th/articles/2025/07_28_Liquidware-Allrounder/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> วิศวกรทุกทิศทางในยุค Liquidware </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>อ่านเพิ่มเติม</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a> </div> <!-- 記事が少ない場合の追加メッセージ -->  <!-- さらに多くの記事へのリンク --> <div class="mt-8 text-center" data-astro-cid-2zkmu4eg> <a href="/th/articles/" class="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14-7H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 00-2-2V6a2 2 0 00-2-2z" data-astro-cid-2zkmu4eg></path> </svg> ดูบทความทั้งหมด </a> </div> </div>   <nav class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/th/articles/2025/08_19_Dev-Development/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ก่อนหน้า </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> การพัฒนาแบบเน้นการพัฒนาและการทดสอบที่ขับเคลื่อนด้วยการปรับโครงสร้างโค้ด </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 19 ส.ค. 2568 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw>  </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/th/articles/2025/08_19_Dev-Development/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ก่อนหน้า </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> การพัฒนาแบบเน้นการพัฒนาและการทดสอบที่ขับเคลื่อนด้วยการปรับโครงสร้างโค้ด </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 19 ส.ค. 2568 </div> </a>  </div> </nav>  </div>  </main> <footer class="bg-white border-t border-gray-200 py-12"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-4">บันทึกการวิจัยของ Katoshi</h3> <p class="text-gray-600 text-sm leading-relaxed"> บันทึกการวิจัยโดยวิศวกรซอฟต์แวร์/สถาปนิกระบบ/ปริญญาเอกด้านวิศวกรรมศาสตร์ สำรวจกลไกกำเนิดชีวิต แก่นแท้ของปรากฏการณ์ชีวิต และโครงสร้างของปัญญาและสังคมผ่านประสบการณ์การพัฒนาซอฟต์แวร์ </p> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> แผนผังเว็บไซต์ </h4> <ul class="space-y-2 text-sm"> <li><a href="/th/articles/" class="text-gray-600 hover:text-blue-600 transition-colors">บทความ</a></li> <li><a href="/th/categories/" class="text-gray-600 hover:text-blue-600 transition-colors">หมวดหมู่</a></li> <li><a href="/th/tags/" class="text-gray-600 hover:text-blue-600 transition-colors">แท็ก</a></li> <li><a href="/th/about/" class="text-gray-600 hover:text-blue-600 transition-colors">เกี่ยวกับ</a></li> </ul> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> ติดตาม </h4> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="ติดตามบน X" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ติดตามบน Note" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="สมัครสมาชิกบน YouTube" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ติดตามบน Medium" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </div> <div class="mt-8 pt-8 border-t border-gray-200 text-center"> <p class="text-gray-500 text-sm mb-2"> © 2025 Katoshi สร้างด้วย Astro. </p> <div class="text-xs text-gray-500 space-y-1"> <p>เว้นแต่จะระบุไว้เป็นอย่างอื่น เนื้อหาบนเว็บไซต์นี้อยู่ภายใต้ <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en"  target="_blank" rel="license noopener noreferrer" class="underline hover:text-blue-600">CC0 1.0 Universal</a>.</p> </div> <p class="text-gray-400 text-xs mb-1"> บทความบนเว็บไซต์นี้เป็นภาษาได้หลายภาษาจากภาษาญี่ปุ่นโดยใช้การแปลด้วย AI </p> <p class="text-gray-400 text-xs"> บทความมีให้บริการใน 30 ภาษา </p> </div> </div> </footer> <script type="module">const e=document.getElementById("mobile-menu-button"),n=document.getElementById("mobile-menu");e&&n&&e.addEventListener("click",()=>{const t=e.getAttribute("aria-expanded")==="true";e.setAttribute("aria-expanded",String(!t)),n.classList.toggle("hidden",t)});</script>  </body> </html> <script>
+  const copyBtn = document.getElementById('copy-article');
+
+  // data-* 属性から翻訳テキストを取得
+  const copyText = copyBtn.dataset.copyText;
+  const copiedText = copyBtn.dataset.copiedText;
+  const copyFailedText = copyBtn.dataset.copyFailedText;
+
+  const handleSuccess = () => {
+    if (copyBtn) {
+      // ハードコードされたテキストを動的な値に置き換え
+      copyBtn.textContent = copiedText; 
+      setTimeout(() => {
+        // ハードコードされたテキストを動的な値に置き換え
+        copyBtn.textContent = copyText;
+      }, 2000);
+    }
+  };
+
+  const fallbackCopy = text => {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.top = '-1000px';
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    const successful = document.execCommand('copy');
+    document.body.removeChild(textarea);
+    return successful;
+  };
+
+  copyBtn?.addEventListener('click', async () => {
+    try {
+      // データ属性から値を取得
+      const title = copyBtn.dataset.title || '';
+      const date = copyBtn.dataset.date || '';
+      const author = copyBtn.dataset.author || '';
+      const raw = copyBtn.dataset.content || '';
+
+      const processed = raw
+        .split('\n')
+        .map(line => {
+          const m = line.match(/^\s*#+\s*(.*)$/);
+          return m ? `## ${m[1]}` : line;
+        })
+        .join('\n');
+
+      const text = `${title}\n${date} ${author}\n\n${processed}`;
+
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        handleSuccess();
+      } else if (fallbackCopy(text)) {
+        handleSuccess();
+      } else {
+        throw new Error('Fallback copy failed');
+      }
+    } catch (err) {
+      console.error('コピーに失敗しました:', err);
+      if (copyBtn) {
+        // ハードコードされたテキストを動的な値に置き換え
+        copyBtn.textContent = copyFailedText; 
+        setTimeout(() => {
+          // ハードコードされたテキストを動的な値に置き換え
+          copyBtn.textContent = copyText;
+        }, 2000);
+      }
+    }
+  });
+</script> 
