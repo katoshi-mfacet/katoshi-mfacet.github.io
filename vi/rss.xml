@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/vi/rss.xml</link>
 <description>Latest articles (vi)</description>
 <item>
+  <title>Bước vào kỷ nguyên không biên giới: Tạo một trang blog 30 ngôn ngữ</title>
+  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Bài viết mô tả quá trình sử dụng AI tạo sinh, cụ thể là Gemini, để xây dựng một trang blog đa ngôn ngữ với 30 ngôn ngữ. Tác giả, một kỹ sư hệ thống, đã phát triển một quy trình tự động hóa bao gồm việc tạo HTML từ bản nháp bài viết bằng framework Astro, tự động phân loại và gắn thẻ bài viết bằng cách sử dụng Gemini qua API, cũng như dịch thuật nội dung trang và bài viết. Gemini cũng đóng vai trò quan trọng trong việc cải thiện khả năng tiếp cận của trang web bằng cách đề xuất các tính năng cho người khiếm thị và người dùng bàn phím. Bài viết nhấn mạnh AI tạo sinh đã giúp vượt qua các rào cản truyền thống về ngôn ngữ, kỹ thuật và chi phí cho việc đa ngôn ngữ hóa và bảo trì trang web, mở ra kỷ nguyên mới nơi các rào cản thông tin dần biến mất.</description>
+</item>
+<item>
+  <title>Phát triển kiểu phát triển và kiểm thử theo hướng tái cấu trúc</title>
+  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Bài viết đề xuất hai phương pháp phát triển và kiểm thử phần mềm mới, nhằm tối ưu hóa quy trình trong kỷ nguyên AI tạo sinh. Đầu tiên, "phát triển theo hướng phát triển" (developmental development) tập trung vào việc tạo ra các phần mềm hỗ trợ quá trình phát triển cốt lõi. Bằng cách liên tục tạo ra các công cụ hữu ích, quy trình phát triển được cải thiện về hiệu quả và chất lượng, với các tài sản có thể tái sử dụng cho các dự án tương lai. Thứ hai, "kiểm thử theo hướng tái cấu trúc" (refactoring-oriented testing) nhấn mạnh việc tạo các bài kiểm thử khi quá trình tái cấu trúc trở nên cần thiết, tập trung vào các phần mã ổn định để đảm bảo không phát sinh lỗi mới, thay vì áp dụng kiểm thử toàn diện ngay từ đầu. Cả hai phương pháp này được xem là bước tiến quan trọng, dẫn đến các chân trời mới trong phát triển phần mềm, đặc biệt khi kết hợp với vai trò ngày càng tăng của AI tạo sinh và hướng tới các kỹ sư đa năng cùng phát triển tập trung vào trải nghiệm người dùng.</description>
+</item>
+<item>
   <title>Nén thời gian và Điểm mù: Sự cần thiết của Quy định</title>
   <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_16_Time-Compression-Blindspot/</guid>
