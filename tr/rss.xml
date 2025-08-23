@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/tr/rss.xml</link>
 <description>Latest articles (tr)</description>
 <item>
+  <title>Sınırların Olmadığı Bir Çağa Giriş: 30 Dilde Blog Sitesi Oluşturma</title>
+  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Bu makale, üretken yapay zeka (Gemini) kullanılarak Japonca blog taslaklarından otomatik olarak 30 dilde ve erişilebilirliğe sahip bir web sitesi oluşturma sürecini detaylandırmaktadır. Yazar, Astro çerçevesi üzerine kurulu özel programlar aracılığıyla HTML dosyalarının otomatik üretimini, makalelerin Gemini ile otomatik kategorizasyonunu ve etiketlenmesini, ayrıca hem site içi metinlerin hem de makale taslaklarının çok dilli çevirisini açıklamaktadır. Erişilebilirlik özellikleri de yine Gemini'nin önerileriyle iyileştirilmiştir. Makale, üretken yapay zekanın dil ve erişilebilirlik engellerini nasıl aştığını vurgulayarak, bireysel bilgi yayımının önündeki geleneksel engellerin kalktığı bir döneme işaret etmektedir. Sistem, iki hafta gibi kısa bir sürede kurulmuş olup, deneyimi olmayan kişiler tarafından dahi kolayca uygulanabilirliği vurgulanmıştır.</description>
+</item>
+<item>
+  <title>Gelişimsel Gelişim ve Refaktoring Odaklı Test</title>
+  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Bu makale, yazılım geliştirmede devrim yaratan üretken yapay zekanın etkilerini incelemektedir. "Gelişimsel Gelişim" adı verilen yeni bir yaklaşım önerilmektedir; bu yaklaşımda, geliştirme sürecini kolaylaştıran yardımcı yazılımlar üretken yapay zeka kullanılarak hızla oluşturulur ve bu yazılımlar gelecekteki geliştirmelerde tekrar kullanılabilir. Bu, genel verimliliği artırır ve geliştirme metodolojisini dönüştürür. Makale ayrıca "Refaktoring Odaklı Test" kavramını tanıtarak, Test Odaklı Geliştirme'nin (TDD) her zaman en uygun yaklaşım olmadığını savunmaktadır. Özellikle kullanılabilirlik ve görsel tasarım gibi sübjektif yönler içeren uygulamalarda, yazılımın fiilen çalıştırılıp etkileşimde bulunulmasının ardından refaktoring aşamasında testler oluşturmanın daha mantıklı olduğunu belirtir. Amaç, gelecekte az değişmesi beklenen olgun kısımları test etmek ve değişken kısımları testsiz bırakmaktır. Bu iki yaklaşımın, "Çok Yönlü Mühendis" ve "Deneyim ve Davranış Odaklı Geliştirme" gibi yeni yazılım geliştirme paradigmalarına yol açtığı sonucuna varılmaktadır.</description>
+</item>
+<item>
   <title>Zaman Sıkışması ve Kör Noktalar: Düzenleme İhtiyacı</title>
   <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_16_Time-Compression-Blindspot/</guid>
