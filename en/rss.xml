@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/en/rss.xml</link>
 <description>Latest articles (en)</description>
 <item>
+  <title>Entering an Era Without Borders: Creating a 30-Language Blog Site</title>
+  <link>https://katoshi-mfacet.github.io/en/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/en/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>The author details the creation of a 30-language blog site, "Katoshi's Research Notes," using generative AI (Gemini). The process involved developing custom programs, with Gemini assisting in website structure generation (Astro framework), automatic HTML file creation from drafts, and article organization through categorization and tagging. Gemini also handled multilingual translation for site-wide strings and article content, and importantly, suggested and implemented accessibility features. The author emphasizes how generative AI dissolved barriers such as language, nuanced expression in translation, date/unit formatting across languages, right-to-left text layout, and accessibility considerations. The system automates updates, overcoming maintenance barriers. The author posits that generative AI democratizes website creation and information dissemination, enabling individuals to overcome traditional technical and linguistic hurdles, paving the way for an era of diminishing barriers.</description>
+</item>
+<item>
+  <title>Developmental Development and Refactoring-Driven Testing</title>
+  <link>https://katoshi-mfacet.github.io/en/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/en/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>This article discusses how generative AI is revolutionizing software development. It introduces "developmental development," a paradigm where developers create auxiliary software tools during the development process itself, leveraging generative AI for efficiency and reusability. This approach aims to continuously improve development methodology, leading to enhanced quality and cost-effectiveness over time. The article also proposes "refactoring-driven testing" as an alternative to Test-Driven Development (TDD). It argues that for software with subjective elements like UI/UX, direct interaction and subsequent refactoring are crucial. Testing becomes necessary during refactoring to ensure no functional defects are introduced, focusing on stable code sections rather than all code. Both developmental development and refactoring-driven testing are presented as key elements for advancing software development towards omni-directional engineering and experience-centric development.</description>
+</item>
+<item>
   <title>Time Compression and Blind Spots: The Need for Regulation</title>
   <link>https://katoshi-mfacet.github.io/en/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/en/articles/2025/08_16_Time-Compression-Blindspot/</guid>
