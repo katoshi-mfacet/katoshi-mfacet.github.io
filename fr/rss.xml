@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/fr/rss.xml</link>
 <description>Latest articles (fr)</description>
 <item>
+  <title>Entrer dans une ère sans frontières : Création d'un site de blog en 30 langues</title>
+  <link>https://katoshi-mfacet.github.io/fr/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/fr/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Cet article détaille la création d'un site de blog multilingue en 30 langues, entièrement automatisée grâce à l'IA générative (Gemini). L'auteur, un ingénieur système, explique comment il a utilisé Gemini pour développer un programme personnalisé basé sur le framework Astro. Ce programme génère automatiquement des fichiers HTML à partir de brouillons d'articles. De plus, un autre programme, utilisant l'API de Gemini, assure la catégorisation et l'étiquetage des articles en analysant leur contenu et en extrayant des listes de tags et catégories à partir d'articles existants. La traduction multilingue des textes du site et des articles est également gérée par Gemini, qui excelle à transmettre les nuances et à produire des expressions naturelles, surpassant la traduction automatique traditionnelle. L'article souligne également l'amélioration de l'accessibilité du site, avec des suggestions de Gemini pour une navigation au clavier et une écoute audio, des aspects que l'auteur n'avait pas envisagés initialement. L'IA générative a ainsi permis de surmonter des barrières traditionnellement insurmontables pour un individu, notamment linguistiques et d'accessibilité, facilitant la diffusion d'informations et ouvrant la voie à une ère où les obstacles à la communication sont de plus en plus levés.</description>
+</item>
+<item>
+  <title>Développement itératif et tests basés sur le refactoring</title>
+  <link>https://katoshi-mfacet.github.io/fr/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/fr/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Cet article explore une nouvelle approche du développement logiciel, le développement itératif, rendue possible par l'IA générative. Le développement est redéfini comme la création itérative d'utilités, allant au-delà de la simple production. L'IA générative révolutionne le développement logiciel en permettant la création rapide d'outils auxiliaires, qui à leur tour améliorent l'efficacité et la qualité du développement principal. Le développement itératif consiste à créer continuellement ces outils durant le processus, augmentant ainsi les actifs réutilisables et l'efficacité globale. Parallèlement, une approche de test révisée, les tests axés sur le refactoring, est proposée. Contrairement au TDD traditionnel, elle suggère de créer des tests pour les parties matures du logiciel lors des refactorisations nécessaires, plutôt qu'en amont. Cette méthode reconnaît que les changements fréquents, notamment en UI/UX, rendent les tests prématurés inefficaces. L'article conclut que ces deux approches sont essentielles pour évoluer vers des ingénieurs omnidirectionnels et un développement centré sur l'expérience utilisateur.</description>
+</item>
+<item>
   <title>Compression du temps et angles morts : La nécessité d'une régulation</title>
   <link>https://katoshi-mfacet.github.io/fr/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/fr/articles/2025/08_16_Time-Compression-Blindspot/</guid>
