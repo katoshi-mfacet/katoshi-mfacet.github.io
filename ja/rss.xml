@@ -5,6 +5,13 @@
 <link>https://katoshi-mfacet.github.io/ja/rss.xml</link>
 <description>Latest articles (ja)</description>
 <item>
+  <title>壁が無くなる時代へ：30ヶ国語ブログサイト作成</title>
+  <link>https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>本記事は、生成AI（Gemini）を活用して、個人が所有するブログ記事を多言語対応かつアクセシブルなWebサイトとして自動生成・公開する仕組みを構築した事例について解説している。筆者はシステムエンジニアとしての経験とGeminiとの対話を通じて、Webサイトの基本構造のプログラミング、記事のカテゴリ分け・タグ付け、30ヶ国語への翻訳、そしてアクセシビリティ向上策といった多岐にわたる開発プロセスを短期間（約2週間）で実現した。特に、Geminiは原稿からのHTML自動生成、API連携によるカテゴリ・タグの提案と決定、自然言語処理を伴う多言語翻訳、さらにはアクセシビリティに関する提案といった、従来であれば専門知識や多大な工数を要する作業を支援した。これにより、言語の壁、アクセシビリティの壁、そしてメンテナンスや更新の壁といった、情報発信における様々な障壁が生成AIによって軽減されたことが強調されている。筆者は、この経験から、生成AIが個人による情報発信のハードルを劇的に下げ、文化・習慣・価値観といったより本質的な壁に挑戦する機会を提供すると結論づけている。この仕組みはプログラミング経験のない個人でも構築可能であり、アイデアと基本的な仕組みの共有が、プログラムそのものよりも価値があると指摘している。</description>
+</item>
+<item>
   <title>開発型開発とリファクタリング駆動テスト</title>
   <link>https://katoshi-mfacet.github.io/ja/articles/2025/08_19_Dev-Development/</link>
   <guid>https://katoshi-mfacet.github.io/ja/articles/2025/08_19_Dev-Development/</guid>

@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="ja" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet"><title>壁が無くなる時代へ：30ヶ国語ブログサイト作成 | katoshiの研究ノート</title><meta name="description" content="本記事は、生成AI（Gemini）を活用して、個人が所有するブログ記事を多言語対応かつアクセシブルなWebサイトとして自動生成・公開する仕組みを構築した事例について解説している。筆者はシステムエンジニアとしての経験とGeminiとの対話を通じて、Webサイトの基本構造のプログラミング、記事のカテゴリ分け・タグ付け、3…"><meta name="keywords" content="AI, ソフトウェア開発, システム設計, 生命科学, 博士, エンジニア, 研究, 思考法, シミュレーション思考, リキッドウェア, フレームワーク設計, 仮想知能"><meta name="author"><!-- Canonical --><link rel="canonical" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><!-- hreflang（x-default 含む） --><link rel="alternate" hreflang="ja" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="en" href="https://katoshi-mfacet.github.io/en/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="zh" href="https://katoshi-mfacet.github.io/zh/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="hi" href="https://katoshi-mfacet.github.io/hi/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="es" href="https://katoshi-mfacet.github.io/es/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="fr" href="https://katoshi-mfacet.github.io/fr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ar" href="https://katoshi-mfacet.github.io/ar/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="bn" href="https://katoshi-mfacet.github.io/bn/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ru" href="https://katoshi-mfacet.github.io/ru/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pt" href="https://katoshi-mfacet.github.io/pt/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ur" href="https://katoshi-mfacet.github.io/ur/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="id" href="https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="de" href="https://katoshi-mfacet.github.io/de/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pa" href="https://katoshi-mfacet.github.io/pa/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pcm" href="https://katoshi-mfacet.github.io/pcm/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="mr" href="https://katoshi-mfacet.github.io/mr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="te" href="https://katoshi-mfacet.github.io/te/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="tr" href="https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ta" href="https://katoshi-mfacet.github.io/ta/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="jv" href="https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="ko" href="https://katoshi-mfacet.github.io/ko/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="vi" href="https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="it" href="https://katoshi-mfacet.github.io/it/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="fa" href="https://katoshi-mfacet.github.io/fa/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="gu" href="https://katoshi-mfacet.github.io/gu/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="th" href="https://katoshi-mfacet.github.io/th/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="pl" href="https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="uk" href="https://katoshi-mfacet.github.io/uk/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="sw" href="https://katoshi-mfacet.github.io/sw/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="nl" href="https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/"><link rel="alternate" hreflang="x-default" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><!-- Open Graph --><meta property="og:site_name" content="katoshiの研究ノート"><meta property="og:title" content="壁が無くなる時代へ：30ヶ国語ブログサイト作成 | katoshiの研究ノート"><meta property="og:description" content="本記事は、生成AI（Gemini）を活用して、個人が所有するブログ記事を多言語対応かつアクセシブルなWebサイトとして自動生成・公開する仕組みを構築した事例について解説している。筆者はシステムエンジニアとしての経験とGeminiとの対話を通じて、Webサイトの基本構造のプログラミング、記事のカテゴリ分け・タグ付け、3…"><meta property="og:url" content="https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta property="og:image:alt" content="壁が無くなる時代へ：30ヶ国語ブログサイト作成 | katoshiの研究ノート"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@katoshi_mfacet"><meta name="twitter:title" content="壁が無くなる時代へ：30ヶ国語ブログサイト作成 | katoshiの研究ノート"><meta name="twitter:description" content="本記事は、生成AI（Gemini）を活用して、個人が所有するブログ記事を多言語対応かつアクセシブルなWebサイトとして自動生成・公開する仕組みを構築した事例について解説している。筆者はシステムエンジニアとしての経験とGeminiとの対話を通じて、Webサイトの基本構造のプログラミング、記事のカテゴリ分け・タグ付け、3…"><meta name="twitter:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta name="twitter:image:alt" content="壁が無くなる時代へ：30ヶ国語ブログサイト作成 | katoshiの研究ノート"><meta property="article:published_time" content="2025-08-24T00:00:00.000Z"><meta property="article:section" content="テクノロジー"><meta property="article:tag" content="generative-ai"><meta property="article:tag" content="gemini"><meta property="article:tag" content="website-auto-generation"><meta property="article:tag" content="astro"><meta property="article:tag" content="api-integration"><meta property="article:tag" content="categorization"><meta property="article:tag" content="tagging"><meta property="article:tag" content="multi-language-support"><meta property="article:tag" content="accessibility"><meta property="article:tag" content="natural-language-processing"><meta property="article:tag" content="translation"><meta property="article:tag" content="html-generation"><meta property="article:tag" content="programming"><meta property="article:tag" content="information-dissemination"><meta property="article:tag" content="development-process"><meta property="article:tag" content="disappearance-of-barriers"><meta property="article:tag" content="explanation-of-idea-and-mechanism"><meta property="article:tag" content="maintainability"><meta property="article:tag" content="system-engineer"><meta property="article:tag" content="individual-information-dissemination"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"壁が無くなる時代へ：30ヶ国語ブログサイト作成","description":"本記事は、生成AI（Gemini）を活用して、個人が所有するブログ記事を多言語対応かつアクセシブルなWebサイトとして自動生成・公開する仕組みを構築した事例について解説している。筆者はシステムエンジニアとしての経験とGeminiとの対話を通じて、Webサイトの基本構造のプログラミング、記事のカテゴリ分け・タグ付け、3…","url":"https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/","mainEntityOfPage":"https://katoshi-mfacet.github.io/ja/articles/2025/08_24_Wall-Free-Era/","inLanguage":"ja","datePublished":"2025-08-24T00:00:00.000Z","dateModified":"2025-08-24T00:00:00.000Z","keywords":"generative-ai, gemini, website-auto-generation, astro, api-integration, categorization, tagging, multi-language-support, accessibility, natural-language-processing, translation, html-generation, programming, information-dissemination, development-process, disappearance-of-barriers, explanation-of-idea-and-mechanism, maintainability, system-engineer, individual-information-dissemination","author":{"@type":"Person","url":"https://katoshi-mfacet.github.io/ja/about/"},"publisher":{"@type":"Organization","name":"katoshiの研究ノート","logo":{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png"}},"image":[{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png","width":1200,"height":630}]}</script><link rel="stylesheet" href="/_astro/about.BD9cEVYN.css">
+<style>.line-clamp-2[data-astro-cid-nnxgeytw]{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3[data-astro-cid-nnxgeytw],.line-clamp-3[data-astro-cid-2zkmu4eg]{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.prose[data-astro-cid-3ljf2kae] .youtube-embed{margin:2rem 0;position:relative;width:100%;height:0;padding-bottom:56.25%}.prose[data-astro-cid-3ljf2kae] .youtube-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:.5rem}.prose[data-astro-cid-3ljf2kae] img[data-astro-cid-3ljf2kae]{border-radius:.5rem;box-shadow:0 10px 15px -3px #0000001a}.prose[data-astro-cid-3ljf2kae] table[data-astro-cid-3ljf2kae]{border-collapse:collapse;margin:1.5rem 0}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae],.prose[data-astro-cid-3ljf2kae] td[data-astro-cid-3ljf2kae]{border:1px solid #e5e7eb;padding:.75rem;text-align:left}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae]{background-color:#f9fafb;font-weight:600}
+#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=open]{display:block}#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=closed]{display:none}[dir=rtl] .rtl-flip{transform:scaleX(-1)}@keyframes glow{0%,to{background-color:#3b82f61a;box-shadow:0 0 4px #3b82f64d;border-color:#3b82f633}50%{background-color:#3b82f633;box-shadow:0 0 12px #3b82f680;border-color:#3b82f680}}@keyframes glow-dark{0%,to{background-color:#60a5fa26;box-shadow:0 0 5px #60a5fa66;border-color:#60a5fa4d}50%{background-color:#60a5fa40;box-shadow:0 0 14px #60a5fa99;border-color:#60a5fa99}}.highlight-language{border:2px solid transparent;animation:glow 2s infinite ease-in-out}:root.dark .highlight-language{animation-name:glow-dark}
+</style></head> <body class="min-h-screen bg-gray-50 font-sans "> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50 focus:outline-none focus:ring-2 focus:ring-blue-500"> コンテンツにスキップ </a> <header class="bg-white shadow-sm sticky top-0 z-40"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center py-4"> <div class="flex items-center space-x-8"> <a href="/ja/" class="text-lg sm:text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors"> <span class="hidden sm:inline">katoshiの研究ノート</span> <span class="sm:hidden">katoshi</span> </a> <nav class="hidden lg:flex space-x-6" role="navigation" aria-label="メインナビゲーション"> <a href="/ja/articles/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> 記事一覧 </a> <a href="/ja/categories/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> カテゴリ </a> <a href="/ja/tags/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> タグ </a> <a href="/ja/archive/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> アーカイブ </a> <a href="/ja/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> 用語集 </a> <a href="/ja/about/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> About </a> </nav> </div> <div class="flex items-center space-x-2 sm:space-x-4"> <!-- モバイル：SNSリンクを小さく --> <div class="hidden sm:block"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="Xでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="Noteでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTubeチャンネルを購読" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="Mediumでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> <!-- 言語切り替え --> <div class="flex items-center"> <span class="text-xs sm:text-sm text-gray-600 hidden sm:inline mr-2"> 言語: </span> <div id="lang-switcher-container" class="relative" data-astro-cid-a2mxz4y6> <div id="lang-switcher-visible" class="flex items-center gap-1 sm:gap-2" data-astro-cid-a2mxz4y6></div> <div id="lang-switcher-panel" class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10" data-state="closed" data-astro-cid-a2mxz4y6> <div class="border-b border-gray-200 p-3" data-astro-cid-a2mxz4y6> <p class="text-sm font-semibold text-gray-800" data-astro-cid-a2mxz4y6></p> </div> <div id="lang-switcher-list" class="py-1 max-h-60 overflow-y-auto" role="menu" aria-orientation="vertical" data-astro-cid-a2mxz4y6></div> </div> </div>  <script>(function(){const currentLang = "ja";
+const allLanguages = [{"code":"ja","name":"日本語","englishName":"Japanese","direction":"ltr","locale":"ja-JP","promptHint":"This is the original source text. Ensure all nuances are preserved for the pivot translation."},{"code":"en","name":"English","englishName":"English","direction":"ltr","locale":"en-US","promptHint":"Translate from Japanese into clear, academic English. This will serve as the pivot source for all other languages. Preserve the technical and philosophical nuances of the original Japanese text."},{"code":"zh","name":"中文","englishName":"Chinese","direction":"ltr","locale":"zh-CN","promptHint":"Translate from English into Simplified Chinese (简体中文). The original Japanese text may be provided for additional context. Use terminology common in mainland China's tech and academic communities."},{"code":"hi","name":"हिन्दी","englishName":"Hindi","direction":"ltr","locale":"hi-IN","promptHint":"Translate from English into standard Hindi using the Devanagari script. The original Japanese text may be provided for additional context. Ensure technical terms are appropriately transliterated or translated."},{"code":"es","name":"Español","englishName":"Spanish","direction":"ltr","locale":"es-ES","promptHint":"Translate from English into neutral, formal Spanish suitable for both Spain and Latin America. The original Japanese text may be provided for additional context."},{"code":"fr","name":"Français","englishName":"French","direction":"ltr","locale":"fr-FR","promptHint":"Translate from English into formal French, paying close attention to technical and philosophical nuances. The original Japanese text may be provided for additional context."},{"code":"ar","name":"العربية","englishName":"Arabic","direction":"rtl","locale":"ar-SA","promptHint":"Translate from English into Modern Standard Arabic. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"bn","name":"বাংলা","englishName":"Bengali","direction":"ltr","locale":"bn-BD","promptHint":"Translate from English into Bengali. The original Japanese text may be provided for additional context."},{"code":"ru","name":"Русский","englishName":"Russian","direction":"ltr","locale":"ru-RU","promptHint":"Translate from English into Russian. The original Japanese text may be provided for additional context."},{"code":"pt","name":"Português","englishName":"Portuguese","direction":"ltr","locale":"pt-PT","promptHint":"Translate from English into standard Portuguese (European). The original Japanese text may be provided for additional context."},{"code":"ur","name":"اردو","englishName":"Urdu","direction":"rtl","locale":"ur-PK","promptHint":"Translate from English into Urdu. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"id","name":"Bahasa Indonesia","englishName":"Indonesian","direction":"ltr","locale":"id-ID","promptHint":"Translate from English into Indonesian. The original Japanese text may be provided for additional context."},{"code":"de","name":"Deutsch","englishName":"German","direction":"ltr","locale":"de-DE","promptHint":"Translate from English into formal German. The original Japanese text may be provided for additional context."},{"code":"pa","name":"ਪੰਜਾਬੀ","englishName":"Punjabi","direction":"ltr","locale":"pa-IN","promptHint":"Translate from English into Punjabi, using the Gurmukhi script. The original Japanese text may be provided for additional context."},{"code":"pcm","name":"Nigerian Pidgin","englishName":"Nigerian Pidgin","direction":"ltr","locale":"en-NG","promptHint":"Translate from English into Nigerian Pidgin. Be careful to maintain the original meaning in this creole language. The original Japanese text may be provided for additional context."},{"code":"mr","name":"मराठी","englishName":"Marathi","direction":"ltr","locale":"mr-IN","promptHint":"Translate from English into Marathi. The original Japanese text may be provided for additional context."},{"code":"te","name":"తెలుగు","englishName":"Telugu","direction":"ltr","locale":"te-IN","promptHint":"Translate from English into Telugu. The original Japanese text may be provided for additional context."},{"code":"tr","name":"Türkçe","englishName":"Turkish","direction":"ltr","locale":"tr-TR","promptHint":"Translate from English into Turkish. The original Japanese text may be provided for additional context."},{"code":"ta","name":"தமிழ்","englishName":"Tamil","direction":"ltr","locale":"ta-IN","promptHint":"Translate from English into Tamil. The original Japanese text may be provided for additional context."},{"code":"jv","name":"Basa Jawa","englishName":"Javanese","direction":"ltr","locale":"jv-ID","promptHint":"Translate from English into Javanese. The original Japanese text may be provided for additional context."},{"code":"ko","name":"한국어","englishName":"Korean","direction":"ltr","locale":"ko-KR","promptHint":"Translate from English into Korean. The original Japanese text may be provided for additional context."},{"code":"vi","name":"Tiếng Việt","englishName":"Vietnamese","direction":"ltr","locale":"vi-VN","promptHint":"Translate from English into Vietnamese. The original Japanese text may be provided for additional context."},{"code":"it","name":"Italiano","englishName":"Italian","direction":"ltr","locale":"it-IT","promptHint":"Translate from English into Italian. The original Japanese text may be provided for additional context."},{"code":"fa","name":"فارسی","englishName":"Persian","direction":"rtl","locale":"fa-IR","promptHint":"Translate from English into Persian. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"gu","name":"ગુજરાતી","englishName":"Gujarati","direction":"ltr","locale":"gu-IN","promptHint":"Translate from English into Gujarati. The original Japanese text may be provided for additional context."},{"code":"th","name":"ไทย","englishName":"Thai","direction":"ltr","locale":"th-TH","promptHint":"Translate from English into Thai. The original Japanese text may be provided for additional context."},{"code":"pl","name":"Polski","englishName":"Polish","direction":"ltr","locale":"pl-PL","promptHint":"Translate from English into Polish. The original Japanese text may be provided for additional context."},{"code":"uk","name":"Українська","englishName":"Ukrainian","direction":"ltr","locale":"uk-UA","promptHint":"Translate from English into Ukrainian. The original Japanese text may be provided for additional context."},{"code":"sw","name":"Kiswahili","englishName":"Swahili","direction":"ltr","locale":"sw-KE","promptHint":"Translate from English into Swahili. The original Japanese text may be provided for additional context."},{"code":"nl","name":"Nederlands","englishName":"Dutch","direction":"ltr","locale":"nl-NL","promptHint":"Translate from English into Dutch. The original Japanese text may be provided for additional context."}];
+const selectLanguageText = "言語を選択";
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('lang-switcher-container');
+    if (!container) return;
+
+    const visibleContainer = document.getElementById('lang-switcher-visible');
+    const toggleButton = document.createElement('button');
+    const panel = document.getElementById('lang-switcher-panel');
+    const list = document.getElementById('lang-switcher-list');
+    const panelHeader = panel.querySelector('p');
+
+    if (!visibleContainer || !panel || !list || !panelHeader) return;
+    
+    const translations = {
+      ja: { all_languages_supported: '全{count}言語に対応' },
+      en: { all_languages_supported: '{count} Languages Supported' },
+    };
+    const count = allLanguages.length;
+    panelHeader.textContent = (translations[currentLang]?.all_languages_supported || translations.en.all_languages_supported).replace('{count}', count);
+
+    const getPreferredLanguage = () => {
+      const browserLangs = navigator.languages || [navigator.language];
+      for (const lang of browserLangs) {
+        const langCode = lang.split('-')[0].toLowerCase();
+        if (allLanguages.some(l => l.code === langCode)) return langCode;
+      }
+      return null;
+    };
+
+    const preferredLang = getPreferredLanguage();
+    let displayedLangCodes = [currentLang];
+
+    const createButton = (langInfo, isCurrent, isPreferred) => {
+      const button = document.createElement('a');
+      button.href = getRedirectUrl(langInfo.code);
+      button.textContent = langInfo.name.substring(0, 3);
+      button.title = langInfo.name;
+      button.className = `px-1.5 py-0.5 text-xs sm:text-sm rounded transition-colors ${
+        isCurrent
+          ? 'bg-blue-600 text-white font-semibold cursor-default border-2 border-transparent'
+          : 'bg-gray-200 text-gray-700 hover:bg-gray-300 border-2 border-transparent'
+      }`;
+      if (isPreferred) {
+        button.classList.add('highlight-language');
+      }
+      return button;
+    };
+    
+    const getRedirectUrl = (targetLangCode) => {
+      const currentPath = window.location.pathname;
+      if (currentPath.includes(`/${currentLang}/articles/`)) {
+        return currentPath.replace(`/${currentLang}/`, `/${targetLangCode}/`);
+      }
+      return `/${targetLangCode}/`;
+    };
+
+    (() => {
+      visibleContainer.innerHTML = '';
+      list.innerHTML = '';
+
+      const currentLangInfo = allLanguages.find(l => l.code === currentLang);
+      if (currentLangInfo) {
+        visibleContainer.appendChild(createButton(currentLangInfo, true, false));
+      }
+
+      if (preferredLang && preferredLang !== currentLang) {
+        const preferredLangInfo = allLanguages.find(l => l.code === preferredLang);
+        if (preferredLangInfo) {
+          visibleContainer.appendChild(createButton(preferredLangInfo, false, true));
+          displayedLangCodes.push(preferredLang);
+        }
+      }
+
+      toggleButton.id = 'lang-switcher-toggle';
+      toggleButton.type = 'button';
+      toggleButton.setAttribute('aria-label', selectLanguageText);
+      // ▼▼▼ 地球儀アイコンをシンプルで太い線に変更 ▼▼▼
+      toggleButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><title>言語選択アイコン</title><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"></path><path d="M12 2a15.3 15.3 0 0 0-4 10 15.3 15.3 0 0 0 4 10"></path></svg>`;
+      // ▲▲▲ 修正ここまで ▲▲▲
+      toggleButton.className = 'p-1.5 rounded-full bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors border-2 border-transparent';
+      visibleContainer.appendChild(toggleButton);
+
+      allLanguages.forEach(langInfo => {
+        const link = document.createElement('a');
+        link.href = getRedirectUrl(langInfo.code);
+        link.textContent = langInfo.name;
+        link.className = `text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 ${langInfo.code === currentLang ? 'font-bold bg-blue-50' : ''}`;
+        link.role = 'menuitem';
+        list.appendChild(link);
+      });
+    })();
+
+    toggleButton.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = panel.dataset.state === 'open';
+      panel.dataset.state = isOpen ? 'closed' : 'open';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!container.contains(e.target)) {
+        panel.dataset.state = 'closed';
+      }
+    });
+  });
+})();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/ja/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> 記事一覧 </a> <a href="/ja/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> カテゴリ </a> <a href="/ja/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> タグ </a> <a href="/ja/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> アーカイブ </a> <a href="/ja/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> 用語集 </a> <a href="/ja/about/" class="text-gray-600 hover:text-gray-900 font-medium"> About </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="Xでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="Noteでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTubeチャンネルを購読" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="Mediumでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/ja/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> ホーム </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/ja/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> 記事一覧 </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>壁が無くなる時代へ：30ヶ国語ブログサイト作成</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/ja/articles/2025/08_19_Dev-Development/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> 前の記事 </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> 開発型開発とリファクタリング駆動テスト </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 2025年8月19日 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw>  </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/ja/articles/2025/08_19_Dev-Development/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> 前の記事 </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> 開発型開発とリファクタリング駆動テスト </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 2025年8月19日 </div> </a>  </div> </nav>    <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>この記事はパブリックドメイン（CC0）です。自由にご利用ください。</span> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae> 壁が無くなる時代へ：30ヶ国語ブログサイト作成 </h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-08-24" data-astro-cid-3ljf2kae> 2025年8月24日 </time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="壁が無くなる時代へ：30ヶ国語ブログサイト作成" data-date="2025年8月24日" data-author="katoshi" data-content="
+自分でブログに書いた記事を整理するために、生成AI（Gemini）を活用して自作のWebサイトを作成しました。
+
+katoshiの研究ノート
+https://katoshi-mfacet.github.io/
+
+このサイトは、日本語で書いたブログ記事の原稿から自動生成しています。
+
+特徴は以下です。
+
+・記事の原稿から自動生成
+・カテゴリ分け、タグ付けによる記事の整理
+・30カ国語対応、アクセシビリティ対応
+
+## 基本的な仕組み
+
+基本的な仕組みは、astroというフレームワークをベースにしたプログラムを自作し、記事の原稿からHTMLファイルを自動生成しています。
+
+このプログラム自体も、GoogleのGeminiとチャットしながら作りました。
+
+この仕組みのおかげで、記事の原稿を書いて再生成の処理を実行すれば、あとは自動的にHTMLファイルが更新されて、このWebに反映されます。
+
+## カテゴリ分けとタグ付け
+
+カテゴリ分けやタグ付けのための別のプログラムも自作しています。
+
+そのプログラムからAPI経由でGeminiに記事を渡して、自動的にカテゴリ分けとタグ付けをしています。
+
+カテゴリ一覧とタグ一覧を記事と一緒に渡せば、Geminiが記事の意味を解釈して、適切なものを上手く提案してくれます。
+
+また、カテゴリ一覧とタグ一覧自体も、別の自作プログラムで過去の記事から抽出して決めています。ここでも、Geminiを活用しています。
+
+API経由でGeminiに順次過去の記事を渡し、カテゴリ候補とタグ候補を出力させます。そして全記事から抽出したカテゴリ候補とタグ候補をGeminiに渡して、カテゴリ一覧とタグ一覧を決定しています。
+
+この一連の処理もプログラムで自動化しています。
+
+## 多言語化翻訳
+
+多言語化のためには翻訳が必要です。もちろん、この翻訳にもGeminiを活用しています。
+
+翻訳には2つのパターンがあります。
+
+1つは、記事によらず共通のWebサイト内の文字列の翻訳です。メニューの項目名や自己紹介などの文が対象です。
+
+もう1つは、記事の原稿そのものの翻訳です。
+
+これらの翻訳も、自作のプログラムを作って、その中でGeminiのAPIを使って翻訳を実行しています。
+
+## アクセシビリティ
+
+目の不自由な方が音声で記事の内容を聞きたり、マウス操作が困難な方がキーボード操作だけでWebサイトを閲覧したりすることを考慮して、HTMLファイル側にいくつかの工夫を加えておくとアクセシビリティが向上します。
+
+アクセシビリティについては、私はほとんど知識が無く、Geminiがプログラミングのためのチャットをしている最中に提案してくれた形でした。
+
+そして、こうしたアクセシビリティ向上のためにHTMLに加える変更も、Geminiとのチャットで変更方法を聞いて対応しました。
+
+## 壁の消失
+
+プログラムの作成、翻訳やカテゴリとタグの整理といった自然言語処理、アクセシビリティのように気が付きにくい点の提案、といった様々な形で、このWebサイトの作成に生成AIを活用しました。
+
+また、HTMLの生成とカテゴリ・タグの自然言語処理を含めて、記事の追加時に自動更新できる仕組みを作ることができたため、今後も記事が増える度に成長していくWebサイトにすることができました。
+
+このWebサイトの作成を通して、様々な壁が生成AIにより容易に越えられるようになったと実感しました。
+
+まずは言葉の壁です。30ヶ国語対応は、従来であれば翻訳のことを考えてもとても個人では不可能でした。
+
+加えて、翻訳したブログが意図したニュアンスを伝えられているのかや、ネイティブの人にとって違和感や不快な表現になっていないかという懸念もあります。
+
+生成AIの翻訳は、従来の機械翻訳よりもニュアンスを的確に伝えることができ、表現も自然です。かつ、翻訳結果を生成AIに再度入力して、不自然や不適切でないかを確認することもできます。
+
+また、Webサイトの多言語化という観点では、日付や単位といった言語によって表現方法が異なるものに対して、適切に対応することは難しい点でした。
+
+例えば3つのカテゴリにそれぞれ記事が1件、2件、10件ある、という場合、日本語では1記事、2記事、10記事のように、単に件数の後に記事という単位をつければ済みます。
+
+しかし、英語であれば、1 article, 2 articles, 10 articles というように単数形と複数形を分ける必要があります。また、言語によっては少ない数の複数形と大きな数の複数形でも表現が変化するケースもあるそうです。
+
+さらにアラビア語のように文字を右から左に書く言語の場合、Webサイト全体のレイアウトも右から左という読み手の視線の動線に沿った自然なものにしたり、文字や画像で矢印を使っいる場合は、それを左右反転させる必要性も考えなければなりません。そうした点も、生成AIにチェックしてもらうことで対応しています。
+
+生成AIとWebサイトの多言語化に取り組んだことで、従来のやり方では気が付かず配慮できなかったことについても、細かやかに対応することができました。
+
+これは、アクセシビリティの配慮についても同じです。これまでであれば、私自身と同じようにWebサイトを閲覧できる人に対しての配慮しかできませんでした。
+
+しかし生成AIは、私には気が付かない、あるいは気が付いても手間を惜しんで対応を見送るような配慮を、容易に組み込んでくれます。
+
+多言語化もアクセシビリティも、まだ完璧とは言えないとは思いますが、少なくとも私が1人で考えたり調べて作るよりも圧倒的に高い質になっていると思います。
+
+このようにして、生成AIが、ブログ記事の情報発信という取り組みに対して、多くの壁をなくしてくれたのです。
+
+## さいごに
+
+私はシステムエンジニアでありプログラミングの経験は豊富です。また、仕事でWebサイトの作成をすることはありませんが、昔から趣味でいくつかのホームページを作ったことはありました。
+
+そうした経験と、生成AIとのチャットのやり取りで、この多言語化ブログサイトの自動生成の仕組みを、2週間ほどで作ることができました。
+
+生成AIがなければ、そもそも多言語化対応は考えもしなかったでしょう。その意味では発想の壁も超えたと言えます。
+
+また、記事が増える度にカテゴリ分けやタグ付けをする手間を考えると、一度作った後に更新しなくなる可能性も高かったでしょう。
+生成AIの自然言語処理による自動化ができるようになったことで、メンテナンスや更新の壁も超えることができました。
+
+また、この仕組みは、私のようなプログラミングやWebサイト作成の経験がない人でも作ることはできます。この記事をGeminiのような生成AIに読ませて、自分も作りたいと相談すれば、作り方を教えてくれるはずです。
+
+私の作ったプログラムを公開して広く使ってもらうこともできますが、生成AIが本格的なソフトウェアエンジニアになりつつある今、公開すべき最も価値のある情報は、プログラムそのものよりも、この記事のようにアイデアと仕組みの解説文になるでしょう。アイデアや基本的な仕組みは、プログラムよりもさらに容易に変更したり強化したり、組み合わせることが可能です。
+
+このことは、ソフトウェア開発やWebサイト作成の壁がなくなりつつあると同時に、個人による情報発信の壁も消えていくことを示唆しています。
+
+インターネットは技術的には情報のやりとりの壁を事実上消しましたが、私たちは言語やアクセシビリティといった壁に阻まれています。
+
+機械翻訳や音声読み上げという形で、情報の受け手の工夫次第である程度は壁を乗り越えることができますが、情報発信をする側が対応や配慮をしなければ越えられない部分もあります。
+
+そうした情報発信側が超えるべき壁を、生成AIが消してくれるのです。
+
+言語やアクセシビリティの壁が消えても、その先には文化や習慣、価値観の違いといった壁があるはずです。これらはさらに乗り越えることが困難な壁かもしれません。
+
+しかし、その困難な壁を越えるためには、まずはその前にある壁を超えておかなければなりません。そうして壁の目の前までくれば、またその壁を乗り越えるためのアイデアやテクニックが見えてくるでしょう。
+
+こうやって、世界から壁がなくなりつつある時代にさしかかっているのかもしれません。このWebサイトの作成を通じて、私はそう感じた次第です。" data-astro-cid-3ljf2kae>
+コピー
+</button> </div> </header>  <article class="prose prose-lg max-w-none 
+      prose-headings:text-gray-900 prose-headings:font-bold
+      prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
+      prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
+      prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6
+      prose-h4:text-lg prose-h4:mb-2 prose-h4:mt-4
+      prose-p:text-lg prose-p:leading-relaxed prose-p:text-gray-800 prose-p:mb-6
+      prose-a:text-blue-600 prose-a:hover:text-blue-800 prose-a:underline
+      prose-strong:text-gray-900 prose-strong:font-semibold
+      prose-em:text-gray-700 prose-em:italic
+      prose-ul:text-lg prose-ol:text-lg prose-li:text-gray-800 prose-li:mb-2
+      prose-blockquote:border-l-4 prose-blockquote:border-blue-500 
+      prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-700
+      prose-blockquote:bg-blue-50 prose-blockquote:py-4 prose-blockquote:my-6 prose-blockquote:rounded-r-lg
+      prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded 
+      prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
+      prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
+      prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>自分でブログに書いた記事を整理するために、生成AI（Gemini）を活用して自作のWebサイトを作成しました。</p>
+<p>katoshiの研究ノート
+<a href="https://katoshi-mfacet.github.io/">https://katoshi-mfacet.github.io/</a></p>
+<p>このサイトは、日本語で書いたブログ記事の原稿から自動生成しています。</p>
+<p>特徴は以下です。</p>
+<p>・記事の原稿から自動生成
+・カテゴリ分け、タグ付けによる記事の整理
+・30カ国語対応、アクセシビリティ対応</p>
+<h2>基本的な仕組み</h2>
+<p>基本的な仕組みは、astroというフレームワークをベースにしたプログラムを自作し、記事の原稿からHTMLファイルを自動生成しています。</p>
+<p>このプログラム自体も、GoogleのGeminiとチャットしながら作りました。</p>
+<p>この仕組みのおかげで、記事の原稿を書いて再生成の処理を実行すれば、あとは自動的にHTMLファイルが更新されて、このWebに反映されます。</p>
+<h2>カテゴリ分けとタグ付け</h2>
+<p>カテゴリ分けやタグ付けのための別のプログラムも自作しています。</p>
+<p>そのプログラムからAPI経由でGeminiに記事を渡して、自動的にカテゴリ分けとタグ付けをしています。</p>
+<p>カテゴリ一覧とタグ一覧を記事と一緒に渡せば、Geminiが記事の意味を解釈して、適切なものを上手く提案してくれます。</p>
+<p>また、カテゴリ一覧とタグ一覧自体も、別の自作プログラムで過去の記事から抽出して決めています。ここでも、Geminiを活用しています。</p>
+<p>API経由でGeminiに順次過去の記事を渡し、カテゴリ候補とタグ候補を出力させます。そして全記事から抽出したカテゴリ候補とタグ候補をGeminiに渡して、カテゴリ一覧とタグ一覧を決定しています。</p>
+<p>この一連の処理もプログラムで自動化しています。</p>
+<h2>多言語化翻訳</h2>
+<p>多言語化のためには翻訳が必要です。もちろん、この翻訳にもGeminiを活用しています。</p>
+<p>翻訳には2つのパターンがあります。</p>
+<p>1つは、記事によらず共通のWebサイト内の文字列の翻訳です。メニューの項目名や自己紹介などの文が対象です。</p>
+<p>もう1つは、記事の原稿そのものの翻訳です。</p>
+<p>これらの翻訳も、自作のプログラムを作って、その中でGeminiのAPIを使って翻訳を実行しています。</p>
+<h2>アクセシビリティ</h2>
+<p>目の不自由な方が音声で記事の内容を聞きたり、マウス操作が困難な方がキーボード操作だけでWebサイトを閲覧したりすることを考慮して、HTMLファイル側にいくつかの工夫を加えておくとアクセシビリティが向上します。</p>
+<p>アクセシビリティについては、私はほとんど知識が無く、Geminiがプログラミングのためのチャットをしている最中に提案してくれた形でした。</p>
+<p>そして、こうしたアクセシビリティ向上のためにHTMLに加える変更も、Geminiとのチャットで変更方法を聞いて対応しました。</p>
+<h2>壁の消失</h2>
+<p>プログラムの作成、翻訳やカテゴリとタグの整理といった自然言語処理、アクセシビリティのように気が付きにくい点の提案、といった様々な形で、このWebサイトの作成に生成AIを活用しました。</p>
+<p>また、HTMLの生成とカテゴリ・タグの自然言語処理を含めて、記事の追加時に自動更新できる仕組みを作ることができたため、今後も記事が増える度に成長していくWebサイトにすることができました。</p>
+<p>このWebサイトの作成を通して、様々な壁が生成AIにより容易に越えられるようになったと実感しました。</p>
+<p>まずは言葉の壁です。30ヶ国語対応は、従来であれば翻訳のことを考えてもとても個人では不可能でした。</p>
+<p>加えて、翻訳したブログが意図したニュアンスを伝えられているのかや、ネイティブの人にとって違和感や不快な表現になっていないかという懸念もあります。</p>
+<p>生成AIの翻訳は、従来の機械翻訳よりもニュアンスを的確に伝えることができ、表現も自然です。かつ、翻訳結果を生成AIに再度入力して、不自然や不適切でないかを確認することもできます。</p>
+<p>また、Webサイトの多言語化という観点では、日付や単位といった言語によって表現方法が異なるものに対して、適切に対応することは難しい点でした。</p>
+<p>例えば3つのカテゴリにそれぞれ記事が1件、2件、10件ある、という場合、日本語では1記事、2記事、10記事のように、単に件数の後に記事という単位をつければ済みます。</p>
+<p>しかし、英語であれば、1 article, 2 articles, 10 articles というように単数形と複数形を分ける必要があります。また、言語によっては少ない数の複数形と大きな数の複数形でも表現が変化するケースもあるそうです。</p>
+<p>さらにアラビア語のように文字を右から左に書く言語の場合、Webサイト全体のレイアウトも右から左という読み手の視線の動線に沿った自然なものにしたり、文字や画像で矢印を使っいる場合は、それを左右反転させる必要性も考えなければなりません。そうした点も、生成AIにチェックしてもらうことで対応しています。</p>
+<p>生成AIとWebサイトの多言語化に取り組んだことで、従来のやり方では気が付かず配慮できなかったことについても、細かやかに対応することができました。</p>
+<p>これは、アクセシビリティの配慮についても同じです。これまでであれば、私自身と同じようにWebサイトを閲覧できる人に対しての配慮しかできませんでした。</p>
+<p>しかし生成AIは、私には気が付かない、あるいは気が付いても手間を惜しんで対応を見送るような配慮を、容易に組み込んでくれます。</p>
+<p>多言語化もアクセシビリティも、まだ完璧とは言えないとは思いますが、少なくとも私が1人で考えたり調べて作るよりも圧倒的に高い質になっていると思います。</p>
+<p>このようにして、生成AIが、ブログ記事の情報発信という取り組みに対して、多くの壁をなくしてくれたのです。</p>
+<h2>さいごに</h2>
+<p>私はシステムエンジニアでありプログラミングの経験は豊富です。また、仕事でWebサイトの作成をすることはありませんが、昔から趣味でいくつかのホームページを作ったことはありました。</p>
+<p>そうした経験と、生成AIとのチャットのやり取りで、この多言語化ブログサイトの自動生成の仕組みを、2週間ほどで作ることができました。</p>
+<p>生成AIがなければ、そもそも多言語化対応は考えもしなかったでしょう。その意味では発想の壁も超えたと言えます。</p>
+<p>また、記事が増える度にカテゴリ分けやタグ付けをする手間を考えると、一度作った後に更新しなくなる可能性も高かったでしょう。
+生成AIの自然言語処理による自動化ができるようになったことで、メンテナンスや更新の壁も超えることができました。</p>
+<p>また、この仕組みは、私のようなプログラミングやWebサイト作成の経験がない人でも作ることはできます。この記事をGeminiのような生成AIに読ませて、自分も作りたいと相談すれば、作り方を教えてくれるはずです。</p>
+<p>私の作ったプログラムを公開して広く使ってもらうこともできますが、生成AIが本格的なソフトウェアエンジニアになりつつある今、公開すべき最も価値のある情報は、プログラムそのものよりも、この記事のようにアイデアと仕組みの解説文になるでしょう。アイデアや基本的な仕組みは、プログラムよりもさらに容易に変更したり強化したり、組み合わせることが可能です。</p>
+<p>このことは、ソフトウェア開発やWebサイト作成の壁がなくなりつつあると同時に、個人による情報発信の壁も消えていくことを示唆しています。</p>
+<p>インターネットは技術的には情報のやりとりの壁を事実上消しましたが、私たちは言語やアクセシビリティといった壁に阻まれています。</p>
+<p>機械翻訳や音声読み上げという形で、情報の受け手の工夫次第である程度は壁を乗り越えることができますが、情報発信をする側が対応や配慮をしなければ越えられない部分もあります。</p>
+<p>そうした情報発信側が超えるべき壁を、生成AIが消してくれるのです。</p>
+<p>言語やアクセシビリティの壁が消えても、その先には文化や習慣、価値観の違いといった壁があるはずです。これらはさらに乗り越えることが困難な壁かもしれません。</p>
+<p>しかし、その困難な壁を越えるためには、まずはその前にある壁を超えておかなければなりません。そうして壁の目の前までくれば、またその壁を乗り越えるためのアイデアやテクニックが見えてくるでしょう。</p>
+<p>こうやって、世界から壁がなくなりつつある時代にさしかかっているのかもしれません。このWebサイトの作成を通じて、私はそう感じた次第です。</p>
+</article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <div class="flex items-center mb-3"> <div class="bg-green-100 p-2 rounded-lg mr-3">  </div> <h3 class="text-lg font-semibold text-gray-900"> カテゴリ </h3> </div> <div class="space-y-2"> <div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/ja/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> テクノロジー </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/ja/categories/software-development/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ソフトウェア開発 </a> </div> </div> </div><div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/ja/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> テクノロジー </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/ja/categories/ai-machine-learning/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> AI・機械学習 </a> </div> </div> </div><div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/ja/categories/society-culture/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> 社会・文化 </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/ja/categories/information-sharing/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> 情報共有 </a> </div> </div> </div> </div> </div> <div> <div class="flex items-center mb-3"> <div class="bg-purple-100 p-2 rounded-lg mr-3">  </div> <h3 class="text-lg font-semibold text-gray-900"> タグ </h3> </div> <div class="flex flex-wrap gap-2"> <a href="/ja/tags/generative-ai/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="生成AI (一般用語)"> <span></span>
+#生成AI  </a><a href="/ja/tags/gemini/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="Gemini (一般用語)"> <span></span>
+#Gemini  </a><a href="/ja/tags/website-auto-generation/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-violet-50 hover:bg-violet-100 text-violet-700 border-violet-200 hover:border-violet-300" title="Webサイト自動生成 (独自用語)"> <span></span>
+#Webサイト自動生成 <span class="ml-1 text-xs opacity-75">✨</span> </a><a href="/ja/tags/astro/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="Astro (一般用語)"> <span></span>
+#Astro  </a><a href="/ja/tags/api-integration/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="API連携 (一般用語)"> <span></span>
+#API連携  </a><a href="/ja/tags/categorization/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="カテゴリ分け (一般用語)"> <span></span>
+#カテゴリ分け  </a><a href="/ja/tags/tagging/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="タグ付け (一般用語)"> <span></span>
+#タグ付け  </a><a href="/ja/tags/multi-language-support/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="多言語化 (一般用語)"> <span></span>
+#多言語化  </a><a href="/ja/tags/accessibility/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="アクセシビリティ (一般用語)"> <span></span>
+#アクセシビリティ  </a><a href="/ja/tags/natural-language-processing/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="自然言語処理 (一般用語)"> <span></span>
+#自然言語処理  </a><a href="/ja/tags/translation/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="翻訳 (一般用語)"> <span></span>
+#翻訳  </a><a href="/ja/tags/html-generation/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="HTML生成 (一般用語)"> <span></span>
+#HTML生成  </a><a href="/ja/tags/programming/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="プログラミング (一般用語)"> <span></span>
+#プログラミング  </a><a href="/ja/tags/information-dissemination/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="情報発信 (一般用語)"> <span></span>
+#情報発信  </a><a href="/ja/tags/development-process/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="開発プロセス (一般用語)"> <span></span>
+#開発プロセス  </a><a href="/ja/tags/disappearance-of-barriers/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-violet-50 hover:bg-violet-100 text-violet-700 border-violet-200 hover:border-violet-300" title="壁の消失 (独自用語)"> <span></span>
+#壁の消失 <span class="ml-1 text-xs opacity-75">✨</span> </a><a href="/ja/tags/explanation-of-idea-and-mechanism/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-violet-50 hover:bg-violet-100 text-violet-700 border-violet-200 hover:border-violet-300" title="アイデアと仕組みの解説 (独自用語)"> <span></span>
+#アイデアと仕組みの解説 <span class="ml-1 text-xs opacity-75">✨</span> </a><a href="/ja/tags/maintainability/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="メンテナンス性 (一般用語)"> <span></span>
+#メンテナンス性  </a><a href="/ja/tags/system-engineer/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="システムエンジニア (一般用語)"> <span></span>
+#システムエンジニア  </a><a href="/ja/tags/individual-information-dissemination/" class="inline-flex items-center justify-center px-3 py-1 min-w-[2.5rem] text-sm leading-tight rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 hover:text-purple-700 border-gray-200 hover:border-purple-200" title="個人による情報発信 (一般用語)"> <span></span>
+#個人による情報発信  </a> </div> </div> </div> </div> </div>  <div class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-2zkmu4eg> <!-- セクションタイトル --> <div class="flex items-center mb-8" data-astro-cid-2zkmu4eg> <div class="bg-blue-100 p-3 rounded-full mr-4" data-astro-cid-2zkmu4eg> <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" data-astro-cid-2zkmu4eg></path> </svg> </div> <div data-astro-cid-2zkmu4eg> <h3 class="text-2xl font-bold text-gray-900" data-astro-cid-2zkmu4eg> 関連記事 </h3> <p class="text-gray-600 mt-1" data-astro-cid-2zkmu4eg> このトピックに関連するその他の記事 </p> </div> </div> <!-- 関連記事リスト --> <div class="grid gap-6 md:grid-cols-2" data-astro-cid-2zkmu4eg> <a href="/ja/articles/2025/08_15_Intellectual-Mine-GitHub/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> 知的鉱山としてのGitHub </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>続きを読む</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/ja/articles/2025/08_12_Simulation-Thinking-Era/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> シミュレーション思考の時代 </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>続きを読む</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/ja/articles/2025/08_19_Dev-Development/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> 開発型開発とリファクタリング駆動テスト </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>続きを読む</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/ja/articles/2025/07_28_Liquidware-Allrounder/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> リキッドウェア時代の全方位エンジニア </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>続きを読む</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a><a href="/ja/articles/2025/08_06_Micro-VM-Intelligence/" class="group block bg-white hover:bg-blue-50 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 hover:border-blue-200 relative overflow-hidden" data-astro-cid-2zkmu4eg> <!-- 背景装飾 --> <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:scale-150 transition-transform duration-500" data-astro-cid-2zkmu4eg></div> <!-- コンテンツ --> <div class="relative" data-astro-cid-2zkmu4eg> <div class="flex items-start" data-astro-cid-2zkmu4eg> <!-- アイコン --> <div class="flex-shrink-0 mr-4" data-astro-cid-2zkmu4eg> <div class="w-10 h-10 bg-blue-100 group-hover:bg-blue-200 rounded-lg flex items-center justify-center transition-colors duration-300" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> <!-- テキスト --> <div class="flex-1 min-w-0" data-astro-cid-2zkmu4eg> <h4 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 line-clamp-3 leading-tight text-base mb-3" data-astro-cid-2zkmu4eg> マイクロ仮想知能としてのアテンションメカニズム </h4> <!-- 続きを読むボタン --> <div class="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700" data-astro-cid-2zkmu4eg> <span data-astro-cid-2zkmu4eg>続きを読む</span> <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-2zkmu4eg> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-2zkmu4eg></path> </svg> </div> </div> </div> </div> </a> </div> <!-- 記事が少ない場合の追加メッセージ -->  <!-- さらに多くの記事へのリンク --> <div class="mt-8 text-center" data-astro-cid-2zkmu4eg> <a href="/ja/articles/" class="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors" data-astro-cid-2zkmu4eg> <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-2zkmu4eg> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14-7H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 00-2-2V6a2 2 0 00-2-2z" data-astro-cid-2zkmu4eg></path> </svg> すべての記事を見る </a> </div> </div>   <nav class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/ja/articles/2025/08_19_Dev-Development/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> 前の記事 </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> 開発型開発とリファクタリング駆動テスト </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 2025年8月19日 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw>  </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/ja/articles/2025/08_19_Dev-Development/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> 前の記事 </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> 開発型開発とリファクタリング駆動テスト </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 2025年8月19日 </div> </a>  </div> </nav>  </div>  </main> <footer class="bg-white border-t border-gray-200 py-12"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-4">katoshiの研究ノート</h3> <p class="text-gray-600 text-sm leading-relaxed"> ソフトウェアエンジニア/システムアーキテクト/博士（工学）による研究ノート。システム開発の現場で培った経験を活かし、生命の起源のメカニズムや生命現象の本質、さらには知能や社会の構造を探求しています。 </p> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> サイトマップ </h4> <ul class="space-y-2 text-sm"> <li><a href="/ja/articles/" class="text-gray-600 hover:text-blue-600 transition-colors">記事一覧</a></li> <li><a href="/ja/categories/" class="text-gray-600 hover:text-blue-600 transition-colors">カテゴリ</a></li> <li><a href="/ja/tags/" class="text-gray-600 hover:text-blue-600 transition-colors">タグ</a></li> <li><a href="/ja/about/" class="text-gray-600 hover:text-blue-600 transition-colors">About</a></li> </ul> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> フォロー </h4> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="Xでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="Noteでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTubeチャンネルを購読" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="Mediumでフォロー" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </div> <div class="mt-8 pt-8 border-t border-gray-200 text-center"> <p class="text-gray-500 text-sm mb-2"> © 2025 katoshi. Built with Astro. </p>  <p class="text-gray-400 text-xs"> 30言語で記事をお読みいただけます </p> </div> </div> </footer> <script type="module">const e=document.getElementById("mobile-menu-button"),n=document.getElementById("mobile-menu");e&&n&&e.addEventListener("click",()=>{const t=e.getAttribute("aria-expanded")==="true";e.setAttribute("aria-expanded",String(!t)),n.classList.toggle("hidden",t)});</script>  </body> </html> <script>
+  const copyBtn = document.getElementById('copy-article');
+
+  const handleSuccess = () => {
+    if (copyBtn) {
+      copyBtn.textContent = 'コピーしました';
+      setTimeout(() => {
+        copyBtn.textContent = 'コピー';
+      }, 2000);
+    }
+  };
+
+  const fallbackCopy = text => {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.top = '-1000px';
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    const successful = document.execCommand('copy');
+    document.body.removeChild(textarea);
+    return successful;
+  };
+
+  copyBtn?.addEventListener('click', async () => {
+    try {
+      // データ属性から値を取得
+      const title = copyBtn.dataset.title || '';
+      const date = copyBtn.dataset.date || '';
+      const author = copyBtn.dataset.author || '';
+      const raw = copyBtn.dataset.content || '';
+
+      const processed = raw
+        .split('\n')
+        .map(line => {
+          const m = line.match(/^\s*#+\s*(.*)$/);
+          return m ? `## ${m[1]}` : line;
+        })
+        .join('\n');
+
+      const text = `${title}\n${date} ${author}\n\n${processed}`;
+
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        handleSuccess();
+      } else if (fallbackCopy(text)) {
+        handleSuccess();
+      } else {
+        throw new Error('Fallback copy failed');
+      }
+    } catch (err) {
+      console.error('コピーに失敗しました:', err);
+      if (copyBtn) {
+        copyBtn.textContent = 'コピー失敗';
+        setTimeout(() => {
+          copyBtn.textContent = 'コピー';
+        }, 2000);
+      }
+    }
+  });
+</script> 
