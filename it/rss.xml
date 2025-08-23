@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/it/rss.xml</link>
 <description>Latest articles (it)</description>
 <item>
+  <title>Entrare in un'Era Senza Confini: Creare un Sito Blog in 30 Lingue</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>L'autore descrive la creazione di un sito web personale multilingue in 30 lingue, utilizzando l'IA generativa (Gemini) per automatizzare diversi processi.  Il sito è stato generato da bozze di articoli in giapponese, con contenuti organizzati tramite categorizzazione e tagging automatici. Gemini è stato impiegato per generare codice HTML, suggerire categorie e tag, e gestire traduzioni complesse, comprese le sfumature linguistiche e le specificità culturali come date, unità di misura e layout da destra a sinistra. L'autore evidenzia anche come Gemini abbia migliorato l'accessibilità del sito, suggerendo funzionalità per ipovedenti e utenti che navigano da tastiera. L'integrazione dell'IA ha permesso di superare barriere significative come quelle linguistiche e di accessibilità, precedentemente insormontabili per un individuo, rendendo possibile la diffusione di informazioni su scala globale. Il processo, completato in circa due settimane, dimostra il potenziale dell'IA generativa nel democratizzare lo sviluppo web e la pubblicazione di contenuti.</description>
+</item>
+<item>
+  <title>Sviluppo Evolutivo e Testing basato sul Refactoring</title>
+  <link>https://katoshi-mfacet.github.io/it/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/it/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Questo articolo esplora come l'IA generativa stia trasformando lo sviluppo software, introducendo due nuovi paradigmi: lo sviluppo evolutivo e il testing basato sul refactoring. Lo sviluppo evolutivo sfrutta l'IA generativa per creare iterativamente strumenti di supporto allo sviluppo durante il processo, migliorando efficienza e qualità accumulando progressi ad ogni progetto. Al contrario, il testing tradizionale, come il Test-Driven Development (TDD), potrebbe non essere sempre l'approccio più efficace, specialmente per software con forti componenti UI/UX. L'articolo propone il testing basato sul refactoring, dove i test vengono sviluppati in fasi successive, concentrandosi su parti di codice più mature e stabili, piuttosto che in fase iniziale. Entrambi i concetti mirano a un futuro sviluppo software più efficiente, adattabile e incentrato sull'esperienza utente, portando alla figura dell'Ingegnere Omni-direzionale e a un'era di Sviluppo incentrato su Esperienza e Comportamento.</description>
+</item>
+<item>
   <title>Compressione del Tempo e Punti Ciechi: La Necessità di Regolamentazione</title>
   <link>https://katoshi-mfacet.github.io/it/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/it/articles/2025/08_16_Time-Compression-Blindspot/</guid>
