@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="gu" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet"><title>વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ | કાતોશીના સંશોધન નોંધો</title><meta name="description" content="આ લેખ વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગની વિભાવનાઓ રજૂ કરે છે, જે AI-સંચાલિત સૉફ્ટવેર વિકાસના નવા યુગને અનુરૂપ છે. વિકાસલક્ષી વિકાસ એ સૉફ્ટવેર ડ… (Translated from Japanese)"><meta name="keywords" content="AI, સોફ્ટવેર ડેવલપમેન્ટ, સિસ્ટમ ડિઝાઇન, જીવન વિજ્ઞાન, પીએચ.ડી., એન્જિનિયર, સંશોધન, વિચાર પદ્ધતિઓ, સિમ્યુલેશન થિંકિંગ, લિક્વિડવેર, ફ્રેમવર્ક ડિઝાઇન, વર્ચ્યુઅલ ઇન્ટેલિજન્સ"><meta name="author"><!-- Canonical --><link rel="canonical" href="https://katoshi-mfacet.github.io/gu/articles/2025/08_19_Dev-Development/"><!-- hreflang（x-default 含む） --><link rel="alternate" hreflang="ja" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="en" href="https://katoshi-mfacet.github.io/en/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="zh" href="https://katoshi-mfacet.github.io/zh/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="hi" href="https://katoshi-mfacet.github.io/hi/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="es" href="https://katoshi-mfacet.github.io/es/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="fr" href="https://katoshi-mfacet.github.io/fr/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="ar" href="https://katoshi-mfacet.github.io/ar/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="bn" href="https://katoshi-mfacet.github.io/bn/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="ru" href="https://katoshi-mfacet.github.io/ru/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="pt" href="https://katoshi-mfacet.github.io/pt/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="ur" href="https://katoshi-mfacet.github.io/ur/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="id" href="https://katoshi-mfacet.github.io/id/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="de" href="https://katoshi-mfacet.github.io/de/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="pa" href="https://katoshi-mfacet.github.io/pa/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="pcm" href="https://katoshi-mfacet.github.io/pcm/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="mr" href="https://katoshi-mfacet.github.io/mr/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="te" href="https://katoshi-mfacet.github.io/te/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="tr" href="https://katoshi-mfacet.github.io/tr/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="ta" href="https://katoshi-mfacet.github.io/ta/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="jv" href="https://katoshi-mfacet.github.io/jv/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="ko" href="https://katoshi-mfacet.github.io/ko/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="vi" href="https://katoshi-mfacet.github.io/vi/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="it" href="https://katoshi-mfacet.github.io/it/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="fa" href="https://katoshi-mfacet.github.io/fa/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="gu" href="https://katoshi-mfacet.github.io/gu/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="th" href="https://katoshi-mfacet.github.io/th/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="pl" href="https://katoshi-mfacet.github.io/pl/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="uk" href="https://katoshi-mfacet.github.io/uk/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="sw" href="https://katoshi-mfacet.github.io/sw/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="nl" href="https://katoshi-mfacet.github.io/nl/articles/2025/08_19_Dev-Development/"><link rel="alternate" hreflang="x-default" href="https://katoshi-mfacet.github.io/ja/articles/2025/08_19_Dev-Development/"><!-- Open Graph --><meta property="og:site_name" content="કાતોશીના સંશોધન નોંધો"><meta property="og:title" content="વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ | કાતોશીના સંશોધન નોંધો"><meta property="og:description" content="આ લેખ વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગની વિભાવનાઓ રજૂ કરે છે, જે AI-સંચાલિત સૉફ્ટવેર વિકાસના નવા યુગને અનુરૂપ છે. વિકાસલક્ષી વિકાસ એ સૉફ્ટવેર ડ… (Translated from Japanese)"><meta property="og:url" content="https://katoshi-mfacet.github.io/gu/articles/2025/08_19_Dev-Development/"><meta property="og:type" content="article"><meta property="og:locale" content="gu_IN"><meta property="og:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta property="og:image:alt" content="વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ | કાતોશીના સંશોધન નોંધો"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@katoshi_mfacet"><meta name="twitter:title" content="વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ | કાતોશીના સંશોધન નોંધો"><meta name="twitter:description" content="આ લેખ વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગની વિભાવનાઓ રજૂ કરે છે, જે AI-સંચાલિત સૉફ્ટવેર વિકાસના નવા યુગને અનુરૂપ છે. વિકાસલક્ષી વિકાસ એ સૉફ્ટવેર ડ… (Translated from Japanese)"><meta name="twitter:image" content="https://katoshi-mfacet.github.io/ogp/default.png"><meta name="twitter:image:alt" content="વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ | કાતોશીના સંશોધન નોંધો"><meta property="article:published_time" content="2025-08-19T00:00:00.000Z"><meta property="article:section" content="ટેકનોલોજી"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ","description":"આ લેખ વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગની વિભાવનાઓ રજૂ કરે છે, જે AI-સંચાલિત સૉફ્ટવેર વિકાસના નવા યુગને અનુરૂપ છે. વિકાસલક્ષી વિકાસ એ સૉફ્ટવેર ડ… (Translated from Japanese)","url":"https://katoshi-mfacet.github.io/gu/articles/2025/08_19_Dev-Development/","mainEntityOfPage":"https://katoshi-mfacet.github.io/gu/articles/2025/08_19_Dev-Development/","inLanguage":"gu","datePublished":"2025-08-19T00:00:00.000Z","dateModified":"2025-08-19T00:00:00.000Z","author":{"@type":"Person","url":"https://katoshi-mfacet.github.io/gu/about/"},"publisher":{"@type":"Organization","name":"કાતોશીના સંશોધન નોંધો","logo":{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png"}},"image":[{"@type":"ImageObject","url":"https://katoshi-mfacet.github.io/ogp/default.png","width":1200,"height":630}]}</script><meta name="translation-method" content="AI"><meta name="translation-source-language" content="ja"><link rel="stylesheet" href="/_astro/about.CtrjYwGM.css">
+<style>.line-clamp-2[data-astro-cid-nnxgeytw]{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3[data-astro-cid-nnxgeytw],.line-clamp-3[data-astro-cid-2zkmu4eg]{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.prose[data-astro-cid-3ljf2kae] .youtube-embed{margin:2rem 0;position:relative;width:100%;height:0;padding-bottom:56.25%}.prose[data-astro-cid-3ljf2kae] .youtube-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:.5rem}.prose[data-astro-cid-3ljf2kae] img[data-astro-cid-3ljf2kae]{border-radius:.5rem;box-shadow:0 10px 15px -3px #0000001a}.prose[data-astro-cid-3ljf2kae] table[data-astro-cid-3ljf2kae]{border-collapse:collapse;margin:1.5rem 0}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae],.prose[data-astro-cid-3ljf2kae] td[data-astro-cid-3ljf2kae]{border:1px solid #e5e7eb;padding:.75rem;text-align:left}.prose[data-astro-cid-3ljf2kae] th[data-astro-cid-3ljf2kae]{background-color:#f9fafb;font-weight:600}
+#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=open]{display:block}#lang-switcher-panel[data-astro-cid-a2mxz4y6][data-state=closed]{display:none}[dir=rtl] .rtl-flip{transform:scaleX(-1)}@keyframes glow{0%,to{background-color:#3b82f61a;box-shadow:0 0 4px #3b82f64d;border-color:#3b82f633}50%{background-color:#3b82f633;box-shadow:0 0 12px #3b82f680;border-color:#3b82f680}}@keyframes glow-dark{0%,to{background-color:#60a5fa26;box-shadow:0 0 5px #60a5fa66;border-color:#60a5fa4d}50%{background-color:#60a5fa40;box-shadow:0 0 14px #60a5fa99;border-color:#60a5fa99}}.highlight-language{border:2px solid transparent;animation:glow 2s infinite ease-in-out}:root.dark .highlight-language{animation-name:glow-dark}
+</style></head> <body class="min-h-screen bg-gray-50 font-sans "> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50 focus:outline-none focus:ring-2 focus:ring-blue-500"> સામગ્રી પર જાઓ </a> <header class="bg-white shadow-sm sticky top-0 z-40"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center py-4"> <div class="flex items-center space-x-8"> <a href="/gu/" class="text-lg sm:text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors"> <span class="hidden sm:inline">કાતોશીના સંશોધન નોંધો</span> <span class="sm:hidden">કાતોશી</span> </a> <nav class="hidden lg:flex space-x-6" role="navigation" aria-label="મુખ્ય નેવિગેશન"> <a href="/gu/articles/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> લેખો </a> <a href="/gu/categories/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> શ્રેણીઓ </a> <a href="/gu/tags/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> ટૅગ્સ </a> <a href="/gu/archive/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> આર્કાઇવ </a> <a href="/gu/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> શબ્દભંડોળ </a> <a href="/gu/about/" class="text-gray-600 hover:text-gray-900 font-medium transition-colors"> વિશે </a> </nav> </div> <div class="flex items-center space-x-2 sm:space-x-4"> <!-- モバイル：SNSリンクを小さく --> <div class="hidden sm:block"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="નોટ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube પર સબ્સ્ક્રાઇબ કરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="મીડિયમ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> <!-- 言語切り替え --> <div class="flex items-center"> <span class="text-xs sm:text-sm text-gray-600 hidden sm:inline mr-2"> ભાષા: </span> <div id="lang-switcher-container" class="relative" data-astro-cid-a2mxz4y6> <div id="lang-switcher-visible" class="flex items-center gap-1 sm:gap-2" data-astro-cid-a2mxz4y6></div> <div id="lang-switcher-panel" class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10" data-state="closed" data-astro-cid-a2mxz4y6> <div class="border-b border-gray-200 p-3" data-astro-cid-a2mxz4y6> <p class="text-sm font-semibold text-gray-800" data-astro-cid-a2mxz4y6></p> </div> <div id="lang-switcher-list" class="py-1 max-h-60 overflow-y-auto" role="menu" aria-orientation="vertical" data-astro-cid-a2mxz4y6></div> </div> </div>  <script>(function(){const currentLang = "gu";
+const allLanguages = [{"code":"ja","name":"日本語","englishName":"Japanese","direction":"ltr","locale":"ja-JP","promptHint":"This is the original source text. Ensure all nuances are preserved for the pivot translation."},{"code":"en","name":"English","englishName":"English","direction":"ltr","locale":"en-US","promptHint":"Translate from Japanese into clear, academic English. This will serve as the pivot source for all other languages. Preserve the technical and philosophical nuances of the original Japanese text."},{"code":"zh","name":"中文","englishName":"Chinese","direction":"ltr","locale":"zh-CN","promptHint":"Translate from English into Simplified Chinese (简体中文). The original Japanese text may be provided for additional context. Use terminology common in mainland China's tech and academic communities."},{"code":"hi","name":"हिन्दी","englishName":"Hindi","direction":"ltr","locale":"hi-IN","promptHint":"Translate from English into standard Hindi using the Devanagari script. The original Japanese text may be provided for additional context. Ensure technical terms are appropriately transliterated or translated."},{"code":"es","name":"Español","englishName":"Spanish","direction":"ltr","locale":"es-ES","promptHint":"Translate from English into neutral, formal Spanish suitable for both Spain and Latin America. The original Japanese text may be provided for additional context."},{"code":"fr","name":"Français","englishName":"French","direction":"ltr","locale":"fr-FR","promptHint":"Translate from English into formal French, paying close attention to technical and philosophical nuances. The original Japanese text may be provided for additional context."},{"code":"ar","name":"العربية","englishName":"Arabic","direction":"rtl","locale":"ar-SA","promptHint":"Translate from English into Modern Standard Arabic. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"bn","name":"বাংলা","englishName":"Bengali","direction":"ltr","locale":"bn-BD","promptHint":"Translate from English into Bengali. The original Japanese text may be provided for additional context."},{"code":"ru","name":"Русский","englishName":"Russian","direction":"ltr","locale":"ru-RU","promptHint":"Translate from English into Russian. The original Japanese text may be provided for additional context."},{"code":"pt","name":"Português","englishName":"Portuguese","direction":"ltr","locale":"pt-PT","promptHint":"Translate from English into standard Portuguese (European). The original Japanese text may be provided for additional context."},{"code":"ur","name":"اردو","englishName":"Urdu","direction":"rtl","locale":"ur-PK","promptHint":"Translate from English into Urdu. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"id","name":"Bahasa Indonesia","englishName":"Indonesian","direction":"ltr","locale":"id-ID","promptHint":"Translate from English into Indonesian. The original Japanese text may be provided for additional context."},{"code":"de","name":"Deutsch","englishName":"German","direction":"ltr","locale":"de-DE","promptHint":"Translate from English into formal German. The original Japanese text may be provided for additional context."},{"code":"pa","name":"ਪੰਜਾਬੀ","englishName":"Punjabi","direction":"ltr","locale":"pa-IN","promptHint":"Translate from English into Punjabi, using the Gurmukhi script. The original Japanese text may be provided for additional context."},{"code":"pcm","name":"Nigerian Pidgin","englishName":"Nigerian Pidgin","direction":"ltr","locale":"en-NG","promptHint":"Translate from English into Nigerian Pidgin. Be careful to maintain the original meaning in this creole language. The original Japanese text may be provided for additional context."},{"code":"mr","name":"मराठी","englishName":"Marathi","direction":"ltr","locale":"mr-IN","promptHint":"Translate from English into Marathi. The original Japanese text may be provided for additional context."},{"code":"te","name":"తెలుగు","englishName":"Telugu","direction":"ltr","locale":"te-IN","promptHint":"Translate from English into Telugu. The original Japanese text may be provided for additional context."},{"code":"tr","name":"Türkçe","englishName":"Turkish","direction":"ltr","locale":"tr-TR","promptHint":"Translate from English into Turkish. The original Japanese text may be provided for additional context."},{"code":"ta","name":"தமிழ்","englishName":"Tamil","direction":"ltr","locale":"ta-IN","promptHint":"Translate from English into Tamil. The original Japanese text may be provided for additional context."},{"code":"jv","name":"Basa Jawa","englishName":"Javanese","direction":"ltr","locale":"jv-ID","promptHint":"Translate from English into Javanese. The original Japanese text may be provided for additional context."},{"code":"ko","name":"한국어","englishName":"Korean","direction":"ltr","locale":"ko-KR","promptHint":"Translate from English into Korean. The original Japanese text may be provided for additional context."},{"code":"vi","name":"Tiếng Việt","englishName":"Vietnamese","direction":"ltr","locale":"vi-VN","promptHint":"Translate from English into Vietnamese. The original Japanese text may be provided for additional context."},{"code":"it","name":"Italiano","englishName":"Italian","direction":"ltr","locale":"it-IT","promptHint":"Translate from English into Italian. The original Japanese text may be provided for additional context."},{"code":"fa","name":"فارسی","englishName":"Persian","direction":"rtl","locale":"fa-IR","promptHint":"Translate from English into Persian. The original Japanese text may be provided for additional context. Pay close attention to the right-to-left (RTL) context."},{"code":"gu","name":"ગુજરાતી","englishName":"Gujarati","direction":"ltr","locale":"gu-IN","promptHint":"Translate from English into Gujarati. The original Japanese text may be provided for additional context."},{"code":"th","name":"ไทย","englishName":"Thai","direction":"ltr","locale":"th-TH","promptHint":"Translate from English into Thai. The original Japanese text may be provided for additional context."},{"code":"pl","name":"Polski","englishName":"Polish","direction":"ltr","locale":"pl-PL","promptHint":"Translate from English into Polish. The original Japanese text may be provided for additional context."},{"code":"uk","name":"Українська","englishName":"Ukrainian","direction":"ltr","locale":"uk-UA","promptHint":"Translate from English into Ukrainian. The original Japanese text may be provided for additional context."},{"code":"sw","name":"Kiswahili","englishName":"Swahili","direction":"ltr","locale":"sw-KE","promptHint":"Translate from English into Swahili. The original Japanese text may be provided for additional context."},{"code":"nl","name":"Nederlands","englishName":"Dutch","direction":"ltr","locale":"nl-NL","promptHint":"Translate from English into Dutch. The original Japanese text may be provided for additional context."}];
+const selectLanguageText = "ભાષા પસંદ કરો";
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('lang-switcher-container');
+    if (!container) return;
+
+    const visibleContainer = document.getElementById('lang-switcher-visible');
+    const toggleButton = document.createElement('button');
+    const panel = document.getElementById('lang-switcher-panel');
+    const list = document.getElementById('lang-switcher-list');
+    const panelHeader = panel.querySelector('p');
+
+    if (!visibleContainer || !panel || !list || !panelHeader) return;
+    
+    const translations = {
+      ja: { all_languages_supported: '全{count}言語に対応' },
+      en: { all_languages_supported: '{count} Languages Supported' },
+    };
+    const count = allLanguages.length;
+    panelHeader.textContent = (translations[currentLang]?.all_languages_supported || translations.en.all_languages_supported).replace('{count}', count);
+
+    const getPreferredLanguage = () => {
+      const browserLangs = navigator.languages || [navigator.language];
+      for (const lang of browserLangs) {
+        const langCode = lang.split('-')[0].toLowerCase();
+        if (allLanguages.some(l => l.code === langCode)) return langCode;
+      }
+      return null;
+    };
+
+    const preferredLang = getPreferredLanguage();
+    let displayedLangCodes = [currentLang];
+
+    const createButton = (langInfo, isCurrent, isPreferred) => {
+      const button = document.createElement('a');
+      button.href = getRedirectUrl(langInfo.code);
+      button.textContent = langInfo.name.substring(0, 3);
+      button.title = langInfo.name;
+      button.className = `px-1.5 py-0.5 text-xs sm:text-sm rounded transition-colors ${
+        isCurrent
+          ? 'bg-blue-600 text-white font-semibold cursor-default border-2 border-transparent'
+          : 'bg-gray-200 text-gray-700 hover:bg-gray-300 border-2 border-transparent'
+      }`;
+      if (isPreferred) {
+        button.classList.add('highlight-language');
+      }
+      return button;
+    };
+    
+    const getRedirectUrl = (targetLangCode) => {
+      const currentPath = window.location.pathname;
+      if (currentPath.includes(`/${currentLang}/articles/`)) {
+        return currentPath.replace(`/${currentLang}/`, `/${targetLangCode}/`);
+      }
+      return `/${targetLangCode}/`;
+    };
+
+    (() => {
+      visibleContainer.innerHTML = '';
+      list.innerHTML = '';
+
+      const currentLangInfo = allLanguages.find(l => l.code === currentLang);
+      if (currentLangInfo) {
+        visibleContainer.appendChild(createButton(currentLangInfo, true, false));
+      }
+
+      if (preferredLang && preferredLang !== currentLang) {
+        const preferredLangInfo = allLanguages.find(l => l.code === preferredLang);
+        if (preferredLangInfo) {
+          visibleContainer.appendChild(createButton(preferredLangInfo, false, true));
+          displayedLangCodes.push(preferredLang);
+        }
+      }
+
+      toggleButton.id = 'lang-switcher-toggle';
+      toggleButton.type = 'button';
+      toggleButton.setAttribute('aria-label', selectLanguageText);
+      // ▼▼▼ 地球儀アイコンをシンプルで太い線に変更 ▼▼▼
+      toggleButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><title>言語選択アイコン</title><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"></path><path d="M12 2a15.3 15.3 0 0 0-4 10 15.3 15.3 0 0 0 4 10"></path></svg>`;
+      // ▲▲▲ 修正ここまで ▲▲▲
+      toggleButton.className = 'p-1.5 rounded-full bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors border-2 border-transparent';
+      visibleContainer.appendChild(toggleButton);
+
+      allLanguages.forEach(langInfo => {
+        const link = document.createElement('a');
+        link.href = getRedirectUrl(langInfo.code);
+        link.textContent = langInfo.name;
+        link.className = `text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 ${langInfo.code === currentLang ? 'font-bold bg-blue-50' : ''}`;
+        link.role = 'menuitem';
+        list.appendChild(link);
+      });
+    })();
+
+    toggleButton.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = panel.dataset.state === 'open';
+      panel.dataset.state = isOpen ? 'closed' : 'open';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!container.contains(e.target)) {
+        panel.dataset.state = 'closed';
+      }
+    });
+  });
+})();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="મેનુ ખોલો" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/gu/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> લેખો </a> <a href="/gu/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> શ્રેણીઓ </a> <a href="/gu/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> ટૅગ્સ </a> <a href="/gu/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> આર્કાઇવ </a> <a href="/gu/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> શબ્દભંડોળ </a> <a href="/gu/about/" class="text-gray-600 hover:text-gray-900 font-medium"> વિશે </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="નોટ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube પર સબ્સ્ક્રાઇબ કરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="મીડિયમ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/gu/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> હોમ </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/gu/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae> લેખો </a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_16_Time-Compression-Blindspot/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> પહેલાનો </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> સમય સંકોચન અને અંધ સ્થળો: નિયમનની જરૂરિયાત </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 16 ઑગસ્ટ, 2025 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_24_Wall-Free-Era/" class="group block max-w-sm ml-auto" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center justify-end" data-astro-cid-nnxgeytw> આગળનો <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> સરહદો વિનાના યુગમાં પ્રવેશ: 30-ભાષાની બ્લોગ સાઇટ બનાવવી </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 24 ઑગસ્ટ, 2025 </div> </a> </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_16_Time-Compression-Blindspot/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> પહેલાનો </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> સમય સંકોચન અને અંધ સ્થળો: નિયમનની જરૂરિયાત </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 16 ઑગસ્ટ, 2025 </div> </a> <a href="/gu/articles/2025/08_24_Wall-Free-Era/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> આગળનો <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> સરહદો વિનાના યુગમાં પ્રવેશ: 30-ભાષાની બ્લોગ સાઇટ બનાવવી </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 24 ઑગસ્ટ, 2025 </div> </a> </div> </nav>  <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center justify-between" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-blue-900" data-astro-cid-3ljf2kae>આ લેખ AI નો ઉપયોગ કરીને જાપાનીઝમાંથી અનુવાદિત કરવામાં આવ્યો છે</span> </div> <a href="/ja/articles/2025/08_19_Dev-Development/" class="text-blue-600 hover:text-blue-800 text-sm font-medium underline" data-astro-cid-3ljf2kae> જાપાનીઝમાં વાંચો </a> </div> </div>  <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>આ લેખ પબ્લિક ડોમેન (CC0) માં છે. તેને મુક્તપણે ઉપયોગ કરવા માટે નિઃસંકોચ રહો.</span> <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" data-astro-cid-3ljf2kae> <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0 Universal" style="border-style: none;" class="ml-2" data-astro-cid-3ljf2kae> </a> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae> વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ </h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-08-19" data-astro-cid-3ljf2kae> 19 ઑગસ્ટ, 2025 </time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ" data-date="19 ઑગસ્ટ, 2025" data-author="કાતોશી" data-content="
+વિકાસ એ કંઈક નવું અને ઉપયોગીનું પુનરાવર્તિત સર્જન છે.
+
+જ્યારે આપણે વિકાસ વિશે વિચારીએ છીએ, ત્યારે ઘણીવાર નવા ઉત્પાદનનો વિકાસ ધ્યાનમાં આવે છે. આ ઉત્પાદનથી અલગ છે, જે વ્યક્તિગત ઉત્પાદનો બનાવે છે; તેના બદલે, તેમાં ઉત્પાદનો માટે ડિઝાઇન સ્પષ્ટીકરણો અથવા મોલ્ડ બનાવવાનો સમાવેશ થાય છે.
+
+આમ, નવા ઉત્પાદન વિકાસ દ્વારા બનાવવામાં આવેલા બ્લુપ્રિન્ટ્સ અથવા મોલ્ડનો કારખાનાઓમાં વારંવાર ઉપયોગ કરીને અસંખ્ય સમાન ઉત્પાદનોનું નિર્માણ થાય છે.
+
+વ્યક્તિગત ક્ષમતાઓ વિકસાવવા અથવા સમાજ અને રાષ્ટ્રોનો વિકાસ કરવા જેવા ઉપયોગો પણ છે. આનો અર્થ માત્ર કોઈની પાસે જે છે તેમાં વધારો થવો એટલો જ નથી, પરંતુ વિકસિત ક્ષમતાઓનો વારંવાર ઉપયોગ કરવાની અને તેનાથી લાભ મેળવવાની ક્ષમતા પણ છે.
+
+વ્યક્તિઓ અને સમાજોની આર્થિક શક્તિ આર્થિક પરિસ્થિતિઓને કારણે વધઘટ કરી શકે છે, પરંતુ વિકસિત ક્ષમતાઓ મૂળભૂત રીતે કાયમી હોય છે.
+
+જો તેમાં ઘટાડો થાય તો પણ, તેને આર્થિક સમૃદ્ધિના ઉતાર-ચઢાવને બદલે પતન માનવામાં આવે છે.
+
+આ ઉપરાંત, ટેકનોલોજી અને જ્ઞાનનો પણ વિકાસ થાય છે. વ્યક્તિઓ અથવા ચોક્કસ સમાજોની ક્ષમતાઓથી વિપરીત, આ સરળતાથી વહેંચી શકાય તેવી લાક્ષણિકતા ધરાવે છે.
+
+અને આ વિકાસના પરિણામો જેવા કે ઉત્પાદનો, ક્ષમતાઓ, જ્ઞાન અને તકનીકોમાં, કેટલાક અનુગામી વિકાસમાં યોગદાન આપી શકે છે.
+
+આવા ઉપયોગી આઉટપુટ વિકસાવવાથી, વિકાસનો વ્યાપ વિસ્તરે છે, અને કાર્યક્ષમતા અને ગુણવત્તા સુધરે છે.
+
+## AI-ડ્રિવન સૉફ્ટવેર ડેવલપમેન્ટ
+
+સામાન્ય રીતે, વિકાસ માટે નોંધપાત્ર સમય અને પ્રયત્નોની જરૂર પડે છે. ખાસ કરીને જેમ જેમ સમાજ આગળ વધે છે અને વિવિધ વસ્તુઓ વધુ જટિલ બને છે, તેમ તેમ નવી વસ્તુઓ બનાવવી વધુ મુશ્કેલ બને છે.
+
+જોકે, જનરેટિવ AI ના આગમન સાથે, આ પરિસ્થિતિ બદલાઈ રહી છે. હાલમાં, જનરેટિવ AI ની ઉચ્ચ પ્રોગ્રામિંગ ક્ષમતાઓને કારણે સૉફ્ટવેર ડેવલપમેન્ટમાં નાટકીય ફેરફારો થઈ રહ્યા છે.
+
+આ પરિદૃશ્યમાં, એક ભવિષ્યનું વિઝન જ્યાં જનરેટિવ AI પર આધારિત સ્વાયત્ત એજન્ટો સૉફ્ટવેર એન્જિનિયરો તરીકે સૉફ્ટવેર ડેવલપમેન્ટના કેન્દ્રમાં આવે છે તે પહેલેથી જ વાસ્તવિકતા બની રહ્યું છે.
+
+આપણે હાલમાં સંક્રમણકાળમાં છીએ. જ્યારે આપણે જનરેટિવ AI ને સંપૂર્ણપણે વિકાસ સોંપી શકતા નથી, ત્યારે જનરેટિવ AI નો કુશળતાપૂર્વક ઉપયોગ સૉફ્ટવેર ડેવલપમેન્ટને શક્તિશાળી રીતે આગળ વધારી શકે છે.
+
+આને AI-ડ્રિવન સૉફ્ટવેર ડેવલપમેન્ટ તરીકે ઓળખવામાં આવે છે.
+
+## વિકાસલક્ષી વિકાસ
+
+જ્યારે જનરેટિવ AI સૉફ્ટવેર ડેવલપમેન્ટને વધુ કાર્યક્ષમ બનાવે છે, ત્યારે તે માત્ર અંતિમ લક્ષ્ય સૉફ્ટવેરના વિકાસને જ નહીં, પરંતુ વિકાસમાં મદદરૂપ થતા સૉફ્ટવેરના વિકાસને પણ સુવ્યવસ્થિત કરી શકે છે.
+
+ઉપર જણાવ્યા મુજબ, વિકાસને સરળ બનાવતા આઉટપુટ તેનો વ્યાપ વિસ્તૃત કરે છે, અને કાર્યક્ષમતા અને ગુણવત્તા સુધારવામાં મદદ કરે છે. વધુમાં, જો અસરકારક રીતે બનાવવામાં આવે, તો તેનો અન્ય વિકાસ પ્રોજેક્ટ્સમાં ફરીથી ઉપયોગ કરી શકાય છે.
+
+તેથી, સૉફ્ટવેર ડેવલપમેન્ટ પ્રક્રિયા દરમિયાન વિકાસમાં મદદરૂપ થતા સૉફ્ટવેરનો વિકાસ કરવાથી, એકંદર કાર્યક્ષમતા વધારી શકાય છે, અને આ સંપત્તિનો ભવિષ્યના વિકાસ માટે લાભ લઈ શકાય છે.
+
+પરંપરાગત રીતે, આવા સહાયક સૉફ્ટવેરનો વિકાસ સામાન્ય પ્રથા હતી, પરંતુ તેમાં તેનો પોતાનો વિકાસ સમય અને પ્રયત્નોની જરૂર પડતી હતી, જેના માટે સાવચેતીપૂર્વક વિચારણા અને કેન્દ્રિત અમલીકરણ જરૂરી હતું.
+
+જનરેટિવ AI નો ઉપયોગ કરીને, વ્યક્તિ મગજમાં આવતા નાના કાર્યોને સ્વચાલિત કરવા માટે ઝડપથી સરળ સૉફ્ટવેર બનાવી શકે છે. જો કાર્યમાં સ્પષ્ટ પ્રક્રિયા શામેલ હોય, તો જનરેટિવ AI લગભગ કોઈ ભૂલો વિના સચોટ રીતે પ્રોગ્રામ જનરેટ કરી શકે છે.
+
+પરિણામે, સૉફ્ટવેર ડેવલપમેન્ટ પ્રક્રિયા દરમિયાન વિકાસમાં મદદ કરવા માટે સૉફ્ટવેરનો વિકાસ કરવો પહેલા કરતાં વધુ સરળ બન્યો છે.
+
+અને, આ વિશે ઊંડાણપૂર્વક વિચાર કરવાથી, એક વિકાસ શૈલી ઉભરી આવે છે જ્યાં પ્રક્રિયા દરમિયાન વિકાસ માટે ઉપયોગી સાધનો સતત બનાવવામાં આવે છે, જેનાથી વિકાસ પદ્ધતિ પોતે જ પરિવર્તિત થાય છે.
+
+આને આપણે &#34;વિકાસલક્ષી વિકાસ&#34; કહીશું.
+
+વિકાસલક્ષી વિકાસનો અભ્યાસ કરવા માટે, વ્યક્તિને તેમના પોતાના સૉફ્ટવેર ડેવલપમેન્ટનું ઉદ્દેશ્યપૂર્વક અવલોકન કરવાની આદતની જરૂર છે, કયા ભાગો સૉફ્ટવેર દ્વારા સંભાળી શકાય છે અને કયા ભાગો ફક્ત મનુષ્યો દ્વારા જ સંભાળી શકાય છે તે ધ્યાનમાં લેવાની, તેમજ આવા સહાયક સૉફ્ટવેરનો વિકાસ કરવાની કુશળતાની પણ જરૂર છે.
+
+વધુમાં, જનરેટિવ AI ને આ સૉફ્ટવેર ટૂલ્સમાં સમાવી શકાય છે. તેને સૉફ્ટવેરમાં એમ્બેડ કરવાથી, જનરેટિવ AI એજન્ટોથી વિપરીત, પ્રક્રિયાનો વ્યાપ અમુક અંશે સંકુચિત કરી શકાય છે, અને માર્ગો વ્યાખ્યાયિત કરી શકાય છે.
+
+જ્યારે AI એજન્ટો પ્રોમ્પ્ટ્સ દ્વારા સમાન પરિણામો પ્રાપ્ત કરી શકે છે, ત્યારે જનરેટિવ AI સાથે એમ્બેડેડ સૉફ્ટવેર પ્રોગ્રામ્સ અને પ્રોમ્પ્ટ્સ બંનેને જોડીને ચોકસાઈને વધુ સરળતાથી વધારી શકે છે.
+
+જો આવા વિકાસલક્ષી વિકાસનો અભ્યાસ કરી શકાય, તો બીજો પ્રોજેક્ટ પ્રથમની સરખામણીમાં ગુણવત્તા અને ખર્ચ બંનેમાં સુધારા દર્શાવશે. વધુમાં, દરેક અનુગામી પ્રોજેક્ટ - ત્રીજા, ચોથા અને તેથી વધુ - સાથે સુધારાઓ સતત વધતા રહેશે.
+
+આ માત્ર સૉફ્ટવેર વિકસાવવા માટે જનરેટિવ AI નો ઉપયોગ કરવાથી સંપૂર્ણપણે અલગ છે. ફક્ત જનરેટિવ AI ટૂલ્સમાં નિપુણતા મેળવનારી ટીમો અને વિકાસલક્ષી વિકાસનો અભ્યાસ કરનારી ટીમો વચ્ચે સમય જતાં નોંધપાત્ર અંતર ઊભું થશે.
+
+## રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ
+
+ટેસ્ટ-ડ્રિવન ડેવલપમેન્ટ (TDD) નામનો એક ખ્યાલ છે, જેમાં સ્પષ્ટીકરણોના આધારે પહેલા ટેસ્ટ ડિઝાઇન કરવામાં આવે છે, અને પછી તે ટેસ્ટ પાસ કરવા માટે સૉફ્ટવેર વિકસાવવામાં આવે છે.
+
+શરૂઆતમાં, મેં પણ વિચાર્યું હતું કે જનરેટિવ AI નો લાભ લઈને, સ્વચાલિત ટેસ્ટિંગ માટે ટેસ્ટ પ્રોગ્રામ્સ વિકસાવવા સરળ બનશે, જેનાથી TDD શક્ય બનશે.
+
+જોકે, મેં જ્યારે વિકાસલક્ષી વિકાસનો અભ્યાસ કરવાનું શરૂ કર્યું, ત્યારે મને લાગ્યું કે અમલીકરણ પહેલાં ટેસ્ટ વિશે વિચારવું એ હંમેશા સૌથી યોગ્ય અભિગમ નથી.
+
+ખાસ કરીને વેબ એપ્લિકેશન્સ જેવા સૉફ્ટવેર માટે કે જેમાં ઉપયોગીતા અને વિઝ્યુઅલ ડિઝાઇન જેવા વ્યક્તિલક્ષી પાસાઓ શામેલ હોય, જેની સાથે સીધો સંવાદ થાય છે, ત્યારે મને સમજાયું કે સૉફ્ટવેરને ખરેખર ચલાવવું અને તેની સાથે સંવાદ કરવો એ વિગતવાર ટેસ્ટ કરતાં વધુ પ્રાધાન્ય ધરાવે છે.
+
+આ એટલા માટે છે કારણ કે જો તેની સાથે સંવાદ કર્યા પછી UI/UX સ્તરે નોંધપાત્ર અસંતોષ હોય, તો ફ્રેમવર્ક, મૂળભૂત આર્કિટેક્ચર, ડેટા મોડેલ અથવા યુઝ કેસ જેવા મૂળભૂત ભાગોને બદલવાની સંભાવના રહે છે.
+
+મારા વર્તમાન વ્યક્તિગત સૉફ્ટવેર ડેવલપમેન્ટ પ્રોજેક્ટમાં, મેં સુવિધાની સુગમતા અને પ્રદર્શન સાથેની સમસ્યાઓ નોંધી અને બે ફ્રેમવર્કને અલગ-અલગ ફ્રેમવર્કમાં બદલી નાખ્યા.
+
+અનિશ્ચિત મેમરી ઉપયોગને કારણે મારે કેટલાક ક્ષેત્રોમાં પ્રક્રિયાની સંપૂર્ણ સમીક્ષા પણ કરવી પડી હતી.
+
+રિફેક્ટરિંગના આ ક્ષણોમાં જ ટેસ્ટિંગ સૌપ્રથમ સભાન વિચારણા બને છે.
+
+જો આ વિકાસના પ્રારંભિક તબક્કે હોય, અથવા જો કાર્યો અને સ્પષ્ટીકરણો નોંધપાત્ર રીતે બદલાવાના હોય, તો ટેસ્ટિંગ બિનજરૂરી હોઈ શકે છે.
+
+જોકે, જો વિકાસ પહેલેથી જ ઘણો આગળ વધ્યો હોય અને તપાસ કરવા માટે ઘણી વસ્તુઓ હોય, તો રિફેક્ટરિંગથી કાર્યાત્મક ખામીઓ અથવા ભૂલો દાખલ થઈ નથી તેની પુષ્ટિ કરવા માટે ટેસ્ટિંગ જરૂરી બનશે.
+
+તેથી, જ્યારે વિકાસ અમુક હદ સુધી આગળ વધ્યો હોય અને રિફેક્ટરિંગ જરૂરી બને ત્યારે ટેસ્ટ પ્રોગ્રામ્સ બનાવવાનો અભિગમ ખરાબ વિચાર નથી.
+
+આ સમયે, મુખ્ય બાબત એ છે કે બધા કોડ માટે ટેસ્ટ બનાવવા નહીં, પરંતુ ભવિષ્યમાં વધુ બદલાવની શક્યતા ન હોય તેવા પરિપક્વ ભાગોના ટેસ્ટિંગ પર ધ્યાન કેન્દ્રિત કરવું, જ્યારે પ્રવાહી ભાગોને સ્વચાલિત ટેસ્ટ વિના છોડી દેવા.
+
+આને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ કહી શકાય.
+
+## નિષ્કર્ષ
+
+જનરેટિવ AI સૉફ્ટવેર ડેવલપમેન્ટને નાટકીય રીતે બદલી રહ્યું છે.
+
+અગાઉના એક લેખમાં, મેં &#34;ઓમ્ની-ડાયરેક્શનલ એન્જિનિયર&#34; બનવાના મહત્વ વિશે લખ્યું હતું, જે વિવિધ ડોમેન્સ, ઇન્ફ્રાસ્ટ્રક્ચર્સ અને એક્ઝિક્યુશન એન્વાયર્નમેન્ટ્સને સંયોજિત કરતી સિસ્ટમ્સ વિકસાવવામાં સક્ષમ હોય, જે પરંપરાગત ફુલ-સ્ટેક એન્જિનિયરથી આગળ વધે છે.
+
+મેં એક લેખ પણ લખ્યો હતો જેમાં સૂચવવામાં આવ્યું હતું કે આપણે &#34;એક્સપિરિયન્સ અને બિહેવિયર-સેન્ટ્રિક ડેવલપમેન્ટ&#34; ના યુગમાં પ્રવેશી રહ્યા છીએ, જ્યાં ધ્યાન સ્પષ્ટીકરણોને અમલીકરણ સાથે સંરેખિત કરવા પર નહીં, પરંતુ સૉફ્ટવેરના વર્તન દ્વારા વપરાશકર્તા અનુભવ સુધારવા પર છે.
+
+વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ એ જ છે જે સૉફ્ટવેર ડેવલપમેન્ટમાં આ નવા ક્ષિતિજો તરફ દોરી જાય છે.
+
+" data-copy-text="કોપી" data-copied-text="કોપી કર્યું!" data-copy-failed-text="કોપી કરવામાં નિષ્ફળ" data-astro-cid-3ljf2kae> કોપી </button> </div> </header>  <article class="prose prose-lg max-w-none 
+      prose-headings:text-gray-900 prose-headings:font-bold
+      prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
+      prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
+      prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6
+      prose-h4:text-lg prose-h4:mb-2 prose-h4:mt-4
+      prose-p:text-lg prose-p:leading-relaxed prose-p:text-gray-800 prose-p:mb-6
+      prose-a:text-blue-600 prose-a:hover:text-blue-800 prose-a:underline
+      prose-strong:text-gray-900 prose-strong:font-semibold
+      prose-em:text-gray-700 prose-em:italic
+      prose-ul:text-lg prose-ol:text-lg prose-li:text-gray-800 prose-li:mb-2
+      prose-blockquote:border-l-4 prose-blockquote:border-blue-500 
+      prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-700
+      prose-blockquote:bg-blue-50 prose-blockquote:py-4 prose-blockquote:my-6 prose-blockquote:rounded-r-lg
+      prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded 
+      prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
+      prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
+      prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>વિકાસ એ કંઈક નવું અને ઉપયોગીનું પુનરાવર્તિત સર્જન છે.</p>
+<p>જ્યારે આપણે વિકાસ વિશે વિચારીએ છીએ, ત્યારે ઘણીવાર નવા ઉત્પાદનનો વિકાસ ધ્યાનમાં આવે છે. આ ઉત્પાદનથી અલગ છે, જે વ્યક્તિગત ઉત્પાદનો બનાવે છે; તેના બદલે, તેમાં ઉત્પાદનો માટે ડિઝાઇન સ્પષ્ટીકરણો અથવા મોલ્ડ બનાવવાનો સમાવેશ થાય છે.</p>
+<p>આમ, નવા ઉત્પાદન વિકાસ દ્વારા બનાવવામાં આવેલા બ્લુપ્રિન્ટ્સ અથવા મોલ્ડનો કારખાનાઓમાં વારંવાર ઉપયોગ કરીને અસંખ્ય સમાન ઉત્પાદનોનું નિર્માણ થાય છે.</p>
+<p>વ્યક્તિગત ક્ષમતાઓ વિકસાવવા અથવા સમાજ અને રાષ્ટ્રોનો વિકાસ કરવા જેવા ઉપયોગો પણ છે. આનો અર્થ માત્ર કોઈની પાસે જે છે તેમાં વધારો થવો એટલો જ નથી, પરંતુ વિકસિત ક્ષમતાઓનો વારંવાર ઉપયોગ કરવાની અને તેનાથી લાભ મેળવવાની ક્ષમતા પણ છે.</p>
+<p>વ્યક્તિઓ અને સમાજોની આર્થિક શક્તિ આર્થિક પરિસ્થિતિઓને કારણે વધઘટ કરી શકે છે, પરંતુ વિકસિત ક્ષમતાઓ મૂળભૂત રીતે કાયમી હોય છે.</p>
+<p>જો તેમાં ઘટાડો થાય તો પણ, તેને આર્થિક સમૃદ્ધિના ઉતાર-ચઢાવને બદલે પતન માનવામાં આવે છે.</p>
+<p>આ ઉપરાંત, ટેકનોલોજી અને જ્ઞાનનો પણ વિકાસ થાય છે. વ્યક્તિઓ અથવા ચોક્કસ સમાજોની ક્ષમતાઓથી વિપરીત, આ સરળતાથી વહેંચી શકાય તેવી લાક્ષણિકતા ધરાવે છે.</p>
+<p>અને આ વિકાસના પરિણામો જેવા કે ઉત્પાદનો, ક્ષમતાઓ, જ્ઞાન અને તકનીકોમાં, કેટલાક અનુગામી વિકાસમાં યોગદાન આપી શકે છે.</p>
+<p>આવા ઉપયોગી આઉટપુટ વિકસાવવાથી, વિકાસનો વ્યાપ વિસ્તરે છે, અને કાર્યક્ષમતા અને ગુણવત્તા સુધરે છે.</p>
+<h2>AI-ડ્રિવન સૉફ્ટવેર ડેવલપમેન્ટ</h2>
+<p>સામાન્ય રીતે, વિકાસ માટે નોંધપાત્ર સમય અને પ્રયત્નોની જરૂર પડે છે. ખાસ કરીને જેમ જેમ સમાજ આગળ વધે છે અને વિવિધ વસ્તુઓ વધુ જટિલ બને છે, તેમ તેમ નવી વસ્તુઓ બનાવવી વધુ મુશ્કેલ બને છે.</p>
+<p>જોકે, જનરેટિવ AI ના આગમન સાથે, આ પરિસ્થિતિ બદલાઈ રહી છે. હાલમાં, જનરેટિવ AI ની ઉચ્ચ પ્રોગ્રામિંગ ક્ષમતાઓને કારણે સૉફ્ટવેર ડેવલપમેન્ટમાં નાટકીય ફેરફારો થઈ રહ્યા છે.</p>
+<p>આ પરિદૃશ્યમાં, એક ભવિષ્યનું વિઝન જ્યાં જનરેટિવ AI પર આધારિત સ્વાયત્ત એજન્ટો સૉફ્ટવેર એન્જિનિયરો તરીકે સૉફ્ટવેર ડેવલપમેન્ટના કેન્દ્રમાં આવે છે તે પહેલેથી જ વાસ્તવિકતા બની રહ્યું છે.</p>
+<p>આપણે હાલમાં સંક્રમણકાળમાં છીએ. જ્યારે આપણે જનરેટિવ AI ને સંપૂર્ણપણે વિકાસ સોંપી શકતા નથી, ત્યારે જનરેટિવ AI નો કુશળતાપૂર્વક ઉપયોગ સૉફ્ટવેર ડેવલપમેન્ટને શક્તિશાળી રીતે આગળ વધારી શકે છે.</p>
+<p>આને AI-ડ્રિવન સૉફ્ટવેર ડેવલપમેન્ટ તરીકે ઓળખવામાં આવે છે.</p>
+<h2>વિકાસલક્ષી વિકાસ</h2>
+<p>જ્યારે જનરેટિવ AI સૉફ્ટવેર ડેવલપમેન્ટને વધુ કાર્યક્ષમ બનાવે છે, ત્યારે તે માત્ર અંતિમ લક્ષ્ય સૉફ્ટવેરના વિકાસને જ નહીં, પરંતુ વિકાસમાં મદદરૂપ થતા સૉફ્ટવેરના વિકાસને પણ સુવ્યવસ્થિત કરી શકે છે.</p>
+<p>ઉપર જણાવ્યા મુજબ, વિકાસને સરળ બનાવતા આઉટપુટ તેનો વ્યાપ વિસ્તૃત કરે છે, અને કાર્યક્ષમતા અને ગુણવત્તા સુધારવામાં મદદ કરે છે. વધુમાં, જો અસરકારક રીતે બનાવવામાં આવે, તો તેનો અન્ય વિકાસ પ્રોજેક્ટ્સમાં ફરીથી ઉપયોગ કરી શકાય છે.</p>
+<p>તેથી, સૉફ્ટવેર ડેવલપમેન્ટ પ્રક્રિયા દરમિયાન વિકાસમાં મદદરૂપ થતા સૉફ્ટવેરનો વિકાસ કરવાથી, એકંદર કાર્યક્ષમતા વધારી શકાય છે, અને આ સંપત્તિનો ભવિષ્યના વિકાસ માટે લાભ લઈ શકાય છે.</p>
+<p>પરંપરાગત રીતે, આવા સહાયક સૉફ્ટવેરનો વિકાસ સામાન્ય પ્રથા હતી, પરંતુ તેમાં તેનો પોતાનો વિકાસ સમય અને પ્રયત્નોની જરૂર પડતી હતી, જેના માટે સાવચેતીપૂર્વક વિચારણા અને કેન્દ્રિત અમલીકરણ જરૂરી હતું.</p>
+<p>જનરેટિવ AI નો ઉપયોગ કરીને, વ્યક્તિ મગજમાં આવતા નાના કાર્યોને સ્વચાલિત કરવા માટે ઝડપથી સરળ સૉફ્ટવેર બનાવી શકે છે. જો કાર્યમાં સ્પષ્ટ પ્રક્રિયા શામેલ હોય, તો જનરેટિવ AI લગભગ કોઈ ભૂલો વિના સચોટ રીતે પ્રોગ્રામ જનરેટ કરી શકે છે.</p>
+<p>પરિણામે, સૉફ્ટવેર ડેવલપમેન્ટ પ્રક્રિયા દરમિયાન વિકાસમાં મદદ કરવા માટે સૉફ્ટવેરનો વિકાસ કરવો પહેલા કરતાં વધુ સરળ બન્યો છે.</p>
+<p>અને, આ વિશે ઊંડાણપૂર્વક વિચાર કરવાથી, એક વિકાસ શૈલી ઉભરી આવે છે જ્યાં પ્રક્રિયા દરમિયાન વિકાસ માટે ઉપયોગી સાધનો સતત બનાવવામાં આવે છે, જેનાથી વિકાસ પદ્ધતિ પોતે જ પરિવર્તિત થાય છે.</p>
+<p>આને આપણે &quot;વિકાસલક્ષી વિકાસ&quot; કહીશું.</p>
+<p>વિકાસલક્ષી વિકાસનો અભ્યાસ કરવા માટે, વ્યક્તિને તેમના પોતાના સૉફ્ટવેર ડેવલપમેન્ટનું ઉદ્દેશ્યપૂર્વક અવલોકન કરવાની આદતની જરૂર છે, કયા ભાગો સૉફ્ટવેર દ્વારા સંભાળી શકાય છે અને કયા ભાગો ફક્ત મનુષ્યો દ્વારા જ સંભાળી શકાય છે તે ધ્યાનમાં લેવાની, તેમજ આવા સહાયક સૉફ્ટવેરનો વિકાસ કરવાની કુશળતાની પણ જરૂર છે.</p>
+<p>વધુમાં, જનરેટિવ AI ને આ સૉફ્ટવેર ટૂલ્સમાં સમાવી શકાય છે. તેને સૉફ્ટવેરમાં એમ્બેડ કરવાથી, જનરેટિવ AI એજન્ટોથી વિપરીત, પ્રક્રિયાનો વ્યાપ અમુક અંશે સંકુચિત કરી શકાય છે, અને માર્ગો વ્યાખ્યાયિત કરી શકાય છે.</p>
+<p>જ્યારે AI એજન્ટો પ્રોમ્પ્ટ્સ દ્વારા સમાન પરિણામો પ્રાપ્ત કરી શકે છે, ત્યારે જનરેટિવ AI સાથે એમ્બેડેડ સૉફ્ટવેર પ્રોગ્રામ્સ અને પ્રોમ્પ્ટ્સ બંનેને જોડીને ચોકસાઈને વધુ સરળતાથી વધારી શકે છે.</p>
+<p>જો આવા વિકાસલક્ષી વિકાસનો અભ્યાસ કરી શકાય, તો બીજો પ્રોજેક્ટ પ્રથમની સરખામણીમાં ગુણવત્તા અને ખર્ચ બંનેમાં સુધારા દર્શાવશે. વધુમાં, દરેક અનુગામી પ્રોજેક્ટ - ત્રીજા, ચોથા અને તેથી વધુ - સાથે સુધારાઓ સતત વધતા રહેશે.</p>
+<p>આ માત્ર સૉફ્ટવેર વિકસાવવા માટે જનરેટિવ AI નો ઉપયોગ કરવાથી સંપૂર્ણપણે અલગ છે. ફક્ત જનરેટિવ AI ટૂલ્સમાં નિપુણતા મેળવનારી ટીમો અને વિકાસલક્ષી વિકાસનો અભ્યાસ કરનારી ટીમો વચ્ચે સમય જતાં નોંધપાત્ર અંતર ઊભું થશે.</p>
+<h2>રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ</h2>
+<p>ટેસ્ટ-ડ્રિવન ડેવલપમેન્ટ (TDD) નામનો એક ખ્યાલ છે, જેમાં સ્પષ્ટીકરણોના આધારે પહેલા ટેસ્ટ ડિઝાઇન કરવામાં આવે છે, અને પછી તે ટેસ્ટ પાસ કરવા માટે સૉફ્ટવેર વિકસાવવામાં આવે છે.</p>
+<p>શરૂઆતમાં, મેં પણ વિચાર્યું હતું કે જનરેટિવ AI નો લાભ લઈને, સ્વચાલિત ટેસ્ટિંગ માટે ટેસ્ટ પ્રોગ્રામ્સ વિકસાવવા સરળ બનશે, જેનાથી TDD શક્ય બનશે.</p>
+<p>જોકે, મેં જ્યારે વિકાસલક્ષી વિકાસનો અભ્યાસ કરવાનું શરૂ કર્યું, ત્યારે મને લાગ્યું કે અમલીકરણ પહેલાં ટેસ્ટ વિશે વિચારવું એ હંમેશા સૌથી યોગ્ય અભિગમ નથી.</p>
+<p>ખાસ કરીને વેબ એપ્લિકેશન્સ જેવા સૉફ્ટવેર માટે કે જેમાં ઉપયોગીતા અને વિઝ્યુઅલ ડિઝાઇન જેવા વ્યક્તિલક્ષી પાસાઓ શામેલ હોય, જેની સાથે સીધો સંવાદ થાય છે, ત્યારે મને સમજાયું કે સૉફ્ટવેરને ખરેખર ચલાવવું અને તેની સાથે સંવાદ કરવો એ વિગતવાર ટેસ્ટ કરતાં વધુ પ્રાધાન્ય ધરાવે છે.</p>
+<p>આ એટલા માટે છે કારણ કે જો તેની સાથે સંવાદ કર્યા પછી UI/UX સ્તરે નોંધપાત્ર અસંતોષ હોય, તો ફ્રેમવર્ક, મૂળભૂત આર્કિટેક્ચર, ડેટા મોડેલ અથવા યુઝ કેસ જેવા મૂળભૂત ભાગોને બદલવાની સંભાવના રહે છે.</p>
+<p>મારા વર્તમાન વ્યક્તિગત સૉફ્ટવેર ડેવલપમેન્ટ પ્રોજેક્ટમાં, મેં સુવિધાની સુગમતા અને પ્રદર્શન સાથેની સમસ્યાઓ નોંધી અને બે ફ્રેમવર્કને અલગ-અલગ ફ્રેમવર્કમાં બદલી નાખ્યા.</p>
+<p>અનિશ્ચિત મેમરી ઉપયોગને કારણે મારે કેટલાક ક્ષેત્રોમાં પ્રક્રિયાની સંપૂર્ણ સમીક્ષા પણ કરવી પડી હતી.</p>
+<p>રિફેક્ટરિંગના આ ક્ષણોમાં જ ટેસ્ટિંગ સૌપ્રથમ સભાન વિચારણા બને છે.</p>
+<p>જો આ વિકાસના પ્રારંભિક તબક્કે હોય, અથવા જો કાર્યો અને સ્પષ્ટીકરણો નોંધપાત્ર રીતે બદલાવાના હોય, તો ટેસ્ટિંગ બિનજરૂરી હોઈ શકે છે.</p>
+<p>જોકે, જો વિકાસ પહેલેથી જ ઘણો આગળ વધ્યો હોય અને તપાસ કરવા માટે ઘણી વસ્તુઓ હોય, તો રિફેક્ટરિંગથી કાર્યાત્મક ખામીઓ અથવા ભૂલો દાખલ થઈ નથી તેની પુષ્ટિ કરવા માટે ટેસ્ટિંગ જરૂરી બનશે.</p>
+<p>તેથી, જ્યારે વિકાસ અમુક હદ સુધી આગળ વધ્યો હોય અને રિફેક્ટરિંગ જરૂરી બને ત્યારે ટેસ્ટ પ્રોગ્રામ્સ બનાવવાનો અભિગમ ખરાબ વિચાર નથી.</p>
+<p>આ સમયે, મુખ્ય બાબત એ છે કે બધા કોડ માટે ટેસ્ટ બનાવવા નહીં, પરંતુ ભવિષ્યમાં વધુ બદલાવની શક્યતા ન હોય તેવા પરિપક્વ ભાગોના ટેસ્ટિંગ પર ધ્યાન કેન્દ્રિત કરવું, જ્યારે પ્રવાહી ભાગોને સ્વચાલિત ટેસ્ટ વિના છોડી દેવા.</p>
+<p>આને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ કહી શકાય.</p>
+<h2>નિષ્કર્ષ</h2>
+<p>જનરેટિવ AI સૉફ્ટવેર ડેવલપમેન્ટને નાટકીય રીતે બદલી રહ્યું છે.</p>
+<p>અગાઉના એક લેખમાં, મેં &quot;ઓમ્ની-ડાયરેક્શનલ એન્જિનિયર&quot; બનવાના મહત્વ વિશે લખ્યું હતું, જે વિવિધ ડોમેન્સ, ઇન્ફ્રાસ્ટ્રક્ચર્સ અને એક્ઝિક્યુશન એન્વાયર્નમેન્ટ્સને સંયોજિત કરતી સિસ્ટમ્સ વિકસાવવામાં સક્ષમ હોય, જે પરંપરાગત ફુલ-સ્ટેક એન્જિનિયરથી આગળ વધે છે.</p>
+<p>મેં એક લેખ પણ લખ્યો હતો જેમાં સૂચવવામાં આવ્યું હતું કે આપણે &quot;એક્સપિરિયન્સ અને બિહેવિયર-સેન્ટ્રિક ડેવલપમેન્ટ&quot; ના યુગમાં પ્રવેશી રહ્યા છીએ, જ્યાં ધ્યાન સ્પષ્ટીકરણોને અમલીકરણ સાથે સંરેખિત કરવા પર નહીં, પરંતુ સૉફ્ટવેરના વર્તન દ્વારા વપરાશકર્તા અનુભવ સુધારવા પર છે.</p>
+<p>વિકાસલક્ષી વિકાસ અને રિફેક્ટરિંગ-ડ્રિવન ટેસ્ટિંગ એ જ છે જે સૉફ્ટવેર ડેવલપમેન્ટમાં આ નવા ક્ષિતિજો તરફ દોરી જાય છે.</p>
+</article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <div class="flex items-center mb-3"> <div class="bg-green-100 p-2 rounded-lg mr-3">  </div> <h3 class="text-lg font-semibold text-gray-900"> શ્રેણીઓ </h3> </div> <div class="space-y-2"> <div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/gu/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ટેકનોલોજી </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/gu/categories/software-engineering/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> સોફ્ટવેર એન્જિનિયરિંગ </a> </div> </div> </div><div class="flex items-center space-x-2"> <div class="flex items-center space-x-1 text-sm"> <div class="flex items-center space-x-1">   <a href="/gu/categories/technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ટેકનોલોજી </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span>  <a href="/gu/categories/artificial-intelligence/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> કૃત્રિમ બુદ્ધિ </a> </div> </div> </div> </div> </div>  </div> </div> </div>    <nav class="mt-12 pt-8 border-t border-gray-200" data-astro-cid-nnxgeytw> <!-- デスクトップ版：横並び --> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_16_Time-Compression-Blindspot/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> પહેલાનો </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> સમય સંકોચન અને અંધ સ્થળો: નિયમનની જરૂરિયાત </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 16 ઑગસ્ટ, 2025 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_24_Wall-Free-Era/" class="group block max-w-sm ml-auto" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center justify-end" data-astro-cid-nnxgeytw> આગળનો <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> સરહદો વિનાના યુગમાં પ્રવેશ: 30-ભાષાની બ્લોગ સાઇટ બનાવવી </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 24 ઑગસ્ટ, 2025 </div> </a> </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/gu/articles/2025/08_16_Time-Compression-Blindspot/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> પહેલાનો </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> સમય સંકોચન અને અંધ સ્થળો: નિયમનની જરૂરિયાત </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 16 ઑગસ્ટ, 2025 </div> </a> <a href="/gu/articles/2025/08_24_Wall-Free-Era/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> આગળનો <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> સરહદો વિનાના યુગમાં પ્રવેશ: 30-ભાષાની બ્લોગ સાઇટ બનાવવી </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 24 ઑગસ્ટ, 2025 </div> </a> </div> </nav>  </div>  </main> <footer class="bg-white border-t border-gray-200 py-12"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-4">કાતોશીના સંશોધન નોંધો</h3> <p class="text-gray-600 text-sm leading-relaxed"> એક સોફ્ટવેર એન્જિનિયર/સિસ્ટમ આર્કિટેક્ટ/એન્જિનિયરિંગમાં Ph.D. દ્વારા સંશોધન નોંધો. સોફ્ટવેર ડેવલપમેન્ટના અનુભવ દ્વારા જીવનની ઉત્પત્તિની પદ્ધતિઓ, જીવન ઘટનાઓનું સાર અને બુદ્ધિ અને સમાજની રચનાઓનું અન્વેષણ કરવું. </p> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> સાઇટમેપ </h4> <ul class="space-y-2 text-sm"> <li><a href="/gu/articles/" class="text-gray-600 hover:text-blue-600 transition-colors">લેખો</a></li> <li><a href="/gu/categories/" class="text-gray-600 hover:text-blue-600 transition-colors">શ્રેણીઓ</a></li> <li><a href="/gu/tags/" class="text-gray-600 hover:text-blue-600 transition-colors">ટૅગ્સ</a></li> <li><a href="/gu/about/" class="text-gray-600 hover:text-blue-600 transition-colors">વિશે</a></li> </ul> </div> <div> <h4 class="text-md font-semibold text-gray-900 mb-4"> અનુસરો </h4> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="નોટ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube પર સબ્સ્ક્રાઇબ કરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="મીડિયમ પર અનુસરો" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </div> <div class="mt-8 pt-8 border-t border-gray-200 text-center"> <p class="text-gray-500 text-sm mb-2"> © 2025 કાતોશી. Astro વડે બનાવેલ. </p> <div class="text-xs text-gray-500 space-y-1"> <p>અન્યથા નોંધવામાં ન આવે ત્યાં સુધી, આ સાઇટ પરની સામગ્રી <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" class="underline hover:text-blue-600">CC0 1.0 યુનિવર્સલ</a> હેઠળ પ્રદાન કરવામાં આવે છે.</p> </div> <p class="text-gray-400 text-xs mb-1"> આ સાઇટ પરના લેખો AI અનુવાદનો ઉપયોગ કરીને જાપાનીઝમાંથી બહુભાષીકૃત કરવામાં આવ્યા છે </p> <p class="text-gray-400 text-xs"> 30 ભાષાઓમાં ઉપલબ્ધ લેખો </p> </div> </div> </footer> <script type="module">const e=document.getElementById("mobile-menu-button"),n=document.getElementById("mobile-menu");e&&n&&e.addEventListener("click",()=>{const t=e.getAttribute("aria-expanded")==="true";e.setAttribute("aria-expanded",String(!t)),n.classList.toggle("hidden",t)});</script>  </body> </html> <script>
+  const copyBtn = document.getElementById('copy-article');
+
+  // data-* 属性から翻訳テキストを取得
+  const copyText = copyBtn.dataset.copyText;
+  const copiedText = copyBtn.dataset.copiedText;
+  const copyFailedText = copyBtn.dataset.copyFailedText;
+
+  const handleSuccess = () => {
+    if (copyBtn) {
+      // ハードコードされたテキストを動的な値に置き換え
+      copyBtn.textContent = copiedText; 
+      setTimeout(() => {
+        // ハードコードされたテキストを動的な値に置き換え
+        copyBtn.textContent = copyText;
+      }, 2000);
+    }
+  };
+
+  const fallbackCopy = text => {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.top = '-1000px';
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    const successful = document.execCommand('copy');
+    document.body.removeChild(textarea);
+    return successful;
+  };
+
+  copyBtn?.addEventListener('click', async () => {
+    try {
+      // データ属性から値を取得
+      const title = copyBtn.dataset.title || '';
+      const date = copyBtn.dataset.date || '';
+      const author = copyBtn.dataset.author || '';
+      const raw = copyBtn.dataset.content || '';
+
+      const processed = raw
+        .split('\n')
+        .map(line => {
+          const m = line.match(/^\s*#+\s*(.*)$/);
+          return m ? `## ${m[1]}` : line;
+        })
+        .join('\n');
+
+      const text = `${title}\n${date} ${author}\n\n${processed}`;
+
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        handleSuccess();
+      } else if (fallbackCopy(text)) {
+        handleSuccess();
+      } else {
+        throw new Error('Fallback copy failed');
+      }
+    } catch (err) {
+      console.error('コピーに失敗しました:', err);
+      if (copyBtn) {
+        // ハードコードされたテキストを動的な値に置き換え
+        copyBtn.textContent = copyFailedText; 
+        setTimeout(() => {
+          // ハードコードされたテキストを動的な値に置き換え
+          copyBtn.textContent = copyText;
+        }, 2000);
+      }
+    }
+  });
+</script> 
