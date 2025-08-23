@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/de/rss.xml</link>
 <description>Latest articles (de)</description>
 <item>
+  <title>Eine Ära ohne Grenzen: Erstellung einer 30-sprachigen Blog-Site</title>
+  <link>https://katoshi-mfacet.github.io/de/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/de/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Der Autor beschreibt die Erstellung einer mehrsprachigen Blog-Website (30 Sprachen) unter Nutzung generativer KI (Gemini). Der Prozess umfasst die automatische Generierung von HTML-Dateien aus japanischen Entwürfen mithilfe eines Astro-Framework-basierten Programms. Kategorisierung und Tagging erfolgen ebenfalls automatisiert durch Gemini, basierend auf den Artikelinhalten und extrahierten Listen früherer Artikel. Die mehrsprachige Unterstützung wird durch Gemini-gestützte Übersetzung von Website-Texten und Artikelinhalten realisiert. Barrierefreiheit wird durch Hinzufügen von Funktionen für Audio-Wiedergabe und Tastatursteuerung verbessert, wobei Gemini auch hierbei Vorschläge liefert. Der Autor hebt hervor, wie generative KI Sprach-, Wartungs- und Vorstellungsschranken überwindet, die Erstellung einer solchen Website für Einzelpersonen erleichtern und die individuelle Informationsverbreitung fördern kann. Der Fokus liegt auf den Ideen und Mechanismen hinter dem System, da generative KI selbst zu einem vollwertigen Software-Ingenieur wird.</description>
+</item>
+<item>
+  <title>Entwicklungsbasierte Entwicklung und Refactoring-gesteuertes Testen</title>
+  <link>https://katoshi-mfacet.github.io/de/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/de/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Der Artikel "Entwicklungsbasierte Entwicklung und Refactoring-gesteuertes Testen" beschreibt, wie generative KI die Softwareentwicklung revolutioniert. Es wird die "KI-gesteuerte Softwareentwicklung" eingeführt, bei der generative KI die Effizienz steigert. Ein zentrales Konzept ist die "entwicklungsbasierte Entwicklung", bei der Software zur Unterstützung des Entwicklungsprozesses selbst erstellt wird, was zu wiederholten Verbesserungen in nachfolgenden Projekten führt. Dies transformiert die Methodik, indem Werkzeuge kontinuierlich im Prozess erstellt und wiederverwendet werden. Ergänzend wird "Refactoring-gesteuertes Testen" vorgestellt. Im Gegensatz zu TDD, wo Tests zuerst erstellt werden, rückt hier das Testen in den Fokus, wenn Refactoring aufgrund von UI/UX-Problemen oder Leistungsengpässen notwendig wird. Dabei werden Tests auf ausgereifte und stabile Codebereiche konzentriert, während volatile Teile ohne automatisierte Tests belassen werden. Diese Ansätze ebnen den Weg zu einer "erfahrungs- und verhaltenszentrierten Entwicklung" und erweitern die Rolle des Ingenieurs zum "Omnidirektionalen Ingenieur".</description>
+</item>
+<item>
   <title>Zeitkompression und blinde Flecken: Die Notwendigkeit der Regulierung</title>
   <link>https://katoshi-mfacet.github.io/de/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/de/articles/2025/08_16_Time-Compression-Blindspot/</guid>
