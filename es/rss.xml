@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/es/rss.xml</link>
 <description>Latest articles (es)</description>
 <item>
+  <title>Entrando en una Era Sin Fronteras: Creación de un Sitio Web de Blog en 30 Idiomas</title>
+  <link>https://katoshi-mfacet.github.io/es/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/es/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>El autor describe el proceso de creación de un sitio web de blog multilingüe (30 idiomas) utilizando IA generativa, específicamente Gemini. El sistema automatiza la generación de archivos HTML a partir de borradores de artículos escritos en japonés. Un programa personalizado, basado en el framework Astro, interactúa con Gemini para generar el sitio. Gemini también se utiliza para la categorización y el etiquetado automático de artículos, extrayendo sugerencias de textos anteriores. La traducción de contenido del sitio y de los propios artículos se realiza a través de la API de Gemini, mejorando la naturalidad y la precisión de los matices. Se destaca la mejora de la accesibilidad, con Gemini sugiriendo e implementando cambios en HTML para usuarios con discapacidades visuales o que prefieren navegación por teclado. El artículo enfatiza cómo la IA generativa elimina barreras significativas como el idioma y la accesibilidad, que tradicionalmente serían prohibitivas para un individuo. El autor, un ingeniero de sistemas, construyó el sistema en dos semanas, lo que sugiere que la IA generativa democratiza la creación de sitios web y la difusión de información, permitiendo a personas sin experiencia técnica construir plataformas complejas. Se postula que la IA generativa facilita la superación de barreras, abriendo camino a la innovación y a una era de menor fricción en la comunicación global.</description>
+</item>
+<item>
+  <title>Desarrollo evolutivo y pruebas impulsadas por refactorización</title>
+  <link>https://katoshi-mfacet.github.io/es/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/es/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>El artículo explora dos metodologías innovadoras en el desarrollo de software, impulsadas por la IA generativa: el Desarrollo Evolutivo y las Pruebas Impulsadas por Refactorización. El Desarrollo Evolutivo se centra en la creación iterativa de software auxiliar que automatiza y mejora el propio proceso de desarrollo, aumentando la eficiencia y la calidad con el tiempo. Esta metodología se distingue del simple uso de herramientas de IA, al integrar la IA en herramientas de software reutilizables que se benefician de la precisión combinada de programas y prompts. Por otro lado, las Pruebas Impulsadas por Refactorización cuestionan la primacía del Desarrollo Orientado a Pruebas (TDD) tradicional, sugiriendo que en proyectos con alta subjetividad o propensos a cambios fundamentales (como aplicaciones web), es más eficiente centrarse en la interacción y el uso del software. Las pruebas se vuelven cruciales cuando la refactorización es necesaria, enfocándose en probar las partes maduras y estables del código, en lugar de predecir todos los cambios futuros. Ambas metodologías, facilitadas por la IA generativa, señalan una evolución hacia un desarrollo más adaptativo, eficiente y centrado en la experiencia del usuario, alineándose con conceptos como el de Ingeniero Omnidireccional y Desarrollo Centrado en la Experiencia y el Comportamiento.</description>
+</item>
+<item>
   <title>Compresión del Tiempo y Puntos Ciegos: La Necesidad de Regulación</title>
   <link>https://katoshi-mfacet.github.io/es/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/es/articles/2025/08_16_Time-Compression-Blindspot/</guid>
