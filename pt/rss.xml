@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/pt/rss.xml</link>
 <description>Latest articles (pt)</description>
 <item>
+  <title>Entrando Numa Era Sem Fronteiras: Criação de um Site de Blog em 30 Idiomas</title>
+  <link>https://katoshi-mfacet.github.io/pt/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/pt/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>O autor descreve a criação de um site de blog multilíngue com 30 idiomas, utilizando a IA generativa Gemini. O processo incluiu a geração automática de ficheiros HTML a partir de rascunhos em japonês, organização de artigos por categorização e marcação (tagging), e suporte para múltiplos idiomas e acessibilidade. Programas personalizados, desenvolvidos em diálogo com o Gemini, automatizam a geração de conteúdo, a sugestão de categorias/etiquetas com base em artigos existentes, e a tradução de textos do site e dos artigos. A IA também foi crucial para implementar melhorias de acessibilidade, como navegação por teclado e funcionalidades de áudio. O autor destaca como a IA generativa superou barreiras significativas, incluindo a linguística (traduzindo com mais nuances e naturalidade do que métodos tradicionais, e ajustando elementos como datas e layouts bidirecionais) e a de acessibilidade, antes intransponíveis para um indivíduo. O projeto, concluído em duas semanas, demonstra o potencial da IA para democratizar a criação de conteúdo e a disseminação de informação, superando barreiras de imaginação, manutenção e até mesmo de conhecimento técnico em programação.</description>
+</item>
+<item>
+  <title>Desenvolvimento Desenvolvimental e Testes Orientados a Refatoração</title>
+  <link>https://katoshi-mfacet.github.io/pt/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/pt/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>O artigo discute como a IA generativa está a revolucionar o desenvolvimento de software, permitindo novas abordagens como o "desenvolvimento desenvolvimental" e os "testes orientados a refatoração". O desenvolvimento desenvolvimental foca-se na criação contínua de software auxiliar para otimizar o próprio processo de desenvolvimento, aumentando a eficiência e reutilização de ativos. Por outro lado, os testes orientados a refatoração sugerem que os testes devem ser criados após o desenvolvimento ter avançado e a refatoração se tornar necessária, focando-se em partes maduras do código para garantir que as alterações não introduzam defeitos. Ambas as metodologias, impulsionadas pela IA generativa, visam melhorar a qualidade, custo e experiência do utilizador no desenvolvimento de software, alinhando-se com conceitos como Engenheiro Omni-direcional e Desenvolvimento Centrado na Experiência e Comportamento.</description>
+</item>
+<item>
   <title>Compressão do Tempo e Pontos Cegos: A Necessidade de Regulação</title>
   <link>https://katoshi-mfacet.github.io/pt/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/pt/articles/2025/08_16_Time-Compression-Blindspot/</guid>
