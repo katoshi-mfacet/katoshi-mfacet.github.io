@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/jv/rss.xml</link>
 <description>Latest articles (jv)</description>
 <item>
+  <title>Ngleboni Jaman Tanpa Wates: Nggawe Situs Blog 30 Basa</title>
+  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artikel iki njlèntrèhaké nggunakake AI generatif, utamané Google Gemini, kanggo nggawe lan ngelola situs web blog multibahasa kanthi otomatis. Panulis nggunakake Gemini kanggo ngasilake file HTML saka draf artikel, ngotomatisasi kategorisasi lan tagging kanthi ngirim draf menyang Gemini liwat API, lan nindakake terjemahan situs web lan artikel menyang 30 basa. Kajaba iku, Gemini menehi saran kanggo nambah aksesibilitas situs web, kayata kanggo pangguna cacat visual utawa pangguna sing mung nggunakake keyboard. Nggunakake AI generatif iki ngatasi watesan tradisional kayata alangan basa, kabutuhan tenaga kerja sing gedhe kanggo terjemahan, lan tantangan aksesibilitas, kanthi efektif nyedhiyakake sistem sing bisa tuwuh lan nganyari kanthi saben artikel anyar. Penulis nyimpulaké manawa AI generatif ngilangi alangan sing signifikan kanggo nyebarake informasi, kanthi potensial kanggo ngatasi alangan liyane kayata beda budaya lan nilai ing mangsa ngarep.</description>
+</item>
+<item>
+  <title>Pangembangan Adhedhasar Pangembangan lan Tes sing Dipimpin Refactoring</title>
+  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artikel iki ngenalake konsep inovatif ing pangembangan piranti lunak, utamane fokus ing carane AI generatif bisa nggayuh kemajuan. "Pangembangan Adhedhasar Pangembangan" (Development-Driven Development) minangka metodologi ing ngendi pangembang bola-bali nggawe alat piranti lunak sing mbantu proses pangembangan dhewe. Nalika AI generatif ndadekake nggawe alat bantu iki luwih gampang, iku nyepetake efisiensi sakabèhé lan ngasilake aset sing bisa digunakake maneh ing proyek mbesuk. Konsep iki kontras karo mung nggunakake AI generatif, lan nduweni potensi kanggo nggawe keuntungan sing akumulatif ing proyek sing terus-terusan. Salajengipun, artikel kasebut ngenalake "Tes sing Dipimpin Refactoring" (Refactoring-Led Testing) minangka pendekatan sing dikembangake saka kritik marang Pangembangan Berbasis Tes (TDD). Alih-alih nggawe tes sadurunge, pendekatan iki nyaranake fokus ing pangembangan lan interaksi pangguna, lan banjur nggawe tes kanggo bagean kode sing wis stabil lan mateng nalika refactoring dadi perlu. Iki utamane relevan kanggo aplikasi sing nglibatake aspek subjektif kaya kegunaan, ing ngendi pengalaman langsung luwih penting tinimbang tes formal awal. Kanthong loro metodologi iki, pangembangan piranti lunak diarepake maju menyang era efisiensi lan kualitas sing luwih gedhe.</description>
+</item>
+<item>
   <title>Komprèsi Wektu lan Titik Wuta: Pentingipun Regulasi</title>
   <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_16_Time-Compression-Blindspot/</guid>
