@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/id/rss.xml</link>
 <description>Latest articles (id)</description>
 <item>
+  <title>Memasuki Era Tanpa Batas: Membuat Situs Blog 30 Bahasa</title>
+  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artikel ini menguraikan pembuatan situs blog multibahasa (30 bahasa) yang diotomatisasi menggunakan AI generatif, khususnya Gemini. Penulis, seorang insinyur sistem, mengembangkan program kustom berbasis kerangka kerja Astro untuk menghasilkan file HTML dari draf artikel. Kategorisasi dan penandaan artikel juga diotomatisasi dengan memanfaatkan Gemini untuk menafsirkan makna dan menyarankan kategori/tag, yang diekstraksi dari artikel sebelumnya. Untuk dukungan multibahasa, Gemini digunakan untuk menerjemahkan string situs web umum dan konten artikel, dengan penekanan pada akurasi nuansa dan ekspresi alami dibandingkan terjemahan mesin tradisional. Aksesibilitas ditingkatkan dengan menambahkan fitur untuk pengguna tunanetra dan mereka yang kesulitan menggunakan mouse, yang juga disarankan oleh Gemini. Penulis menyoroti bagaimana AI generatif menghilangkan hambatan signifikan seperti bahasa dan aksesibilitas, yang sebelumnya mustahil bagi individu. Sistem yang diperbarui secara otomatis ini memungkinkan pemeliharaan dan pembaruan yang mudah, mendemokratisasi pembuatan situs web. Artikel menyimpulkan bahwa AI generatif memberdayakan penyebaran informasi dengan mengatasi hambatan yang sebelumnya tidak terpecahkan, membuka jalan bagi era baru di mana hambatan semakin berkurang.</description>
+</item>
+<item>
+  <title>Pengembangan Berorientasi Pembangunan dan Pengujian Berbasis Refactoring</title>
+  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Artikel ini mengeksplorasi evolusi pengembangan perangkat lunak, yang dipercepat oleh AI generatif. Ini memperkenalkan konsep 'pengembangan berorientasi pembangunan' di mana alat bantu pengembangan diciptakan secara iteratif selama proses pengembangan perangkat lunak itu sendiri. Tujuannya adalah untuk meningkatkan efisiensi dan kualitas secara keseluruhan, dengan alat-alat ini yang dapat digunakan kembali di proyek mendatang. Pendekatan ini membutuhkan pengembang untuk secara kritis mengamati alur kerja mereka dan mengidentifikasi tugas-tugas yang dapat diotomatisasi oleh perangkat lunak bantu, yang ditingkatkan lebih lanjut dengan integrasi AI generatif tertanam. Selain itu, artikel ini mengusulkan 'pengujian berbasis refactoring' sebagai alternatif untuk Test-Driven Development (TDD). Pendekatan ini berfokus pada pembuatan pengujian setelah fase refactoring signifikan, terutama untuk bagian kode yang stabil, bukan membuat tes di muka untuk semua fungsionalitas. Ini sangat relevan untuk aplikasi web yang membutuhkan iterasi pada UI/UX, yang mungkin memerlukan perubahan mendasar pada arsitektur atau kerangka kerja. Baik pengembangan berorientasi pembangunan maupun pengujian berbasis refactoring diposisikan sebagai metodologi kunci yang mengarahkan pengembangan perangkat lunak ke masa depan yang lebih efisien dan adaptif, yang mengarah pada era 'pengembangan berpusat pada pengalaman &amp; perilaku'.</description>
+</item>
+<item>
   <title>Kompresi Waktu dan Titik Buta: Kebutuhan akan Regulasi</title>
   <link>https://katoshi-mfacet.github.io/id/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_16_Time-Compression-Blindspot/</guid>
