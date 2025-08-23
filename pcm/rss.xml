@@ -5,6 +5,20 @@
 <link>https://katoshi-mfacet.github.io/pcm/rss.xml</link>
 <description>Latest articles (pcm)</description>
 <item>
+  <title>Entering an Era Wey No Get Borders: How I Make 30-Language Blog Site</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/08_24_Wall-Free-Era/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/08_24_Wall-Free-Era/</guid>
+  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  <description>The author details how they built an automated, multilingual blog website using generative AI, specifically Gemini. The system, built on the Astro framework, automatically generates HTML files from Japanese blog post drafts. Gemini was used to develop the core program, categorize and tag articles, and translate content into 30 languages. The author highlights Gemini's role in improving accessibility features and handling language-specific nuances like date formats and right-to-left writing systems. The process involves automatically updating the site, categorizing content, and translating common phrases and article drafts. This approach significantly overcomes barriers of language, translation quality, accessibility, and site maintenance, making information dissemination more accessible to individuals.</description>
+</item>
+<item>
+  <title>Kunu Developmen We De Kun De Develop, With Refactoring-Driven Testing</title>
+  <link>https://katoshi-mfacet.github.io/pcm/articles/2025/08_19_Dev-Development/</link>
+  <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/08_19_Dev-Development/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <description>This article discusses a new approach to software development called "Kunu Development" which leverages generative AI to create developer tools concurrently with the main software development process. This iterative creation of helper software aims to improve efficiency and quality over time. The article also introduces "Refactoring-Driven Testing," an alternative to Test-Driven Development (TDD), suggesting that testing becomes more crucial during refactoring phases rather than at the initial design stage, especially for software with subjective user experience elements. This approach prioritizes testing mature features while leaving fluid components without automated tests. Both "Kunu Development" and "Refactoring-Driven Testing" are presented as advancements pushing software development towards more advanced, experience-centric, and omni-directional engineering.</description>
+</item>
+<item>
   <title>Time Wey Dey Rush Us &amp; Things Wey We No Know: Why We Need Rules</title>
   <link>https://katoshi-mfacet.github.io/pcm/articles/2025/08_16_Time-Compression-Blindspot/</link>
   <guid>https://katoshi-mfacet.github.io/pcm/articles/2025/08_16_Time-Compression-Blindspot/</guid>
