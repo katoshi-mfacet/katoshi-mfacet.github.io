@@ -107,7 +107,97 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
     });
   });
 })();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="ਮੇਨੂ ਖੋਲ੍ਹੋ" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/pa/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> ਲੇਖ </a> <a href="/pa/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼੍ਰੇਣੀਆਂ </a> <a href="/pa/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> ਟੈਗ </a> <a href="/pa/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> ਪੁਰਾਲੇਖ </a> <a href="/pa/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼ਬਦਾਵਲੀ </a> <a href="/pa/about/" class="text-gray-600 hover:text-gray-900 font-medium"> ਬਾਰੇ </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ਨੋਟ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube 'ਤੇ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ਮੀਡੀਅਮ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/pa/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਮੁੱਖ ਪੰਨਾ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/pa/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਲੇਖ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>ਬਲੌਗ ਪੋਸਟਾਂ ਤੋਂ ਆਟੋਮੇਟਿਡ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਉਤਪਤੀ</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_08_natural-language-ml/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> ਪਿਛਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 8 ਅਗ 2025 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_06_micro-vm-intelligence/" class="group block max-w-sm ml-auto" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center justify-end" data-astro-cid-nnxgeytw> ਅਗਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਮਾਈਕ੍ਰੋ ਵਰਚੁਅਲ ਇੰਟੈਲੀਜੈਂਸ ਦੇ ਰੂਪ ਵਿੱਚ ਧਿਆਨ ਵਿਧੀ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 6 ਅਗ 2025 </div> </a> </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_08_natural-language-ml/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ਪਿਛਲਾ </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 8 ਅਗ 2025 </div> </a> <a href="/pa/articles/2025_08_06_micro-vm-intelligence/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> ਅਗਲਾ <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਮਾਈਕ੍ਰੋ ਵਰਚੁਅਲ ਇੰਟੈਲੀਜੈਂਸ ਦੇ ਰੂਪ ਵਿੱਚ ਧਿਆਨ ਵਿਧੀ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 6 ਅਗ 2025 </div> </a> </div> </nav>  <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center justify-between" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-blue-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਜਾਪਾਨੀ ਤੋਂ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ ਹੈ</span> </div> <a href="/ja/articles/2025_08_06_auto-presentation-video/" class="text-blue-600 hover:text-blue-800 text-sm font-medium underline" data-astro-cid-3ljf2kae> ਜਾਪਾਨੀ ਵਿੱਚ ਪੜ੍ਹੋ </a> </div> </div>  <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ ਪਬਲਿਕ ਡੋਮੇਨ (CC0) ਵਿੱਚ ਹੈ। ਇਸਨੂੰ ਸੁਤੰਤਰ ਰੂਪ ਵਿੱਚ ਵਰਤਣ ਲਈ ਸੁਤੰਤਰ ਮਹਿਸੂਸ ਕਰੋ।</span> <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" data-astro-cid-3ljf2kae> <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0 Universal" style="border-style: none;" class="ml-2" data-astro-cid-3ljf2kae> </a> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae>ਬਲੌਗ ਪੋਸਟਾਂ ਤੋਂ ਆਟੋਮੇਟਿਡ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਉਤਪਤੀ</h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-08-06" data-astro-cid-3ljf2kae>6 ਅਗਸਤ 2025</time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="ਬਲੌਗ ਪੋਸਟਾਂ ਤੋਂ ਆਟੋਮੇਟਿਡ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਉਤਪਤੀ" data-date="6 ਅਗਸਤ 2025" data-author="ਕਤੋਸ਼ੀ" data-content="
-記事が見つかりません。" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
+https://youtu.be/vmt_WVBJMj4?si=OZlzEqfEvWjPakYV
+
+ਮੈਂ ਇੱਕ ਸਿਸਟਮ ਵਿਕਸਤ ਕੀਤਾ ਹੈ ਜੋ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਬਲੌਗ ਲੇਖਾਂ ਤੋਂ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਬਣਾਉਂਦਾ ਹੈ ਅਤੇ ਉਹਨਾਂ ਨੂੰ YouTube 'ਤੇ ਅੱਪਲੋਡ ਕਰਦਾ ਹੈ।
+
+ਕੁਝ ਹੁਨਰ ਨਾਲ, ਜਨਰੇਟਿਵ AI ਨਾ ਸਿਰਫ਼ ਪ੍ਰਸਤੁਤੀ ਦੀ ਕਹਾਣੀ ਤਿਆਰ ਕਰ ਸਕਦਾ ਹੈ ਬਲਕਿ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵੀ ਬਣਾ ਸਕਦਾ ਹੈ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਪ੍ਰਸਤੁਤੀ ਲਈ ਇੱਕ ਸਕ੍ਰਿਪਟ ਤਿਆਰ ਕਰਵਾ ਕੇ ਅਤੇ ਫਿਰ ਇੱਕ ਟੈਕਸਟ-ਟੂ-ਸਪੀਚ ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਉਸ ਸਕ੍ਰਿਪਟ ਨੂੰ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ ਪੜ੍ਹਵਾ ਕੇ, ਆਡੀਓ ਡੇਟਾ ਵੀ ਤਿਆਰ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
+
+ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਅਤੇ ਆਡੀਓ ਡੇਟਾ ਨੂੰ ਜੋੜਨ ਨਾਲ ਫਿਰ ਇੱਕ ਵੀਡੀਓ ਬਣ ਜਾਂਦਾ ਹੈ।
+
+ਕਾਰਜਾਂ ਦੀ ਇਸ ਲੜੀ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਕੇ, ਮੈਂ ਇੱਕ ਸਿੰਗਲ ਕਲਿੱਕ ਨਾਲ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਤਿਆਰ ਕਰਨਾ ਸੰਭਵ ਬਣਾ ਦਿੱਤਾ ਹੈ।
+
+## ਵਿਧੀ
+
+ਇਸ ਪ੍ਰਕਿਰਿਆ ਦਾ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਹਿੱਸਾ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਦੀ ਉਤਪਤੀ ਹੈ।
+
+ਜਨਰੇਟਿਵ AI ਚਿੱਤਰ ਬਣਾਉਣ ਵਿੱਚ ਬਹੁਤ ਵਧੀਆ ਹੈ, ਪਰ ਇਹ ਆਮ ਤੌਰ 'ਤੇ ਫੋਟੋਆਂ ਜਾਂ ਡਰਾਇੰਗਾਂ ਤੱਕ ਸੀਮਤ ਹੁੰਦਾ ਹੈ। ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵਰਗੇ ਟੈਕਸਟ ਅਤੇ ਚਿੱਤਰਾਂ 'ਤੇ ਕੇਂਦਰਿਤ ਦਸਤਾਵੇਜ਼ ਬਣਾਉਣਾ ਚਿੱਤਰ-ਉਤਪਾਦਕ AIs ਲਈ ਚੁਣੌਤੀਪੂਰਨ ਹੈ।
+
+ਇਸ ਲਈ, ਮੈਂ ਟੈਕਸਟ ਅਤੇ ਚਿੱਤਰ-ਕੇਂਦਰਿਤ ਸਮੱਗਰੀ ਨੂੰ ਇੱਕ ਟੈਕਸਟ-ਆਧਾਰਿਤ ਫਾਰਮੈਟ ਵਿੱਚ ਤਿਆਰ ਕਰਦਾ ਹਾਂ, ਜੋ ਇੱਕ ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ ਦੇ ਸਮਾਨ ਹੈ।
+
+ਅਜਿਹੀ ਸਮੱਗਰੀ ਬਣਾਉਣ ਲਈ ਕਈ ਫਾਰਮੈਟ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ।
+
+ਸ਼ੁਰੂ ਵਿੱਚ, ਮੈਂ ਮਾਰਪ, ਖਾਸ ਤੌਰ 'ਤੇ ਪ੍ਰਸਤੁਤੀ ਬਣਾਉਣ ਲਈ ਇੱਕ ਫਾਰਮੈਟ, ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਪਰ ਇਸ ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਸੀਮਤ ਸਨ। ਇਸ ਲਈ, ਮੈਂ ਵਧੇਰੇ ਆਮ SVG ਫਾਰਮੈਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕੀਤਾ, ਜੋ ਵੈਕਟਰ ਗ੍ਰਾਫਿਕਸ ਲਈ ਹੈ।
+
+SVG ਵਰਗੇ ਟੈਕਸਟ-ਆਧਾਰਿਤ ਫਾਰਮੈਟ ਨਾਲ, ਇੱਕ ਮਿਆਰੀ ਚੈਟ-ਆਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਸਮੱਗਰੀ ਬਣਾ ਸਕਦਾ ਹੈ ਜੇਕਰ ਇਸਨੂੰ ਇੱਕ ਬੇਨਤੀ ਦੇ ਨਾਲ ਪ੍ਰੇਰਿਤ ਕੀਤਾ ਜਾਵੇ, ਜਿਵੇਂ ਕਿ, &#34;ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਬਲੌਗ ਲੇਖ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਪੇਸ਼ ਕਰਦੇ ਹੋਏ SVG ਫਾਰਮੈਟ ਵਿੱਚ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਬਣਾਓ।&#34;
+
+## ਟੈਕਸਟ ਓਵਰਫਲੋ ਸਮੱਸਿਆ
+
+ਇੱਥੇ ਸਮੱਸਿਆ ਇਹ ਹੈ ਕਿ ਟੈਕਸਟ ਅਕਸਰ ਦਸਤਾਵੇਜ਼ ਦੇ ਬਾਹਰੀ ਫਰੇਮ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਦੇ ਅੰਦਰ ਚਿੱਤਰਾਂ ਦੇ ਫਰੇਮਾਂ ਤੋਂ ਬਾਹਰ ਫੈਲ ਜਾਂਦਾ ਹੈ।
+
+ਇੱਕ ਮਨੁੱਖ ਪੂਰਾ ਹੋਇਆ ਦਸਤਾਵੇਜ਼ ਦੇਖਦੇ ਹੀ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਤੁਰੰਤ ਵੇਖ ਲਵੇਗਾ। ਹਾਲਾਂਕਿ, ਤਿਆਰ ਹੋਏ ਦਸਤਾਵੇਜ਼ ਦੀ ਦ੍ਰਿਸ਼ਟੀਗਤ ਜਾਂਚ ਰਾਹੀਂ, SVG ਟੈਕਸਟ ਪੜਾਅ 'ਤੇ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣਾ ਮੁਸ਼ਕਲ ਹੈ।
+
+ਨਤੀਜੇ ਵਜੋਂ, ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਅਕਸਰ ਅਜਿਹੇ ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਕਰਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਅਕਸਰ ਟੈਕਸਟ ਓਵਰਫਲੋ ਹੁੰਦਾ ਹੈ।
+
+ਬੇਸ਼ੱਕ, AI ਜ਼ਿਆਦਾਤਰ ਸਮੱਗਰੀ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਤਿਆਰ ਕਰਦਾ ਹੈ, ਅਤੇ ਮੈਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਸਿਰਫ਼ ਹੱਥੀਂ ਠੀਕ ਕਰ ਸਕਦਾ ਹਾਂ। ਪਰ, ਇਸ ਨਾਲ ਹਰ ਵਾਰ ਇੱਕ ਹੱਥੀਂ ਕਦਮ ਸ਼ਾਮਲ ਹੋ ਜਾਵੇਗਾ।
+
+ਇਸ ਲਈ, SVG ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਤਿਆਰ ਕਰਦੇ ਸਮੇਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਰੋਕਣ ਲਈ ਉਪਾਅ ਸ਼ਾਮਲ ਕਰਨਾ, ਅਤੇ ਇਹ ਪਤਾ ਲਗਾਉਣ ਲਈ ਇੱਕ ਵਿਧੀ ਵਿਕਸਤ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੋ ਗਿਆ ਕਿ ਕੀ ਤਿਆਰ ਕੀਤੇ ਗਏ SVG ਵਿੱਚ ਕੋਈ ਟੈਕਸਟ ਓਵਰਫਲੋ ਮੌਜੂਦ ਹੈ।
+
+ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਰੋਕਣ ਲਈ, ਮੈਂ ਜਨਰੇਟਿਵ AI ਨੂੰ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਬਣਾਉਣ ਦੇ ਨਿਰਦੇਸ਼ ਦਿੰਦੇ ਸਮੇਂ ਬੁਨਿਆਦੀ ਨਿਯਮਾਂ, ਸੰਚਾਲਨ ਪ੍ਰਕਿਰਿਆਵਾਂ, ਅਤੇ ਸਾਵਧਾਨੀ ਨੋਟਸ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਪਹੁੰਚ ਅਪਣਾਈ।
+
+ਨਿਯਮਾਂ ਦੇ ਤੌਰ 'ਤੇ, ਮੈਂ ਇਸਨੂੰ ਗੁੰਝਲਦਾਰ ਚਿੱਤਰਾਂ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰਨ ਅਤੇ ਟੈਕਸਟ ਦਾ ਫੌਂਟ ਆਕਾਰ ਸਥਿਰ ਰੱਖਣ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਮੈਂ ਇਸਨੂੰ ਦਸਤਾਵੇਜ਼ ਦੇ ਅੰਦਰ ਇੱਕ ਵਾਕ ਵਿੱਚ ਅੱਖਰਾਂ ਦੀ ਗਿਣਤੀ ਕਰਨ, ਉਸਨੂੰ ਫੌਂਟ ਆਕਾਰ ਨਾਲ ਗੁਣਾ ਕਰਕੇ ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਉਣ, ਅਤੇ ਫਿਰ ਪਹਿਲਾਂ ਤੋਂ ਪੁਸ਼ਟੀ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦਾ ਪਾਲਣ ਕਰਨ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ ਕਿ ਟੈਕਸਟ ਫਰੇਮ ਜਾਂ ਚਿੱਤਰਾਂ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਫੈਲਦਾ।
+
+ਇਸ ਪ੍ਰਕਿਰਿਆ ਦੌਰਾਨ, ਮੈਂ AI ਨੂੰ ਜਾਂਚ ਕੀਤੀ ਪ੍ਰਕਿਰਿਆ ਅਤੇ ਨਤੀਜਿਆਂ ਨੂੰ SVG ਫਾਈਲ ਵਿੱਚ ਪੂਰਵ-ਜਾਂਚ ਟਿੱਪਣੀਆਂ ਵਜੋਂ ਰਿਕਾਰਡ ਕਰਨ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ।
+
+ਇਹਨਾਂ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਜੋੜਨ ਨਾਲ ਕੁਝ ਸੁਧਾਰ ਹੋਇਆ, ਪਰ ਸ਼ੁਰੂਆਤੀ ਸ਼ੁੱਧਤਾ ਸੰਤੁਸ਼ਟੀਜਨਕ ਨਹੀਂ ਸੀ। ਇਸ ਲਈ, ਮੈਂ ਵਾਰ-ਵਾਰ ਕਈ ਭਿੰਨਤਾਵਾਂ ਤਿਆਰ ਕੀਤੀਆਂ, ਆਮ ਗਲਤੀ ਵਾਲੇ ਬਿੰਦੂਆਂ ਨੂੰ ਨਿਰਦੇਸ਼ਾਂ ਵਿੱਚ ਸਾਵਧਾਨੀ ਨੋਟਸ ਵਜੋਂ ਜੋੜਿਆ, ਅਤੇ ਨਿਯਮਾਂ ਅਤੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਵਾਰ-ਵਾਰ ਪ੍ਰੋਂਪਟ ਟੈਕਸਟ ਵਿੱਚ ਜ਼ੋਰ ਦਿੱਤਾ ਜੇ ਉਹਨਾਂ ਦੀ ਪਾਲਣਾ ਨਹੀਂ ਕੀਤੀ ਜਾ ਰਹੀ ਸੀ।
+
+ਅਜ਼ਮਾਇਸ਼ ਅਤੇ ਗਲਤੀ ਦੁਆਰਾ ਇਹਨਾਂ ਪ੍ਰੋਂਪਟ ਸੁਧਾਰਾਂ ਨੂੰ ਦੁਹਰਾ ਕੇ, ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਕੁਝ ਹੱਦ ਤੱਕ ਦਬਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।
+
+ਹਾਲਾਂਕਿ, ਇਹਨਾਂ ਸਾਰੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਦੇ ਬਾਵਜੂਦ, ਸੰਪੂਰਨਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, ਇਸ ਲਈ ਮੈਂ ਬਾਅਦ ਦੇ ਪੜਾਅ ਵਿੱਚ ਇੱਕ ਜਾਂਚ ਲਾਗੂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕੀਤਾ।
+
+ਇਸ ਉਤਪਾਦਨ ਤੋਂ ਬਾਅਦ ਦੀ ਜਾਂਚ ਲਈ, ਮੈਂ ਚਿੱਤਰਾਂ ਦੀ ਦ੍ਰਿਸ਼ਟੀਗਤ ਜਾਂਚ ਕਰਨ ਦੇ ਸਮਰੱਥ ਇੱਕ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਪਰ ਇਹ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਪਤਾ ਨਹੀਂ ਲਗਾ ਸਕਿਆ, ਇਸ ਲਈ ਮੈਂ ਉਸ ਪਹੁੰਚ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।
+
+ਅੱਗੇ, ਮੈਂ ਇੱਕ ਹੋਰ ਵਿਧੀ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ: SVG ਟੈਕਸਟ ਨੂੰ ਵਾਪਸ ਇੱਕ ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਵਿੱਚ ਜਾਂਚ ਲਈ ਇਨਪੁਟ ਕਰਨਾ।
+
+ਇਹ ਵਿਧੀ ਵਿਜ਼ੂਅਲ ਨਿਰੀਖਣ AI ਨਾਲੋਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣ ਵਿੱਚ ਬਿਹਤਰ ਸੀ, ਪਰ ਇਸਦੀ ਖੋਜ ਸ਼ੁੱਧਤਾ ਅਜੇ ਵੀ ਬਹੁਤ ਉੱਚੀ ਨਹੀਂ ਸੀ। ਇੱਥੇ ਵੀ, ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਦੁਹਰਾ ਕੇ, ਮੈਂ ਇੱਕ ਖਾਸ ਪੱਧਰ ਦੀ ਸ਼ੁੱਧਤਾ ਪ੍ਰਾਪਤ ਕਰ ਸਕਿਆ, ਪਰ ਇੱਕ ਸੰਪੂਰਨ ਨਹੀਂ।
+
+ਇਸ ਲਈ, ਮੈਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਵਧੇਰੇ ਸਖਤੀ ਨਾਲ ਪਤਾ ਲਗਾਉਣ ਲਈ ਇੱਕ ਪ੍ਰੋਗਰਾਮ ਬਣਾਉਣ ਦਾ ਫੈਸਲਾ ਕੀਤਾ। ਇਹ ਪ੍ਰੋਗਰਾਮ ਜਾਂਚ ਕਰਦਾ ਹੈ ਕਿ ਕੀ ਟੈਕਸਟ ਦਸਤਾਵੇਜ਼ ਫਰੇਮ ਜਾਂ ਅੰਦਰੂਨੀ ਚਿੱਤਰਾਂ ਤੋਂ ਬਾਹਰ ਫੈਲਦਾ ਹੈ, ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵਿੱਚ ਵਾਕਾਂ ਦੀ ਲੰਬਾਈ ਅਤੇ ਫੌਂਟ ਆਕਾਰ ਤੋਂ ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ ਦੀ ਗਣਨਾ ਕਰਕੇ, ਜਿਵੇਂ ਕਿ ਜਨਰੇਟਿਵ AI ਨੂੰ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ ਗਿਆ ਸੀ।
+
+ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਬਣਾਉਣਾ ਮਿਹਨਤ ਵਾਲਾ ਸੀ, ਪਰ ਇਹ ਆਖਰਕਾਰ ਸਹੀ ਖੋਜ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੋ ਗਿਆ।
+
+ਟੈਕਸਟ ਓਵਰਫਲੋ ਤੋਂ ਇਲਾਵਾ, ਅਜਿਹੇ ਕੇਸ ਵੀ ਸਨ ਜਿੱਥੇ AI ਨੇ ਗੁੰਝਲਦਾਰ ਚਾਰਟ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਅਤੇ ਵਿਗੜੇ ਹੋਏ ਆਉਟਪੁੱਟ ਤਿਆਰ ਕੀਤੇ। ਅਜਿਹੇ ਪਹਿਲੂਆਂ ਲਈ, ਮੈਂ ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਨਿਯਮ ਉਲੰਘਣਾ ਜਾਂਚ ਕਰਨ ਦੀ ਪਹੁੰਚ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਿਆ।
+
+ਇਹ ਜਾਂਚ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਕੀ AI ਨੇ ਨਿਯਮਾਂ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤੇ ਗਏ ਨਾਲੋਂ ਵਧੇਰੇ ਗੁੰਝਲਦਾਰ ਚਿੱਤਰ ਬਣਾਏ ਹਨ, ਉਹਨਾਂ ਨੂੰ ਅਸਵੀਕਾਰਨਯੋਗ ਵਜੋਂ ਚਿੰਨ੍ਹਿਤ ਕਰਦਾ ਹੈ।
+
+ਓਵਰਫਲੋ ਜਾਂਚ ਲਈ ਇਸ ਪ੍ਰੋਗਰਾਮ ਅਤੇ ਨਿਯਮ ਉਲੰਘਣਾ ਜਾਂਚ ਲਈ ਜਨਰੇਟਿਵ AI ਨਾਲ, ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੁਣ ਵੱਡੇ ਪੱਧਰ 'ਤੇ ਪਤਾ ਲਗਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।
+
+## ਬਾਅਦ ਦੀ ਪ੍ਰਕਿਰਿਆ
+
+ਜੇ ਇਹਨਾਂ ਜਾਂਚਾਂ ਦੌਰਾਨ ਕੋਈ ਅਸਵੀਕਾਰਨਯੋਗਤਾ ਦਾ ਪਤਾ ਲਗਾਇਆ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤਿਆਰ ਕੀਤੀ ਗਈ SVG-ਫਾਰਮੈਟ ਸਮੱਗਰੀ ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਦੁਬਾਰਾ ਤਿਆਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਸਮੱਸਿਆ ਵਾਲੇ ਖੇਤਰਾਂ ਨੂੰ ਦਰਸਾਉਣਾ ਅਤੇ ਠੀਕ ਕਰਨਾ ਅਕਸਰ ਹੋਰ ਮੁੱਦਿਆਂ ਨੂੰ ਜਨਮ ਦਿੰਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਅੰਤ ਵਿੱਚ ਵਧੇਰੇ ਸਮਾਂ ਲੱਗਦਾ ਹੈ।
+
+ਇੱਕ ਵਾਰ ਟੈਕਸਟ ਓਵਰਫਲੋ ਤੋਂ ਮੁਕਤ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਪੂਰੀ ਹੋ ਜਾਣ 'ਤੇ, ਅਗਲਾ ਕਦਮ ਇਸ ਸਮੱਗਰੀ ਅਤੇ ਅਸਲ ਬਲੌਗ ਲੇਖ ਨੂੰ ਜਨਰੇਟਿਵ AI ਨੂੰ ਨਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਬਣਾਉਣ ਲਈ ਇਨਪੁਟ ਕਰਨਾ ਹੈ। ਇੱਥੇ ਕਿਸੇ ਖਾਸ ਚਤੁਰਾਈ ਦੀ ਲੋੜ ਨਹੀਂ ਸੀ।
+
+ਫਿਰ, ਨਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਨੂੰ ਟੈਕਸਟ-ਟੂ-ਸਪੀਚ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਡੀਓ ਡੇਟਾ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ। ਦੁਬਾਰਾ, ਇਸਦੇ ਲਈ ਕਿਸੇ ਵਿਸ਼ੇਸ਼ ਤਕਨੀਕਾਂ ਦੀ ਲੋੜ ਨਹੀਂ ਸੀ।
+
+ਅੰਤ ਵਿੱਚ, SVG-ਫਾਰਮੈਟ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਨੂੰ PNG ਚਿੱਤਰਾਂ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਫਿਰ, ffmpeg ਨਾਮਕ ਇੱਕ ਟੂਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਇਸਨੂੰ ਆਡੀਓ ਨਾਲ ਇੱਕ mp4 ਵੀਡੀਓ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਕਰਦਾ ਹੈ।
+
+SVG-ਫਾਰਮੈਟ ਸਲਾਈਡਾਂ ਦੀ ਸਿਰਜਣਾ ਤੋਂ ਬਾਅਦ ਦੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੀ ਲੜੀ ਨੂੰ ਜਨਰੇਟਿਵ AI ਨਾਲ ਸਲਾਹ ਕਰਦੇ ਹੋਏ ਪ੍ਰੋਗਰਾਮ ਲਿਖ ਕੇ ਆਸਾਨੀ ਨਾਲ ਸਵੈਚਾਲਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
+
+## ਸਿੱਟਾ
+
+ਇਸ ਆਟੋਮੇਟਿਡ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਉਤਪਤੀ ਪ੍ਰਣਾਲੀ ਨੂੰ ਖੁਦ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਉਣ ਅਤੇ ਸੁਧਾਰਨ ਤੋਂ ਬਾਅਦ, ਮੈਂ ਪਿਛਲੇ ਹਫਤੇ ਤੋਂ YouTube 'ਤੇ ਵੀਡੀਓ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ।
+
+ਹਾਲਾਂਕਿ, ਇਸ ਪ੍ਰਣਾਲੀ ਦੇ ਪੂਰਾ ਹੋਣ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ, ਗੂਗਲ ਦੇ ਨੋਟਬੁੱਕਐੱਲਐੱਮ (NotebookLM), ਇੱਕ AI ਟੂਲ, ਨੇ ਵੀ ਟੈਕਸਟ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਵਿਆਖਿਆ ਕਰਨ ਲਈ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਤਿਆਰ ਕਰਨ ਦੀ ਸਮਾਨ ਵਿਸ਼ੇਸ਼ਤਾ ਪ੍ਰਾਪਤ ਕੀਤੀ।
+
+ਇਸ ਲਈ, ਇਹ ਉਮੀਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਕਿ ਭਵਿੱਖ ਵਿੱਚ, AI ਸੇਵਾਵਾਂ ਪ੍ਰਦਾਨ ਕਰਨ ਵਾਲੀਆਂ ਕੰਪਨੀਆਂ ਸਮਾਨ ਸੇਵਾਵਾਂ ਜਾਰੀ ਕਰਨਗੀਆਂ, ਜਿਸ ਨਾਲ ਵਿਅਕਤੀਆਂ ਨੂੰ ਅਜਿਹੀਆਂ ਪ੍ਰਣਾਲੀਆਂ ਨੂੰ ਸ਼ੁਰੂ ਤੋਂ ਬਣਾਉਣ ਦੀ ਜ਼ਰੂਰਤ ਨਹੀਂ ਰਹੇਗੀ।
+
+ਫਿਰ ਵੀ, ਇਸ ਤਰ੍ਹਾਂ ਦੇ ਗੰਭੀਰ ਤਰੀਕੇ ਨਾਲ ਜਨਰੇਟਿਵ AI ਦਾ ਲਾਭ ਉਠਾਉਣ ਵਾਲਾ ਇੱਕ ਵਿਹਾਰਕ ਪ੍ਰੋਗਰਾਮ ਵਿਕਸਤ ਕਰਨਾ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਪ੍ਰਾਪਤੀ ਰਹੀ ਹੈ, ਜਿਸ ਨਾਲ ਮੈਂ ਜਨਰੇਟਿਵ AI ਦੀ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਵਰਤੋਂ ਕਰਨ ਦੇ ਮੁੱਖ ਸਿਧਾਂਤਾਂ ਨੂੰ ਸਮਝ ਸਕਿਆ ਹਾਂ।
+
+" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
       prose-headings:text-gray-900 prose-headings:font-bold
       prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
       prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
@@ -125,7 +215,51 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
       prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
       prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
       prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
-      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>記事が見つかりません。</p>
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p><a href="https://youtu.be/vmt_WVBJMj4?si=OZlzEqfEvWjPakYV">https://youtu.be/vmt_WVBJMj4?si=OZlzEqfEvWjPakYV</a></p>
+<p>ਮੈਂ ਇੱਕ ਸਿਸਟਮ ਵਿਕਸਤ ਕੀਤਾ ਹੈ ਜੋ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਬਲੌਗ ਲੇਖਾਂ ਤੋਂ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਬਣਾਉਂਦਾ ਹੈ ਅਤੇ ਉਹਨਾਂ ਨੂੰ YouTube &#39;ਤੇ ਅੱਪਲੋਡ ਕਰਦਾ ਹੈ।</p>
+<p>ਕੁਝ ਹੁਨਰ ਨਾਲ, ਜਨਰੇਟਿਵ AI ਨਾ ਸਿਰਫ਼ ਪ੍ਰਸਤੁਤੀ ਦੀ ਕਹਾਣੀ ਤਿਆਰ ਕਰ ਸਕਦਾ ਹੈ ਬਲਕਿ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵੀ ਬਣਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਪ੍ਰਸਤੁਤੀ ਲਈ ਇੱਕ ਸਕ੍ਰਿਪਟ ਤਿਆਰ ਕਰਵਾ ਕੇ ਅਤੇ ਫਿਰ ਇੱਕ ਟੈਕਸਟ-ਟੂ-ਸਪੀਚ ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਉਸ ਸਕ੍ਰਿਪਟ ਨੂੰ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ ਪੜ੍ਹਵਾ ਕੇ, ਆਡੀਓ ਡੇਟਾ ਵੀ ਤਿਆਰ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਅਤੇ ਆਡੀਓ ਡੇਟਾ ਨੂੰ ਜੋੜਨ ਨਾਲ ਫਿਰ ਇੱਕ ਵੀਡੀਓ ਬਣ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਕਾਰਜਾਂ ਦੀ ਇਸ ਲੜੀ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਕੇ, ਮੈਂ ਇੱਕ ਸਿੰਗਲ ਕਲਿੱਕ ਨਾਲ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਤਿਆਰ ਕਰਨਾ ਸੰਭਵ ਬਣਾ ਦਿੱਤਾ ਹੈ।</p>
+<h2>ਵਿਧੀ</h2>
+<p>ਇਸ ਪ੍ਰਕਿਰਿਆ ਦਾ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਹਿੱਸਾ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਦੀ ਉਤਪਤੀ ਹੈ।</p>
+<p>ਜਨਰੇਟਿਵ AI ਚਿੱਤਰ ਬਣਾਉਣ ਵਿੱਚ ਬਹੁਤ ਵਧੀਆ ਹੈ, ਪਰ ਇਹ ਆਮ ਤੌਰ &#39;ਤੇ ਫੋਟੋਆਂ ਜਾਂ ਡਰਾਇੰਗਾਂ ਤੱਕ ਸੀਮਤ ਹੁੰਦਾ ਹੈ। ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵਰਗੇ ਟੈਕਸਟ ਅਤੇ ਚਿੱਤਰਾਂ &#39;ਤੇ ਕੇਂਦਰਿਤ ਦਸਤਾਵੇਜ਼ ਬਣਾਉਣਾ ਚਿੱਤਰ-ਉਤਪਾਦਕ AIs ਲਈ ਚੁਣੌਤੀਪੂਰਨ ਹੈ।</p>
+<p>ਇਸ ਲਈ, ਮੈਂ ਟੈਕਸਟ ਅਤੇ ਚਿੱਤਰ-ਕੇਂਦਰਿਤ ਸਮੱਗਰੀ ਨੂੰ ਇੱਕ ਟੈਕਸਟ-ਆਧਾਰਿਤ ਫਾਰਮੈਟ ਵਿੱਚ ਤਿਆਰ ਕਰਦਾ ਹਾਂ, ਜੋ ਇੱਕ ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ ਦੇ ਸਮਾਨ ਹੈ।</p>
+<p>ਅਜਿਹੀ ਸਮੱਗਰੀ ਬਣਾਉਣ ਲਈ ਕਈ ਫਾਰਮੈਟ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ।</p>
+<p>ਸ਼ੁਰੂ ਵਿੱਚ, ਮੈਂ ਮਾਰਪ, ਖਾਸ ਤੌਰ &#39;ਤੇ ਪ੍ਰਸਤੁਤੀ ਬਣਾਉਣ ਲਈ ਇੱਕ ਫਾਰਮੈਟ, ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਪਰ ਇਸ ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਸੀਮਤ ਸਨ। ਇਸ ਲਈ, ਮੈਂ ਵਧੇਰੇ ਆਮ SVG ਫਾਰਮੈਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕੀਤਾ, ਜੋ ਵੈਕਟਰ ਗ੍ਰਾਫਿਕਸ ਲਈ ਹੈ।</p>
+<p>SVG ਵਰਗੇ ਟੈਕਸਟ-ਆਧਾਰਿਤ ਫਾਰਮੈਟ ਨਾਲ, ਇੱਕ ਮਿਆਰੀ ਚੈਟ-ਆਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਸਮੱਗਰੀ ਬਣਾ ਸਕਦਾ ਹੈ ਜੇਕਰ ਇਸਨੂੰ ਇੱਕ ਬੇਨਤੀ ਦੇ ਨਾਲ ਪ੍ਰੇਰਿਤ ਕੀਤਾ ਜਾਵੇ, ਜਿਵੇਂ ਕਿ, &quot;ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਬਲੌਗ ਲੇਖ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਪੇਸ਼ ਕਰਦੇ ਹੋਏ SVG ਫਾਰਮੈਟ ਵਿੱਚ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਬਣਾਓ।&quot;</p>
+<h2>ਟੈਕਸਟ ਓਵਰਫਲੋ ਸਮੱਸਿਆ</h2>
+<p>ਇੱਥੇ ਸਮੱਸਿਆ ਇਹ ਹੈ ਕਿ ਟੈਕਸਟ ਅਕਸਰ ਦਸਤਾਵੇਜ਼ ਦੇ ਬਾਹਰੀ ਫਰੇਮ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਦੇ ਅੰਦਰ ਚਿੱਤਰਾਂ ਦੇ ਫਰੇਮਾਂ ਤੋਂ ਬਾਹਰ ਫੈਲ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਇੱਕ ਮਨੁੱਖ ਪੂਰਾ ਹੋਇਆ ਦਸਤਾਵੇਜ਼ ਦੇਖਦੇ ਹੀ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਤੁਰੰਤ ਵੇਖ ਲਵੇਗਾ। ਹਾਲਾਂਕਿ, ਤਿਆਰ ਹੋਏ ਦਸਤਾਵੇਜ਼ ਦੀ ਦ੍ਰਿਸ਼ਟੀਗਤ ਜਾਂਚ ਰਾਹੀਂ, SVG ਟੈਕਸਟ ਪੜਾਅ &#39;ਤੇ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣਾ ਮੁਸ਼ਕਲ ਹੈ।</p>
+<p>ਨਤੀਜੇ ਵਜੋਂ, ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਅਕਸਰ ਅਜਿਹੇ ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਕਰਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਅਕਸਰ ਟੈਕਸਟ ਓਵਰਫਲੋ ਹੁੰਦਾ ਹੈ।</p>
+<p>ਬੇਸ਼ੱਕ, AI ਜ਼ਿਆਦਾਤਰ ਸਮੱਗਰੀ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਤਿਆਰ ਕਰਦਾ ਹੈ, ਅਤੇ ਮੈਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਸਿਰਫ਼ ਹੱਥੀਂ ਠੀਕ ਕਰ ਸਕਦਾ ਹਾਂ। ਪਰ, ਇਸ ਨਾਲ ਹਰ ਵਾਰ ਇੱਕ ਹੱਥੀਂ ਕਦਮ ਸ਼ਾਮਲ ਹੋ ਜਾਵੇਗਾ।</p>
+<p>ਇਸ ਲਈ, SVG ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਤਿਆਰ ਕਰਦੇ ਸਮੇਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਰੋਕਣ ਲਈ ਉਪਾਅ ਸ਼ਾਮਲ ਕਰਨਾ, ਅਤੇ ਇਹ ਪਤਾ ਲਗਾਉਣ ਲਈ ਇੱਕ ਵਿਧੀ ਵਿਕਸਤ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੋ ਗਿਆ ਕਿ ਕੀ ਤਿਆਰ ਕੀਤੇ ਗਏ SVG ਵਿੱਚ ਕੋਈ ਟੈਕਸਟ ਓਵਰਫਲੋ ਮੌਜੂਦ ਹੈ।</p>
+<p>ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਰੋਕਣ ਲਈ, ਮੈਂ ਜਨਰੇਟਿਵ AI ਨੂੰ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਬਣਾਉਣ ਦੇ ਨਿਰਦੇਸ਼ ਦਿੰਦੇ ਸਮੇਂ ਬੁਨਿਆਦੀ ਨਿਯਮਾਂ, ਸੰਚਾਲਨ ਪ੍ਰਕਿਰਿਆਵਾਂ, ਅਤੇ ਸਾਵਧਾਨੀ ਨੋਟਸ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਪਹੁੰਚ ਅਪਣਾਈ।</p>
+<p>ਨਿਯਮਾਂ ਦੇ ਤੌਰ &#39;ਤੇ, ਮੈਂ ਇਸਨੂੰ ਗੁੰਝਲਦਾਰ ਚਿੱਤਰਾਂ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰਨ ਅਤੇ ਟੈਕਸਟ ਦਾ ਫੌਂਟ ਆਕਾਰ ਸਥਿਰ ਰੱਖਣ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਮੈਂ ਇਸਨੂੰ ਦਸਤਾਵੇਜ਼ ਦੇ ਅੰਦਰ ਇੱਕ ਵਾਕ ਵਿੱਚ ਅੱਖਰਾਂ ਦੀ ਗਿਣਤੀ ਕਰਨ, ਉਸਨੂੰ ਫੌਂਟ ਆਕਾਰ ਨਾਲ ਗੁਣਾ ਕਰਕੇ ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਉਣ, ਅਤੇ ਫਿਰ ਪਹਿਲਾਂ ਤੋਂ ਪੁਸ਼ਟੀ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦਾ ਪਾਲਣ ਕਰਨ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ ਕਿ ਟੈਕਸਟ ਫਰੇਮ ਜਾਂ ਚਿੱਤਰਾਂ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਫੈਲਦਾ।</p>
+<p>ਇਸ ਪ੍ਰਕਿਰਿਆ ਦੌਰਾਨ, ਮੈਂ AI ਨੂੰ ਜਾਂਚ ਕੀਤੀ ਪ੍ਰਕਿਰਿਆ ਅਤੇ ਨਤੀਜਿਆਂ ਨੂੰ SVG ਫਾਈਲ ਵਿੱਚ ਪੂਰਵ-ਜਾਂਚ ਟਿੱਪਣੀਆਂ ਵਜੋਂ ਰਿਕਾਰਡ ਕਰਨ ਦਾ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ।</p>
+<p>ਇਹਨਾਂ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਜੋੜਨ ਨਾਲ ਕੁਝ ਸੁਧਾਰ ਹੋਇਆ, ਪਰ ਸ਼ੁਰੂਆਤੀ ਸ਼ੁੱਧਤਾ ਸੰਤੁਸ਼ਟੀਜਨਕ ਨਹੀਂ ਸੀ। ਇਸ ਲਈ, ਮੈਂ ਵਾਰ-ਵਾਰ ਕਈ ਭਿੰਨਤਾਵਾਂ ਤਿਆਰ ਕੀਤੀਆਂ, ਆਮ ਗਲਤੀ ਵਾਲੇ ਬਿੰਦੂਆਂ ਨੂੰ ਨਿਰਦੇਸ਼ਾਂ ਵਿੱਚ ਸਾਵਧਾਨੀ ਨੋਟਸ ਵਜੋਂ ਜੋੜਿਆ, ਅਤੇ ਨਿਯਮਾਂ ਅਤੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਵਾਰ-ਵਾਰ ਪ੍ਰੋਂਪਟ ਟੈਕਸਟ ਵਿੱਚ ਜ਼ੋਰ ਦਿੱਤਾ ਜੇ ਉਹਨਾਂ ਦੀ ਪਾਲਣਾ ਨਹੀਂ ਕੀਤੀ ਜਾ ਰਹੀ ਸੀ।</p>
+<p>ਅਜ਼ਮਾਇਸ਼ ਅਤੇ ਗਲਤੀ ਦੁਆਰਾ ਇਹਨਾਂ ਪ੍ਰੋਂਪਟ ਸੁਧਾਰਾਂ ਨੂੰ ਦੁਹਰਾ ਕੇ, ਟੈਕਸਟ ਓਵਰਫਲੋ ਨੂੰ ਕੁਝ ਹੱਦ ਤੱਕ ਦਬਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਹਾਲਾਂਕਿ, ਇਹਨਾਂ ਸਾਰੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਦੇ ਬਾਵਜੂਦ, ਸੰਪੂਰਨਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, ਇਸ ਲਈ ਮੈਂ ਬਾਅਦ ਦੇ ਪੜਾਅ ਵਿੱਚ ਇੱਕ ਜਾਂਚ ਲਾਗੂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕੀਤਾ।</p>
+<p>ਇਸ ਉਤਪਾਦਨ ਤੋਂ ਬਾਅਦ ਦੀ ਜਾਂਚ ਲਈ, ਮੈਂ ਚਿੱਤਰਾਂ ਦੀ ਦ੍ਰਿਸ਼ਟੀਗਤ ਜਾਂਚ ਕਰਨ ਦੇ ਸਮਰੱਥ ਇੱਕ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਪਰ ਇਹ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਪਤਾ ਨਹੀਂ ਲਗਾ ਸਕਿਆ, ਇਸ ਲਈ ਮੈਂ ਉਸ ਪਹੁੰਚ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।</p>
+<p>ਅੱਗੇ, ਮੈਂ ਇੱਕ ਹੋਰ ਵਿਧੀ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ: SVG ਟੈਕਸਟ ਨੂੰ ਵਾਪਸ ਇੱਕ ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਵਿੱਚ ਜਾਂਚ ਲਈ ਇਨਪੁਟ ਕਰਨਾ।</p>
+<p>ਇਹ ਵਿਧੀ ਵਿਜ਼ੂਅਲ ਨਿਰੀਖਣ AI ਨਾਲੋਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣ ਵਿੱਚ ਬਿਹਤਰ ਸੀ, ਪਰ ਇਸਦੀ ਖੋਜ ਸ਼ੁੱਧਤਾ ਅਜੇ ਵੀ ਬਹੁਤ ਉੱਚੀ ਨਹੀਂ ਸੀ। ਇੱਥੇ ਵੀ, ਓਵਰਫਲੋ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਦੁਹਰਾ ਕੇ, ਮੈਂ ਇੱਕ ਖਾਸ ਪੱਧਰ ਦੀ ਸ਼ੁੱਧਤਾ ਪ੍ਰਾਪਤ ਕਰ ਸਕਿਆ, ਪਰ ਇੱਕ ਸੰਪੂਰਨ ਨਹੀਂ।</p>
+<p>ਇਸ ਲਈ, ਮੈਂ ਟੈਕਸਟ ਓਵਰਫਲੋ ਦਾ ਵਧੇਰੇ ਸਖਤੀ ਨਾਲ ਪਤਾ ਲਗਾਉਣ ਲਈ ਇੱਕ ਪ੍ਰੋਗਰਾਮ ਬਣਾਉਣ ਦਾ ਫੈਸਲਾ ਕੀਤਾ। ਇਹ ਪ੍ਰੋਗਰਾਮ ਜਾਂਚ ਕਰਦਾ ਹੈ ਕਿ ਕੀ ਟੈਕਸਟ ਦਸਤਾਵੇਜ਼ ਫਰੇਮ ਜਾਂ ਅੰਦਰੂਨੀ ਚਿੱਤਰਾਂ ਤੋਂ ਬਾਹਰ ਫੈਲਦਾ ਹੈ, ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਵਿੱਚ ਵਾਕਾਂ ਦੀ ਲੰਬਾਈ ਅਤੇ ਫੌਂਟ ਆਕਾਰ ਤੋਂ ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ ਦੀ ਗਣਨਾ ਕਰਕੇ, ਜਿਵੇਂ ਕਿ ਜਨਰੇਟਿਵ AI ਨੂੰ ਨਿਰਦੇਸ਼ ਦਿੱਤਾ ਗਿਆ ਸੀ।</p>
+<p>ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਬਣਾਉਣਾ ਮਿਹਨਤ ਵਾਲਾ ਸੀ, ਪਰ ਇਹ ਆਖਰਕਾਰ ਸਹੀ ਖੋਜ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੋ ਗਿਆ।</p>
+<p>ਟੈਕਸਟ ਓਵਰਫਲੋ ਤੋਂ ਇਲਾਵਾ, ਅਜਿਹੇ ਕੇਸ ਵੀ ਸਨ ਜਿੱਥੇ AI ਨੇ ਗੁੰਝਲਦਾਰ ਚਾਰਟ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਅਤੇ ਵਿਗੜੇ ਹੋਏ ਆਉਟਪੁੱਟ ਤਿਆਰ ਕੀਤੇ। ਅਜਿਹੇ ਪਹਿਲੂਆਂ ਲਈ, ਮੈਂ ਚੈਟ-ਅਧਾਰਿਤ ਜਨਰੇਟਿਵ AI ਦੁਆਰਾ ਨਿਯਮ ਉਲੰਘਣਾ ਜਾਂਚ ਕਰਨ ਦੀ ਪਹੁੰਚ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਿਆ।</p>
+<p>ਇਹ ਜਾਂਚ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਕੀ AI ਨੇ ਨਿਯਮਾਂ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤੇ ਗਏ ਨਾਲੋਂ ਵਧੇਰੇ ਗੁੰਝਲਦਾਰ ਚਿੱਤਰ ਬਣਾਏ ਹਨ, ਉਹਨਾਂ ਨੂੰ ਅਸਵੀਕਾਰਨਯੋਗ ਵਜੋਂ ਚਿੰਨ੍ਹਿਤ ਕਰਦਾ ਹੈ।</p>
+<p>ਓਵਰਫਲੋ ਜਾਂਚ ਲਈ ਇਸ ਪ੍ਰੋਗਰਾਮ ਅਤੇ ਨਿਯਮ ਉਲੰਘਣਾ ਜਾਂਚ ਲਈ ਜਨਰੇਟਿਵ AI ਨਾਲ, ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੁਣ ਵੱਡੇ ਪੱਧਰ &#39;ਤੇ ਪਤਾ ਲਗਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<h2>ਬਾਅਦ ਦੀ ਪ੍ਰਕਿਰਿਆ</h2>
+<p>ਜੇ ਇਹਨਾਂ ਜਾਂਚਾਂ ਦੌਰਾਨ ਕੋਈ ਅਸਵੀਕਾਰਨਯੋਗਤਾ ਦਾ ਪਤਾ ਲਗਾਇਆ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤਿਆਰ ਕੀਤੀ ਗਈ SVG-ਫਾਰਮੈਟ ਸਮੱਗਰੀ ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਦੁਬਾਰਾ ਤਿਆਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਸਮੱਸਿਆ ਵਾਲੇ ਖੇਤਰਾਂ ਨੂੰ ਦਰਸਾਉਣਾ ਅਤੇ ਠੀਕ ਕਰਨਾ ਅਕਸਰ ਹੋਰ ਮੁੱਦਿਆਂ ਨੂੰ ਜਨਮ ਦਿੰਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਅੰਤ ਵਿੱਚ ਵਧੇਰੇ ਸਮਾਂ ਲੱਗਦਾ ਹੈ।</p>
+<p>ਇੱਕ ਵਾਰ ਟੈਕਸਟ ਓਵਰਫਲੋ ਤੋਂ ਮੁਕਤ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਪੂਰੀ ਹੋ ਜਾਣ &#39;ਤੇ, ਅਗਲਾ ਕਦਮ ਇਸ ਸਮੱਗਰੀ ਅਤੇ ਅਸਲ ਬਲੌਗ ਲੇਖ ਨੂੰ ਜਨਰੇਟਿਵ AI ਨੂੰ ਨਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਬਣਾਉਣ ਲਈ ਇਨਪੁਟ ਕਰਨਾ ਹੈ। ਇੱਥੇ ਕਿਸੇ ਖਾਸ ਚਤੁਰਾਈ ਦੀ ਲੋੜ ਨਹੀਂ ਸੀ।</p>
+<p>ਫਿਰ, ਨਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਨੂੰ ਟੈਕਸਟ-ਟੂ-ਸਪੀਚ ਜਨਰੇਟਿਵ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਡੀਓ ਡੇਟਾ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ। ਦੁਬਾਰਾ, ਇਸਦੇ ਲਈ ਕਿਸੇ ਵਿਸ਼ੇਸ਼ ਤਕਨੀਕਾਂ ਦੀ ਲੋੜ ਨਹੀਂ ਸੀ।</p>
+<p>ਅੰਤ ਵਿੱਚ, SVG-ਫਾਰਮੈਟ ਪ੍ਰਸਤੁਤੀ ਸਮੱਗਰੀ ਨੂੰ PNG ਚਿੱਤਰਾਂ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਫਿਰ, ffmpeg ਨਾਮਕ ਇੱਕ ਟੂਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਇਸਨੂੰ ਆਡੀਓ ਨਾਲ ਇੱਕ mp4 ਵੀਡੀਓ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਕਰਦਾ ਹੈ।</p>
+<p>SVG-ਫਾਰਮੈਟ ਸਲਾਈਡਾਂ ਦੀ ਸਿਰਜਣਾ ਤੋਂ ਬਾਅਦ ਦੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੀ ਲੜੀ ਨੂੰ ਜਨਰੇਟਿਵ AI ਨਾਲ ਸਲਾਹ ਕਰਦੇ ਹੋਏ ਪ੍ਰੋਗਰਾਮ ਲਿਖ ਕੇ ਆਸਾਨੀ ਨਾਲ ਸਵੈਚਾਲਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<h2>ਸਿੱਟਾ</h2>
+<p>ਇਸ ਆਟੋਮੇਟਿਡ ਪ੍ਰਸਤੁਤੀ ਵੀਡੀਓ ਉਤਪਤੀ ਪ੍ਰਣਾਲੀ ਨੂੰ ਖੁਦ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਉਣ ਅਤੇ ਸੁਧਾਰਨ ਤੋਂ ਬਾਅਦ, ਮੈਂ ਪਿਛਲੇ ਹਫਤੇ ਤੋਂ YouTube &#39;ਤੇ ਵੀਡੀਓ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ।</p>
+<p>ਹਾਲਾਂਕਿ, ਇਸ ਪ੍ਰਣਾਲੀ ਦੇ ਪੂਰਾ ਹੋਣ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ, ਗੂਗਲ ਦੇ ਨੋਟਬੁੱਕਐੱਲਐੱਮ (NotebookLM), ਇੱਕ AI ਟੂਲ, ਨੇ ਵੀ ਟੈਕਸਟ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਵਿਆਖਿਆ ਕਰਨ ਲਈ ਵੀਡੀਓ ਆਪਣੇ ਆਪ ਤਿਆਰ ਕਰਨ ਦੀ ਸਮਾਨ ਵਿਸ਼ੇਸ਼ਤਾ ਪ੍ਰਾਪਤ ਕੀਤੀ।</p>
+<p>ਇਸ ਲਈ, ਇਹ ਉਮੀਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਕਿ ਭਵਿੱਖ ਵਿੱਚ, AI ਸੇਵਾਵਾਂ ਪ੍ਰਦਾਨ ਕਰਨ ਵਾਲੀਆਂ ਕੰਪਨੀਆਂ ਸਮਾਨ ਸੇਵਾਵਾਂ ਜਾਰੀ ਕਰਨਗੀਆਂ, ਜਿਸ ਨਾਲ ਵਿਅਕਤੀਆਂ ਨੂੰ ਅਜਿਹੀਆਂ ਪ੍ਰਣਾਲੀਆਂ ਨੂੰ ਸ਼ੁਰੂ ਤੋਂ ਬਣਾਉਣ ਦੀ ਜ਼ਰੂਰਤ ਨਹੀਂ ਰਹੇਗੀ।</p>
+<p>ਫਿਰ ਵੀ, ਇਸ ਤਰ੍ਹਾਂ ਦੇ ਗੰਭੀਰ ਤਰੀਕੇ ਨਾਲ ਜਨਰੇਟਿਵ AI ਦਾ ਲਾਭ ਉਠਾਉਣ ਵਾਲਾ ਇੱਕ ਵਿਹਾਰਕ ਪ੍ਰੋਗਰਾਮ ਵਿਕਸਤ ਕਰਨਾ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਪ੍ਰਾਪਤੀ ਰਹੀ ਹੈ, ਜਿਸ ਨਾਲ ਮੈਂ ਜਨਰੇਟਿਵ AI ਦੀ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਵਰਤੋਂ ਕਰਨ ਦੇ ਮੁੱਖ ਸਿਧਾਂਤਾਂ ਨੂੰ ਸਮਝ ਸਕਿਆ ਹਾਂ।</p>
 </article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਸ਼੍ਰੇਣੀਆਂ</h3> <div class="space-y-2"> <div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_ai_ml/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> AI ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_software_development/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_creative/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਰਚਨਾਤਮਕ ਕਲਾਵਾਂ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_creative/cid_video_production/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵੀਡੀਓ ਉਤਪਾਦਨ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_creative/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਰਚਨਾਤਮਕ ਕਲਾਵਾਂ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_creative/cid_presentation/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਪ੍ਰਸਤੁਤੀ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_ai_ml/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> AI ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_ai_ml/cid_nlp/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਪ੍ਰੋਸੈਸਿੰਗ </a> </div> </div> </div> </div> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਟੈਗ</h3> <div class="flex flex-wrap gap-2"> <a href="/pa/tags/tid_generative_ai/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਉਤਪਾਦਕ AI (ਮਿਆਰੀ ਸ਼ਬਦ)">
 #ਉਤਪਾਦਕ AI  </a><a href="/pa/tags/tid_auto_generation/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਸਵੈ-ਉਤਪਤੀ (ਮਿਆਰੀ ਸ਼ਬਦ)">
 #ਸਵੈ-ਉਤਪਤੀ  </a><a href="/pa/tags/tid_automation/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਆਟੋਮੇਸ਼ਨ (ਮਿਆਰੀ ਸ਼ਬਦ)">

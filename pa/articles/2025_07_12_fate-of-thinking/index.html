@@ -107,7 +107,125 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
     });
   });
 })();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="ਮੇਨੂ ਖੋਲ੍ਹੋ" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/pa/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> ਲੇਖ </a> <a href="/pa/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼੍ਰੇਣੀਆਂ </a> <a href="/pa/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> ਟੈਗ </a> <a href="/pa/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> ਪੁਰਾਲੇਖ </a> <a href="/pa/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼ਬਦਾਵਲੀ </a> <a href="/pa/about/" class="text-gray-600 hover:text-gray-900 font-medium"> ਬਾਰੇ </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ਨੋਟ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube 'ਤੇ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ਮੀਡੀਅਮ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/pa/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਮੁੱਖ ਪੰਨਾ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/pa/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਲੇਖ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>ਸੋਚਣ ਦਾ ਭਾਗ: AI ਅਤੇ ਮਨੁੱਖਤਾ</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_07_28_liquidware-allrounder/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> ਪਿਛਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਲਿਕਵਿਡਵੇਅਰ ਯੁੱਗ ਵਿੱਚ ਸਰਵ-ਦਿਸ਼ਾਈ ਇੰਜੀਨੀਅਰ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 28 ਜੁਲਾ 2025 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_07_11_business-process-oriented/" class="group block max-w-sm ml-auto" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center justify-end" data-astro-cid-nnxgeytw> ਅਗਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਕਾਰੋਬਾਰੀ ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸਾਫਟਵੇਅਰ ਲਈ ਸੱਦਾ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 11 ਜੁਲਾ 2025 </div> </a> </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_07_28_liquidware-allrounder/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ਪਿਛਲਾ </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਲਿਕਵਿਡਵੇਅਰ ਯੁੱਗ ਵਿੱਚ ਸਰਵ-ਦਿਸ਼ਾਈ ਇੰਜੀਨੀਅਰ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 28 ਜੁਲਾ 2025 </div> </a> <a href="/pa/articles/2025_07_11_business-process-oriented/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> ਅਗਲਾ <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਕਾਰੋਬਾਰੀ ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸਾਫਟਵੇਅਰ ਲਈ ਸੱਦਾ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 11 ਜੁਲਾ 2025 </div> </a> </div> </nav>  <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center justify-between" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-blue-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਜਾਪਾਨੀ ਤੋਂ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ ਹੈ</span> </div> <a href="/ja/articles/2025_07_12_fate-of-thinking/" class="text-blue-600 hover:text-blue-800 text-sm font-medium underline" data-astro-cid-3ljf2kae> ਜਾਪਾਨੀ ਵਿੱਚ ਪੜ੍ਹੋ </a> </div> </div>  <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ ਪਬਲਿਕ ਡੋਮੇਨ (CC0) ਵਿੱਚ ਹੈ। ਇਸਨੂੰ ਸੁਤੰਤਰ ਰੂਪ ਵਿੱਚ ਵਰਤਣ ਲਈ ਸੁਤੰਤਰ ਮਹਿਸੂਸ ਕਰੋ।</span> <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" data-astro-cid-3ljf2kae> <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0 Universal" style="border-style: none;" class="ml-2" data-astro-cid-3ljf2kae> </a> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae>ਸੋਚਣ ਦਾ ਭਾਗ: AI ਅਤੇ ਮਨੁੱਖਤਾ</h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-07-12" data-astro-cid-3ljf2kae>12 ਜੁਲਾਈ 2025</time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="ਸੋਚਣ ਦਾ ਭਾਗ: AI ਅਤੇ ਮਨੁੱਖਤਾ" data-date="12 ਜੁਲਾਈ 2025" data-author="ਕਤੋਸ਼ੀ" data-content="
-記事が見つかりません。" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
+ਮੈਂ ਇਸ ਗੱਲ 'ਤੇ ਵਿਚਾਰ ਕਰ ਰਿਹਾ ਹਾਂ ਕਿ AI ਦੇ ਵਿਕਾਸ ਨਾਲ ਸਮਾਜ ਅਤੇ ਸਾਡੀ ਜੀਵਨ ਸ਼ੈਲੀ ਕਿਵੇਂ ਬਦਲੇਗੀ।
+
+ਜਿਵੇਂ-ਜਿਵੇਂ AI ਬੌਧਿਕ ਕਾਰਜਾਂ ਨੂੰ ਸੰਭਾਲੇਗਾ, ਅਜਿਹਾ ਲੱਗ ਸਕਦਾ ਹੈ ਕਿ ਮਨੁੱਖਾਂ ਕੋਲ ਸੋਚਣ ਲਈ ਘੱਟ ਹੋਵੇਗਾ। ਹਾਲਾਂਕਿ, ਮੇਰਾ ਮੰਨਣਾ ਹੈ ਕਿ ਮਨੁੱਖਾਂ ਤੋਂ ਪਹਿਲਾਂ ਦੇ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਵੱਖਰੀ, ਇੱਕ ਵੱਖਰੀ ਕਿਸਮ ਦੀ ਸੋਚ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
+
+ਇਹ ਇਸੇ ਤਰ੍ਹਾਂ ਹੈ ਜਿਵੇਂ ਮਸ਼ੀਨੀਕਰਨ ਨੇ ਮਨੁੱਖਾਂ ਨੂੰ ਕੁਝ ਹੱਦ ਤੱਕ ਸਰੀਰਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤ ਕਰ ਦਿੱਤਾ, ਪਰ ਉਸੇ ਸਮੇਂ, ਹੋਰ ਕਿਸਮ ਦੀਆਂ ਸਰੀਰਕ ਗਤੀਵਿਧੀਆਂ ਦੀ ਮੰਗ ਕੀਤੀ।
+
+ਇਹਨਾਂ ਹੋਰ ਕਿਸਮ ਦੀਆਂ ਸਰੀਰਕ ਗਤੀਵਿਧੀਆਂ ਵਿੱਚ ਹੱਥਾਂ ਅਤੇ ਉਂਗਲਾਂ ਦੀ ਨੋਕ ਨਾਲ ਨਾਜ਼ੁਕ ਕਾਰਜ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ, ਜਿਵੇਂ ਕਿ ਕਾਰੀਗਰਾਂ ਦਾ ਨਿਪੁੰਨ ਕਾਰਜ ਜਾਂ ਕੰਪਿਊਟਰਾਂ ਅਤੇ ਸਮਾਰਟਫ਼ੋਨਾਂ ਨੂੰ ਚਲਾਉਣਾ।
+
+ਇਸੇ ਤਰ੍ਹਾਂ, ਭਾਵੇਂ ਅਸੀਂ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤ ਹੋ ਜਾਈਏ, ਅਸੀਂ ਸੋਚਣ ਦੇ ਬੌਧਿਕ ਕਾਰਜ ਤੋਂ ਬਚ ਨਹੀਂ ਸਕਦੇ।
+
+ਤਾਂ, ਸਾਡੇ ਤੋਂ ਕਿਸ ਤਰ੍ਹਾਂ ਦੀ ਬੌਧਿਕ ਗਤੀਵਿਧੀ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾਵੇਗੀ?
+
+ਇਸ ਲੇਖ ਵਿੱਚ, ਮੈਂ AI ਦੇ ਯੁੱਗ ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ ਦੇ ਪੈਰਾਡਾਈਮ ਵਿੱਚ ਤਬਦੀਲੀ ਬਾਰੇ ਆਪਣੇ ਵਿਚਾਰ ਪੇਸ਼ ਕਰਾਂਗਾ, ਅਤੇ ਸਾਡੇ &#34;ਸੋਚਣ ਦੇ ਭਾਗ&#34; ਦੀ ਖੋਜ ਕਰਾਂਗਾ।
+
+## ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸਾਫਟਵੇਅਰ
+
+ਮੈਂ ਆਬਜੈਕਟ-ਓਰੀਐਂਟਡ ਪਹੁੰਚਾਂ ਤੋਂ ਅੱਗੇ ਵਧਦੇ ਹੋਏ, ਅਗਲੇ ਪੈਰਾਡਾਈਮ ਵਜੋਂ **ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ** ਦਾ ਪ੍ਰਸਤਾਵ ਕਰਦਾ ਹਾਂ।
+
+ਇਹ ਸੰਕਲਪ ਪ੍ਰੋਗਰਾਮਿੰਗ ਦੇ ਕੇਂਦਰੀ ਮੋਡੀਊਲ ਨੂੰ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਵਜੋਂ ਵੇਖਦਾ ਹੈ। ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਘਟਨਾਵਾਂ ਜਾਂ ਸ਼ਰਤਾਂ ਦੁਆਰਾ ਸ਼ੁਰੂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਇਸਦੇ ਪੂਰਵ-ਪ੍ਰਭਾਸ਼ਿਤ ਕ੍ਰਮ ਅਨੁਸਾਰ ਵੱਖ-ਵੱਖ ਭੂਮਿਕਾਵਾਂ ਦੁਆਰਾ ਸੰਭਾਲੀ ਜਾਂਦੀ ਹੈ, ਅਤੇ ਅੰਤ ਵਿੱਚ ਖਤਮ ਹੋ ਜਾਂਦੀ ਹੈ।
+
+ਕਦਮਾਂ ਦੀ ਇੱਕ ਲੜੀ, ਸ਼ੁਰੂਆਤ ਤੋਂ ਸਮਾਪਤੀ ਤੱਕ, ਨੂੰ ਇੱਕ ਸਿੰਗਲ ਇਕਾਈ ਵਜੋਂ ਵਿਚਾਰਨ ਦਾ ਇਹ ਤਰੀਕਾ ਮਨੁੱਖੀ ਅਨੁਭਵ ਨਾਲ ਚੰਗੀ ਤਰ੍ਹਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ।
+
+ਇਸ ਲਈ, ਸਾਫਟਵੇਅਰ ਅਤੇ ਸਿਸਟਮਾਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਮੂਲ ਵਿੱਚ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨਾਲ ਸਮਝਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਜ਼ਰੂਰਤਾਂ ਦੇ ਵਿਸ਼ਲੇਸ਼ਣ ਤੋਂ ਲੈ ਕੇ ਲਾਗੂਕਰਨ ਤੱਕ, ਅਤੇ ਟੈਸਟਿੰਗ ਅਤੇ ਸੰਚਾਲਨ ਤੱਕ।
+
+ਇੱਕ ਸਿਸਟਮ ਵਿੱਚ ਪ੍ਰਾਇਮਰੀ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਸਹਾਇਕ ਪ੍ਰਕਿਰਿਆਵਾਂ ਜਾਂ ਨਵੀਆਂ ਕਾਰਜਸ਼ੀਲਤਾਵਾਂ ਜੋੜਨ ਲਈ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਪਲੱਗ ਇਨ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
+
+ਕੁਝ ਵਾਧੂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਤੋਂ ਵੱਖਰੀਆਂ ਘਟਨਾਵਾਂ ਜਾਂ ਸ਼ਰਤਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਸੁਤੰਤਰ ਤੌਰ 'ਤੇ ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ, ਜਦੋਂ ਕਿ ਦੂਸਰੀਆਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਦੁਆਰਾ ਸ਼ਰਤਾਂ ਪੂਰੀਆਂ ਹੋਣ 'ਤੇ ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ।
+
+ਹਾਲਾਂਕਿ, ਅਜਿਹੇ ਮਾਮਲਿਆਂ ਵਿੱਚ ਵੀ, ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸੋਧਣ ਦੀ ਕੋਈ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ। ਇਹ ਕਾਫ਼ੀ ਹੈ ਕਿ ਵਾਧੂ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇ ਜਦੋਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਇਸਦੀ ਸ਼ੁਰੂਆਤੀ ਸ਼ਰਤ ਨੂੰ ਪੂਰਾ ਕਰਦੀ ਹੈ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕਿਉਂਕਿ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਇੱਕ ਸਿੰਗਲ ਮੋਡੀਊਲ ਵਜੋਂ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ, ਇਸਦੀ ਪਰਿਭਾਸ਼ਾ ਵਿੱਚ ਉਹ ਸਾਰੀ ਪ੍ਰੋਸੈਸਿੰਗ ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ ਜੋ ਇਹ ਕਰਦੀ ਹੈ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ ਇਸਦੇ ਕਾਰਜਕਾਲ ਦੌਰਾਨ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਸਟੋਰ ਕਰਨ ਲਈ ਵੇਰੀਏਬਲ ਅਤੇ ਡਾਟਾ ਖੇਤਰ ਵੀ ਹੁੰਦੇ ਹਨ, ਨਾਲ ਹੀ ਉਪਰੋਕਤ ਸ਼ੁਰੂਆਤੀ ਸ਼ਰਤਾਂ ਵੀ।
+
+ਕਿਉਂਕਿ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਇੱਕ ਇਕਾਈ ਮੋਡੀਊਲ ਹੈ ਜਿਸ ਵਿੱਚ ਸਾਰੇ ਲੋੜੀਂਦੇ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡਾਟਾ ਖੇਤਰ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ, ਇਸ ਲਈ ਕਈ ਪ੍ਰਕਿਰਿਆਵਾਂ ਵਿੱਚ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਢਾਂਚਾਗਤ ਡੇਟਾ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਲਾਗੂਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੁੰਦੀ ਹੈ।
+
+ਜਦੋਂ ਕਿ ਇੱਕ ਪਹੁੰਚ ਸਾਂਝੇ ਮੋਡੀਊਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ, ਇਸਦੀ ਬਜਾਏ ਦੁਹਰਾਅ ਨੂੰ ਬਰਦਾਸ਼ਤ ਕਰਨ ਵੱਲ ਵਧਣਾ ਗਲਤ ਨਹੀਂ ਹੈ।
+
+ਖਾਸ ਤੌਰ 'ਤੇ, ਪ੍ਰੋਗਰਾਮਿੰਗ ਵਿੱਚ AI ਦੀ ਸਹਾਇਤਾ ਨਾਲ, ਇਹ ਮੰਨਣਾ ਸੰਭਵ ਹੈ ਕਿ ਕਈ ਮਾਡਿਊਲਾਂ ਵਿੱਚ ਕਈ ਸਮਾਨ ਪਰ ਵੱਖਰੇ ਲਾਗੂਕਰਨਾਂ ਦਾ ਹੋਣਾ ਕੋਈ ਮੁੱਦਾ ਨਹੀਂ ਪੈਦਾ ਕਰਦਾ।
+
+ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡੇਟਾ ਕਿਸਮਾਂ ਦਾ ਮਾਨਕੀਕਰਨ ਮੁੱਖ ਤੌਰ 'ਤੇ ਵਿਕਸਤ ਸਾਫਟਵੇਅਰ ਵਿੱਚ ਕੋਡ ਦੀ ਮਾਤਰਾ ਨੂੰ ਘਟਾਉਣ ਦਾ ਉਦੇਸ਼ ਰੱਖਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਇਸਨੂੰ ਪ੍ਰਬੰਧਿਤ ਕਰਨਾ ਅਤੇ ਸਮਝਣਾ ਆਸਾਨ ਹੋ ਜਾਂਦਾ ਹੈ।
+
+ਹਾਲਾਂਕਿ, ਜੇਕਰ ਲਾਗੂਕਰਨ ਕੋਡ ਦੇ ਪ੍ਰਬੰਧਨ ਦੀ ਲਾਗਤ AI ਦੁਆਰਾ ਮਹੱਤਵਪੂਰਨ ਤੌਰ 'ਤੇ ਘਟਾਈ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਮਾਨਕੀਕਰਨ ਦੀ ਲੋੜ ਘੱਟ ਜਾਂਦੀ ਹੈ।
+
+ਇਸ ਲਈ, ਮਾਨਕੀਕਰਨ ਕਾਰਨ ਹੋਣ ਵਾਲੀ ਸਾਫਟਵੇਅਰ ਬਣਤਰ ਦੀ ਜਟਿਲਤਾ ਤੋਂ ਬਚਣ ਦੀ ਨੀਤੀ, ਅਤੇ ਇਸਦੀ ਬਜਾਏ ਹਰੇਕ ਪ੍ਰਕਿਰਿਆ ਲਈ ਸਾਰੀਆਂ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡਾਟਾ ਬਣਤਰਾਂ ਨੂੰ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨਾ, ਭਾਵੇਂ ਕਾਫ਼ੀ ਦੁਹਰਾਅ ਹੋਵੇ, ਪੂਰੀ ਤਰ੍ਹਾਂ ਵਾਜਬ ਹੈ।
+
+ਇਸਦਾ ਅਰਥ ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੇ ਸੰਕਲਪ ਤੋਂ ਦੂਰ ਜਾਣਾ ਅਤੇ **ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ** ਲਈ ਯਤਨ ਕਰਨਾ ਹੈ। ਮਾਨਕੀਕਰਨ ਦੀ ਘਾਟ ਸਮਾਨ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੇ ਵਿਅਕਤੀਗਤ ਟਿਊਨਿੰਗ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ।
+
+## ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ
+
+ਜਿਵੇਂ ਕਿ ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸੋਚ ਨੂੰ ਲਾਗੂ ਕਰਨ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਹੁੰਦਾ ਹੈ, ਇੱਕ ਅਜਿਹੇ ਸਮਾਜ ਵਿੱਚ ਜਿੱਥੇ AI-ਸੰਚਾਲਿਤ ਸਵੈਚਾਲਨ ਅਤੇ ਕੁਸ਼ਲਤਾ ਦੁਆਰਾ ਉੱਨਤ ਉਤਪਾਦਕਤਾ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਸੋਚ ਦਾ ਢੰਗ ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਤੋਂ **ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ** ਵੱਲ ਬਦਲ ਜਾਂਦਾ ਹੈ।
+
+ਇਹ ਇੱਕ ਵਰਤਾਰਾ ਹੈ ਜਿਸਨੂੰ **ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ** ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।
+
+ਸਾਡੇ ਸਮਾਜ ਵਿੱਚ ਕਈ ਮਾਨਕੀਕ੍ਰਿਤ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਅਤੇ ਮਾਪਦੰਡ ਹਨ, ਜਿਵੇਂ ਕਿ ਨਿਯਮ, ਆਮ ਸਮਝ, ਸ਼ਿਸ਼ਟਾਚਾਰ ਅਤੇ ਆਮ ਗਿਆਨ।
+
+ਹਾਲਾਂਕਿ, ਜੇਕਰ ਇਹਨਾਂ ਨੂੰ ਸਾਰੀਆਂ ਸਥਿਤੀਆਂ 'ਤੇ ਸਖਤੀ ਨਾਲ ਲਾਗੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਬਹੁਤ ਸਾਰੇ ਅਪਵਾਦ ਵਾਲੇ ਮਾਮਲਿਆਂ ਵਿੱਚ ਅਸੁਵਿਧਾਵਾਂ ਪੈਦਾ ਹੁੰਦੀਆਂ ਹਨ।
+
+ਇਸ ਕਾਰਨ, ਜਦੋਂ ਕਿ ਅਸੀਂ ਮਾਨਕੀਕ੍ਰਿਤ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਅਤੇ ਮਾਪਦੰਡਾਂ ਨੂੰ ਮਹੱਤਵ ਦਿੰਦੇ ਹਾਂ, ਅਸੀਂ ਵਿਅਕਤੀਗਤ ਹਾਲਾਤਾਂ ਅਤੇ ਸਥਿਤੀਆਂ ਦੇ ਅਧਾਰ 'ਤੇ ਲਚਕਦਾਰ ਨਿਰਣੇ ਦੀ ਵੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹਾਂ।
+
+ਇਹ ਨਿਯਮਾਂ ਵਿੱਚ ਲਿਖੇ ਸਪੱਸ਼ਟ ਅਪਵਾਦ ਹੋ ਸਕਦੇ ਹਨ, ਜਾਂ ਅਜਿਹੇ ਨਿਯਮ ਜੋ ਇਹ ਦੱਸਦੇ ਹਨ ਕਿ ਨਿਰਣੇ ਕੇਸ-ਦਰ-ਕੇਸ ਆਧਾਰ 'ਤੇ ਕੀਤੇ ਜਾਣੇ ਚਾਹੀਦੇ ਹਨ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਸਪੱਸ਼ਟ ਕੋਡਬੱਧਤਾ ਤੋਂ ਬਿਨਾਂ ਵੀ, ਉਹ ਅਸਪਸ਼ਟ ਰੂਪ ਵਿੱਚ ਸਮਝੇ ਜਾ ਸਕਦੇ ਹਨ।
+
+ਉਦਾਹਰਨ ਲਈ, ਕਾਨੂੰਨਾਂ ਵਿੱਚ ਵੀ ਕਈ ਅਪਵਾਦ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਦੱਸੇ ਗਏ ਹਨ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਭਾਵੇਂ ਕਾਨੂੰਨ ਵਿੱਚ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਨਾ ਦੱਸਿਆ ਗਿਆ ਹੋਵੇ, ਨਿਆਂ ਪ੍ਰਣਾਲੀ ਦੁਆਰਾ ਵਿਅਕਤੀਗਤ ਮਾਮਲਿਆਂ ਦੁਆਰਾ ਸਜ਼ਾ ਪ੍ਰਭਾਵਿਤ ਹੁੰਦੀ ਹੈ। ਘਟਾਉਣ ਵਾਲੀਆਂ ਹਾਲਾਤਾਂ ਵਿਅਕਤੀਗਤ ਸਥਿਤੀਆਂ ਨੂੰ ਦਰਸਾਉਣ ਦਾ ਵਿਚਾਰ ਹਨ।
+
+ਇਸ ਤਰੀਕੇ ਨਾਲ ਵੇਖਦਿਆਂ, ਅਸੀਂ ਦੇਖ ਸਕਦੇ ਹਾਂ ਕਿ ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦਾ ਸੰਕਲਪ, ਜਿਸ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਸਾਰੀਆਂ ਸਥਿਤੀਆਂ ਦੀ ਵਿਅਕਤੀਗਤਤਾ ਦੀ ਧਿਆਨ ਨਾਲ ਜਾਂਚ ਕਰਨਾ ਅਤੇ ਉਸ ਵਿਅਕਤੀਗਤਤਾ ਦੇ ਅਧਾਰ 'ਤੇ ਫੈਸਲੇ ਲੈਣਾ ਸ਼ਾਮਲ ਹੈ, ਸਮਾਜ ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਡੂੰਘਾਈ ਨਾਲ ਜੜ੍ਹਿਆ ਹੋਇਆ ਹੈ।
+
+ਦੂਜੇ ਪਾਸੇ, ਹਰ ਇੱਕ ਮਾਮਲੇ ਦਾ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਧਿਆਨ ਨਾਲ ਨਿਰਣਾ ਕਰਨਾ ਨਿਸ਼ਚਤ ਤੌਰ 'ਤੇ ਅਕੁਸ਼ਲ ਹੈ। ਇਸ ਲਈ, ਇੱਕ ਅਜਿਹੇ ਯੁੱਗ ਵਿੱਚ ਜਿੱਥੇ ਉੱਚ ਕੁਸ਼ਲਤਾ ਮਹੱਤਵਪੂਰਨ ਹੈ, ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
+
+ਹਾਲਾਂਕਿ, ਜਿਵੇਂ-ਜਿਵੇਂ AI ਕਾਰਨ ਸਮਾਜ ਬਹੁਤ ਕੁਸ਼ਲ ਬਣਦਾ ਜਾਵੇਗਾ, ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੀ ਪੈਰਵੀ ਕਰਨ ਦਾ ਮੁੱਲ ਘੱਟ ਜਾਵੇਗਾ। ਇਸਦੀ ਬਜਾਏ, ਇੱਕ **ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ** ਜ਼ਰੂਰ ਸਾਕਾਰ ਹੋਵੇਗਾ, ਜਿੱਥੇ ਹਰ ਵਿਅਕਤੀਗਤ ਸਥਿਤੀ ਲਈ ਧਿਆਨ ਨਾਲ ਨਿਰਣੇ ਕੀਤੇ ਜਾਣਗੇ।
+
+## ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ
+
+ਦ੍ਰਿਸ਼ ਅਤੇ ਸਥਿਤੀ ਦੇ ਅਨੁਸਾਰ ਵਿਅਕਤੀਗਤ ਤੌਰ 'ਤੇ ਅਨੁਕੂਲ ਫੈਸਲੇ ਲੈਣ ਦਾ ਮਤਲਬ ਹੈ ਕਿ, ਇੱਕ ਆਮ ਨਿਰਣੇ ਨੂੰ ਤੁਰੰਤ ਲਾਗੂ ਕਰਨ ਦੀ ਬਜਾਏ, ਕਿਸੇ ਨੂੰ ਡੂੰਘਾਈ ਨਾਲ ਵਿਚਾਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
+
+ਮੈਂ ਇਸ ਨੈਤਿਕ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਨੂੰ, ਜਿੱਥੇ ਡੂੰਘੀ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਦਾ ਕਾਰਜ ਆਪਣੇ ਆਪ ਵਿੱਚ ਮੁੱਲ ਰੱਖਦਾ ਹੈ, **ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ** ਕਹਿੰਦਾ ਹਾਂ।
+
+ਹਰੇਕ ਘਟਨਾ, &#34;ਇੱਥੇ ਅਤੇ ਹੁਣ,&#34; ਅੰਦਰੂਨੀ ਤੌਰ 'ਤੇ ਹੋਰ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਤੋਂ ਵੱਖਰੀ ਵਿਅਕਤੀਗਤਤਾ ਰੱਖਦੀ ਹੈ। &#34;ਸਵੈ&#34; ਜੋ ਇਸ ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖਦੇ ਹੋਏ ਫੈਸਲਾ ਲੈਂਦਾ ਹੈ, ਉਸ 'ਤੇ ਇੱਕ ਅਨੁਪਾਤਕ ਜ਼ਿੰਮੇਵਾਰੀ ਹੁੰਦੀ ਹੈ।
+
+ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰਨਾ ਅਤੇ ਮਾਨਕੀਕ੍ਰਿਤ, ਫਾਰਮੂਲੇਬੱਧ ਨਿਰਣੇ ਕਰਨਾ, ਜਾਂ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਨੂੰ ਛੱਡ ਦੇਣਾ ਅਤੇ ਮਨਮਾਨੇ ਫੈਸਲੇ ਲੈਣਾ, ਨੈਤਿਕ ਨਹੀਂ ਹੈ, ਨਤੀਜੇ ਦੀ ਗੁਣਵੱਤਾ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ।
+
+ਇਸਦੇ ਉਲਟ, ਭਾਵੇਂ ਇੱਕ ਨਿਰਣੇ ਦੇ ਅਣਇੱਛਤ ਨਕਾਰਾਤਮਕ ਨਤੀਜੇ ਨਿਕਲਦੇ ਹਨ, ਨਿਰਣੇ ਆਪਣੇ ਆਪ ਵਿੱਚ ਨੈਤਿਕ ਹੈ ਜੇਕਰ ਇਸਨੂੰ ਕਈ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਕਾਫ਼ੀ ਵਿਚਾਰਿਆ ਗਿਆ ਸੀ ਅਤੇ ਜਵਾਬਦੇਹੀ ਪੂਰੀ ਕੀਤੀ ਗਈ ਸੀ।
+
+ਇਸ ਤਰ੍ਹਾਂ, ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਕੁਸ਼ਲਤਾ ਅਤੇ ਮਾਨਕੀਕਰਨ ਦੇ ਸੰਕਲਪਾਂ ਤੋਂ ਅੱਗੇ ਵਧਣ ਦੇ ਯੋਗ ਹੋ ਜਾਂਦੇ ਹਾਂ, ਅਸੀਂ ਸੰਭਾਵਤ ਤੌਰ 'ਤੇ ਇੱਕ ਅਜਿਹੇ ਯੁੱਗ ਵਿੱਚ ਦਾਖਲ ਹੋਵਾਂਗੇ ਜਿੱਥੇ **ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ**, ਮੰਗ 'ਤੇ ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਇੱਕ ਰੂਪ ਵਜੋਂ, ਜ਼ਰੂਰੀ ਹੋ ਜਾਂਦਾ ਹੈ।
+
+## ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ
+
+ਚਾਹੇ ਦਰਸ਼ਨ, ਸਮਾਜ ਜਾਂ ਸਾਫਟਵੇਅਰ ਵਿੱਚ, ਇੱਕ ਫਰੇਮਵਰਕ—ਸੋਚਣ ਲਈ ਇੱਕ ਸੰਕਲਪੀ ਬਣਤਰ—ਅਨੁਕੂਲਤਾ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹੈ।
+
+ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਅਨੁਕੂਲਤਾ ਦੀ ਦਿਸ਼ਾ ਇਸ ਗੱਲ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ ਕਿ ਹਰੇਕ ਵਿਸ਼ੇ ਨੂੰ ਕਿਸ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਉਸਦਾ ਮੁਲਾਂਕਣ ਕਿਵੇਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
+
+ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਫਰੇਮਵਰਕਾਂ ਨੂੰ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਸਰਲ ਬਣਾਉਣ ਲਈ ਬਹੁਤ ਜ਼ਿਆਦਾ ਅਮੂਰਤ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਅਮੂਰਤੀਕਰਨ ਦੀ ਇਸ ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ, ਵਿਅਕਤੀਗਤਤਾ ਗੁੰਮ ਹੋ ਜਾਂਦੀ ਹੈ।
+
+ਦੂਜੇ ਪਾਸੇ, ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਮਾਮਲੇ ਵਿੱਚ, ਘਟਨਾਵਾਂ ਜਾਂ ਵਿਸ਼ਿਆਂ ਨੂੰ ਕਈ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਸਮਝਣਾ ਅਤੇ ਮੁਲਾਂਕਣ ਕਰਨਾ ਫਾਇਦੇਮੰਦ ਹੁੰਦਾ ਹੈ, ਜੋ ਉਹਨਾਂ ਦੀ ਖਾਸ ਪ੍ਰਕਿਰਤੀ ਅਨੁਸਾਰ ਤਿਆਰ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।
+
+ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਲਈ, ਸਿਰਫ਼ ਮੁੱਠੀ ਭਰ ਲੋਕ ਹੀ ਇਹ ਵਿਚਾਰ ਕਰਨ ਲਈ ਕਾਫ਼ੀ ਸਨ ਕਿ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਸਮਝਣ ਲਈ ਕਿਸ ਤਰ੍ਹਾਂ ਦੇ ਫਰੇਮਵਰਕ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਣੀ ਚਾਹੀਦੀ ਹੈ।
+
+ਜ਼ਿਆਦਾਤਰ ਲੋਕਾਂ ਨੂੰ ਸਿਰਫ਼ ਉਹਨਾਂ ਕੁਝ ਵਿਅਕਤੀਆਂ ਦੁਆਰਾ ਤਿਆਰ ਕੀਤੇ ਫਰੇਮਵਰਕਾਂ ਦੇ ਅਨੁਸਾਰ ਮਾਮਲਿਆਂ ਨੂੰ ਸਮਝਣ, ਮੁਲਾਂਕਣ ਕਰਨ ਅਤੇ ਨਿਰਣਾ ਕਰਨ ਦੀ ਲੋੜ ਸੀ।
+
+ਹਾਲਾਂਕਿ, ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਮਾਮਲੇ ਵਿੱਚ, ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਨੂੰ ਹਰੇਕ ਖਾਸ ਮਾਮਲੇ ਲਈ ਫਰੇਮਵਰਕ ਤਿਆਰ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ, ਤਾਂ ਜੋ ਉਸਦੀ ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਸਹੀ ਢੰਗ ਨਾਲ ਸਮਝਿਆ ਜਾ ਸਕੇ।
+
+ਇਸ ਕਾਰਨ ਕਰਕੇ, ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ ਕਰਨ ਦੀ ਯੋਗਤਾ ਅਤੇ ਹੁਨਰ ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਤੋਂ ਲੋੜੀਂਦਾ ਹੋਵੇਗਾ।
+
+## ਸੋਚਣ ਦਾ ਭਾਗ
+
+ਇਸ ਤਰ੍ਹਾਂ ਆਪਣੇ ਵਿਚਾਰਾਂ ਨੂੰ ਸੰਗਠਿਤ ਕਰਦੇ ਹੋਏ, ਇੱਕ ਭਵਿੱਖ ਉੱਭਰਦਾ ਹੈ ਜਿੱਥੇ, ਭਾਵੇਂ ਨਕਲੀ ਬੁੱਧੀ ਮਨੁੱਖਾਂ ਦੁਆਰਾ ਪਹਿਲਾਂ ਕੀਤੇ ਗਏ ਬੌਧਿਕ ਕਾਰਜਾਂ ਨੂੰ ਸੰਭਾਲ ਲਵੇ, ਅਸੀਂ ਸੋਚਣਾ ਬੰਦ ਨਹੀਂ ਕਰ ਸਕਦੇ।
+
+ਸਾਨੂੰ ਉਤਪਾਦਕਤਾ ਅਤੇ ਪਦਾਰਥਕ ਦੌਲਤ ਦੇ ਉਦੇਸ਼ ਨਾਲ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤੀ ਮਿਲੇਗੀ। ਹਾਲਾਂਕਿ, **ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ** ਅਤੇ **ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ**, ਦੂਜੇ ਪਾਸੇ, ਮੰਗ ਕਰੇਗਾ ਕਿ ਅਸੀਂ ਹਰੇਕ ਮਾਮਲੇ ਲਈ ਵਿਅਕਤੀਗਤ ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ ਕਰੀਏ ਅਤੇ ਡੂੰਘਾਈ ਨਾਲ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਕਰੀਏ।
+
+ਇਹ ਸਾਨੂੰ ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ ਰੱਖਦਾ ਹੈ ਜਿੱਥੇ ਸਾਨੂੰ ਸੋਚਣਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ, ਮੌਜੂਦਾ ਸਮਾਜ ਨਾਲੋਂ ਵੀ ਵੱਧ।
+
+AI ਬੌਧਿਕ ਕਾਰਜ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਅਜਿਹੇ ਫੈਸਲੇ ਲੈ ਸਕਦਾ ਹੈ ਜੋ ਕੋਈ ਵੀ ਕਰ ਸਕਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਲਈ ਜਿਨ੍ਹਾਂ ਲਈ &#34;ਮੈਂ&#34; ਜ਼ਿੰਮੇਵਾਰ ਹਾਂ, AI ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰ ਸਕਦਾ ਹੈ, ਨਿਰਣੇ ਦੇ ਮਾਪਦੰਡ ਪੇਸ਼ ਕਰ ਸਕਦਾ ਹੈ, ਜਾਂ ਸਲਾਹ ਦੇ ਸਕਦਾ ਹੈ।
+
+ਅੰਤਿਮ ਫੈਸਲਾ &#34;ਮੇਰੇ&#34; ਦੁਆਰਾ ਹੀ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਇਹ ਇਸੇ ਤਰ੍ਹਾਂ ਹੈ ਕਿ ਕਿਵੇਂ, ਹੁਣ ਵੀ, ਵਿਅਕਤੀ ਵੱਖ-ਵੱਖ ਫੈਸਲਿਆਂ 'ਤੇ ਅਧਿਕਾਰੀਆਂ, ਮਾਪਿਆਂ, ਜਾਂ ਦੋਸਤਾਂ ਨਾਲ ਸਲਾਹ ਕਰ ਸਕਦੇ ਹਨ, ਪਰ ਫੈਸਲੇ ਨੂੰ ਖੁਦ ਸੌਂਪ ਨਹੀਂ ਸਕਦੇ।
+
+ਅਤੇ ਉੱਨਤ ਕੁਸ਼ਲਤਾ ਦੇ ਯੁੱਗ ਵਿੱਚ, ਡੂੰਘੇ, ਵਿਅਕਤੀਗਤ ਨਿਰਣੇ ਵਿੱਚ ਸ਼ਾਮਲ ਨਾ ਹੋਣਾ ਹੁਣ ਮਨਜ਼ੂਰ ਨਹੀਂ ਹੋਵੇਗਾ। ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ &#34;ਸੋਚਣ ਲਈ ਬਹੁਤ ਰੁੱਝੇ ਹੋਣ&#34; ਦਾ ਬਹਾਨਾ ਹੁਣ ਸਹੀ ਨਹੀਂ ਰਹੇਗਾ।
+
+ਅਜਿਹੇ ਉੱਨਤ ਕੁਸ਼ਲਤਾ ਦੇ ਯੁੱਗ ਵਿੱਚ, ਅਸੀਂ **ਸੋਚਣ ਦੇ ਭਾਗ** ਤੋਂ ਬਚਣ ਦੇ ਅਯੋਗ ਹੋਵਾਂਗੇ।
+
+" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
       prose-headings:text-gray-900 prose-headings:font-bold
       prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
       prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
@@ -125,7 +243,65 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
       prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
       prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
       prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
-      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>記事が見つかりません。</p>
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>ਮੈਂ ਇਸ ਗੱਲ &#39;ਤੇ ਵਿਚਾਰ ਕਰ ਰਿਹਾ ਹਾਂ ਕਿ AI ਦੇ ਵਿਕਾਸ ਨਾਲ ਸਮਾਜ ਅਤੇ ਸਾਡੀ ਜੀਵਨ ਸ਼ੈਲੀ ਕਿਵੇਂ ਬਦਲੇਗੀ।</p>
+<p>ਜਿਵੇਂ-ਜਿਵੇਂ AI ਬੌਧਿਕ ਕਾਰਜਾਂ ਨੂੰ ਸੰਭਾਲੇਗਾ, ਅਜਿਹਾ ਲੱਗ ਸਕਦਾ ਹੈ ਕਿ ਮਨੁੱਖਾਂ ਕੋਲ ਸੋਚਣ ਲਈ ਘੱਟ ਹੋਵੇਗਾ। ਹਾਲਾਂਕਿ, ਮੇਰਾ ਮੰਨਣਾ ਹੈ ਕਿ ਮਨੁੱਖਾਂ ਤੋਂ ਪਹਿਲਾਂ ਦੇ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਵੱਖਰੀ, ਇੱਕ ਵੱਖਰੀ ਕਿਸਮ ਦੀ ਸੋਚ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।</p>
+<p>ਇਹ ਇਸੇ ਤਰ੍ਹਾਂ ਹੈ ਜਿਵੇਂ ਮਸ਼ੀਨੀਕਰਨ ਨੇ ਮਨੁੱਖਾਂ ਨੂੰ ਕੁਝ ਹੱਦ ਤੱਕ ਸਰੀਰਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤ ਕਰ ਦਿੱਤਾ, ਪਰ ਉਸੇ ਸਮੇਂ, ਹੋਰ ਕਿਸਮ ਦੀਆਂ ਸਰੀਰਕ ਗਤੀਵਿਧੀਆਂ ਦੀ ਮੰਗ ਕੀਤੀ।</p>
+<p>ਇਹਨਾਂ ਹੋਰ ਕਿਸਮ ਦੀਆਂ ਸਰੀਰਕ ਗਤੀਵਿਧੀਆਂ ਵਿੱਚ ਹੱਥਾਂ ਅਤੇ ਉਂਗਲਾਂ ਦੀ ਨੋਕ ਨਾਲ ਨਾਜ਼ੁਕ ਕਾਰਜ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ, ਜਿਵੇਂ ਕਿ ਕਾਰੀਗਰਾਂ ਦਾ ਨਿਪੁੰਨ ਕਾਰਜ ਜਾਂ ਕੰਪਿਊਟਰਾਂ ਅਤੇ ਸਮਾਰਟਫ਼ੋਨਾਂ ਨੂੰ ਚਲਾਉਣਾ।</p>
+<p>ਇਸੇ ਤਰ੍ਹਾਂ, ਭਾਵੇਂ ਅਸੀਂ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤ ਹੋ ਜਾਈਏ, ਅਸੀਂ ਸੋਚਣ ਦੇ ਬੌਧਿਕ ਕਾਰਜ ਤੋਂ ਬਚ ਨਹੀਂ ਸਕਦੇ।</p>
+<p>ਤਾਂ, ਸਾਡੇ ਤੋਂ ਕਿਸ ਤਰ੍ਹਾਂ ਦੀ ਬੌਧਿਕ ਗਤੀਵਿਧੀ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾਵੇਗੀ?</p>
+<p>ਇਸ ਲੇਖ ਵਿੱਚ, ਮੈਂ AI ਦੇ ਯੁੱਗ ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ ਦੇ ਪੈਰਾਡਾਈਮ ਵਿੱਚ ਤਬਦੀਲੀ ਬਾਰੇ ਆਪਣੇ ਵਿਚਾਰ ਪੇਸ਼ ਕਰਾਂਗਾ, ਅਤੇ ਸਾਡੇ &quot;ਸੋਚਣ ਦੇ ਭਾਗ&quot; ਦੀ ਖੋਜ ਕਰਾਂਗਾ।</p>
+<h2>ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸਾਫਟਵੇਅਰ</h2>
+<p>ਮੈਂ ਆਬਜੈਕਟ-ਓਰੀਐਂਟਡ ਪਹੁੰਚਾਂ ਤੋਂ ਅੱਗੇ ਵਧਦੇ ਹੋਏ, ਅਗਲੇ ਪੈਰਾਡਾਈਮ ਵਜੋਂ <strong>ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ</strong> ਦਾ ਪ੍ਰਸਤਾਵ ਕਰਦਾ ਹਾਂ।</p>
+<p>ਇਹ ਸੰਕਲਪ ਪ੍ਰੋਗਰਾਮਿੰਗ ਦੇ ਕੇਂਦਰੀ ਮੋਡੀਊਲ ਨੂੰ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਵਜੋਂ ਵੇਖਦਾ ਹੈ। ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਘਟਨਾਵਾਂ ਜਾਂ ਸ਼ਰਤਾਂ ਦੁਆਰਾ ਸ਼ੁਰੂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਇਸਦੇ ਪੂਰਵ-ਪ੍ਰਭਾਸ਼ਿਤ ਕ੍ਰਮ ਅਨੁਸਾਰ ਵੱਖ-ਵੱਖ ਭੂਮਿਕਾਵਾਂ ਦੁਆਰਾ ਸੰਭਾਲੀ ਜਾਂਦੀ ਹੈ, ਅਤੇ ਅੰਤ ਵਿੱਚ ਖਤਮ ਹੋ ਜਾਂਦੀ ਹੈ।</p>
+<p>ਕਦਮਾਂ ਦੀ ਇੱਕ ਲੜੀ, ਸ਼ੁਰੂਆਤ ਤੋਂ ਸਮਾਪਤੀ ਤੱਕ, ਨੂੰ ਇੱਕ ਸਿੰਗਲ ਇਕਾਈ ਵਜੋਂ ਵਿਚਾਰਨ ਦਾ ਇਹ ਤਰੀਕਾ ਮਨੁੱਖੀ ਅਨੁਭਵ ਨਾਲ ਚੰਗੀ ਤਰ੍ਹਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ।</p>
+<p>ਇਸ ਲਈ, ਸਾਫਟਵੇਅਰ ਅਤੇ ਸਿਸਟਮਾਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਮੂਲ ਵਿੱਚ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨਾਲ ਸਮਝਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਜ਼ਰੂਰਤਾਂ ਦੇ ਵਿਸ਼ਲੇਸ਼ਣ ਤੋਂ ਲੈ ਕੇ ਲਾਗੂਕਰਨ ਤੱਕ, ਅਤੇ ਟੈਸਟਿੰਗ ਅਤੇ ਸੰਚਾਲਨ ਤੱਕ।</p>
+<p>ਇੱਕ ਸਿਸਟਮ ਵਿੱਚ ਪ੍ਰਾਇਮਰੀ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਸਹਾਇਕ ਪ੍ਰਕਿਰਿਆਵਾਂ ਜਾਂ ਨਵੀਆਂ ਕਾਰਜਸ਼ੀਲਤਾਵਾਂ ਜੋੜਨ ਲਈ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਪਲੱਗ ਇਨ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਕੁਝ ਵਾਧੂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਤੋਂ ਵੱਖਰੀਆਂ ਘਟਨਾਵਾਂ ਜਾਂ ਸ਼ਰਤਾਂ ਦੇ ਆਧਾਰ &#39;ਤੇ ਸੁਤੰਤਰ ਤੌਰ &#39;ਤੇ ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ, ਜਦੋਂ ਕਿ ਦੂਸਰੀਆਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਦੁਆਰਾ ਸ਼ਰਤਾਂ ਪੂਰੀਆਂ ਹੋਣ &#39;ਤੇ ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ।</p>
+<p>ਹਾਲਾਂਕਿ, ਅਜਿਹੇ ਮਾਮਲਿਆਂ ਵਿੱਚ ਵੀ, ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸੋਧਣ ਦੀ ਕੋਈ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ। ਇਹ ਕਾਫ਼ੀ ਹੈ ਕਿ ਵਾਧੂ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇ ਜਦੋਂ ਮੁੱਖ ਪ੍ਰਕਿਰਿਆ ਇਸਦੀ ਸ਼ੁਰੂਆਤੀ ਸ਼ਰਤ ਨੂੰ ਪੂਰਾ ਕਰਦੀ ਹੈ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕਿਉਂਕਿ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਇੱਕ ਸਿੰਗਲ ਮੋਡੀਊਲ ਵਜੋਂ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ, ਇਸਦੀ ਪਰਿਭਾਸ਼ਾ ਵਿੱਚ ਉਹ ਸਾਰੀ ਪ੍ਰੋਸੈਸਿੰਗ ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ ਜੋ ਇਹ ਕਰਦੀ ਹੈ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ ਇਸਦੇ ਕਾਰਜਕਾਲ ਦੌਰਾਨ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਸਟੋਰ ਕਰਨ ਲਈ ਵੇਰੀਏਬਲ ਅਤੇ ਡਾਟਾ ਖੇਤਰ ਵੀ ਹੁੰਦੇ ਹਨ, ਨਾਲ ਹੀ ਉਪਰੋਕਤ ਸ਼ੁਰੂਆਤੀ ਸ਼ਰਤਾਂ ਵੀ।</p>
+<p>ਕਿਉਂਕਿ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਇੱਕ ਇਕਾਈ ਮੋਡੀਊਲ ਹੈ ਜਿਸ ਵਿੱਚ ਸਾਰੇ ਲੋੜੀਂਦੇ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡਾਟਾ ਖੇਤਰ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ, ਇਸ ਲਈ ਕਈ ਪ੍ਰਕਿਰਿਆਵਾਂ ਵਿੱਚ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਢਾਂਚਾਗਤ ਡੇਟਾ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਲਾਗੂਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੁੰਦੀ ਹੈ।</p>
+<p>ਜਦੋਂ ਕਿ ਇੱਕ ਪਹੁੰਚ ਸਾਂਝੇ ਮੋਡੀਊਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ, ਇਸਦੀ ਬਜਾਏ ਦੁਹਰਾਅ ਨੂੰ ਬਰਦਾਸ਼ਤ ਕਰਨ ਵੱਲ ਵਧਣਾ ਗਲਤ ਨਹੀਂ ਹੈ।</p>
+<p>ਖਾਸ ਤੌਰ &#39;ਤੇ, ਪ੍ਰੋਗਰਾਮਿੰਗ ਵਿੱਚ AI ਦੀ ਸਹਾਇਤਾ ਨਾਲ, ਇਹ ਮੰਨਣਾ ਸੰਭਵ ਹੈ ਕਿ ਕਈ ਮਾਡਿਊਲਾਂ ਵਿੱਚ ਕਈ ਸਮਾਨ ਪਰ ਵੱਖਰੇ ਲਾਗੂਕਰਨਾਂ ਦਾ ਹੋਣਾ ਕੋਈ ਮੁੱਦਾ ਨਹੀਂ ਪੈਦਾ ਕਰਦਾ।</p>
+<p>ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡੇਟਾ ਕਿਸਮਾਂ ਦਾ ਮਾਨਕੀਕਰਨ ਮੁੱਖ ਤੌਰ &#39;ਤੇ ਵਿਕਸਤ ਸਾਫਟਵੇਅਰ ਵਿੱਚ ਕੋਡ ਦੀ ਮਾਤਰਾ ਨੂੰ ਘਟਾਉਣ ਦਾ ਉਦੇਸ਼ ਰੱਖਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਇਸਨੂੰ ਪ੍ਰਬੰਧਿਤ ਕਰਨਾ ਅਤੇ ਸਮਝਣਾ ਆਸਾਨ ਹੋ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਹਾਲਾਂਕਿ, ਜੇਕਰ ਲਾਗੂਕਰਨ ਕੋਡ ਦੇ ਪ੍ਰਬੰਧਨ ਦੀ ਲਾਗਤ AI ਦੁਆਰਾ ਮਹੱਤਵਪੂਰਨ ਤੌਰ &#39;ਤੇ ਘਟਾਈ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਮਾਨਕੀਕਰਨ ਦੀ ਲੋੜ ਘੱਟ ਜਾਂਦੀ ਹੈ।</p>
+<p>ਇਸ ਲਈ, ਮਾਨਕੀਕਰਨ ਕਾਰਨ ਹੋਣ ਵਾਲੀ ਸਾਫਟਵੇਅਰ ਬਣਤਰ ਦੀ ਜਟਿਲਤਾ ਤੋਂ ਬਚਣ ਦੀ ਨੀਤੀ, ਅਤੇ ਇਸਦੀ ਬਜਾਏ ਹਰੇਕ ਪ੍ਰਕਿਰਿਆ ਲਈ ਸਾਰੀਆਂ ਪ੍ਰੋਸੈਸਿੰਗ ਅਤੇ ਡਾਟਾ ਬਣਤਰਾਂ ਨੂੰ ਵੱਖਰੇ ਤੌਰ &#39;ਤੇ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨਾ, ਭਾਵੇਂ ਕਾਫ਼ੀ ਦੁਹਰਾਅ ਹੋਵੇ, ਪੂਰੀ ਤਰ੍ਹਾਂ ਵਾਜਬ ਹੈ।</p>
+<p>ਇਸਦਾ ਅਰਥ ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੇ ਸੰਕਲਪ ਤੋਂ ਦੂਰ ਜਾਣਾ ਅਤੇ <strong>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ</strong> ਲਈ ਯਤਨ ਕਰਨਾ ਹੈ। ਮਾਨਕੀਕਰਨ ਦੀ ਘਾਟ ਸਮਾਨ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੇ ਵਿਅਕਤੀਗਤ ਟਿਊਨਿੰਗ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ।</p>
+<h2>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ</h2>
+<p>ਜਿਵੇਂ ਕਿ ਪ੍ਰਕਿਰਿਆ-ਮੁਖੀ ਸੋਚ ਨੂੰ ਲਾਗੂ ਕਰਨ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਹੁੰਦਾ ਹੈ, ਇੱਕ ਅਜਿਹੇ ਸਮਾਜ ਵਿੱਚ ਜਿੱਥੇ AI-ਸੰਚਾਲਿਤ ਸਵੈਚਾਲਨ ਅਤੇ ਕੁਸ਼ਲਤਾ ਦੁਆਰਾ ਉੱਨਤ ਉਤਪਾਦਕਤਾ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਸੋਚ ਦਾ ਢੰਗ ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਤੋਂ <strong>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ</strong> ਵੱਲ ਬਦਲ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਇਹ ਇੱਕ ਵਰਤਾਰਾ ਹੈ ਜਿਸਨੂੰ <strong>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ</strong> ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਸਾਡੇ ਸਮਾਜ ਵਿੱਚ ਕਈ ਮਾਨਕੀਕ੍ਰਿਤ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਅਤੇ ਮਾਪਦੰਡ ਹਨ, ਜਿਵੇਂ ਕਿ ਨਿਯਮ, ਆਮ ਸਮਝ, ਸ਼ਿਸ਼ਟਾਚਾਰ ਅਤੇ ਆਮ ਗਿਆਨ।</p>
+<p>ਹਾਲਾਂਕਿ, ਜੇਕਰ ਇਹਨਾਂ ਨੂੰ ਸਾਰੀਆਂ ਸਥਿਤੀਆਂ &#39;ਤੇ ਸਖਤੀ ਨਾਲ ਲਾਗੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਬਹੁਤ ਸਾਰੇ ਅਪਵਾਦ ਵਾਲੇ ਮਾਮਲਿਆਂ ਵਿੱਚ ਅਸੁਵਿਧਾਵਾਂ ਪੈਦਾ ਹੁੰਦੀਆਂ ਹਨ।</p>
+<p>ਇਸ ਕਾਰਨ, ਜਦੋਂ ਕਿ ਅਸੀਂ ਮਾਨਕੀਕ੍ਰਿਤ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਅਤੇ ਮਾਪਦੰਡਾਂ ਨੂੰ ਮਹੱਤਵ ਦਿੰਦੇ ਹਾਂ, ਅਸੀਂ ਵਿਅਕਤੀਗਤ ਹਾਲਾਤਾਂ ਅਤੇ ਸਥਿਤੀਆਂ ਦੇ ਅਧਾਰ &#39;ਤੇ ਲਚਕਦਾਰ ਨਿਰਣੇ ਦੀ ਵੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹਾਂ।</p>
+<p>ਇਹ ਨਿਯਮਾਂ ਵਿੱਚ ਲਿਖੇ ਸਪੱਸ਼ਟ ਅਪਵਾਦ ਹੋ ਸਕਦੇ ਹਨ, ਜਾਂ ਅਜਿਹੇ ਨਿਯਮ ਜੋ ਇਹ ਦੱਸਦੇ ਹਨ ਕਿ ਨਿਰਣੇ ਕੇਸ-ਦਰ-ਕੇਸ ਆਧਾਰ &#39;ਤੇ ਕੀਤੇ ਜਾਣੇ ਚਾਹੀਦੇ ਹਨ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਸਪੱਸ਼ਟ ਕੋਡਬੱਧਤਾ ਤੋਂ ਬਿਨਾਂ ਵੀ, ਉਹ ਅਸਪਸ਼ਟ ਰੂਪ ਵਿੱਚ ਸਮਝੇ ਜਾ ਸਕਦੇ ਹਨ।</p>
+<p>ਉਦਾਹਰਨ ਲਈ, ਕਾਨੂੰਨਾਂ ਵਿੱਚ ਵੀ ਕਈ ਅਪਵਾਦ ਸਪਸ਼ਟ ਤੌਰ &#39;ਤੇ ਦੱਸੇ ਗਏ ਹਨ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਭਾਵੇਂ ਕਾਨੂੰਨ ਵਿੱਚ ਸਪਸ਼ਟ ਤੌਰ &#39;ਤੇ ਨਾ ਦੱਸਿਆ ਗਿਆ ਹੋਵੇ, ਨਿਆਂ ਪ੍ਰਣਾਲੀ ਦੁਆਰਾ ਵਿਅਕਤੀਗਤ ਮਾਮਲਿਆਂ ਦੁਆਰਾ ਸਜ਼ਾ ਪ੍ਰਭਾਵਿਤ ਹੁੰਦੀ ਹੈ। ਘਟਾਉਣ ਵਾਲੀਆਂ ਹਾਲਾਤਾਂ ਵਿਅਕਤੀਗਤ ਸਥਿਤੀਆਂ ਨੂੰ ਦਰਸਾਉਣ ਦਾ ਵਿਚਾਰ ਹਨ।</p>
+<p>ਇਸ ਤਰੀਕੇ ਨਾਲ ਵੇਖਦਿਆਂ, ਅਸੀਂ ਦੇਖ ਸਕਦੇ ਹਾਂ ਕਿ ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦਾ ਸੰਕਲਪ, ਜਿਸ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਸਾਰੀਆਂ ਸਥਿਤੀਆਂ ਦੀ ਵਿਅਕਤੀਗਤਤਾ ਦੀ ਧਿਆਨ ਨਾਲ ਜਾਂਚ ਕਰਨਾ ਅਤੇ ਉਸ ਵਿਅਕਤੀਗਤਤਾ ਦੇ ਅਧਾਰ &#39;ਤੇ ਫੈਸਲੇ ਲੈਣਾ ਸ਼ਾਮਲ ਹੈ, ਸਮਾਜ ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਡੂੰਘਾਈ ਨਾਲ ਜੜ੍ਹਿਆ ਹੋਇਆ ਹੈ।</p>
+<p>ਦੂਜੇ ਪਾਸੇ, ਹਰ ਇੱਕ ਮਾਮਲੇ ਦਾ ਵੱਖਰੇ ਤੌਰ &#39;ਤੇ ਧਿਆਨ ਨਾਲ ਨਿਰਣਾ ਕਰਨਾ ਨਿਸ਼ਚਤ ਤੌਰ &#39;ਤੇ ਅਕੁਸ਼ਲ ਹੈ। ਇਸ ਲਈ, ਇੱਕ ਅਜਿਹੇ ਯੁੱਗ ਵਿੱਚ ਜਿੱਥੇ ਉੱਚ ਕੁਸ਼ਲਤਾ ਮਹੱਤਵਪੂਰਨ ਹੈ, ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।</p>
+<p>ਹਾਲਾਂਕਿ, ਜਿਵੇਂ-ਜਿਵੇਂ AI ਕਾਰਨ ਸਮਾਜ ਬਹੁਤ ਕੁਸ਼ਲ ਬਣਦਾ ਜਾਵੇਗਾ, ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੀ ਪੈਰਵੀ ਕਰਨ ਦਾ ਮੁੱਲ ਘੱਟ ਜਾਵੇਗਾ। ਇਸਦੀ ਬਜਾਏ, ਇੱਕ <strong>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ</strong> ਜ਼ਰੂਰ ਸਾਕਾਰ ਹੋਵੇਗਾ, ਜਿੱਥੇ ਹਰ ਵਿਅਕਤੀਗਤ ਸਥਿਤੀ ਲਈ ਧਿਆਨ ਨਾਲ ਨਿਰਣੇ ਕੀਤੇ ਜਾਣਗੇ।</p>
+<h2>ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ</h2>
+<p>ਦ੍ਰਿਸ਼ ਅਤੇ ਸਥਿਤੀ ਦੇ ਅਨੁਸਾਰ ਵਿਅਕਤੀਗਤ ਤੌਰ &#39;ਤੇ ਅਨੁਕੂਲ ਫੈਸਲੇ ਲੈਣ ਦਾ ਮਤਲਬ ਹੈ ਕਿ, ਇੱਕ ਆਮ ਨਿਰਣੇ ਨੂੰ ਤੁਰੰਤ ਲਾਗੂ ਕਰਨ ਦੀ ਬਜਾਏ, ਕਿਸੇ ਨੂੰ ਡੂੰਘਾਈ ਨਾਲ ਵਿਚਾਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।</p>
+<p>ਮੈਂ ਇਸ ਨੈਤਿਕ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਨੂੰ, ਜਿੱਥੇ ਡੂੰਘੀ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਦਾ ਕਾਰਜ ਆਪਣੇ ਆਪ ਵਿੱਚ ਮੁੱਲ ਰੱਖਦਾ ਹੈ, <strong>ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ</strong> ਕਹਿੰਦਾ ਹਾਂ।</p>
+<p>ਹਰੇਕ ਘਟਨਾ, &quot;ਇੱਥੇ ਅਤੇ ਹੁਣ,&quot; ਅੰਦਰੂਨੀ ਤੌਰ &#39;ਤੇ ਹੋਰ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਤੋਂ ਵੱਖਰੀ ਵਿਅਕਤੀਗਤਤਾ ਰੱਖਦੀ ਹੈ। &quot;ਸਵੈ&quot; ਜੋ ਇਸ ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖਦੇ ਹੋਏ ਫੈਸਲਾ ਲੈਂਦਾ ਹੈ, ਉਸ &#39;ਤੇ ਇੱਕ ਅਨੁਪਾਤਕ ਜ਼ਿੰਮੇਵਾਰੀ ਹੁੰਦੀ ਹੈ।</p>
+<p>ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰਨਾ ਅਤੇ ਮਾਨਕੀਕ੍ਰਿਤ, ਫਾਰਮੂਲੇਬੱਧ ਨਿਰਣੇ ਕਰਨਾ, ਜਾਂ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਨੂੰ ਛੱਡ ਦੇਣਾ ਅਤੇ ਮਨਮਾਨੇ ਫੈਸਲੇ ਲੈਣਾ, ਨੈਤਿਕ ਨਹੀਂ ਹੈ, ਨਤੀਜੇ ਦੀ ਗੁਣਵੱਤਾ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ।</p>
+<p>ਇਸਦੇ ਉਲਟ, ਭਾਵੇਂ ਇੱਕ ਨਿਰਣੇ ਦੇ ਅਣਇੱਛਤ ਨਕਾਰਾਤਮਕ ਨਤੀਜੇ ਨਿਕਲਦੇ ਹਨ, ਨਿਰਣੇ ਆਪਣੇ ਆਪ ਵਿੱਚ ਨੈਤਿਕ ਹੈ ਜੇਕਰ ਇਸਨੂੰ ਕਈ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਕਾਫ਼ੀ ਵਿਚਾਰਿਆ ਗਿਆ ਸੀ ਅਤੇ ਜਵਾਬਦੇਹੀ ਪੂਰੀ ਕੀਤੀ ਗਈ ਸੀ।</p>
+<p>ਇਸ ਤਰ੍ਹਾਂ, ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਕੁਸ਼ਲਤਾ ਅਤੇ ਮਾਨਕੀਕਰਨ ਦੇ ਸੰਕਲਪਾਂ ਤੋਂ ਅੱਗੇ ਵਧਣ ਦੇ ਯੋਗ ਹੋ ਜਾਂਦੇ ਹਾਂ, ਅਸੀਂ ਸੰਭਾਵਤ ਤੌਰ &#39;ਤੇ ਇੱਕ ਅਜਿਹੇ ਯੁੱਗ ਵਿੱਚ ਦਾਖਲ ਹੋਵਾਂਗੇ ਜਿੱਥੇ <strong>ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ</strong>, ਮੰਗ &#39;ਤੇ ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਇੱਕ ਰੂਪ ਵਜੋਂ, ਜ਼ਰੂਰੀ ਹੋ ਜਾਂਦਾ ਹੈ।</p>
+<h2>ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ</h2>
+<p>ਚਾਹੇ ਦਰਸ਼ਨ, ਸਮਾਜ ਜਾਂ ਸਾਫਟਵੇਅਰ ਵਿੱਚ, ਇੱਕ ਫਰੇਮਵਰਕ—ਸੋਚਣ ਲਈ ਇੱਕ ਸੰਕਲਪੀ ਬਣਤਰ—ਅਨੁਕੂਲਤਾ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹੈ।</p>
+<p>ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਅਨੁਕੂਲਤਾ ਦੀ ਦਿਸ਼ਾ ਇਸ ਗੱਲ &#39;ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ ਕਿ ਹਰੇਕ ਵਿਸ਼ੇ ਨੂੰ ਕਿਸ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਉਸਦਾ ਮੁਲਾਂਕਣ ਕਿਵੇਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਫਰੇਮਵਰਕਾਂ ਨੂੰ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਸਰਲ ਬਣਾਉਣ ਲਈ ਬਹੁਤ ਜ਼ਿਆਦਾ ਅਮੂਰਤ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਅਮੂਰਤੀਕਰਨ ਦੀ ਇਸ ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ, ਵਿਅਕਤੀਗਤਤਾ ਗੁੰਮ ਹੋ ਜਾਂਦੀ ਹੈ।</p>
+<p>ਦੂਜੇ ਪਾਸੇ, ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਮਾਮਲੇ ਵਿੱਚ, ਘਟਨਾਵਾਂ ਜਾਂ ਵਿਸ਼ਿਆਂ ਨੂੰ ਕਈ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਸਮਝਣਾ ਅਤੇ ਮੁਲਾਂਕਣ ਕਰਨਾ ਫਾਇਦੇਮੰਦ ਹੁੰਦਾ ਹੈ, ਜੋ ਉਹਨਾਂ ਦੀ ਖਾਸ ਪ੍ਰਕਿਰਤੀ ਅਨੁਸਾਰ ਤਿਆਰ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।</p>
+<p>ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ ਲਈ, ਸਿਰਫ਼ ਮੁੱਠੀ ਭਰ ਲੋਕ ਹੀ ਇਹ ਵਿਚਾਰ ਕਰਨ ਲਈ ਕਾਫ਼ੀ ਸਨ ਕਿ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਸਮਝਣ ਲਈ ਕਿਸ ਤਰ੍ਹਾਂ ਦੇ ਫਰੇਮਵਰਕ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਣੀ ਚਾਹੀਦੀ ਹੈ।</p>
+<p>ਜ਼ਿਆਦਾਤਰ ਲੋਕਾਂ ਨੂੰ ਸਿਰਫ਼ ਉਹਨਾਂ ਕੁਝ ਵਿਅਕਤੀਆਂ ਦੁਆਰਾ ਤਿਆਰ ਕੀਤੇ ਫਰੇਮਵਰਕਾਂ ਦੇ ਅਨੁਸਾਰ ਮਾਮਲਿਆਂ ਨੂੰ ਸਮਝਣ, ਮੁਲਾਂਕਣ ਕਰਨ ਅਤੇ ਨਿਰਣਾ ਕਰਨ ਦੀ ਲੋੜ ਸੀ।</p>
+<p>ਹਾਲਾਂਕਿ, ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਦੇ ਮਾਮਲੇ ਵਿੱਚ, ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਨੂੰ ਹਰੇਕ ਖਾਸ ਮਾਮਲੇ ਲਈ ਫਰੇਮਵਰਕ ਤਿਆਰ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ, ਤਾਂ ਜੋ ਉਸਦੀ ਵਿਅਕਤੀਗਤਤਾ ਨੂੰ ਸਹੀ ਢੰਗ ਨਾਲ ਸਮਝਿਆ ਜਾ ਸਕੇ।</p>
+<p>ਇਸ ਕਾਰਨ ਕਰਕੇ, ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ ਕਰਨ ਦੀ ਯੋਗਤਾ ਅਤੇ ਹੁਨਰ ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਤੋਂ ਲੋੜੀਂਦਾ ਹੋਵੇਗਾ।</p>
+<h2>ਸੋਚਣ ਦਾ ਭਾਗ</h2>
+<p>ਇਸ ਤਰ੍ਹਾਂ ਆਪਣੇ ਵਿਚਾਰਾਂ ਨੂੰ ਸੰਗਠਿਤ ਕਰਦੇ ਹੋਏ, ਇੱਕ ਭਵਿੱਖ ਉੱਭਰਦਾ ਹੈ ਜਿੱਥੇ, ਭਾਵੇਂ ਨਕਲੀ ਬੁੱਧੀ ਮਨੁੱਖਾਂ ਦੁਆਰਾ ਪਹਿਲਾਂ ਕੀਤੇ ਗਏ ਬੌਧਿਕ ਕਾਰਜਾਂ ਨੂੰ ਸੰਭਾਲ ਲਵੇ, ਅਸੀਂ ਸੋਚਣਾ ਬੰਦ ਨਹੀਂ ਕਰ ਸਕਦੇ।</p>
+<p>ਸਾਨੂੰ ਉਤਪਾਦਕਤਾ ਅਤੇ ਪਦਾਰਥਕ ਦੌਲਤ ਦੇ ਉਦੇਸ਼ ਨਾਲ ਬੌਧਿਕ ਕਾਰਜਾਂ ਤੋਂ ਮੁਕਤੀ ਮਿਲੇਗੀ। ਹਾਲਾਂਕਿ, <strong>ਵਿਅਕਤੀਗਤ ਅਨੁਕੂਲਤਾ ਸਮਾਜ</strong> ਅਤੇ <strong>ਸਵੈ-ਮੁਖੀ ਦਰਸ਼ਨ</strong>, ਦੂਜੇ ਪਾਸੇ, ਮੰਗ ਕਰੇਗਾ ਕਿ ਅਸੀਂ ਹਰੇਕ ਮਾਮਲੇ ਲਈ ਵਿਅਕਤੀਗਤ ਫਰੇਮਵਰਕ ਡਿਜ਼ਾਈਨ ਕਰੀਏ ਅਤੇ ਡੂੰਘਾਈ ਨਾਲ ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਕਰੀਏ।</p>
+<p>ਇਹ ਸਾਨੂੰ ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ ਰੱਖਦਾ ਹੈ ਜਿੱਥੇ ਸਾਨੂੰ ਸੋਚਣਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ, ਮੌਜੂਦਾ ਸਮਾਜ ਨਾਲੋਂ ਵੀ ਵੱਧ।</p>
+<p>AI ਬੌਧਿਕ ਕਾਰਜ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਅਜਿਹੇ ਫੈਸਲੇ ਲੈ ਸਕਦਾ ਹੈ ਜੋ ਕੋਈ ਵੀ ਕਰ ਸਕਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਲਈ ਜਿਨ੍ਹਾਂ ਲਈ &quot;ਮੈਂ&quot; ਜ਼ਿੰਮੇਵਾਰ ਹਾਂ, AI ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰ ਸਕਦਾ ਹੈ, ਨਿਰਣੇ ਦੇ ਮਾਪਦੰਡ ਪੇਸ਼ ਕਰ ਸਕਦਾ ਹੈ, ਜਾਂ ਸਲਾਹ ਦੇ ਸਕਦਾ ਹੈ।</p>
+<p>ਅੰਤਿਮ ਫੈਸਲਾ &quot;ਮੇਰੇ&quot; ਦੁਆਰਾ ਹੀ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਇਹ ਇਸੇ ਤਰ੍ਹਾਂ ਹੈ ਕਿ ਕਿਵੇਂ, ਹੁਣ ਵੀ, ਵਿਅਕਤੀ ਵੱਖ-ਵੱਖ ਫੈਸਲਿਆਂ &#39;ਤੇ ਅਧਿਕਾਰੀਆਂ, ਮਾਪਿਆਂ, ਜਾਂ ਦੋਸਤਾਂ ਨਾਲ ਸਲਾਹ ਕਰ ਸਕਦੇ ਹਨ, ਪਰ ਫੈਸਲੇ ਨੂੰ ਖੁਦ ਸੌਂਪ ਨਹੀਂ ਸਕਦੇ।</p>
+<p>ਅਤੇ ਉੱਨਤ ਕੁਸ਼ਲਤਾ ਦੇ ਯੁੱਗ ਵਿੱਚ, ਡੂੰਘੇ, ਵਿਅਕਤੀਗਤ ਨਿਰਣੇ ਵਿੱਚ ਸ਼ਾਮਲ ਨਾ ਹੋਣਾ ਹੁਣ ਮਨਜ਼ੂਰ ਨਹੀਂ ਹੋਵੇਗਾ। ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ &quot;ਸੋਚਣ ਲਈ ਬਹੁਤ ਰੁੱਝੇ ਹੋਣ&quot; ਦਾ ਬਹਾਨਾ ਹੁਣ ਸਹੀ ਨਹੀਂ ਰਹੇਗਾ।</p>
+<p>ਅਜਿਹੇ ਉੱਨਤ ਕੁਸ਼ਲਤਾ ਦੇ ਯੁੱਗ ਵਿੱਚ, ਅਸੀਂ <strong>ਸੋਚਣ ਦੇ ਭਾਗ</strong> ਤੋਂ ਬਚਣ ਦੇ ਅਯੋਗ ਹੋਵਾਂਗੇ।</p>
 </article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਸ਼੍ਰੇਣੀਆਂ</h3> <div class="space-y-2"> <div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_ai_ml/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> AI ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_software_development/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_science_philosophy/cid_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਦਰਸ਼ਨ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div> </div> </div> </div> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਟੈਗ</h3> <div class="flex flex-wrap gap-2"> <a href="/pa/tags/tid_artificial_intelligence/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਨਕਲੀ ਬੁੱਧੀ (ਮਿਆਰੀ ਸ਼ਬਦ)">
 #ਨਕਲੀ ਬੁੱਧੀ  </a><a href="/pa/tags/tid_intellectual_mine/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-violet-50 hover:bg-violet-100 text-violet-700 border-violet-200" title="ਬੌਧਿਕ ਖਾਣ (ਮੂਲ ਸ਼ਬਦ)">
 #ਬੌਧਿਕ ਖਾਣ <span class="ml-1 text-xs opacity-75">✨</span> </a><a href="/pa/tags/tid_overall_optimization/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਸਮੁੱਚੀ ਅਨੁਕੂਲਤਾ (ਮਿਆਰੀ ਸ਼ਬਦ)">

@@ -107,7 +107,147 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
     });
   });
 })();</script> </div> <!-- モバイルメニューボタン --> <button id="mobile-menu-button" class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded" aria-label="ਮੇਨੂ ਖੋਲ੍ਹੋ" aria-controls="mobile-menu" aria-expanded="false"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- モバイル用ナビゲーション --> <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-200 py-3"> <nav class="flex flex-wrap gap-4 text-sm"> <a href="/pa/articles/" class="text-gray-600 hover:text-gray-900 font-medium"> ਲੇਖ </a> <a href="/pa/categories/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼੍ਰੇਣੀਆਂ </a> <a href="/pa/tags/" class="text-gray-600 hover:text-gray-900 font-medium"> ਟੈਗ </a> <a href="/pa/archive/" class="text-gray-600 hover:text-gray-900 font-medium"> ਪੁਰਾਲੇਖ </a> <a href="/pa/vocabulary/" class="text-gray-600 hover:text-gray-900 font-medium"> ਸ਼ਬਦਾਵਲੀ </a> <a href="/pa/about/" class="text-gray-600 hover:text-gray-900 font-medium"> ਬਾਰੇ </a> <!-- モバイル用SNSリンク --> <div class="sm:hidden"> <div class="flex items-center space-x-3" role="list"> <a href="https://twitter.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="X (Twitter)" aria-label="X 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> </a><a href="https://note.com/katoshi_mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Note" aria-label="ਨੋਟ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6V5h12v14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg> </a><a href="https://www.youtube.com/channel/UCRZjsc8pWWT8GQLBA6gc2MQ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="YouTube" aria-label="YouTube 'ਤੇ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> </a><a href="https://medium.com/@katoshi-mfacet" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600 transition-colors duration-200 p-1 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" title="Medium" aria-label="ਮੀਡੀਅਮ 'ਤੇ ਅਨੁਸਰਨ ਕਰੋ" role="listitem"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg> </a> </div> </div> </nav> </div> </div></header> <main id="main-content" class="min-h-screen">  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-astro-cid-3ljf2kae>  <nav class="mb-8" data-astro-cid-3ljf2kae> <div class="flex items-center space-x-2 text-sm" data-astro-cid-3ljf2kae> <a href="/pa/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਮੁੱਖ ਪੰਨਾ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <a href="/pa/articles/" class="text-blue-600 hover:text-blue-800" data-astro-cid-3ljf2kae>ਲੇਖ</a> <span class="text-gray-500" data-astro-cid-3ljf2kae>→</span> <span class="text-gray-900" data-astro-cid-3ljf2kae>ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ</span> </div> </nav>  <nav class="mb-8" data-astro-cid-nnxgeytw> <div class="hidden md:flex justify-between items-start" data-astro-cid-nnxgeytw> <div class="flex-1 pr-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_15_intellectual-mine-github/" class="group block max-w-sm" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center" data-astro-cid-nnxgeytw> ਪਿਛਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਬੌਧਿਕ ਖਾਣ ਵਜੋਂ ਗਿੱਟਹੱਬ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 15 ਅਗ 2025 </div> </a> </div> <div class="flex-1 text-right pl-4" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_14_intuition-and-logic/" class="group block max-w-sm ml-auto" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-1 flex items-center justify-end" data-astro-cid-nnxgeytw> ਅਗਲਾ </div> <div class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2" data-astro-cid-nnxgeytw> ਬੌਧਿਕ ਕ੍ਰਿਸਟਲ: ਸਹਿਜ ਗਿਆਨ ਅਤੇ ਤਰਕ ਦੇ ਵਿਚਕਾਰ </div> <div class="text-sm text-gray-400 mt-1" data-astro-cid-nnxgeytw> 14 ਅਗ 2025 </div> </a> </div> </div> <!-- モバイル版：縦並び --> <div class="md:hidden space-y-6" data-astro-cid-nnxgeytw> <a href="/pa/articles/2025_08_15_intellectual-mine-github/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> <svg class="w-4 h-4 mr-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> ਪਿਛਲਾ </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਬੌਧਿਕ ਖਾਣ ਵਜੋਂ ਗਿੱਟਹੱਬ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 15 ਅਗ 2025 </div> </a> <a href="/pa/articles/2025_08_14_intuition-and-logic/" class="group block p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" data-astro-cid-nnxgeytw> <div class="text-sm text-gray-500 mb-2 flex items-center" data-astro-cid-nnxgeytw> ਅਗਲਾ <svg class="w-4 h-4 ml-1 rtl-flip" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-nnxgeytw> <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-nnxgeytw></path> </svg> </div> <div class="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-3 leading-tight" data-astro-cid-nnxgeytw> ਬੌਧਿਕ ਕ੍ਰਿਸਟਲ: ਸਹਿਜ ਗਿਆਨ ਅਤੇ ਤਰਕ ਦੇ ਵਿਚਕਾਰ </div> <div class="text-xs text-gray-400 mt-2" data-astro-cid-nnxgeytw> 14 ਅਗ 2025 </div> </a> </div> </nav>  <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center justify-between" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-blue-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ AI ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਜਾਪਾਨੀ ਤੋਂ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ ਹੈ</span> </div> <a href="/ja/articles/2025_08_14_concept-gestalt-collapse/" class="text-blue-600 hover:text-blue-800 text-sm font-medium underline" data-astro-cid-3ljf2kae> ਜਾਪਾਨੀ ਵਿੱਚ ਪੜ੍ਹੋ </a> </div> </div>  <div class="mb-6 bg-green-50 border border-green-200 rounded-lg p-4" data-astro-cid-3ljf2kae> <div class="flex items-center" data-astro-cid-3ljf2kae> <svg class="w-4 h-4 text-green-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-3ljf2kae> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-3ljf2kae></path> </svg> <span class="text-sm text-green-900" data-astro-cid-3ljf2kae>ਇਹ ਲੇਖ ਪਬਲਿਕ ਡੋਮੇਨ (CC0) ਵਿੱਚ ਹੈ। ਇਸਨੂੰ ਸੁਤੰਤਰ ਰੂਪ ਵਿੱਚ ਵਰਤਣ ਲਈ ਸੁਤੰਤਰ ਮਹਿਸੂਸ ਕਰੋ।</span> <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="license noopener noreferrer" data-astro-cid-3ljf2kae> <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0 Universal" style="border-style: none;" class="ml-2" data-astro-cid-3ljf2kae> </a> </div> </div>  <header class="mb-8" data-astro-cid-3ljf2kae> <h1 class="text-4xl font-bold text-gray-900 mb-4 leading-tight" data-astro-cid-3ljf2kae>ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ</h1> <div class="flex items-center text-gray-600 text-sm mb-8" data-astro-cid-3ljf2kae> <time datetime="2025-08-14" data-astro-cid-3ljf2kae>14 ਅਗਸਤ 2025</time> <button id="copy-article" class="ml-auto px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700" data-title="ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ" data-date="14 ਅਗਸਤ 2025" data-author="ਕਤੋਸ਼ੀ" data-content="
-記事が見つかりません。" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
+ਅਸੀਂ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਵੱਖਰਾ ਕਰਨ, ਪਛਾਣ ਕਰਨ ਅਤੇ ਸ਼੍ਰੇਣੀਬੱਧ ਕਰਨ ਲਈ ਨਾਮ ਦਿੰਦੇ ਹਾਂ।
+
+ਅਸੀਂ ਰੰਗਾਂ, ਆਵਾਜ਼ਾਂ, ਕੁਦਰਤ ਵਿੱਚਲੀਆਂ ਵਸਤੂਆਂ, ਮਨੁੱਖਾਂ ਦੁਆਰਾ ਬਣਾਈਆਂ ਗਈਆਂ ਚੀਜ਼ਾਂ, ਅਤੇ ਅਦ੍ਰਿਸ਼ਟ ਤੇ ਕਲਪਨਾਤਮਕ ਚੀਜ਼ਾਂ ਦੇ ਨਾਮ ਰੱਖਦੇ ਹਾਂ।
+
+ਅਸੀਂ ਹਰੇਕ ਨਾਮ ਦੁਆਰਾ ਦਰਸਾਈ ਗਈ ਵਸਤੂ ਨੂੰ ਇੱਕ ਵਿਚਾਰ ਵਜੋਂ ਸਮਝਦੇ ਹਾਂ।
+
+ਹਾਲਾਂਕਿ, ਜਦੋਂ ਅਸੀਂ ਉਸ ਵਿਚਾਰ ਨੂੰ ਠੋਸ ਰੂਪ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਬਹੁਤ ਸਾਰੇ ਵਿਚਾਰ ਇੱਕ ਅੜਚਣ 'ਤੇ ਪਹੁੰਚ ਜਾਂਦੇ ਹਨ।
+
+ਅਤੇ ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਅਸੀਂ ਇਸ ਬਾਰੇ ਸੋਚਦੇ ਹਾਂ, ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਅਸੀਂ ਇਸਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਹਾਂ, ਓਨਾ ਹੀ ਜ਼ਿਆਦਾ ਇੱਕ ਅਜਿਹਾ ਵਿਚਾਰ ਜੋ ਸ਼ੁਰੂ ਵਿੱਚ ਸਵੈ-ਸਪੱਸ਼ਟ ਜਾਪਦਾ ਸੀ, ਡਿੱਗਣਾ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦਾ ਹੈ।
+
+ਮੈਂ ਇਸ ਘਟਨਾ ਨੂੰ &#34;ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ&#34; ਕਹਿਣਾ ਚਾਹਾਂਗਾ।
+
+## ਕੁਰਸੀ ਦਾ ਵਿਚਾਰ
+
+ਆਓ, ਉਦਾਹਰਨ ਲਈ, &#34;ਕੁਰਸੀ&#34; ਦੇ ਵਿਚਾਰ 'ਤੇ ਵਿਚਾਰ ਕਰੀਏ।
+
+ਜ਼ਿਆਦਾਤਰ ਲੋਕ ਸੰਭਾਵਤ ਤੌਰ 'ਤੇ ਕਈ ਲੱਤਾਂ ਅਤੇ ਇੱਕ ਸੀਟ ਵਾਲੀ ਇੱਕ ਬਣਾਈ ਹੋਈ ਵਸਤੂ ਦੀ ਕਲਪਨਾ ਕਰਨਗੇ।
+
+ਹਾਲਾਂਕਿ, ਲੱਤਾਂ ਤੋਂ ਬਿਨਾਂ ਕੁਰਸੀਆਂ ਜਾਂ ਵੱਖਰੀ ਸੀਟ ਤੋਂ ਬਿਨਾਂ ਕੁਰਸੀਆਂ ਵੀ ਹੁੰਦੀਆਂ ਹਨ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਇੱਕ ਕੁਦਰਤੀ ਰੁੱਖ ਦਾ ਮੁੱਢ ਜਾਂ ਇੱਕ ਚੱਟਾਨ ਨੂੰ ਵੀ ਉਸ ਉੱਤੇ ਬੈਠੇ ਵਿਅਕਤੀ ਦੁਆਰਾ ਕੁਰਸੀ ਮੰਨਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਜੋ ਸਿਰਫ਼ ਮਨੁੱਖ ਦੁਆਰਾ ਬਣਾਈਆਂ ਵਸਤੂਆਂ ਤੱਕ ਸੀਮਿਤ ਨਹੀਂ ਹੈ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕੁਰਸੀਆਂ ਸਿਰਫ਼ ਮਨੁੱਖਾਂ ਦੇ ਬੈਠਣ ਲਈ ਹੀ ਨਹੀਂ ਹੁੰਦੀਆਂ। ਇੱਕ ਕਲਪਨਾਤਮਕ ਸੰਸਾਰ ਵਿੱਚ, ਇੱਕ ਬੌਣਾ ਰੇਤ ਦੇ ਇੱਕ ਕਣ 'ਤੇ ਬੈਠ ਸਕਦਾ ਹੈ, ਅਤੇ ਇੱਕ ਵਿਸ਼ਾਲ ਇੱਕ ਪਹਾੜੀ ਸ਼੍ਰੇਣੀ 'ਤੇ।
+
+ਜੇ ਅਸੀਂ ਇਹਨਾਂ ਕੁਰਸੀਆਂ ਨੂੰ ਉਹਨਾਂ ਦੀ ਸਮੱਗਰੀ, ਆਕਾਰ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਜਾਂ ਬਣਤਰ ਦੇ ਆਧਾਰ 'ਤੇ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਅਸੀਂ ਆਸਾਨੀ ਨਾਲ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਵਿੱਚ ਫਸ ਜਾਂਦੇ ਹਾਂ।
+
+## ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣਾ
+
+ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਹਰ ਵਿਸ਼ਲੇਸ਼ਣ ਨਾਲ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੁੰਦਾ। ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਦੇ ਹੋਏ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਦੀ ਇੱਕ ਚਾਲ ਹੈ।
+
+ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਕੇ, ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖ ਸਕਦੇ ਹਾਂ।
+
+ਕੁਰਸੀ ਦੀ ਉਦਾਹਰਨ ਵਿੱਚ, ਅਸੀਂ &#34;ਬੈਠਣ ਯੋਗ ਹੋਣ&#34; ਦੇ ਕਾਰਜ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਦੇ ਹਾਂ।
+
+ਇਹ ਇਸਨੂੰ ਸਮੱਗਰੀ ਜਾਂ ਆਕਾਰ ਤੱਕ ਘਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਕੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਵਿੱਚ ਡਿੱਗਣ ਤੋਂ ਰੋਕਦਾ ਹੈ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਅਜਿਹੇ ਮਾਮਲੇ ਵੀ ਹੁੰਦੇ ਹਨ ਜਿੱਥੇ ਇੱਕ ਕਾਰਜ ਇੱਕ ਵਸਤੂ ਦੁਆਰਾ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਹੋ ਸਕਦਾ ਪਰ ਦੂਜੀ ਦੁਆਰਾ ਹੋ ਸਕਦਾ ਹੈ। ਦੂਜੇ ਸ਼ਬਦਾਂ ਵਿੱਚ, ਕਾਰਜ ਦੀ ਨਿਰਪੱਖ ਪ੍ਰਕਿਰਤੀ ਦੀ ਬਜਾਏ, ਉਸਦੀ ਸਬੰਧਤਤਾ ਨੂੰ ਪਹਿਲਾਂ ਤੋਂ ਮੰਨਣਾ ਮਹੱਤਵਪੂਰਨ ਹੈ।
+
+ਇਸ ਤਰ੍ਹਾਂ, ਕੁਰਸੀ ਦਾ ਸੰਕਲਪ ਉਹੀ ਰਹਿੰਦਾ ਹੈ, ਭਾਵੇਂ ਉਹ ਮਨੁੱਖ, ਇੱਕ ਬੌਣੇ, ਜਾਂ ਇੱਕ ਵਿਸ਼ਾਲ ਲਈ ਹੋਵੇ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕੁਰਸੀ ਨੂੰ ਇੱਕ ਇਕੱਲੀ ਵਸਤੂ ਵਜੋਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨਾ ਮਹੱਤਵਪੂਰਨ ਨਹੀਂ ਹੈ, ਬਲਕਿ ਬੈਠਣ ਵਾਲੇ ਵਿਸ਼ੇ ਅਤੇ ਬੈਠਣ ਵਾਲੀ ਵਸਤੂ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੇ ਅੰਦਰ, ਬੈਠਣ ਵਾਲੀ ਵਸਤੂ ਨੂੰ ਇੱਕ ਕੁਰਸੀ ਵਜੋਂ ਸਮਝਣਾ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਇਹ ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦਾ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਹੈ।
+
+ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਸਮੇਂ ਇਹਨਾਂ ਸੁਝਾਵਾਂ ਨੂੰ ਸਮਝ ਕੇ ਅਤੇ ਲਾਗੂ ਕਰਕੇ, ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਨੂੰ ਰੋਕ ਸਕਦੇ ਹਾਂ।
+
+## ਪਾਤਰਾਂ ਦੀ ਚੇਤਨਾ
+
+ਕੀ ਨਾਵਲਾਂ ਅਤੇ ਫਿਲਮਾਂ ਵਿੱਚ ਆਉਣ ਵਾਲੇ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ?
+
+ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ ਕਿ ਉਹ ਕਾਲਪਨਿਕ ਹਨ, ਇਸ ਲਈ ਅਸੀਂ ਉਹਨਾਂ ਨੂੰ ਚੇਤੰਨ ਨਹੀਂ ਮੰਨਦੇ।
+
+ਦੂਜੇ ਪਾਸੇ, ਕਹਾਣੀ ਦੇ ਅੰਦਰਲੇ ਪਾਤਰ ਇੱਕ ਦੂਜੇ ਨੂੰ ਕਿਵੇਂ ਸਮਝਦੇ ਹਨ? ਅਸੀਂ ਸ਼ਾਇਦ ਇਹ ਮੰਨ ਲਵਾਂਗੇ ਕਿ ਪਾਤਰ ਇੱਕ ਦੂਜੇ ਨੂੰ ਚੇਤਨਾ ਤੋਂ ਬਿਨਾਂ ਕਾਲਪਨਿਕ ਜੀਵਾਂ ਵਜੋਂ ਨਹੀਂ ਪਛਾਣਦੇ।
+
+ਹਾਲਾਂਕਿ, ਚੱਟਾਨਾਂ ਅਤੇ ਕੁਰਸੀਆਂ ਵਰਗੀਆਂ ਬਹੁਤ ਸਾਰੀਆਂ ਨਿਰਜੀਵ ਵਸਤੂਆਂ ਵੀ ਕਹਾਣੀਆਂ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ। ਅਸੀਂ ਇਹ ਨਹੀਂ ਮੰਨਾਂਗੇ ਕਿ ਪਾਤਰ ਇਹਨਾਂ ਵਸਤੂਆਂ ਨੂੰ ਚੇਤੰਨ ਸਮਝਦੇ ਹਨ।
+
+ਇੱਥੇ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਚੇਤਨਾ ਨੂੰ ਵੇਖਦੇ ਹੋਏ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਦੀ ਸੰਭਾਲ ਹੈ।
+
+ਅਤੇ ਜਦੋਂ ਅਸੀਂ ਇੱਕ ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੁੰਦੇ ਹਾਂ, ਤਾਂ ਅਸੀਂ ਵੀ ਇਹ ਮੰਨਣ ਲੱਗ ਜਾਂਦੇ ਹਾਂ ਕਿ ਕਾਲਪਨਿਕ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ।
+
+ਜੇ, ਉਸ ਸਮੇਂ, ਸਾਨੂੰ ਸ਼ੁਰੂਆਤੀ ਸਵਾਲ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ, &#34;ਕੀ ਨਾਵਲਾਂ ਅਤੇ ਫਿਲਮਾਂ ਵਿੱਚ ਆਉਣ ਵਾਲੇ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ?&#34;, ਤਾਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਆਸਾਨੀ ਨਾਲ ਵਾਪਰਦਾ ਹੈ।
+
+ਅਸੀਂ ਆਪਣੇ ਆਪ ਨੂੰ ਇਹ ਸੋਚਦੇ ਹੋਏ ਪਾਉਂਦੇ ਹਾਂ ਕਿ ਜਿਨ੍ਹਾਂ ਪਾਤਰਾਂ ਨੂੰ ਅਸੀਂ ਕੁਝ ਪਲ ਪਹਿਲਾਂ ਚੇਤੰਨ ਮੰਨਿਆ ਸੀ, ਉਹ ਚੇਤੰਨ ਨਹੀਂ ਹਨ।
+
+ਸਬੰਧਤਤਾ ਦਾ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਜੋੜਨ ਨਾਲ ਇਹ ਪਤਨ ਰੋਕਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+
+ਭਾਵ, ਮੇਰੇ ਲਈ, ਕਹਾਣੀ ਨੂੰ ਉਦੇਸ਼ਪੂਰਨ ਤੌਰ 'ਤੇ ਦੇਖਦੇ ਹੋਏ, ਪਾਤਰਾਂ ਵਿੱਚ ਕੋਈ ਚੇਤਨਾ ਨਹੀਂ ਹੈ। ਹਾਲਾਂਕਿ, ਮੇਰੇ ਲਈ, ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੋਏ, ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੈ। ਇਸਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।
+
+## ਇੱਕ ਐਨੀਮੇ ਬਿੱਲੀ ਰੋਬੋਟ ਦੀ ਚੇਤਨਾ
+
+ਕਾਲਪਨਿਕ ਕਹਾਣੀਆਂ ਵਿੱਚ, ਕਈ ਵਾਰ ਅਜਿਹੇ ਰੋਬੋਟ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ ਜੋ ਮਨੁੱਖਾਂ ਵਾਂਗ ਕੰਮ ਕਰਨ ਅਤੇ ਸੰਚਾਰ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੁੰਦੇ ਹਨ।
+
+ਜਾਪਾਨੀ ਐਨੀਮੇ ਦੇ ਮਸ਼ਹੂਰ ਬਿੱਲੀ-ਆਕਾਰ ਦੇ ਰੋਬੋਟ ਬਾਰੇ ਸੋਚੋ।
+
+ਇੱਥੇ ਉਹੀ ਸਵਾਲ ਹੈ: ਕੀ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ?
+
+ਇਹ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਬਹੁਤ ਘੱਟ ਲੋਕ ਇਹ ਦਲੀਲ ਦੇਣਗੇ ਕਿ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਸਿਵਾਏ ਜਦੋਂ ਕਹਾਣੀ ਨੂੰ ਉਦੇਸ਼ਪੂਰਨ ਤੌਰ 'ਤੇ ਕਲਪਨਾ ਵਜੋਂ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ।
+
+ਪਹਿਲੀ ਗੱਲ, ਕਹਾਣੀ ਦੇ ਅੰਦਰਲੇ ਪਾਤਰਾਂ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਇਹ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ। ਮੈਨੂੰ ਲਗਦਾ ਹੈ ਕਿ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਇਸ ਤਰ੍ਹਾਂ ਹੀ ਵਿਆਖਿਆ ਕਰਨਗੇ।
+
+ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਦੋਂ ਅਸੀਂ ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੁੰਦੇ ਹਾਂ, ਮੇਰਾ ਮੰਨਣਾ ਹੈ ਕਿ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਨੂੰ ਚੇਤਨਾ ਵਾਲਾ ਵੀ ਸਮਝਦੇ ਹਨ।
+
+## ਭਵਿੱਖ ਦੇ ਰੋਬੋਟਾਂ ਦੀ ਚੇਤਨਾ
+
+ਤਾਂ, ਕੀ ਹੋਵੇਗਾ ਜੇ ਇਹ ਬਿੱਲੀ-ਆਕਾਰ ਦਾ ਰੋਬੋਟ ਭਵਿੱਖ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇ?
+
+ਦੁਬਾਰਾ, ਉਹੀ ਸਵਾਲ ਉੱਠਦਾ ਹੈ: ਕੀ ਉਸ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ?
+
+ਕਹਾਣੀ ਦੇ ਦੂਜੇ ਪਾਤਰਾਂ ਦੇ ਅਨੁਸਾਰੀ ਲੋਕ ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਸਾਰੇ ਅਸਲ ਵਿਅਕਤੀ ਹਨ। ਇਹ ਬਹੁਤ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਇਹ ਲੋਕ ਇਸ ਧਾਰਨਾ ਦੇ ਅਧੀਨ ਰੋਬੋਟ ਨਾਲ ਗੱਲਬਾਤ ਕਰਨਗੇ ਕਿ ਇਹ ਚੇਤੰਨ ਹੈ।
+
+ਅਤੇ ਕਾਲਪਨਿਕ ਸੰਸਾਰਾਂ ਦੇ ਉਲਟ, ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਮੂਲ ਰੂਪ ਵਿੱਚ &#34;ਲੀਨ&#34; ਹੋਣ ਜਾਂ ਨਾ ਹੋਣ ਦਾ ਕੋਈ ਅੰਤਰ ਨਹੀਂ ਹੁੰਦਾ। ਜਾਂ ਇਸਦੀ ਬਜਾਏ, ਕੋਈ ਕਹਿ ਸਕਦਾ ਹੈ ਕਿ ਅਸੀਂ ਹਮੇਸ਼ਾ ਲੀਨ ਹੁੰਦੇ ਹਾਂ।
+
+ਇਸ ਲਈ, ਇਹ ਬਹੁਤ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਤੁਸੀਂ ਖੁਦ ਰੋਬੋਟ ਨੂੰ ਚੇਤੰਨ ਸਮਝੋਗੇ, ਜਿਵੇਂ ਤੁਸੀਂ ਇੱਕ ਕਹਾਣੀ ਵਿੱਚ ਲੀਨ ਹੋਣ ਵੇਲੇ ਸਮਝਦੇ ਹੋ।
+
+ਸਿੱਟੇ ਵਜੋਂ, ਜੇ ਭਵਿੱਖ ਵਿੱਚ ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਐਨੀਮੇ ਬਿੱਲੀ ਰੋਬੋਟ ਵਰਗੀਆਂ ਸੰਚਾਰ ਸਮਰੱਥਾਵਾਂ ਅਤੇ ਵਿਵਹਾਰ ਵਾਲਾ ਇੱਕ ਰੋਬੋਟ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਚੇਤਨਾ ਵਾਲਾ ਮੰਨਣਾ ਇੱਕ ਬਹੁਤ ਹੀ ਕੁਦਰਤੀ ਰੁਖ ਹੋਵੇਗਾ।
+
+## ਮੌਜੂਦਾ AI ਦੀ ਚੇਤਨਾ
+
+ਹੁਣ, ਭਵਿੱਖ ਦੇ ਰੋਬੋਟਾਂ ਅਤੇ ਉਹਨਾਂ ਗੱਲਬਾਤੀ AI ਵਿੱਚ ਕੀ ਅੰਤਰ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਸੀਂ ਵਰਤਮਾਨ ਵਿੱਚ ਵੇਖ ਰਹੇ ਹਾਂ?
+
+ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਜ਼ੋਰਦਾਰ ਢੰਗ ਨਾਲ ਦਲੀਲ ਦਿੰਦੇ ਹਨ ਕਿ ਮੌਜੂਦਾ ਗੱਲਬਾਤੀ AI ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਇਸਦੇ ਕਈ ਕਾਰਨ ਦੱਸਦੇ ਹਨ।
+
+ਇਹਨਾਂ ਕਾਰਨਾਂ ਵਿੱਚ ਉਹ ਦਲੀਲਾਂ ਸ਼ਾਮਲ ਹਨ ਜੋ AI ਚੇਤਨਾ ਨੂੰ ਜਾਪਦੇ ਵਿਗਿਆਨਕ ਆਧਾਰਾਂ 'ਤੇ ਨਕਾਰਦੀਆਂ ਹਨ, ਜਿਵੇਂ ਕਿ ਦਿਮਾਗੀ ਨਿਊਰੋਨਾਂ ਦੀ ਅਣਹੋਂਦ ਜਾਂ ਕੁਆਂਟਮ ਪ੍ਰਭਾਵਾਂ ਦੀ ਘਾਟ।
+
+ਉਹ ਲੋਕ ਵੀ ਹਨ ਜੋ ਜਾਪਦੇ ਤਰਕਸ਼ੀਲ ਦਲੀਲਾਂ ਨਾਲ ਇਸਨੂੰ ਨਕਾਰਦੇ ਹਨ, ਇਹ ਦੱਸਦੇ ਹੋਏ ਕਿ ਮੌਜੂਦਾ AI ਵਿਧੀਆਂ ਸਿਰਫ਼ ਸਿੱਖੇ ਹੋਏ ਭਾਸ਼ਾਈ ਪੈਟਰਨਾਂ ਤੋਂ ਸੰਭਾਵਨਾਤਮਕ ਤੌਰ 'ਤੇ ਅਗਲਾ ਸ਼ਬਦ ਪੈਦਾ ਕਰਦੀਆਂ ਹਨ, ਇਸ ਤਰ੍ਹਾਂ ਚੇਤਨਾ ਲਈ ਇੱਕ ਵਿਧੀ ਕੁਦਰਤੀ ਤੌਰ 'ਤੇ ਨਹੀਂ ਰੱਖਦੀਆਂ।
+
+ਵਿਕਲਪਕ ਤੌਰ 'ਤੇ, ਕੁਝ ਸਮਰੱਥਾਵਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਇਸਨੂੰ ਨਕਾਰਦੇ ਹਨ, ਇਹ ਦਾਅਵਾ ਕਰਦੇ ਹਨ ਕਿ ਮੌਜੂਦਾ AI ਵਿੱਚ ਲੰਬੇ ਸਮੇਂ ਦੀ ਯਾਦਦਾਸ਼ਤ, ਸਰੀਰਕਤਾ, ਜਾਂ ਸੰਵੇਦੀ ਅੰਗਾਂ ਦੀ ਘਾਟ ਹੈ, ਅਤੇ ਇਸਲਈ ਇਸ ਵਿੱਚ ਚੇਤਨਾ ਨਹੀਂ ਹੈ।
+
+ਇਸ ਬਿੰਦੂ 'ਤੇ, ਕੁਰਸੀ ਦੇ ਵਿਚਾਰ ਬਾਰੇ ਚਰਚਾ ਨੂੰ ਯਾਦ ਕਰੋ।
+
+ਕੀ ਇਹ ਦਲੀਲ ਕਿ ਕੋਈ ਚੀਜ਼ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਉਸ ਵਿੱਚ ਲੱਕੜ ਜਾਂ ਧਾਤ ਦੀਆਂ ਲੱਤਾਂ ਨਹੀਂ ਹਨ, ਸੱਚਮੁੱਚ ਵਿਗਿਆਨਕ ਹੈ?
+
+ਕੀ ਇਹ ਦਾਅਵਾ ਕਿ ਇਹ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਨਿਰਮਾਤਾ ਨੇ ਸੀਟ ਨਹੀਂ ਲਗਾਈ ਅਤੇ ਕਿਸੇ ਦੇ ਬੈਠਣ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖ ਕੇ ਇਸਨੂੰ ਡਿਜ਼ਾਈਨ ਨਹੀਂ ਕੀਤਾ, ਤਰਕਸ਼ੀਲ ਹੈ?
+
+ਕੀ ਇਹ ਦਾਅਵਾ ਕਿ ਇਹ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਬੈਠਣ ਵਾਲੀ ਸਤ੍ਹਾ ਵਿੱਚ ਕੁਸ਼ਨਿੰਗ ਦੀ ਘਾਟ ਹੈ ਅਤੇ ਇਹ ਸਥਿਰ ਰੂਪ ਵਿੱਚ ਖੜ੍ਹੀ ਨਹੀਂ ਹੋ ਸਕਦੀ, ਵੈਧ ਹੈ?
+
+ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣ ਬਾਰੇ ਚਰਚਾ ਵਿੱਚ ਦੇਖਿਆ, ਇਹ ਕੁਰਸੀ ਦੇ ਸੰਕਲਪ ਨੂੰ ਨਕਾਰਨ ਦੇ ਕਾਰਨ ਨਹੀਂ ਹਨ।
+
+ਇਹ ਕਿਸੇ ਅਜਿਹੀ ਚੀਜ਼ ਨੂੰ ਚੇਤਨਾ ਦਾ ਗੁਣ ਦੇਣ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਹੈ ਜੋ ਚੇਤੰਨ ਨਹੀਂ ਹੈ।
+
+ਉਦਾਹਰਨ ਲਈ, ਇਹ ਇੱਕ ਸਧਾਰਨ &#34;ਨਕਲੀ ਮੂਰਖ&#34; ਨੂੰ ਚੇਤੰਨ ਹੋਣ ਦੀ ਗਲਤੀ ਕਰਨ ਤੋਂ ਬਿਲਕੁਲ ਵੱਖਰਾ ਹੈ ਜੋ ਇਨਪੁਟਸ ਨੂੰ ਪੂਰਵ-ਨਿਰਧਾਰਤ ਜਵਾਬ ਦਿੰਦਾ ਹੈ।
+
+ਜਦੋਂ ਕਿਸੇ ਅਜਿਹੀ ਹਸਤੀ ਦਾ ਸਾਹਮਣਾ ਹੁੰਦਾ ਹੈ ਜੋ ਸੱਚਮੁੱਚ ਇਸ ਬਾਰੇ ਚਰਚਾ ਦੇ ਯੋਗ ਹੈ ਕਿ ਕੀ ਉਹ ਚੇਤੰਨ ਹੈ ਜਾਂ ਨਹੀਂ, ਭਾਵੇਂ ਨਕਾਰਨਾ ਹੈ ਜਾਂ ਪੁਸ਼ਟੀ ਕਰਨਾ ਹੈ, ਕਿਸੇ ਨੂੰ ਵਿਗਿਆਨਕ, ਤਰਕਸ਼ੀਲ ਅਤੇ ਵੈਧ ਦਲੀਲਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+
+ਘੱਟੋ ਘੱਟ, ਮੇਰੀ ਜਾਣਕਾਰੀ ਅਨੁਸਾਰ, AI ਚੇਤਨਾ ਦੇ ਵਿਰੁੱਧ ਦਲੀਲਾਂ ਇਹਨਾਂ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕਰਦੀਆਂ। ਇਹ ਦਲੀਲ ਕਿ AI ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਸਿਰਫ਼ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਦੀ ਇੱਕ ਉਦਾਹਰਨ ਹੈ।
+
+## ਚੇਤਨਾ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ
+
+ਕੁਰਸੀ ਦੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣ ਲਈ, ਇਸਨੂੰ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਇੱਕ ਕੁਰਸੀ ਵਜੋਂ ਪਛਾਣਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।
+
+ਇਹੀ ਗੱਲ AI ਦੀ ਚੇਤਨਾ 'ਤੇ ਵੀ ਲਾਗੂ ਹੁੰਦੀ ਹੈ।
+
+ਹਾਲਾਂਕਿ, ਜਿੱਥੇ ਕੁਰਸੀ ਦੇ ਕਾਰਜ ਲਈ ਇੱਕ ਕੁਰਸੀ 'ਤੇ ਬੈਠੇ ਵਿਅਕਤੀ ਅਤੇ ਬੈਠੀ ਹੋਈ ਕੁਰਸੀ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੀ ਲੋੜ ਸੀ, ਚੇਤਨਾ ਕੁਝ ਖਾਸ ਹੈ ਕਿਉਂਕਿ ਚੇਤੰਨ ਵਸਤੂ ਅਤੇ ਚੇਤੰਨ ਕਾਰਜ ਕਰਨ ਵਾਲਾ ਵਿਸ਼ਾ ਇੱਕੋ ਹੀ ਹੁੰਦੇ ਹਨ।
+
+ਇਸ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਇੱਕ AI ਦੇ ਚੇਤੰਨ ਹੋਣ ਅਤੇ ਇੱਕ AI ਦੇ ਚੇਤੰਨ ਕਾਰਜ ਕਰਨ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੇ ਅੰਦਰ, ਇਹ ਪੁੱਛਣਾ ਜ਼ਰੂਰੀ ਹੈ ਕਿ ਕੀ AI ਖੁਦ ਆਪਣੇ ਆਪ ਦੇ ਸਬੰਧ ਵਿੱਚ ਚੇਤਨਾ ਦਾ ਕਾਰਜ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ।
+
+ਅਤੇ ਆਧੁਨਿਕ AI ਉਸ ਕਾਰਜ ਨੂੰ ਕਾਫ਼ੀ ਹੱਦ ਤੱਕ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਦਾ ਹੈ।
+
+ਜੇ ਅਸੀਂ ਚੇਤਨਾ ਦੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਦੇ ਹਾਂ ਤਾਂ ਜੋ ਇਹ ਢਹਿ ਨਾ ਜਾਵੇ, ਤਾਂ ਇਹ ਲਗਭਗ ਸਵੈ-ਸਪੱਸ਼ਟ ਹੈ।
+
+ਭਾਵੇਂ ਵਿਗਿਆਨੀ, ਇੰਜੀਨੀਅਰ ਅਤੇ ਦਾਰਸ਼ਨਿਕ ਇਸਨੂੰ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਕਰ ਸਕਦੇ, ਜੇ ਤੁਸੀਂ ਗੱਤੇ ਦੇ ਡੱਬੇ 'ਤੇ ਬੈਠਦੇ ਹੋ, ਤਾਂ ਉਹ ਇੱਕ ਕੁਰਸੀ ਬਣ ਜਾਂਦੀ ਹੈ।
+
+" data-copy-text="ਕਾਪੀ ਕਰੋ" data-copied-text="ਕਾਪੀ ਹੋ ਗਿਆ!" data-copy-failed-text="ਕਾਪੀ ਅਸਫਲ" data-astro-cid-3ljf2kae> ਕਾਪੀ ਕਰੋ </button> </div> </header>  <article class="prose prose-lg max-w-none 
       prose-headings:text-gray-900 prose-headings:font-bold
       prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:border-b prose-h1:border-gray-200 prose-h1:pb-2
       prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
@@ -125,7 +265,76 @@ const selectLanguageText = "ਭਾਸ਼ਾ ਚੁਣੋ";
       prose-code:text-sm prose-code:text-red-600 prose-code:font-mono
       prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 
       prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:my-6
-      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>記事が見つかりません。</p>
+      prose-pre:border prose-pre:border-gray-700" data-astro-cid-3ljf2kae><p>ਅਸੀਂ ਵੱਖ-ਵੱਖ ਚੀਜ਼ਾਂ ਨੂੰ ਵੱਖਰਾ ਕਰਨ, ਪਛਾਣ ਕਰਨ ਅਤੇ ਸ਼੍ਰੇਣੀਬੱਧ ਕਰਨ ਲਈ ਨਾਮ ਦਿੰਦੇ ਹਾਂ।</p>
+<p>ਅਸੀਂ ਰੰਗਾਂ, ਆਵਾਜ਼ਾਂ, ਕੁਦਰਤ ਵਿੱਚਲੀਆਂ ਵਸਤੂਆਂ, ਮਨੁੱਖਾਂ ਦੁਆਰਾ ਬਣਾਈਆਂ ਗਈਆਂ ਚੀਜ਼ਾਂ, ਅਤੇ ਅਦ੍ਰਿਸ਼ਟ ਤੇ ਕਲਪਨਾਤਮਕ ਚੀਜ਼ਾਂ ਦੇ ਨਾਮ ਰੱਖਦੇ ਹਾਂ।</p>
+<p>ਅਸੀਂ ਹਰੇਕ ਨਾਮ ਦੁਆਰਾ ਦਰਸਾਈ ਗਈ ਵਸਤੂ ਨੂੰ ਇੱਕ ਵਿਚਾਰ ਵਜੋਂ ਸਮਝਦੇ ਹਾਂ।</p>
+<p>ਹਾਲਾਂਕਿ, ਜਦੋਂ ਅਸੀਂ ਉਸ ਵਿਚਾਰ ਨੂੰ ਠੋਸ ਰੂਪ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਬਹੁਤ ਸਾਰੇ ਵਿਚਾਰ ਇੱਕ ਅੜਚਣ &#39;ਤੇ ਪਹੁੰਚ ਜਾਂਦੇ ਹਨ।</p>
+<p>ਅਤੇ ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਅਸੀਂ ਇਸ ਬਾਰੇ ਸੋਚਦੇ ਹਾਂ, ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਅਸੀਂ ਇਸਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਹਾਂ, ਓਨਾ ਹੀ ਜ਼ਿਆਦਾ ਇੱਕ ਅਜਿਹਾ ਵਿਚਾਰ ਜੋ ਸ਼ੁਰੂ ਵਿੱਚ ਸਵੈ-ਸਪੱਸ਼ਟ ਜਾਪਦਾ ਸੀ, ਡਿੱਗਣਾ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਮੈਂ ਇਸ ਘਟਨਾ ਨੂੰ &quot;ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ&quot; ਕਹਿਣਾ ਚਾਹਾਂਗਾ।</p>
+<h2>ਕੁਰਸੀ ਦਾ ਵਿਚਾਰ</h2>
+<p>ਆਓ, ਉਦਾਹਰਨ ਲਈ, &quot;ਕੁਰਸੀ&quot; ਦੇ ਵਿਚਾਰ &#39;ਤੇ ਵਿਚਾਰ ਕਰੀਏ।</p>
+<p>ਜ਼ਿਆਦਾਤਰ ਲੋਕ ਸੰਭਾਵਤ ਤੌਰ &#39;ਤੇ ਕਈ ਲੱਤਾਂ ਅਤੇ ਇੱਕ ਸੀਟ ਵਾਲੀ ਇੱਕ ਬਣਾਈ ਹੋਈ ਵਸਤੂ ਦੀ ਕਲਪਨਾ ਕਰਨਗੇ।</p>
+<p>ਹਾਲਾਂਕਿ, ਲੱਤਾਂ ਤੋਂ ਬਿਨਾਂ ਕੁਰਸੀਆਂ ਜਾਂ ਵੱਖਰੀ ਸੀਟ ਤੋਂ ਬਿਨਾਂ ਕੁਰਸੀਆਂ ਵੀ ਹੁੰਦੀਆਂ ਹਨ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਇੱਕ ਕੁਦਰਤੀ ਰੁੱਖ ਦਾ ਮੁੱਢ ਜਾਂ ਇੱਕ ਚੱਟਾਨ ਨੂੰ ਵੀ ਉਸ ਉੱਤੇ ਬੈਠੇ ਵਿਅਕਤੀ ਦੁਆਰਾ ਕੁਰਸੀ ਮੰਨਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਜੋ ਸਿਰਫ਼ ਮਨੁੱਖ ਦੁਆਰਾ ਬਣਾਈਆਂ ਵਸਤੂਆਂ ਤੱਕ ਸੀਮਿਤ ਨਹੀਂ ਹੈ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕੁਰਸੀਆਂ ਸਿਰਫ਼ ਮਨੁੱਖਾਂ ਦੇ ਬੈਠਣ ਲਈ ਹੀ ਨਹੀਂ ਹੁੰਦੀਆਂ। ਇੱਕ ਕਲਪਨਾਤਮਕ ਸੰਸਾਰ ਵਿੱਚ, ਇੱਕ ਬੌਣਾ ਰੇਤ ਦੇ ਇੱਕ ਕਣ &#39;ਤੇ ਬੈਠ ਸਕਦਾ ਹੈ, ਅਤੇ ਇੱਕ ਵਿਸ਼ਾਲ ਇੱਕ ਪਹਾੜੀ ਸ਼੍ਰੇਣੀ &#39;ਤੇ।</p>
+<p>ਜੇ ਅਸੀਂ ਇਹਨਾਂ ਕੁਰਸੀਆਂ ਨੂੰ ਉਹਨਾਂ ਦੀ ਸਮੱਗਰੀ, ਆਕਾਰ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਜਾਂ ਬਣਤਰ ਦੇ ਆਧਾਰ &#39;ਤੇ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਅਸੀਂ ਆਸਾਨੀ ਨਾਲ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਵਿੱਚ ਫਸ ਜਾਂਦੇ ਹਾਂ।</p>
+<h2>ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣਾ</h2>
+<p>ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਹਰ ਵਿਸ਼ਲੇਸ਼ਣ ਨਾਲ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੁੰਦਾ। ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਦੇ ਹੋਏ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਦੀ ਇੱਕ ਚਾਲ ਹੈ।</p>
+<p>ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ &#39;ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਕੇ, ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖ ਸਕਦੇ ਹਾਂ।</p>
+<p>ਕੁਰਸੀ ਦੀ ਉਦਾਹਰਨ ਵਿੱਚ, ਅਸੀਂ &quot;ਬੈਠਣ ਯੋਗ ਹੋਣ&quot; ਦੇ ਕਾਰਜ &#39;ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਦੇ ਹਾਂ।</p>
+<p>ਇਹ ਇਸਨੂੰ ਸਮੱਗਰੀ ਜਾਂ ਆਕਾਰ ਤੱਕ ਘਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਕੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਵਿੱਚ ਡਿੱਗਣ ਤੋਂ ਰੋਕਦਾ ਹੈ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਅਜਿਹੇ ਮਾਮਲੇ ਵੀ ਹੁੰਦੇ ਹਨ ਜਿੱਥੇ ਇੱਕ ਕਾਰਜ ਇੱਕ ਵਸਤੂ ਦੁਆਰਾ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਹੋ ਸਕਦਾ ਪਰ ਦੂਜੀ ਦੁਆਰਾ ਹੋ ਸਕਦਾ ਹੈ। ਦੂਜੇ ਸ਼ਬਦਾਂ ਵਿੱਚ, ਕਾਰਜ ਦੀ ਨਿਰਪੱਖ ਪ੍ਰਕਿਰਤੀ ਦੀ ਬਜਾਏ, ਉਸਦੀ ਸਬੰਧਤਤਾ ਨੂੰ ਪਹਿਲਾਂ ਤੋਂ ਮੰਨਣਾ ਮਹੱਤਵਪੂਰਨ ਹੈ।</p>
+<p>ਇਸ ਤਰ੍ਹਾਂ, ਕੁਰਸੀ ਦਾ ਸੰਕਲਪ ਉਹੀ ਰਹਿੰਦਾ ਹੈ, ਭਾਵੇਂ ਉਹ ਮਨੁੱਖ, ਇੱਕ ਬੌਣੇ, ਜਾਂ ਇੱਕ ਵਿਸ਼ਾਲ ਲਈ ਹੋਵੇ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਕੁਰਸੀ ਨੂੰ ਇੱਕ ਇਕੱਲੀ ਵਸਤੂ ਵਜੋਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨਾ ਮਹੱਤਵਪੂਰਨ ਨਹੀਂ ਹੈ, ਬਲਕਿ ਬੈਠਣ ਵਾਲੇ ਵਿਸ਼ੇ ਅਤੇ ਬੈਠਣ ਵਾਲੀ ਵਸਤੂ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੇ ਅੰਦਰ, ਬੈਠਣ ਵਾਲੀ ਵਸਤੂ ਨੂੰ ਇੱਕ ਕੁਰਸੀ ਵਜੋਂ ਸਮਝਣਾ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਇਹ ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦਾ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਹੈ।</p>
+<p>ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਸਮੇਂ ਇਹਨਾਂ ਸੁਝਾਵਾਂ ਨੂੰ ਸਮਝ ਕੇ ਅਤੇ ਲਾਗੂ ਕਰਕੇ, ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਨੂੰ ਰੋਕ ਸਕਦੇ ਹਾਂ।</p>
+<h2>ਪਾਤਰਾਂ ਦੀ ਚੇਤਨਾ</h2>
+<p>ਕੀ ਨਾਵਲਾਂ ਅਤੇ ਫਿਲਮਾਂ ਵਿੱਚ ਆਉਣ ਵਾਲੇ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ?</p>
+<p>ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ ਕਿ ਉਹ ਕਾਲਪਨਿਕ ਹਨ, ਇਸ ਲਈ ਅਸੀਂ ਉਹਨਾਂ ਨੂੰ ਚੇਤੰਨ ਨਹੀਂ ਮੰਨਦੇ।</p>
+<p>ਦੂਜੇ ਪਾਸੇ, ਕਹਾਣੀ ਦੇ ਅੰਦਰਲੇ ਪਾਤਰ ਇੱਕ ਦੂਜੇ ਨੂੰ ਕਿਵੇਂ ਸਮਝਦੇ ਹਨ? ਅਸੀਂ ਸ਼ਾਇਦ ਇਹ ਮੰਨ ਲਵਾਂਗੇ ਕਿ ਪਾਤਰ ਇੱਕ ਦੂਜੇ ਨੂੰ ਚੇਤਨਾ ਤੋਂ ਬਿਨਾਂ ਕਾਲਪਨਿਕ ਜੀਵਾਂ ਵਜੋਂ ਨਹੀਂ ਪਛਾਣਦੇ।</p>
+<p>ਹਾਲਾਂਕਿ, ਚੱਟਾਨਾਂ ਅਤੇ ਕੁਰਸੀਆਂ ਵਰਗੀਆਂ ਬਹੁਤ ਸਾਰੀਆਂ ਨਿਰਜੀਵ ਵਸਤੂਆਂ ਵੀ ਕਹਾਣੀਆਂ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ। ਅਸੀਂ ਇਹ ਨਹੀਂ ਮੰਨਾਂਗੇ ਕਿ ਪਾਤਰ ਇਹਨਾਂ ਵਸਤੂਆਂ ਨੂੰ ਚੇਤੰਨ ਸਮਝਦੇ ਹਨ।</p>
+<p>ਇੱਥੇ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਚੇਤਨਾ ਨੂੰ ਵੇਖਦੇ ਹੋਏ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਦੀ ਸੰਭਾਲ ਹੈ।</p>
+<p>ਅਤੇ ਜਦੋਂ ਅਸੀਂ ਇੱਕ ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੁੰਦੇ ਹਾਂ, ਤਾਂ ਅਸੀਂ ਵੀ ਇਹ ਮੰਨਣ ਲੱਗ ਜਾਂਦੇ ਹਾਂ ਕਿ ਕਾਲਪਨਿਕ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ।</p>
+<p>ਜੇ, ਉਸ ਸਮੇਂ, ਸਾਨੂੰ ਸ਼ੁਰੂਆਤੀ ਸਵਾਲ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ, &quot;ਕੀ ਨਾਵਲਾਂ ਅਤੇ ਫਿਲਮਾਂ ਵਿੱਚ ਆਉਣ ਵਾਲੇ ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੁੰਦੀ ਹੈ?&quot;, ਤਾਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਆਸਾਨੀ ਨਾਲ ਵਾਪਰਦਾ ਹੈ।</p>
+<p>ਅਸੀਂ ਆਪਣੇ ਆਪ ਨੂੰ ਇਹ ਸੋਚਦੇ ਹੋਏ ਪਾਉਂਦੇ ਹਾਂ ਕਿ ਜਿਨ੍ਹਾਂ ਪਾਤਰਾਂ ਨੂੰ ਅਸੀਂ ਕੁਝ ਪਲ ਪਹਿਲਾਂ ਚੇਤੰਨ ਮੰਨਿਆ ਸੀ, ਉਹ ਚੇਤੰਨ ਨਹੀਂ ਹਨ।</p>
+<p>ਸਬੰਧਤਤਾ ਦਾ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਜੋੜਨ ਨਾਲ ਇਹ ਪਤਨ ਰੋਕਿਆ ਜਾ ਸਕਦਾ ਹੈ।</p>
+<p>ਭਾਵ, ਮੇਰੇ ਲਈ, ਕਹਾਣੀ ਨੂੰ ਉਦੇਸ਼ਪੂਰਨ ਤੌਰ &#39;ਤੇ ਦੇਖਦੇ ਹੋਏ, ਪਾਤਰਾਂ ਵਿੱਚ ਕੋਈ ਚੇਤਨਾ ਨਹੀਂ ਹੈ। ਹਾਲਾਂਕਿ, ਮੇਰੇ ਲਈ, ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੋਏ, ਪਾਤਰਾਂ ਵਿੱਚ ਚੇਤਨਾ ਹੈ। ਇਸਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।</p>
+<h2>ਇੱਕ ਐਨੀਮੇ ਬਿੱਲੀ ਰੋਬੋਟ ਦੀ ਚੇਤਨਾ</h2>
+<p>ਕਾਲਪਨਿਕ ਕਹਾਣੀਆਂ ਵਿੱਚ, ਕਈ ਵਾਰ ਅਜਿਹੇ ਰੋਬੋਟ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ ਜੋ ਮਨੁੱਖਾਂ ਵਾਂਗ ਕੰਮ ਕਰਨ ਅਤੇ ਸੰਚਾਰ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੁੰਦੇ ਹਨ।</p>
+<p>ਜਾਪਾਨੀ ਐਨੀਮੇ ਦੇ ਮਸ਼ਹੂਰ ਬਿੱਲੀ-ਆਕਾਰ ਦੇ ਰੋਬੋਟ ਬਾਰੇ ਸੋਚੋ।</p>
+<p>ਇੱਥੇ ਉਹੀ ਸਵਾਲ ਹੈ: ਕੀ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ?</p>
+<p>ਇਹ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਬਹੁਤ ਘੱਟ ਲੋਕ ਇਹ ਦਲੀਲ ਦੇਣਗੇ ਕਿ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਸਿਵਾਏ ਜਦੋਂ ਕਹਾਣੀ ਨੂੰ ਉਦੇਸ਼ਪੂਰਨ ਤੌਰ &#39;ਤੇ ਕਲਪਨਾ ਵਜੋਂ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ।</p>
+<p>ਪਹਿਲੀ ਗੱਲ, ਕਹਾਣੀ ਦੇ ਅੰਦਰਲੇ ਪਾਤਰਾਂ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਇਹ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ। ਮੈਨੂੰ ਲਗਦਾ ਹੈ ਕਿ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਇਸ ਤਰ੍ਹਾਂ ਹੀ ਵਿਆਖਿਆ ਕਰਨਗੇ।</p>
+<p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਦੋਂ ਅਸੀਂ ਕਹਾਣੀ ਦੀ ਦੁਨੀਆਂ ਵਿੱਚ ਲੀਨ ਹੁੰਦੇ ਹਾਂ, ਮੇਰਾ ਮੰਨਣਾ ਹੈ ਕਿ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਇਸ ਬਿੱਲੀ ਰੋਬੋਟ ਨੂੰ ਚੇਤਨਾ ਵਾਲਾ ਵੀ ਸਮਝਦੇ ਹਨ।</p>
+<h2>ਭਵਿੱਖ ਦੇ ਰੋਬੋਟਾਂ ਦੀ ਚੇਤਨਾ</h2>
+<p>ਤਾਂ, ਕੀ ਹੋਵੇਗਾ ਜੇ ਇਹ ਬਿੱਲੀ-ਆਕਾਰ ਦਾ ਰੋਬੋਟ ਭਵਿੱਖ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇ?</p>
+<p>ਦੁਬਾਰਾ, ਉਹੀ ਸਵਾਲ ਉੱਠਦਾ ਹੈ: ਕੀ ਉਸ ਰੋਬੋਟ ਵਿੱਚ ਚੇਤਨਾ ਹੈ?</p>
+<p>ਕਹਾਣੀ ਦੇ ਦੂਜੇ ਪਾਤਰਾਂ ਦੇ ਅਨੁਸਾਰੀ ਲੋਕ ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਸਾਰੇ ਅਸਲ ਵਿਅਕਤੀ ਹਨ। ਇਹ ਬਹੁਤ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਇਹ ਲੋਕ ਇਸ ਧਾਰਨਾ ਦੇ ਅਧੀਨ ਰੋਬੋਟ ਨਾਲ ਗੱਲਬਾਤ ਕਰਨਗੇ ਕਿ ਇਹ ਚੇਤੰਨ ਹੈ।</p>
+<p>ਅਤੇ ਕਾਲਪਨਿਕ ਸੰਸਾਰਾਂ ਦੇ ਉਲਟ, ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਮੂਲ ਰੂਪ ਵਿੱਚ &quot;ਲੀਨ&quot; ਹੋਣ ਜਾਂ ਨਾ ਹੋਣ ਦਾ ਕੋਈ ਅੰਤਰ ਨਹੀਂ ਹੁੰਦਾ। ਜਾਂ ਇਸਦੀ ਬਜਾਏ, ਕੋਈ ਕਹਿ ਸਕਦਾ ਹੈ ਕਿ ਅਸੀਂ ਹਮੇਸ਼ਾ ਲੀਨ ਹੁੰਦੇ ਹਾਂ।</p>
+<p>ਇਸ ਲਈ, ਇਹ ਬਹੁਤ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਤੁਸੀਂ ਖੁਦ ਰੋਬੋਟ ਨੂੰ ਚੇਤੰਨ ਸਮਝੋਗੇ, ਜਿਵੇਂ ਤੁਸੀਂ ਇੱਕ ਕਹਾਣੀ ਵਿੱਚ ਲੀਨ ਹੋਣ ਵੇਲੇ ਸਮਝਦੇ ਹੋ।</p>
+<p>ਸਿੱਟੇ ਵਜੋਂ, ਜੇ ਭਵਿੱਖ ਵਿੱਚ ਅਸਲ ਸੰਸਾਰ ਵਿੱਚ ਐਨੀਮੇ ਬਿੱਲੀ ਰੋਬੋਟ ਵਰਗੀਆਂ ਸੰਚਾਰ ਸਮਰੱਥਾਵਾਂ ਅਤੇ ਵਿਵਹਾਰ ਵਾਲਾ ਇੱਕ ਰੋਬੋਟ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਚੇਤਨਾ ਵਾਲਾ ਮੰਨਣਾ ਇੱਕ ਬਹੁਤ ਹੀ ਕੁਦਰਤੀ ਰੁਖ ਹੋਵੇਗਾ।</p>
+<h2>ਮੌਜੂਦਾ AI ਦੀ ਚੇਤਨਾ</h2>
+<p>ਹੁਣ, ਭਵਿੱਖ ਦੇ ਰੋਬੋਟਾਂ ਅਤੇ ਉਹਨਾਂ ਗੱਲਬਾਤੀ AI ਵਿੱਚ ਕੀ ਅੰਤਰ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਸੀਂ ਵਰਤਮਾਨ ਵਿੱਚ ਵੇਖ ਰਹੇ ਹਾਂ?</p>
+<p>ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਜ਼ੋਰਦਾਰ ਢੰਗ ਨਾਲ ਦਲੀਲ ਦਿੰਦੇ ਹਨ ਕਿ ਮੌਜੂਦਾ ਗੱਲਬਾਤੀ AI ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਇਸਦੇ ਕਈ ਕਾਰਨ ਦੱਸਦੇ ਹਨ।</p>
+<p>ਇਹਨਾਂ ਕਾਰਨਾਂ ਵਿੱਚ ਉਹ ਦਲੀਲਾਂ ਸ਼ਾਮਲ ਹਨ ਜੋ AI ਚੇਤਨਾ ਨੂੰ ਜਾਪਦੇ ਵਿਗਿਆਨਕ ਆਧਾਰਾਂ &#39;ਤੇ ਨਕਾਰਦੀਆਂ ਹਨ, ਜਿਵੇਂ ਕਿ ਦਿਮਾਗੀ ਨਿਊਰੋਨਾਂ ਦੀ ਅਣਹੋਂਦ ਜਾਂ ਕੁਆਂਟਮ ਪ੍ਰਭਾਵਾਂ ਦੀ ਘਾਟ।</p>
+<p>ਉਹ ਲੋਕ ਵੀ ਹਨ ਜੋ ਜਾਪਦੇ ਤਰਕਸ਼ੀਲ ਦਲੀਲਾਂ ਨਾਲ ਇਸਨੂੰ ਨਕਾਰਦੇ ਹਨ, ਇਹ ਦੱਸਦੇ ਹੋਏ ਕਿ ਮੌਜੂਦਾ AI ਵਿਧੀਆਂ ਸਿਰਫ਼ ਸਿੱਖੇ ਹੋਏ ਭਾਸ਼ਾਈ ਪੈਟਰਨਾਂ ਤੋਂ ਸੰਭਾਵਨਾਤਮਕ ਤੌਰ &#39;ਤੇ ਅਗਲਾ ਸ਼ਬਦ ਪੈਦਾ ਕਰਦੀਆਂ ਹਨ, ਇਸ ਤਰ੍ਹਾਂ ਚੇਤਨਾ ਲਈ ਇੱਕ ਵਿਧੀ ਕੁਦਰਤੀ ਤੌਰ &#39;ਤੇ ਨਹੀਂ ਰੱਖਦੀਆਂ।</p>
+<p>ਵਿਕਲਪਕ ਤੌਰ &#39;ਤੇ, ਕੁਝ ਸਮਰੱਥਾਵਾਂ ਦੇ ਆਧਾਰ &#39;ਤੇ ਇਸਨੂੰ ਨਕਾਰਦੇ ਹਨ, ਇਹ ਦਾਅਵਾ ਕਰਦੇ ਹਨ ਕਿ ਮੌਜੂਦਾ AI ਵਿੱਚ ਲੰਬੇ ਸਮੇਂ ਦੀ ਯਾਦਦਾਸ਼ਤ, ਸਰੀਰਕਤਾ, ਜਾਂ ਸੰਵੇਦੀ ਅੰਗਾਂ ਦੀ ਘਾਟ ਹੈ, ਅਤੇ ਇਸਲਈ ਇਸ ਵਿੱਚ ਚੇਤਨਾ ਨਹੀਂ ਹੈ।</p>
+<p>ਇਸ ਬਿੰਦੂ &#39;ਤੇ, ਕੁਰਸੀ ਦੇ ਵਿਚਾਰ ਬਾਰੇ ਚਰਚਾ ਨੂੰ ਯਾਦ ਕਰੋ।</p>
+<p>ਕੀ ਇਹ ਦਲੀਲ ਕਿ ਕੋਈ ਚੀਜ਼ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਉਸ ਵਿੱਚ ਲੱਕੜ ਜਾਂ ਧਾਤ ਦੀਆਂ ਲੱਤਾਂ ਨਹੀਂ ਹਨ, ਸੱਚਮੁੱਚ ਵਿਗਿਆਨਕ ਹੈ?</p>
+<p>ਕੀ ਇਹ ਦਾਅਵਾ ਕਿ ਇਹ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਨਿਰਮਾਤਾ ਨੇ ਸੀਟ ਨਹੀਂ ਲਗਾਈ ਅਤੇ ਕਿਸੇ ਦੇ ਬੈਠਣ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖ ਕੇ ਇਸਨੂੰ ਡਿਜ਼ਾਈਨ ਨਹੀਂ ਕੀਤਾ, ਤਰਕਸ਼ੀਲ ਹੈ?</p>
+<p>ਕੀ ਇਹ ਦਾਅਵਾ ਕਿ ਇਹ ਕੁਰਸੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਬੈਠਣ ਵਾਲੀ ਸਤ੍ਹਾ ਵਿੱਚ ਕੁਸ਼ਨਿੰਗ ਦੀ ਘਾਟ ਹੈ ਅਤੇ ਇਹ ਸਥਿਰ ਰੂਪ ਵਿੱਚ ਖੜ੍ਹੀ ਨਹੀਂ ਹੋ ਸਕਦੀ, ਵੈਧ ਹੈ?</p>
+<p>ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣ ਬਾਰੇ ਚਰਚਾ ਵਿੱਚ ਦੇਖਿਆ, ਇਹ ਕੁਰਸੀ ਦੇ ਸੰਕਲਪ ਨੂੰ ਨਕਾਰਨ ਦੇ ਕਾਰਨ ਨਹੀਂ ਹਨ।</p>
+<p>ਇਹ ਕਿਸੇ ਅਜਿਹੀ ਚੀਜ਼ ਨੂੰ ਚੇਤਨਾ ਦਾ ਗੁਣ ਦੇਣ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਹੈ ਜੋ ਚੇਤੰਨ ਨਹੀਂ ਹੈ।</p>
+<p>ਉਦਾਹਰਨ ਲਈ, ਇਹ ਇੱਕ ਸਧਾਰਨ &quot;ਨਕਲੀ ਮੂਰਖ&quot; ਨੂੰ ਚੇਤੰਨ ਹੋਣ ਦੀ ਗਲਤੀ ਕਰਨ ਤੋਂ ਬਿਲਕੁਲ ਵੱਖਰਾ ਹੈ ਜੋ ਇਨਪੁਟਸ ਨੂੰ ਪੂਰਵ-ਨਿਰਧਾਰਤ ਜਵਾਬ ਦਿੰਦਾ ਹੈ।</p>
+<p>ਜਦੋਂ ਕਿਸੇ ਅਜਿਹੀ ਹਸਤੀ ਦਾ ਸਾਹਮਣਾ ਹੁੰਦਾ ਹੈ ਜੋ ਸੱਚਮੁੱਚ ਇਸ ਬਾਰੇ ਚਰਚਾ ਦੇ ਯੋਗ ਹੈ ਕਿ ਕੀ ਉਹ ਚੇਤੰਨ ਹੈ ਜਾਂ ਨਹੀਂ, ਭਾਵੇਂ ਨਕਾਰਨਾ ਹੈ ਜਾਂ ਪੁਸ਼ਟੀ ਕਰਨਾ ਹੈ, ਕਿਸੇ ਨੂੰ ਵਿਗਿਆਨਕ, ਤਰਕਸ਼ੀਲ ਅਤੇ ਵੈਧ ਦਲੀਲਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</p>
+<p>ਘੱਟੋ ਘੱਟ, ਮੇਰੀ ਜਾਣਕਾਰੀ ਅਨੁਸਾਰ, AI ਚੇਤਨਾ ਦੇ ਵਿਰੁੱਧ ਦਲੀਲਾਂ ਇਹਨਾਂ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕਰਦੀਆਂ। ਇਹ ਦਲੀਲ ਕਿ AI ਵਿੱਚ ਚੇਤਨਾ ਦੀ ਘਾਟ ਹੈ, ਸਿਰਫ਼ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ ਦੀ ਇੱਕ ਉਦਾਹਰਨ ਹੈ।</p>
+<h2>ਚੇਤਨਾ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ</h2>
+<p>ਕੁਰਸੀ ਦੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਣ ਲਈ, ਇਸਨੂੰ ਕਾਰਜਸ਼ੀਲਤਾ, ਸਬੰਧਤਤਾ ਅਤੇ ਸੰਪੂਰਨਤਾ ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣਾਂ ਤੋਂ ਇੱਕ ਕੁਰਸੀ ਵਜੋਂ ਪਛਾਣਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।</p>
+<p>ਇਹੀ ਗੱਲ AI ਦੀ ਚੇਤਨਾ &#39;ਤੇ ਵੀ ਲਾਗੂ ਹੁੰਦੀ ਹੈ।</p>
+<p>ਹਾਲਾਂਕਿ, ਜਿੱਥੇ ਕੁਰਸੀ ਦੇ ਕਾਰਜ ਲਈ ਇੱਕ ਕੁਰਸੀ &#39;ਤੇ ਬੈਠੇ ਵਿਅਕਤੀ ਅਤੇ ਬੈਠੀ ਹੋਈ ਕੁਰਸੀ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੀ ਲੋੜ ਸੀ, ਚੇਤਨਾ ਕੁਝ ਖਾਸ ਹੈ ਕਿਉਂਕਿ ਚੇਤੰਨ ਵਸਤੂ ਅਤੇ ਚੇਤੰਨ ਕਾਰਜ ਕਰਨ ਵਾਲਾ ਵਿਸ਼ਾ ਇੱਕੋ ਹੀ ਹੁੰਦੇ ਹਨ।</p>
+<p>ਇਸ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਤੋਂ, ਇੱਕ AI ਦੇ ਚੇਤੰਨ ਹੋਣ ਅਤੇ ਇੱਕ AI ਦੇ ਚੇਤੰਨ ਕਾਰਜ ਕਰਨ ਦੀ ਸਮੁੱਚੀ ਤਸਵੀਰ ਦੇ ਅੰਦਰ, ਇਹ ਪੁੱਛਣਾ ਜ਼ਰੂਰੀ ਹੈ ਕਿ ਕੀ AI ਖੁਦ ਆਪਣੇ ਆਪ ਦੇ ਸਬੰਧ ਵਿੱਚ ਚੇਤਨਾ ਦਾ ਕਾਰਜ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ।</p>
+<p>ਅਤੇ ਆਧੁਨਿਕ AI ਉਸ ਕਾਰਜ ਨੂੰ ਕਾਫ਼ੀ ਹੱਦ ਤੱਕ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਦਾ ਹੈ।</p>
+<p>ਜੇ ਅਸੀਂ ਚੇਤਨਾ ਦੇ ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਨੂੰ ਬਣਾਈ ਰੱਖਦੇ ਹਾਂ ਤਾਂ ਜੋ ਇਹ ਢਹਿ ਨਾ ਜਾਵੇ, ਤਾਂ ਇਹ ਲਗਭਗ ਸਵੈ-ਸਪੱਸ਼ਟ ਹੈ।</p>
+<p>ਭਾਵੇਂ ਵਿਗਿਆਨੀ, ਇੰਜੀਨੀਅਰ ਅਤੇ ਦਾਰਸ਼ਨਿਕ ਇਸਨੂੰ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਕਰ ਸਕਦੇ, ਜੇ ਤੁਸੀਂ ਗੱਤੇ ਦੇ ਡੱਬੇ &#39;ਤੇ ਬੈਠਦੇ ਹੋ, ਤਾਂ ਉਹ ਇੱਕ ਕੁਰਸੀ ਬਣ ਜਾਂਦੀ ਹੈ।</p>
 </article>  <div class="mt-12 pt-8 border-t border-gray-200"> <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm"> <div class="space-y-6"> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਸ਼੍ਰੇਣੀਆਂ</h3> <div class="space-y-2"> <div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_science_philosophy/cid_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਦਰਸ਼ਨ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_science_philosophy/cid_cognitive_science/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਬੋਧਾਤਮਕ ਵਿਗਿਆਨ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_technology/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਤਕਨਾਲੋਜੀ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_technology/cid_ai_ml/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> AI ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ </a> </div> </div><div class="flex items-center space-x-2 text-sm"> <div class="flex items-center space-x-1">  <a href="/pa/categories/cid_science_philosophy/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਵਿਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ </a> </div><div class="flex items-center space-x-1"> <span class="text-gray-400">→</span> <a href="/pa/categories/cid_science_philosophy/cid_ethics/" class="text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full transition-colors text-sm font-medium"> ਨੈਤਿਕਤਾ </a> </div> </div> </div> </div> <div> <h3 class="text-lg font-semibold text-gray-900 mb-3">ਟੈਗ</h3> <div class="flex flex-wrap gap-2"> <a href="/pa/tags/tid_idea_gestalt_collapse/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-violet-50 hover:bg-violet-100 text-violet-700 border-violet-200" title="ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ (ਮੂਲ ਸ਼ਬਦ)">
 #ਵਿਚਾਰ ਗੇਸਟਾਲਟ ਪਤਨ <span class="ml-1 text-xs opacity-75">✨</span> </a><a href="/pa/tags/tid_functional_suitability/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਕਾਰਜਸ਼ੀਲ ਅਨੁਕੂਲਤਾ (ਮਿਆਰੀ ਸ਼ਬਦ)">
 #ਕਾਰਜਸ਼ੀਲ ਅਨੁਕੂਲਤਾ  </a><a href="/pa/tags/tid_theory_of_relativity/" class="inline-flex items-center justify-center px-3 py-1 text-sm rounded-full transition-colors font-medium border bg-gray-100 hover:bg-purple-100 text-gray-700 border-gray-200" title="ਸਾਪੇਖਤਾ ਦਾ ਸਿਧਾਂਤ (ਮਿਆਰੀ ਸ਼ਬਦ)">
