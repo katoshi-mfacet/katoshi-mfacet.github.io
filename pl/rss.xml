@@ -1,169 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (pl)</title>
-<link>https://katoshi-mfacet.github.io/pl/rss.xml</link>
-<description>Latest articles (pl)</description>
-<item>
-  <title>Wkraczamy w Erę Bez Granic: Tworzenie Bloga w 30 Językach</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł opisuje proces tworzenia wielojęzycznej strony internetowej blogowej z wykorzystaniem generatywnej sztucznej inteligencji (Gemini). Autor, inżynier systemowy, zbudował zautomatyzowany system, który generuje pliki HTML z brudnopisów artykułów napisanych po japońsku. Kluczowe funkcje obejmują automatyczne tworzenie treści, organizację artykułów za pomocą kategoryzacji i tagowania, obsługę 30 języków oraz poprawę dostępności. Proces ten jest wspierany przez niestandardowe programy oparte na frameworku Astro i API Gemini, które odpowiadają za generowanie kodu, tłumaczenia, klasyfikację i tagowanie. Autor podkreśla, jak generatywna SI pomogła przełamać bariery językowe i techniczne, umożliwiając stworzenie strony dostępnej dla szerszego grona odbiorców. System ten, zbudowany w około dwa tygodnie, udowadnia potencjał AI w demokratyzacji tworzenia i dystrybucji informacji.</description>
-</item>
-<item>
-  <title>Rozwój Rozwojowy i Testowanie Sterowane Refaktoryzacją</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł omawia transformację tworzenia oprogramowania napędzaną przez generatywną sztuczną inteligencję (AI). Wprowadza koncepcję „rozwoju rozwojowego”, gdzie AI jest wykorzystywana do tworzenia narzędzi wspomagających sam proces tworzenia oprogramowania, co prowadzi do zwiększenia efektywności i jakości w kolejnych projektach. Autor podkreśla znaczenie autonomicznych agentów AI jako przyszłych inżynierów oprogramowania, ale zaznacza, że obecna faza wymaga umiejętnego wykorzystania AI. Koncepcja „testowania sterowanego refaktoryzacją” jest przedstawiona jako alternatywa dla Test-Driven Development (TDD), sugerująca tworzenie testów dopiero w momencie, gdy refaktoryzacja staje się konieczna, zwłaszcza w kontekście zmian UI/UX i optymalizacji wydajności. Kluczowe jest testowanie stabilnych części kodu, a nie całości. Te nowe podejścia otwierają drogę do „rozwoju zorientowanego na doświadczenie i zachowanie” oraz rozwoju „Inżynierów Wielokierunkowych”.</description>
-</item>
-<item>
-  <title>Kompresja czasu i martwe punkty: potrzeba regulacji</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł analizuje gwałtownie przyspieszający rozwój technologii AI, szczególnie generatywnej sztucznej inteligencji, która poprzez dostęp do programów i danych, może się samo wzmacniać. To wykładnicze przyspieszenie, napędzane zarówno postępem technologicznym, jak i czynnikami społeczno-ekonomicznymi, prowadzi do zjawiska "kompresji czasu". Oznacza to, że okresy na zrozumienie i dostosowanie się do nowych technologii skracają się, tworząc "społeczne martwe punkty" – luki w wiedzy o ryzyku i zastosowaniach. Gdy postęp przekracza zdolność społeczeństwa do adaptacji, korzyści przestają przewyższać ryzyko, prowadząc do nieprzewidzianych szkód. Autor wprowadza pojęcie "Społeczeństwa Chronos-Scramble", charakteryzującego się rozbieżnościami w percepcji tempa postępu. W obliczu tego wyzwania, kluczowe stają się niezmienne wizje, takie jak zapewnienie, że ryzyko technologiczne nie przewyższy korzyści, oraz strategie wykorzystujące samą AI do regulacji jej rozwoju, działając jako "wbudowany stabilizator" społeczny.</description>
-</item>
-<item>
-  <title>GitHub jako kopalnia intelektualna</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł bada potencjalny rozwój GitHub jako centralnej platformy do wymiany wiedzy, wykraczającej poza tradycyjne tworzenie oprogramowania. Wprowadzenie narzędzi takich jak Devin i DeepWiki od Cognition, które automatycznie generują dokumentację projektów, sugeruje nową erę współpracy między ludźmi a sztuczną inteligencją. Autor przedstawia koncepcję „fabryki intelektualnej”, czyli zautomatyzowanego systemu przekształcającego oryginalne treści (np. szkice artykułów) w różne formaty multimedialne (tłumaczenia, filmy, posty na blogach), wykorzystując przy tym generatywną AI. GitHub, jako dominująca platforma do zarządzania kodem i dokumentami, może stać się kluczowym źródłem surowców dla takich fabryk, przekształcając się w „kopalnię intelektualną” ludzkości. Ekosystem ten ma potencjał stworzenia dynamicznej, współdzielonej publicznej bazy wiedzy, która będzie nieustannie rozwijana przez AI, umożliwiając odkrywanie nowych połączeń i idei, nazwanych „kryształami intelektualnymi”.</description>
-</item>
-<item>
-  <title>Krystalizacja intelektualna między intuicją a logiką</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł omawia zjawisko „krystalizacji intelektualnej”, czyli procesu przekształcania intuicyjnych przeczuć w logiczne, spójne wyjaśnienia. Autor podkreśla, że intuicja i logika nie są sobie przeciwstawne, a trudności w werbalnym wyrażeniu intuicyjnie poprawnych idei często wynikają z braku odpowiednich ram logicznych. Przykładem jest analiza dylematu między ideałem pokoju światowego a realizmem interesu narodowego. Autor argumentuje, że skupianie się na krótkoterminowym interesie narodowym jest nieracjonalne i szkodliwe dla długoterminowego przetrwania kraju, w przeciwieństwie do postępującej akumulacji wiedzy i technologii wspierających trwały pokój, zarządzanie, dobrobyt gospodarczy i zarządzanie ryzykiem. Termin „matematyka naturalna” opisuje proces formułowania logicznych struktur matematycznych w języku naturalnym, umożliwiając przekonujące i racjonalne argumentowanie intuicyjnych ocen, co jest kluczowe dla postępu intelektualnego.</description>
-</item>
-<item>
-  <title>Rozpad Gestaltu Ideacyjnego</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł wprowadza koncepcję „Rozpadu Gestaltu Ideacyjnego”, zjawiska, w którym próby zdefiniowania powszechnie rozumianych idei prowadzą do ich rozpadu pod wpływem analizy szczegółowej. Autor ilustruje to na przykładzie „krzesła”, pokazując, jak skupienie się na materialnych cechach utrudnia zrozumienie jego funkcjonalności. Proponuje się utrzymanie gestaltu ideacyjnego poprzez koncentrację na funkcjonalności, względności i holizmie. Zasady te są następnie stosowane do analizy świadomości postaci fikcyjnych, robotów anime oraz przyszłych i obecnych systemów sztucznej inteligencji. Autor argumentuje, że krytyka świadomości obecnej SI, często oparta na wąskich definicjach, jest przykładem rozpadu gestaltu ideacyjnego. Podkreśla, że aby ocenić świadomość SI, należy stosować podobne zasady względności, funkcjonalności i holizmu, jakie stosuje się do innych koncepcji.</description>
-</item>
-<item>
-  <title>Uczyć się uczyć: Wrodzona inteligencja</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł bada źródła inteligencji w sztucznej inteligencji (AI), koncentrując się na naturze uczenia się. Autorzy sugerują, że zarówno AI, jak i ludzkie mózgi posiadają wrodzoną zdolność do uczenia się, którą określają jako „naturalny twórca ram”. Wyróżniono dwa główne typy uczenia się: subfizyczne (zapamiętywanie poprzez powtórzenia, podobne do uczenia się przez ruch ciała) i metafizyczne (zdobywanie wiedzy poprzez rozumienie i wykorzystanie istniejących koncepcji, często z mniejszą liczbą powtórzeń). Duże modele językowe (LLM) łączą oba typy, wykorzystując uczenie subfizyczne w fazie wstępnego szkolenia i uczenie metafizyczne do natychmiastowego przyswajania nowej wiedzy poprzez język naturalny. Język naturalny jest kluczowym interfejsem metafizycznym, umożliwiającym tworzenie i przekazywanie „ram wirtualnych” (specyficznych dla dziedzin lub formalnych), które mogą ewoluować do „ram natywnych”. Mechanizm uwagi w LLM jest kluczowy dla tej zdolności tworzenia ram, pozwalając na abstrakcję i relacje między tokenami. Sugeruje się, że ludzie również są „wrodzonymi twórcami ram”, z językiem naturalnym jako narzędziem do stopniowego budowania złożonych struktur wiedzy.</description>
-</item>
-<item>
-  <title>Społeczeństwo Chronoskrzyżowania</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł wprowadza koncepcję "Społeczeństwa Chronoskrzyżowania" (Chronoscramble Society), gdzie generatywna sztuczna inteligencja (AI) pogłębia rozbieżności w percepcji czasu i przyszłości między ludźmi. W przeciwieństwie do wcześniejszych różnic międzypokoleniowych czy kulturowych, te nowe podziały nie mają widocznych granic i stale się poszerzają. Dotyczą one nie tylko rozwoju AI, ale także jej zastosowań, co prowadzi do luk w wiedzy technologicznej, ekonomicznej i społecznej. Autor podkreśla, że te różnice w postrzeganiu, zarówno teraźniejszości, jak i przyszłości, są "hiper-poszatkowane" i trudne do zniwelowania prostymi wyjaśnieniami. Artykuł analizuje także wpływ posiadania lub braku sprawczości na percepcję przyszłości oraz trudności komunikacyjne wynikające z tych rozbieżności. Proponuje strategię "niezależności od percepcji czasowej", zachęcając do uznawania i dyskusji o różnicach, zamiast dążenia do ich całkowitego wyeliminowania, aby móc podejmować użyteczne decyzje w realistycznych ramach.</description>
-</item>
-<item>
-  <title>Era Myślenia Symulacyjnego</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł opisuje rewolucyjny wpływ generatywnej sztucznej inteligencji (GenAI) na rozwój oprogramowania i procesy myślowe. Autor przedstawia koncepcję „fabryki intelektualnej” – systemu wykorzystującego GenAI do tworzenia różnorodnych treści pochodnych z oryginalnych danych, oraz „inżynierii wszechkierunkowej” jako holistycznego podejścia do tworzenia oprogramowania. Wprowadzono termin „liquidware” na określenie elastycznego, dopasowującego się oprogramowania. Artykuł omawia także metodykę „rozwoju zorientowanego na procesy biznesowe”, która zyskuje na znaczeniu w erze GenAI, dzięki możliwości łatwego tworzenia i optymalizacji modułów dla poszczególnych procesów. Kluczową część stanowi analiza transformacji, jaką GenAI wprowadza w systemach symulacyjnych. Umożliwia ona symulowanie nie tylko danych obliczeniowych, ale także elementów jakościowych i zachowań agentów, przy wykorzystaniu języka naturalnego do definiowania modeli. To z kolei sprzyja rozwojowi „myślenia symulacyjnego” – metody opartej na wspólnych, weryfikowalnych modelach symulacyjnych zamiast na subiektywnych opiniach i intuicji, co ma zrewolucjonizować sposób prowadzenia dyskusji i podejmowania decyzji.</description>
-</item>
-<item>
-  <title>Krystalizacja Wiedzy: Skrzydła Poza Wyobraźnią</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł wprowadza koncepcję „wiedzy skrystalizowanej” jako kompleksowej i spójnej wiedzy integrującej informacje z różnych perspektyw. Autor ilustruje to na przykładzie fizyki lotu, analizując rolę skrzydeł w generowaniu siły nośnej, oporu i napędu, zarówno przy wykorzystaniu energii zewnętrznej, jak i wewnętrznej. Pokazano, że skrzydła są ucieleśnieniem zjawiska lotu, a ich struktura pozwala na rozdzielenie i połączenie funkcji, co umożliwia inżynierskie projektowanie systemów lotniczych. Nowość tkwi nie w odkryciach naukowych, lecz w organizacji istniejącej wiedzy i odkrywaniu jej centralnych punktów, co autor nazywa „krystalizacją wiedzy”. Wprowadza również terminy „jezioro wiedzy” (nieuporządkowana wiedza), „baza wiedzy” (uporządkowana wiedza) oraz „szkatułka wiedzy” (hierarchia wiedzy skrystalizowanej). Kryształy wiedzy, posiadając praktyczną wartość, przekształcają się w narzędzia w „skrzynce narzędziowej wiedzy”. Artykuł podkreśla możliwość demokratyzacji wiedzy poprzez jej krystalizację, nawet bez specjalistycznej wiedzy czy fizycznego ciała, sugerując potencjał dla sztucznej inteligencji w osiąganiu nowych, nieznanych horyzontów.</description>
-</item>
-<item>
-  <title>Doświadczenie i Zachowanie</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł przedstawia nową koncepcję Inżynierii Doświadczenia i Zachowania (Experience &amp; Behavior Engineering) jako alternatywę dla tradycyjnego podejścia opartego na specyfikacjach i implementacji w tworzeniu oprogramowania. Autor argumentuje, że kluczowe dla przyszłości jest skupienie się na doświadczeniu i zachowaniu użytkownika, a nie tylko na zgodności z formalnymi specyfikacjami. Przedstawiono wizję "oprogramowania płynnego" (liquidware), które dzięki automatyzacji rozwoju oprogramowania opartej na sztucznej inteligencji i agentach, będzie mogło dynamicznie adaptować się do indywidualnych preferencji użytkowników. Testowanie zachowania koncentruje się na jakości doświadczenia, a nie tylko na funkcjonalności. Jako punkt odniesienia dla doskonałego doświadczenia wskazano kontrolę nad własnym ciałem, sugerując, że oprogramowanie przyszłości będzie działać jako rozszerzenie naszego ja, zapewniając intuicyjne i bezproblemowe interakcje.</description>
-</item>
-<item>
-  <title>System sztucznej inteligencji uczącej się: Koncepcja ALIS</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł przedstawia koncepcję Systemu Sztucznej Inteligencji Uczącej się (ALIS), który ma na celu integrację uczenia wrodzonego (sieci neuronowe) z uczeniem nabytym (zewnętrzne przechowywanie wiedzy). Kluczowe dla ALIS jest ekstrakcja, przechowywanie, selekcja i wykorzystanie wiedzy wielokrotnego użytku. System składa się z pięciu elementów: Inteligentnego Procesora, Magazynu Wiedzy, Świata, Pamięci Stanu i Struktury. Wiedza nabyta jest proponowana jako tekst w języku naturalnym, co ułatwia jej wykorzystanie, edycję i udostępnianie. Omówiono różne typy wiedzy (parametry sieci, język naturalny, formalny) i systemy (bezstanowy, stanowy). Zaproponowano projekt ALIS, zaczynając od prostego systemu opartego na LLM i historii czatu, z mechanizmami ekstrakcji, strukturyzacji i integracji wiedzy z procesem wnioskowania (podobnym do RAG). Wprowadzone zostają ulepszenia w postaci wstępnej analizy i post-sprawdzania, aby zwiększyć efektywność wykorzystania wiedzy. ALIS ma potencjał do rozwoju zwinnego i iteracyjnego, szczególnie w tworzeniu oprogramowania, i może być udostępniany publicznie, przyspieszając jego rozwój. Długoterminową wizją jest zastosowanie ALIS w różnych dziedzinach, jako wirtualnie wcielonej AI, a ostatecznie integracja z fizycznie wcieloną AI.</description>
-</item>
-<item>
-  <title>Uczenie maszynowe języka naturalnego</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł wprowadza pojęcie "uczenia maszynowego języka naturalnego" (NLU-ML), odróżniając je od tradycyjnego uczenia maszynowego opartego na danych numerycznych. NLU-ML wykorzystuje duże modele językowe (LLM) do przetwarzania i uczenia się z języka naturalnego, a nie tylko z liczb. Podstawowy model NLU-ML opiera się na uczeniu nadzorowanym, często w zadaniach klasyfikacji, gdzie wiedza jest przechowywana w bazie wiedzy w formie języka naturalnego, a nie modyfikując parametry LLM. Zaprezentowano również bardziej realistyczny scenariusz, gdzie system uczy się na podstawie logów przekierowań zapytań. Kluczową zaletą NLU-ML jest jego wysoka efektywność uczenia w porównaniu do numerycznego uczenia maszynowego, wymagając mniej danych, bez potrzeby iteracji i z minimalnym wstępnym przetwarzaniem. Jest to możliwe dzięki zdolności LLM do abstrakcji i wykorzystania wstępnie nabytej wiedzy i zdolności rozumowania, co pozwala na szybsze i bardziej bezpośrednie przyswajanie informacji.</description>
-</item>
-<item>
-  <title>Mechanizm uwagi jako mikro-wirtualna inteligencja</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł analizuje mechanizm uwagi jako kluczowy element współczesnej generatywnej sztucznej inteligencji (AI), podkreślając jego rolę w architekturze Transformer. Mechanizm uwagi pozwala AI na selektywne skupianie się na istotnych częściach danych wejściowych, co umożliwia lepsze zrozumienie kontekstu i relacji między słowami, nawet w długich tekstach. Autor porównuje tę zdolność do "mikro-wirtualnej inteligencji", gdzie AI dynamicznie zawęża przetwarzane informacje do tych niezbędnych dla danego zadania, podobnie jak mechanizm uwagi filtruje słowa. Artykuł wprowadza również koncepcję "wirtualnej inteligencji", rozumianej jako zdolność AI do przełączania się między różnymi zestawami wiedzy w zależności od kontekstu, analogicznie do maszyn wirtualnych. Proponuje "jawny mechanizm uwagi" jako sposób na realizację "wirtualnej inteligencji" poprzez proste instrukcje w języku naturalnym, które kierują AI do odpowiedniej wiedzy. Ta wiedza uwagi może być generowana i aktualizowana przez samą AI, co otwiera drogę do rekurencyjnego rozwoju inteligencji na różnych poziomach.</description>
-</item>
-<item>
-  <title>Orkestracja wirtualnej inteligencji</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł opisuje koncepcję „wirtualnej inteligencji”, która pozwala jednej sztucznej inteligencji (AI) symulować i wcielać wiele wirtualnych inteligencji o różnych rolach w ramach własnego przetwarzania. Jest to analogiczne do wirtualnych maszyn, gdzie wiele komputerów działa na jednym fizycznym. Autorzy argumentują, że wirtualna inteligencja umożliwia „orkiestrację inteligencji” – koordynację wielu AI poprzez proste instrukcje tekstowe (promptowanie), zamiast złożonego rozwoju systemowego wymaganego przez „orkiestrację systemową”. Ta metoda jest bardziej elastyczna i szybsza w implementacji ulepszeń i nowych funkcji. Kluczowym zastosowaniem jest „ostateczna deliberacja”, gdzie AI jest instruowana do wielokrotnej iteracji i łączenia wielu perspektyw, a nie tylko danych, co ma prowadzić do redukcji błędów, poprawy dokładności myślenia i potencjalnie nowych odkryć. Sugeruje się, że ta technika może znacząco zwiększyć możliwości AI w zadaniach wymagających ludzkiego zastępstwa w środowisku biznesowym.</description>
-</item>
-<item>
-  <title>Era Inteligencji Symfonicznej</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł przedstawia koncepcję „Inteligencji Symfonicznej” jako kolejny etap rozwoju generatywnej sztucznej inteligencji (AI), wykraczający poza obecne wykorzystanie jej jako narzędzia w pracy iteracyjnej. Praca iteracyjna, charakteryzująca się próbami i błędami oraz oparta na nieświadomych zadaniach, napotyka ograniczenia związane z ludzkim wąskim gardłem i różnicami w umiejętnościach. Rozwiązaniem jest transformacja w pracę przepływową i systematyzacja, gdzie zadania są standaryzowane i integrowane z AI, co umożliwia optymalizację, gromadzenie wiedzy i stopniową automatyzację. Kluczowe koncepcje to „wirtualna inteligencja” (zdolność AI do przełączania ról i wiedzy w jednym wykonaniu) oraz „orkiestracja inteligencji” (zarządzanie wieloma rolami i wiedzą), które razem tworzą Inteligencję Symfoniczną. Ten etap, analogiczny do ludzkiej inteligencji, umożliwia elastyczne wykonywanie złożonych zadań i stanowi krok w kierunku osiągnięcia ogólnej sztucznej inteligencji (AGI).</description>
-</item>
-<item>
-  <title>Wymiary Postrzegania Przestrzennego: Potencjał AI</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł analizuje potencjał sztucznej inteligencji (AI) w zakresie postrzegania wielowymiarowego, wykraczający poza ludzkie ograniczenia percepcyjne. Ludzie, ograniczając się do dwuwymiarowych danych wizualnych, tworzą trójwymiarowe reprezentacje przestrzeni, a teoretycznie mogliby rozszerzyć to na wymiary wyższe. AI, nieobciążona tymi ograniczeniami, może być trenowana do natywnego rozumienia danych w przestrzeniach cztero-, pięcio- czy nawet dwudziestowymiarowych. Umożliwia to kompleksowe wizualizowanie i analizę wielowymiarowych wykresów, identyfikację wzorców danych w różnych kombinacjach wymiarów oraz badanie optymalnych struktur wymiarowych. Ta zdolność może przyspieszyć odkrycia naukowe i innowacje paradygmatyczne, które wcześniej byłyby niemożliwe do osiągnięcia przez człowieka. AI może pomóc w zrozumieniu złożonych, wysokowymiarowych paradygmatów, odwzorowując je na formy zrozumiałe dla ludzi, choć nie zawsze w pełni uchwytne.</description>
-</item>
-<item>
-  <title>Praca oparta na przepływie i systemy: Istota wykorzystania generatywnej sztucznej inteligencji</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł omawia fundamentalną różnicę między narzędziami a systemami w kontekście pracy, wprowadzając podział na pracę iteracyjną i pracę opartą na przepływie. Praca iteracyjna polega na stopniowym tworzeniu poprzez próby i błędy, gdzie narzędzia są kluczowe. Praca oparta na przepływie to proces sekwencyjny, gdzie systemy usprawniają produktywność i jakość. Transformacja pracy iteracyjnej w pracę opartą na przepływie i jej systematyzacja, przykładem czego są Rewolucje Przemysłowa i IT, znacząco zwiększa efektywność. Generatywna sztuczna inteligencja (GenAI) stanowi narzędzie, które może wspomagać pracę iteracyjną, lecz jej pełny potencjał ujawnia się w transformacji procesów w przepływy. W odróżnieniu od ludzi, GenAI może elastycznie rekonfigurować zadania, co ułatwia ten proces. Kluczem do efektywnego wykorzystania GenAI w biznesie jest przekształcenie pracy iteracyjnej w pracę opartą na przepływie i jej systematyzacja, co ilustruje przykład obsługi zapytań pracowniczych. Pomija się powszechne nieporozumienia dotyczące niskiej efektywności GenAI, wynikające z traktowania jej wyłącznie jako narzędzia do zadań iteracyjnych. Ostatecznie, dzięki ciągłemu doskonaleniu instrukcji dla GenAI i systematyzacji procesów, możliwe jest osiągnięcie ciągłego postępu i wzrostu efektywności operacyjnej.</description>
-</item>
-<item>
-  <title>Myślenie symulacyjne a początki życia</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł wprowadza koncepcję „myślenia symulacyjnego” – metody polegającej na stopniowym śledzeniu akumulacji i interakcji w celu logicznego zrozumienia wyników, która jest analogiczna do rozwiązania problemu podwajania kieszonkowego. Autor stosuje tę metodę do wyjaśnienia pochodzenia życia na Ziemi. Zamiast skupiać się na przypadkowym cudzie, pochodzenie życia jest postrzegane jako proces ewolucyjny wynikający z kumulatywnych reakcji chemicznych, krążenia substancji i tworzenia coraz bardziej złożonych związków. Kluczowe etapy obejmują przejście od prostych substancji chemicznych do bardziej złożonych dzięki cyrkulacji planetarnej, rolę polimerów i topografii Ziemi, a także hipotezę chmury pyłowej jako fabryki monomerów i katalizatora. Podkreślono, że „myślenie symulacyjne” opiera się na języku naturalnym („matematyka naturalna”) i jest kluczową umiejętnością w tworzeniu oprogramowania, gdzie pozwala ono na zrozumienie i realizację złożonych wymagań systemowych. Umiejętność ta jest niezbędna do rozwiązywania skomplikowanych problemów w nauce, organizacjach i społeczeństwie.</description>
-</item>
-<item>
-  <title>Wszechstronny Inżynier w Erze Liquidware</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł analizuje rewolucyjny wpływ generatywnej sztucznej inteligencji (AI) na rozwój oprogramowania i rolę inżynierów. Przedstawia koncepcję "liquidware", czyli oprogramowania, które użytkownicy mogą dynamicznie modyfikować za pomocą AI, personalizując je do własnych potrzeb. Zdolność AI do automatycznego generowania kodu, w tym kodu testowego, znacząco obniża bariery wejścia i przyspiesza proces tworzenia. W obliczu tych zmian tradycyjni inżynierowie full-stack muszą ewoluować w "wszechstronnych inżynierów", posiadających szeroką wiedzę o różnych stosach systemowych i zdolność do zarządzania złożonymi, wieloplatformowymi projektami. Kluczowa staje się umiejętność integrowania różnych technologii, w tym AI, aby tworzyć oprogramowanie dopasowane do indywidualnych użytkowników i synergicznie działające w ramach ekosystemu. Artykuł podkreśla, że te zmiany są już obecne i wymagają od specjalistów IT adaptacji do nowych paradygmatów.</description>
-</item>
-<item>
-  <title>Przeznaczenie myśli: AI i ludzkość</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł analizuje wpływ postępującej sztucznej inteligencji (AI) na społeczeństwo i rolę myślenia w przyszłości. Wprowadza koncepcję "oprogramowania zorientowanego na procesy" jako następcę programowania obiektowego, gdzie proces jest centralnym modułem, co lepiej odzwierciedla ludzką intuicję. Koncentruje się na podejściu, w którym procesy, dane i warunki początkowe są zawarte w jednym module, dopuszczając redundancję, która może być łatwiejsza do zarządzania przy wsparciu AI. Autorzy sugerują przejście od globalnej optymalizacji do indywidualnej w kontekście tworzenia oprogramowania. Ta zmiana paradygmatu znajduje odzwierciedlenie w społeczeństwie, które ewoluuje w kierunku "społeczeństwa zindywidualizowanej optymalizacji", gdzie indywidualne oceny sytuacji zastępują uniwersalne standardy. Podkreślona jest waga "filozofii subiektywnej", która kładzie nacisk na wartość refleksji i indywidualnej odpowiedzialności w podejmowaniu decyzji, nawet w obliczu potencjalnych negatywnych konsekwencji. Ostatecznie, AI, choć przejmie pracę intelektualną, nie zastąpi ludzkiego myślenia, które stanie się jeszcze bardziej kluczowe dla projektowania indywidualnych ram i podejmowania ostatecznych sądów w coraz bardziej efektywnym świecie.</description>
-</item>
-<item>
-  <title>Zaproszenie do Orientacji na Procesy Biznesowe</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł prezentuje koncepcję Oprogramowania Zorientowanego na Procesy Biznesowe (BZ-SW) jako nowatorskie podejście do tworzenia oprogramowania, analogiczne do oprogramowania zorientowanego obiektowo (OO-SW). Podczas gdy OO-SW grupuje powiązane dane i przetwarzanie w „obiekty”, BZ-SW integruje instrukcje biznesowe, pola danych i informacje kontaktowe w jednym pliku, który sam w sobie stanowi wykonywalne oprogramowanie. Ten plik, nazwany „oprogramowaniem wykonywalnym”, jest przeznaczony do wykonywania przez ludzi lub sztuczną inteligencję. Artykuł podkreśla korzyści płynące z tego podejścia, takie jak ułatwienie modyfikacji i dodawania funkcji, eliminacja kosztów i czasu związanego z tradycyjnym tworzeniem i utrzymaniem oprogramowania, oraz wspieranie gromadzenia wiedzy i ciągłego doskonalenia procesów biznesowych. AI odgrywa kluczową rolę we wspieraniu ludzi w wykonywaniu zadań, tworząc tymczasowe pliki lub dedykowane interfejsy użytkownika. Koncepcja ta prowadzi do powstania „organizacji szybko uczącej się”, gdzie wiedza jest gromadzona i procesy są optymalizowane dzięki synergii między ludźmi a AI.</description>
-</item>
-<item>
-  <title>Projektowanie Ram jako Zdolność Intelektualna</title>
-  <link>https://katoshi-mfacet.github.io/pl/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/pl/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Artykuł przedstawia dwie podstawowe osie działalności intelektualnej: odkrywanie faktów poprzez obserwację (charakterystyczne dla nauki) oraz wynajdowanie obiektów i systemów poprzez projektowanie (charakterystyczne dla rozwoju). Choć często istnieje między nimi zależność, akademia również obejmuje działalność wynajdowania poprzez projektowanie, określaną jako „projektowanie ram”. Przykłady obejmują modele geocentryczny i heliocentryczny oraz mechanikę Newtona, teorię względności i mechanikę kwantową, które są postrzegane jako zwiększenie użytecznych opcji interpretacyjnych, a nie jedynie zmiana poglądów. Różnica między odkrywaniem a wynajdowaniem wymaga odmiennych zestawów umiejętności, co sugeruje, że nie wszyscy naukowcy posiadają zdolność projektowania ram. Inżynierowie oprogramowania, ze względu na rutynowe operowanie na abstrakcyjnych koncepcjach na poziomie meta podczas projektowania, potencjalnie posiadają umiejętności potrzebne do projektowania ram akademickich, zwłaszcza jeśli mają nawyk rozważania nowych modeli projektowych.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notatki badawcze Katoshi</title>
+    <link>https://katoshi-mfacet.github.io/pl/</link>
+    <description>Notatki badawcze inżyniera oprogramowania/architekta systemów/doktora inżynierii. Odkrywanie mechanizmów powstania życia, istoty zjawisk życiowych oraz struktur inteligencji i społeczeństwa poprzez doświadczenie w tworzeniu oprogramowania.</description>
+    <language>pl</language>
+    <atom:link href="https://katoshi-mfacet.github.io/pl/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ku Erze Bez Ścian: Tworzenie witryny blogowej w 30 językach</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł opisuje proces stworzenia wielojęzycznej (30 języków) strony internetowej bloga z wykorzystaniem generatywnej sztucznej inteligencji Gemini. Autor, inżynier systemowy, użył frameworka Astro i własnoręcznie napisanych programów, które w interakcji z Gemini automatyzują generowanie plików HTML ze szkiców artykułów (po japońsku), ich kategoryzację i tagowanie, oraz tłumaczenie.  Gemini wspomagało również w zapewnieniu dostępności strony dla osób z wadami wzroku czy trudnościami w obsłudze myszy. Autor podkreśla, że Gemini znacząco usprawniło proces, umożliwiając obsługę wielu języków, uwzględnienie niuansów językowych i zapewnienie dostępności, co byłoby praktycznie niemożliwe bez AI.  Podkreśla on, że generatywna AI usuwa bariery w rozpowszechnianiu informacji, takie jak bariery językowe i dotyczące dostępności, choć nowe wyzwania, jak różnice kulturowe, wciąż pozostają. Autor uważa, że najcenniejszą informacją jest sama koncepcja systemu, a nie kod źródłowy, sugerując łatwość replikacji i modyfikacji opisu procesu.</description>
+    </item>
+    
+    <item>
+      <title>Rozwój sterowany rozwojem i testowanie oparte na refaktoryzacji</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia rewolucyjne zmiany w rozwoju oprogramowania, napędzane przez generatywną sztuczną inteligencję. Autor wprowadza pojęcie &quot;Rozwoju sterowanego rozwojem&quot;, gdzie narzędzia wspomagające tworzenie oprogramowania są rozwijane równolegle z głównym projektem, zwiększając efektywność i jakość.  Kluczem jest ciągła obserwacja procesu i delegowanie zadań do AI, gdzie jest to możliwe.  W odróżnieniu od tradycyjnego Test-Driven Development, autor proponuje &quot;Testowanie oparte na refaktoryzacji&quot;, gdzie testy są tworzone po osiągnięciu przez oprogramowanie pewnego poziomu dojrzałości, skupiając się na stabilnych częściach.  To podejście jest szczególnie istotne w przypadku projektów z elementami UI/UX, gdzie refaktoryzacja jest częstym zjawiskiem.  Autor podkreśla, że ten nowy paradygmat rozwoju oprogramowania znacznie zwiększy przewagę zespołów, które go wdrożą, nad tymi, które skupiają się jedynie na  wykorzystywaniu generatywnej AI jako narzędzia.</description>
+    </item>
+    
+    <item>
+      <title>Kompresja Czasu i Społeczne Martwe Punkty: Potrzeba **調速** (Regulacji Prędkości)</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_16_time-compression-blindspot/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_16_time-compression-blindspot/</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł analizuje wpływ przyspieszającego postępu technologicznego, szczególnie w dziedzinie generatywnej sztucznej inteligencji (AI), na społeczeństwo.  Autor zauważa, że samo-wzmacniające się tempo rozwoju AI prowadzi do &quot;kompresji czasu&quot;, gdzie nowe technologie pojawiają się szybciej niż społeczeństwo może na nie zareagować, tworząc &quot;społeczne martwe punkty&quot; – obszary braku zrozumienia i przygotowania na potencjalne ryzyka.  Te martwe punkty, w warunkach kompresji czasu, stają się coraz bardziej niebezpieczne, gdyż ryzyka materializują się zanim zostaną odpowiednio ocenione. Autor argumentuje, że ta sytuacja, nazwana &quot;Społeczeństwem Chronoskramblowanym&quot;, charakteryzuje się rozbieżnością w postrzeganiu tempa postępu technologicznego wśród ludzi.  W celu rozwiązania problemu, proponuje opracowanie strategii, która wykorzystuje same możliwości AI do &quot;regulowania prędkości&quot; rozwoju technologicznego, zapobiegając jego nadmiernemu przyspieszeniu, co ma na celu stworzenie mechanizmów kontrolnych, analogicznych do stabilizatorów ekonomicznych,  zapewniających zrównoważony rozwój technologii i minimalizację ryzyka.</description>
+    </item>
+    
+    <item>
+      <title>GitHub jako kopalnia intelektualna</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł przedstawia koncepcję GitHuba jako „Kopalni Intelektualnej”, centralnego repozytorium wiedzy, z którego czerpią dane „Fabryki Intelektualne”. Fabryki Intelektualne, wykorzystujące generatywną sztuczną inteligencję, przetwarzają surowce (dokumenty, kody, artykuły) z GitHuba, generując zróżnicowane treści (tłumaczenia, filmy, wpisy blogowe) w różnych formatach. Autor opisuje własną „Fabrykę Intelektualną”, automatyzującą tworzenie i dystrybucję artykułów. DeepWiki, usługa automatycznie generująca dokumentację dla projektów na GitHubie, jest przywoływana jako przykład takiej Fabryki. Autor przewiduje, że GitHub, dzięki filozofii open source i rosnącej ilości udostępnianych dokumentów, stanie się centralnym punktem dla zbiorowej inteligencji, umożliwiając tworzenie dynamicznej, globalnej bazy wiedzy.  Kluczowym elementem jest koncepcja „Kryształów Intelektualnych”, nowych ram myślowych i pomysłów, które napędzają generowanie wiedzy i przyspieszają rozwój intelektualny.</description>
+    </item>
+    
+    <item>
+      <title>Załamanie Gestaltu Idei</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia pojęcie „Załamania Gestaltu Idei”, zjawiska polegającego na tym, że im dokładniej analizujemy daną ideę, tym bardziej traci ona na swojej pierwotnej klarowności i jednoznaczności. Autor ilustruje to na przykładzie idei „krzesła”, pokazując, że próba ścisłego zdefiniowania tego pojęcia na podstawie materiału, kształtu czy struktury prowadzi do paradoksów.  Kluczem do uniknięcia tego załamania jest skupienie się na funkcjonalności, relatywności i całości.  Autor rozszerza tę analizę na kwestię świadomości u fikcyjnych postaci, robotów i sztucznej inteligencji, argumentując, że przypisywanie lub negowanie świadomości opiera się często na subiektywnych i niepełnych kryteriach, a nie na solidnych argumentach naukowych lub logicznych.  W przypadku AI, autor uważa, że  negowanie jej świadomości jest właśnie przykładem Załamania Gestaltu Idei.  Podkreśla znaczenie podejścia holistycznego i relatywnego, uwzględniającego kontekst i funkcję,  aby uniknąć błędnych wniosków w analizie złożonych pojęć takich jak świadomość.</description>
+    </item>
+    
+    <item>
+      <title>Kryształy Intelektualne: Między Intuicją a Logiką</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł bada konflikt między intuicją a logicznym rozumowaniem, argumentując, że intuicyjnie słuszne poglądy powinny dać się logicznie uzasadnić.  Autor wprowadza pojęcie „kryształów intelektualnych” – struktur logicznych, które łączą intuicję z logiką.  Jako przykład analizuje konflikt między pożądaniem pokoju na świecie a nacjonalnym interesem, argumentując, że dążenie do interesu narodowego, ze względu na jego nieprzewidywalność i brak „postępującej akumulacji”, jest nieracjonalne w długoterminowej perspektywie.  W przeciwieństwie do tego, dążenie do pokoju, zarządzania, dobrobytu i zarządzania ryzykiem prowadzi do „postępującej akumulacji” wiedzy i technologii, korzystnej dla wszystkich.  Autor nazywa ten rodzaj logicznego rozumowania, wyrażonego językiem naturalnym, „matematyką naturalną”, podkreślając, że choć formalne przedstawienie może być trudne, wewnętrzna siła logiczna pozostaje nienaruszona.  Podsumowując, artykuł zachęca do poszukiwania „kryształów intelektualnych” – struktur logicznych, które mogą przełożyć intuicyjne rozumienie na logicznie spójne argumenty, prowadząc do intelektualnego postępu.</description>
+    </item>
+    
+    <item>
+      <title>Uczenie się uczenia: Wrodzona inteligencja</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł bada naturę uczenia się w sztucznej inteligencji i mózgu ludzkim, wprowadzając pojęcie &quot;Wrodzonego Frameworkera&quot;.  Autor rozróżnia &quot;uczenie się przez ciało&quot; i &quot;uczenie się przez język&quot;, a następnie dzieli uczenie się na metakognitywne (wymagające powtarzania) i metafizyczne (intuicyjne).  Uczenie maszynowe jest przedstawione jako przykład uczenia metakognitywnego, podczas gdy duże modele językowe, przetwarzające język naturalny,  wykonują uczenie metafizyczne, wykorzystując wiedzę bez powtarzania. Język naturalny jest określany jako interfejs metafizyczny, umożliwiający nabywanie ram – strukturalnych wzorców wiedzy.  Istnieją ramy specyficzne dla dziedzin (&apos;wirtualne ramy&apos;), które z czasem mogą stać się &apos;natywnymi ramami&apos;,  umożliwiając intuicyjne rozumienie bez potrzeby tłumaczenia.  Autor argumentuje, że mechanizm uwagi w dużych modelach językowych jest kluczowy dla funkcjonowania Wrodzonego Frameworkera,  umożliwiając stopniowe uczenie się ram.  Ostatecznie, artykuł sugeruje, że zarówno duże modele językowe, jak i ludzki mózg posiadają wrodzoną zdolność do uczenia się i konstruowania ram, co tłumaczy ich zdolność do szybkiego uczenia się i adaptacji.</description>
+    </item>
+    
+    <item>
+      <title>Społeczeństwo chronoskramblowane</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł opisuje zjawisko „Społeczeństwa chronoskramblowanego”, charakteryzującego się rozbieżnościami w postrzeganiu czasu przez jednostki, spowodowanymi głównie upowszechnieniem generatywnej sztucznej inteligencji. Różnice te dotyczą nie tylko wiedzy technicznej, ale także zrozumienia wpływu AI na gospodarkę i społeczeństwo, a także wizji przyszłości. Autor zauważa, że luki te nie wynikają z tradycyjnych czynników jak narodowość czy pokolenie, ale z nierównomiernego dostępu i wykorzystania nowych technologii.  Rozbieżności w percepcji czasu utrudniają komunikację i podejmowanie decyzji zbiorowych, ponieważ trudno jest osiągnąć wspólne zrozumienie założeń.  Autor argumentuje, że dążenie do idealnej synchronizacji czasowej jest nierealistyczne i proponuje skupienie się na metodach dyskusji niezależnych od percepcji czasu, uwzględniając różnice w postrzeganiu teraźniejszości i przyszłości.  Analogią do opisanego zjawiska jest gra „Chrono Trigger”, gdzie bohaterowie z różnych epok współpracują przeciwko wspólnemu wrogowi, co sugeruje, że pomimo różnic w percepcji czasu, współpraca w celu rozwiązania wspólnych problemów jest możliwa.</description>
+    </item>
+    
+    <item>
+      <title>Era myślenia symulacyjnego</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia rewolucję w rozwoju oprogramowania i myśleniu, napędzaną przez generatywną sztuczną inteligencję. Autor opisuje stworzoną przez siebie &quot;Fabrykę Intelektualną&quot;, system wykorzystujący AI do automatycznego generowania różnych typów treści z oryginalnego materiału.  Wprowadza pojęcie &quot;Inżynierii Wszechstronnej&quot;, gdzie jeden inżynier, wspomagany przez AI, tworzy cały system, od frontendu do backendu.  Kolejnym kluczowym pojęciem jest &quot;Liquidware&quot;, oprogramowanie charakteryzujące się dużą elastycznością i łatwością adaptacji do potrzeb użytkownika. Autor proponuje &quot;Metodologię rozwoju Zorientowaną na Procesy Biznesowe&quot;, która optymalizuje poszczególne procesy, zamiast całego systemu.  Generatywna AI pozwala na tworzenie i zarządzanie systemami symulacyjnymi, przechodząc od obliczeń matematycznych do modelowania złożonych zjawisk, włączając aspekty jakościowe i inteligentne agenty.  To prowadzi do &quot;Myślenia Symulacyjnego&quot;, gdzie dyskusje i rozwiązywanie problemów wspomagane są przez systemy symulacyjne, umożliwiając bardziej obiektywną i efektywną analizę, eliminując nieporozumienia i skupiając się na danych i ich interpretacji.</description>
+    </item>
+    
+    <item>
+      <title>Doświadczenie i Zachowanie</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia przesunięcie paradygmatu w inżynierii oprogramowania od tradycyjnego podejścia opartego na specyfikacji i implementacji do Inżynierii doświadczeń i zachowań.  Tradycyjne metody skupiają się na spełnianiu specyfikacji, podczas gdy nowe podejście priorytetuje doświadczenie użytkownika.  Autor wprowadza pojęcie &quot;Liquidware&quot;, oprogramowania o wysokiej elastyczności, idealnie dopasowującego się do indywidualnych potrzeb użytkownika.  Możliwe jest to dzięki postępom w automatyzacji i wykorzystaniu generatywnej sztucznej inteligencji.  Kluczowym elementem jest testowanie zachowania oprogramowania, które koncentruje się na jakości doświadczenia użytkownika, a nie tylko na zgodności ze specyfikacją.  Autor porównuje idealne doświadczenie użytkownika z kontrolą własnego ciała – bezwysiłkowe i intuicyjne, nawet pomimo złożoności systemu.  Ostateczne Liquidware ma zapewnić podobne, płynne i bezstresowe doświadczenie, stając się niejako przedłużeniem użytkownika.</description>
+    </item>
+    
+    <item>
+      <title>Krystalizacja wiedzy: Skrzydła poza wyobraźnią</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia koncepcję &quot;kryształu wiedzy&quot;, definiując ją jako wysoce spójną abstrakcję wielu fragmentów informacji z różnych perspektyw, włączając prawa rządzące danym zjawiskiem.  Autor posługuje się przykładem lotu i skrzydeł, aby zilustrować tę koncepcję. Skrzydła, niezależnie od rodzaju pojazdu latającego, konsolidują wszystkie aspekty lotu: szybowanie, wykorzystanie energii zewnętrznej i wewnętrznej.  Analiza skrzydła jako metafory pozwala autorowi na wprowadzenie pojęcia krystalizacji wiedzy – procesu udoskonalania kombinacji wiedzy i odkrywania punktów kondensacji, które wykraczają poza proste zebranie i uporządkowanie informacji. Autor wprowadza metafory „Jezioro Wiedzy” (nieuporządkowana wiedza), „Baza Wiedzy” (wiedza zorganizowana) i „Szkatułka Wiedzy” (skrystalizowana wiedza), a także „Skrzynka Narzędziowa Wiedzy” (praktyczne zastosowania skrystalizowanej wiedzy).  Artykuł argumentuje, że krystalizacja wiedzy jest nowym podejściem, które demokratyzuje proces tworzenia wiedzy, czyniąc go dostępnym dla każdego, niezależnie od poziomu eksperckiego, i podkreśla potencjał sztucznej inteligencji w tym procesie.  Autor uważa, że poprzez ciągłe dodawanie kryształów wiedzy i narzędzi do Szkatułki i Skrzynki Narzędziowej Wiedzy, możliwe jest osiągnięcie nieosiągalnych wcześniej celów.</description>
+    </item>
+    
+    <item>
+      <title>System Sztucznej Inteligencji Uczącej się: Koncepcja ALIS</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł przedstawia koncepcję ALIS (Systemu Sztucznej Inteligencji Uczącej się), który integruje uczenie wrodzone (charakterystyczne dla dużych modeli językowych) z uczeniem nabytym. ALIS opiera się na pięciu elementach: inteligentnym procesorze (np. LLM), magazynie wiedzy, świecie (środowisko), pamięci stanów i strukturze (ramach) wnioskowania.  Kluczowy jest mechanizm ekstrakcji, przechowywania, wyboru i wykorzystania wiedzy wielokrotnego użytku. ALIS może wykorzystywać wiedzę sformalizowaną w języku naturalnym, co ułatwia ludzką weryfikację i współdzielenie.  Autor proponuje  rozróżnienie wiedzy na trzy typy (parametry sieci, wiedza naturalna i formalna) oraz dwa typy stanów (bezstanowy i stanowy). Kluczowa jest inteligentna orkiestracja, czyli podział wiedzy na wyspecjalizowane magazyny, analogicznie do orkiestry. Proponowany projekt ALIS rozpoczyna się od prostego systemu czatu AI, z mechanizmem ekstrakcji wiedzy z historii czatu i jej przechowywania w magazynie wiedzy. System jest rozwijany przyrostowo, z mechanizmami komentarzy przed i po sprawdzeniu. Autor widzi potencjał ALIS w rozwoju oprogramowania, z możliwością współdzielenia wiedzy na platformach takich jak GitHub, a także w szerszym zastosowaniu w działaniach intelektualnych, potencjalnie w połączeniu z ucieleśnioną sztuczną inteligencją.</description>
+    </item>
+    
+    <item>
+      <title>Uczenie Maszynowe w Języku Naturalnym</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia nową formę uczenia maszynowego: uczenie maszynowe w języku naturalnym (NLM), wykorzystujące wstępnie wytrenowane Duże Modele Językowe (LLM).  W przeciwieństwie do tradycyjnego uczenia maszynowego opartego na danych liczbowych, NLM wykorzystuje język naturalny do uczenia.  Autor przedstawia podstawowy model NLM, w którym LLM, bez zmiany parametrów, odpowiada na pytania dotyczące klasyfikacji, a odpowiedzi są zapisywane w bazie wiedzy.  Ta baza wiedzy stanowi wynik uczenia się.  Autor porównuje efektywność NLM z tradycyjnym uczeniem, podkreślając, że NLM wymaga mniej danych, nie potrzebuje iteracyjnego uczenia ani wstępnego przetwarzania danych.  Kluczową zaletą NLM jest wysoka efektywność – uczenie jest znacznie szybsze i prostsze, co czyni go potencjalnie przełomowym podejściem w obliczu ograniczeń skalowania tradycyjnych metod uczenia maszynowego.</description>
+    </item>
+    
+    <item>
+      <title>Automatyczne generowanie filmów prezentacyjnych z wpisów na blogu</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Autor opracował system automatycznego generowania filmów prezentacyjnych z artykułów blogowych i publikowania ich na YouTube, wykorzystując generatywną AI.  System generuje materiały prezentacyjne w formacie SVG, co stanowiło wyzwanie ze względu na trudności w automatycznym wykrywaniu przepełnienia tekstu.  Autor rozwiązał ten problem poprzez iteracyjne ulepszanie instrukcji dla AI,  dodając zasady, procedury i ostrzeżenia, a także tworząc program do rygorystycznego wykrywania przepełnienia tekstu i sprawdzania złożoności figur.  W przypadku błędów, proces generowania jest powtarzany.  Po wygenerowaniu slajdów, AI tworzy skrypt narracji, który jest następnie konwertowany na dźwięk. Na koniec, slajdy są konwertowane na wideo. Autor podkreśla, że choć system działa,  podobne funkcje pojawiają się w innych narzędziach AI, co może w przyszłości zredukować potrzebę samodzielnego budowania takich systemów.</description>
+    </item>
+    
+    <item>
+      <title>Mechanizm uwagi jako mikro wirtualna inteligencja</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł analizuje mechanizm uwagi (Attention Mechanism) w Transformerach, kluczowy element generatywnej sztucznej inteligencji.  Autor argumentuje, że mechanizm uwagi, pozwalający AI skupiać się na istotnych słowach w kontekście przetwarzanego tekstu, jest przełomowy, eliminując potrzebę łączenia wielu mechanizmów.  Porównuje on mechanizm uwagi do mikro wirtualnej inteligencji, która selektywnie przetwarza informacje, analogicznie do wirtualnych maszyn uruchamiających wiele systemów operacyjnych. Autor proponuje koncepcję jawnego mechanizmu uwagi, czyli zdefiniowania w języku naturalnym, jakie źródła wiedzy wykorzystać dla danego zadania (Wiedza Koncentracyjna).  Ten jawny mechanizm, potencjalnie generowany i aktualizowany przez AI, pozwala na rekurencyjne wzmacnianie inteligencji poprzez precyzyjne określanie potrzebnych informacji.  Autor widzi w mechanizmie uwagi klucz do przyszłego rozwoju AI, pozwalający na bardziej efektywne i precyzyjne przetwarzanie informacji, nawet w złożonych zadaniach.</description>
+    </item>
+    
+    <item>
+      <title>Wymiary Postrzegania Przestrzeni: Potencjał AI</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia potencjał sztucznej inteligencji (AI) w postrzeganiu i analizie przestrzeni wielowymiarowej. Autor argumentuje, że podobnie jak ludzie postrzegają trójwymiarową przestrzeń, mapując dwuwymiarowe obrazy wizualne, AI mogłaby być wyszkolona do postrzegania i rozumienia przestrzeni czterowymiarowej, a nawet wyższych wymiarów.  To pozwoliłoby AI na panoramiczne, intuicyjne rozumienie grafów wielowymiarowych, umożliwiając analizę trendów, porównywanie danych i odkrywanie wzorców w sposób niedostępny dla ludzkiego umysłu.  Autor sugeruje, że ta zdolność mogłaby doprowadzić do przyspieszenia innowacji naukowych, umożliwiając odkrywanie nowych praw i teorii, które są obecnie poza zasięgiem ludzkiego zrozumienia.  W rezultacie, ludzkość mogłaby korzystać z systemów i technologii opartych na tych odkryciach, nawet bez pełnego zrozumienia ich zasad działania.</description>
+    </item>
+    
+    <item>
+      <title>Era Inteligencji Symfonicznej</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł analizuje wykorzystanie generatywnej AI w biznesie, porównując podejścia pracy iteracyjnej (opartej na narzędziach) i pracy przepływowej (opartej na systemach).  Wskazuje, że praca iteracyjna, choć efektywna w początkowym etapie, napotyka ograniczenia ludzkich możliwości.  Autor proponuje systematyzację pracy poprzez konwersję do modelu przepływowego, który pozwala na lepsze wykorzystanie AI do poszczególnych zadań,  umożliwiając stopniową automatyzację.  Kluczowym elementem jest gromadzenie i systematyzacja wiedzy, co prowadzi do koncepcji &quot;wirtualnej inteligencji&quot;, gdzie jedna AI może przełączać się między różnymi rolami,  symulując ludzką elastyczność.  To z kolei prowadzi do koncepcji &quot;orkiestracji inteligencji&quot;, gdzie wiele AI współpracuje, co ostatecznie prowadzi do &quot;Inteligencji Symfonicznej&quot;,  analogicznej do ludzkiej zdolności do efektywnego wykonywania złożonych zadań.  Autor argumentuje, że Inteligencja Symfoniczna w AI jest krokiem w kierunku osiągnięcia sztucznej inteligencji ogólnego przeznaczenia (AGI), umożliwiając AI na  nauczanie się nowych zadań poprzez obserwację człowieka i dzielenie się wiedzą między sobą.</description>
+    </item>
+    
+    <item>
+      <title>Orkiestracja Wirtualnej Inteligencji</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia pojęcie wirtualnej inteligencji, analogiczne do maszyn wirtualnych, gdzie pojedynczy model AI symuluje wiele wirtualnych inteligencji o różnych rolach.  Kluczowym aspektem jest &quot;orkiestrowanie inteligencji&quot;, polegające na sterowaniu tymi wirtualnymi inteligencjami za pomocą instrukcji w interfejsie czatu, bez potrzeby rozbudowanych systemów.  W przeciwieństwie do &quot;orkiestrowania systemowego&quot;, gdzie wiele AI działa w zintegrowanym systemie, orkiestracja inteligencji wykorzystuje pojedynczą AI do symulacji i zarządzania wieloma rolami.  To pozwala na elastyczną, szybką iterację i dodawanie funkcji.  Kluczową korzyścią jest &quot;ostateczna deliberacja&quot;, gdzie AI, poprzez przełączanie ról i perspektyw, angażuje się w proces samodoskonalenia, minimalizując błędy, poszerzając zakres myślenia i potencjalnie prowadząc do nowych odkryć.  Autor sugeruje, że orkiestracja inteligencji znacząco zwiększy zdolność AI do zastępowania człowieka w wielu zadaniach biznesowych, pomimo ograniczeń pamięci.</description>
+    </item>
+    
+    <item>
+      <title>Myślenie symulacyjne a początki życia</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł bada problem zrozumienia pochodzenia życia, argumentując, że trudności wynikają z braku „myślenia symulacyjnego” – metody polegającej na śledzeniu krok po kroku kumulacji i interakcji zjawisk. Autor proponuje, że początki życia można wyjaśnić poprzez stopniowe, kumulatywne zwiększanie złożoności substancji chemicznych na Ziemi, napędzane globalną cyrkulacją i powtarzalnymi reakcjami chemicznymi.  Proces ten, porównywany do matematycznego przykładu podwajania kwoty, pokazuje jak małe, początkowe zmiany prowadzą do ogromnych skutków. Kluczową rolę odgrywa hipotetyczna „chmura pyłu”, chroniąca Ziemię przed promieniowaniem UV i działająca jako katalizator syntezy monomerów. Autor podkreśla, że ten proces, obejmujący samopodtrzymywanie i proto-replikację, jest pierwszym krokiem w kierunku życia, a dalsze jego etapy również powinny być postrzegane jako globalne zjawiska.  Artykuł wprowadza pojęcie „Matematyki Naturalnej”, argumentując, że precyzyjne, logiczne myślenie możliwe jest nawet bez formalnych wyrażeń matematycznych.  Autor kończy, podkreślając, że myślenie symulacyjne, niezbędne w programowaniu, jest kluczową umiejętnością dla zrozumienia złożonych zjawisk i powinno odgrywać większą rolę w różnych dziedzinach.</description>
+    </item>
+    
+    <item>
+      <title>Konwersja Pracy Przepływowej i Systemy: Esencja Wykorzystania Generatywnej AI</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia różnicę między pracą iteracyjną (elastyczną, z próbami i błędami) a pracą przepływową (stopniową, z jasno określonym procesem). Autor argumentuje, że konwersja pracy iteracyjnej w przepływową i jej późniejsza systematyzacja, podobnie jak w Rewolucji Przemysłowej i IT, znacząco zwiększa produktywność i jakość.  Generatywna AI, choć zdolna do pracy iteracyjnej,  najlepiej wykorzystuje się w usystematyzowanej pracy przepływowej.  Kluczem jest więc nie traktowanie AI jako narzędzia, lecz jako elementu systemu.  Przykładem jest obsługa zapytań pracowników: zamiast pojedynczego rozwiązania,  system z AI może obejmować odbieranie zapytań, wyszukiwanie informacji, generowanie odpowiedzi, ich weryfikację i aktualizację bazy wiedzy.  Autor podkreśla, że  błędne przekonanie o ograniczonej użyteczności generatywnej AI wynika często z traktowania jej tylko jako narzędzia do pracy iteracyjnej.  Ostatecznie,  przekształcenie zadań w pracę przepływową i jej systematyzacja z wykorzystaniem AI pozwala na ciągłe doskonalenie procesu i zwiększanie efektywności.</description>
+    </item>
+    
+    <item>
+      <title>Inżynierowie wszechstronni w erze Liquidware</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł omawia rewolucję w branży IT spowodowaną przez generatywną sztuczną inteligencję (AI) i jej wpływ na rolę inżynierów oprogramowania. AI potrafi automatyzować tworzenie programów, co prowadzi do koncepcji &quot;Liquidware&quot; – oprogramowania wysoce konfigurowalnego i dostosowywanego przez użytkownika za pomocą AI.  Autor argumentuje, że ta zmiana wymaga od inżynierów przejścia od specjalizacji full-stack do roli &quot;inżynierów wszechstronnych&quot;, posiadających szeroką wiedzę z różnych dziedzin IT i zdolność do zarządzania złożonymi projektami, które łączą wiele systemów.  Zadaniem inżynierów wszechstronnych będzie nie tylko programowanie, lecz także projektowanie architektury systemów, zarządzanie ryzykiem i nadzorowanie całego procesu rozwoju, wykorzystując AI jako narzędzie.  Autor przedstawia przykład aplikacji e-commerce, pokazując jak Liquidware może być implementowane już teraz, oraz omawia przyszłość, w której inżynierowie wszechstronni będą odgrywać kluczową rolę w tworzeniu kompleksowych systemów, integrujących różne platformy i urządzenia.  Podkreśla, że ta zmiana nie jest odległą przyszłością, lecz procesem już trwającym, wymagającym od inżynierów adaptacji i rozwoju nowych umiejętności.</description>
+    </item>
+    
+    <item>
+      <title>Przeznaczenie myślenia: AI a ludzkość</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł analizuje wpływ sztucznej inteligencji na ludzkie myślenie i społeczeństwo. Autor argumentuje, że choć AI przejmie wiele zadań intelektualnych, nie doprowadzi to do spadku znaczenia ludzkiego myślenia, lecz do jego transformacji.  Zamiast optymalizacji ogólnej, nastąpi przejście do optymalizacji indywidualnej, gdzie każda sytuacja będzie wymagała osobnego rozważenia.  Proponuje nowy paradygmat programowania – zorientowanie na procesy – jako analogię do tego społeczeństwa.  Kluczowe jest rozumienie procesów jako autonomicznych jednostek, co, dzięki wsparciu AI, umożliwia tolerowanie duplikacji kodu i indywidualne dostrajanie.  To z kolei prowadzi do koncepcji „społeczeństwa optymalizacji indywidualnej”, gdzie indywidualne osądy są cenione ponad uniwersalne zasady.  Autor wprowadza „filozofię subiektywną”, podkreślającą wartość głębokiego namysłu i indywidualnej odpowiedzialności za podejmowane decyzje.  Kluczową umiejętnością przyszłości będzie projektowanie ram (frameworków)  umożliwiających uchwycenie indywidualności każdej sytuacji. Podsumowując,  choć AI zmniejszy obciążenie pracą intelektualną,  zwiększy wagę głębokiego, indywidualnego myślenia i odpowiedzialności za podejmowane decyzje, czego autor nazywa „przeznaczeniem myślenia”.</description>
+    </item>
+    
+    <item>
+      <title>Zaproszenie do oprogramowania zorientowanego na procesy biznesowe</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł przedstawia koncepcję oprogramowania zorientowanego na procesy biznesowe, alternatywę dla oprogramowania zorientowanego obiektowo.  Autor argumentuje, że tradycyjne podejście, z oddzielnymi modułami danych i przetwarzania, utrudnia modyfikacje.  Proponowane rozwiązanie to plik zawierający instrukcję biznesową i pola do wprowadzania danych przez kolejne osoby/działy zaangażowane w proces.  Ten plik jest „oprogramowaniem wykonywalnym” przez ludzi, a  AI wspiera ten proces, automatyzując części zadań i dostarczając interfejsy użytkownika dostosowane do konkretnych potrzeb.  Zaletą jest łatwość modyfikacji procesów, gromadzenie wiedzy oraz tworzenie „szybko uczącej się organizacji”, gdzie AI absorbuje zadania wymagające dużej wiedzy i adaptacji, a ludzie skupiają się na minimalnej, ukierunkowanej pracy. Format pliku, np. Markdown, powinien być przyjazny dla AI, umożliwiając automatyzację zadań i usprawnianie procesów biznesowych. </description>
+    </item>
+    
+    <item>
+      <title>Projektowanie ram jako zdolność intelektualna</title>
+      <link>https://katoshi-mfacet.github.io/pl/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/pl/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Artykuł analizuje różnicę między dwoma rodzajami działalności intelektualnej: odkrywaniem faktów poprzez obserwację (charakterystyczną dla nauk podstawowych) oraz wynajdywaniem poprzez projektowanie (charakterystyczną dla rozwoju i nauk stosowanych).  Autor argumentuje, że projektowanie ram koncepcyjnych, takich jak teorie naukowe (np. geocentryczna, heliocentryczna, mechanika Newtona, względność), jest formą „wynalazku”, a nie „odkrycia”, ponieważ polega na tworzeniu użytecznych struktur koncepcyjnych, a nie na pasywnym znajdowaniu faktów.  Podkreśla, że te ramy są wybierane ze względu na użyteczność, a nie inherentną poprawność.  Autor porównuje zestawy umiejętności wymagane do obu rodzajów działalności intelektualnej, argumentując, że podczas gdy odkrywanie poprzez obserwację jest powszechne wśród naukowców, umiejętność projektowania ram jest rzadsza i wymaga specyficznych zdolności.  Inżynierowie oprogramowania są przedstawieni jako grupa zawodowa, która potencjalnie posiada umiejętności niezbędne do projektowania ram w środowisku akademickim ze względu na rutynowe zajmowanie się abstrakcyjnymi koncepcjami.</description>
+    </item>
+    
+  </channel>
 </rss>

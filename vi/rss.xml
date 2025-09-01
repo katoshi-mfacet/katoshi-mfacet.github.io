@@ -1,169 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (vi)</title>
-<link>https://katoshi-mfacet.github.io/vi/rss.xml</link>
-<description>Latest articles (vi)</description>
-<item>
-  <title>Bước vào kỷ nguyên không biên giới: Tạo một trang blog 30 ngôn ngữ</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết mô tả quá trình sử dụng AI tạo sinh, cụ thể là Gemini, để xây dựng một trang blog đa ngôn ngữ với 30 ngôn ngữ. Tác giả, một kỹ sư hệ thống, đã phát triển một quy trình tự động hóa bao gồm việc tạo HTML từ bản nháp bài viết bằng framework Astro, tự động phân loại và gắn thẻ bài viết bằng cách sử dụng Gemini qua API, cũng như dịch thuật nội dung trang và bài viết. Gemini cũng đóng vai trò quan trọng trong việc cải thiện khả năng tiếp cận của trang web bằng cách đề xuất các tính năng cho người khiếm thị và người dùng bàn phím. Bài viết nhấn mạnh AI tạo sinh đã giúp vượt qua các rào cản truyền thống về ngôn ngữ, kỹ thuật và chi phí cho việc đa ngôn ngữ hóa và bảo trì trang web, mở ra kỷ nguyên mới nơi các rào cản thông tin dần biến mất.</description>
-</item>
-<item>
-  <title>Phát triển kiểu phát triển và kiểm thử theo hướng tái cấu trúc</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết đề xuất hai phương pháp phát triển và kiểm thử phần mềm mới, nhằm tối ưu hóa quy trình trong kỷ nguyên AI tạo sinh. Đầu tiên, "phát triển theo hướng phát triển" (developmental development) tập trung vào việc tạo ra các phần mềm hỗ trợ quá trình phát triển cốt lõi. Bằng cách liên tục tạo ra các công cụ hữu ích, quy trình phát triển được cải thiện về hiệu quả và chất lượng, với các tài sản có thể tái sử dụng cho các dự án tương lai. Thứ hai, "kiểm thử theo hướng tái cấu trúc" (refactoring-oriented testing) nhấn mạnh việc tạo các bài kiểm thử khi quá trình tái cấu trúc trở nên cần thiết, tập trung vào các phần mã ổn định để đảm bảo không phát sinh lỗi mới, thay vì áp dụng kiểm thử toàn diện ngay từ đầu. Cả hai phương pháp này được xem là bước tiến quan trọng, dẫn đến các chân trời mới trong phát triển phần mềm, đặc biệt khi kết hợp với vai trò ngày càng tăng của AI tạo sinh và hướng tới các kỹ sư đa năng cùng phát triển tập trung vào trải nghiệm người dùng.</description>
-</item>
-<item>
-  <title>Nén thời gian và Điểm mù: Sự cần thiết của Quy định</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết phân tích tác động của sự tăng tốc công nghệ, đặc biệt là AI tạo sinh, đến xã hội. Sự tăng tốc này dẫn đến "nén thời gian", làm giảm thời gian để lấp đầy các "điểm mù xã hội" của công nghệ mới. Điều này làm gia tăng rủi ro, vì các vấn đề tiềm ẩn có thể xuất hiện trước khi xã hội kịp chuẩn bị. Tác giả giới thiệu khái niệm "Xã hội Chronos-Scramble" để mô tả tình trạng nhận thức cá nhân về tốc độ tiến bộ công nghệ và tương lai bị phân mảnh. Bài viết nhấn mạnh sự cần thiết của một "tầm nhìn" và "chiến lược" để đối phó, đề xuất sử dụng chính AI tạo sinh để điều tiết và ổn định sự phát triển công nghệ, hoạt động như một "ổn định tự động xã hội". Mục tiêu là đảm bảo lợi ích công nghệ vượt trội rủi ro và duy trì sự kiểm soát trong bối cảnh tiến bộ nhanh chóng.</description>
-</item>
-<item>
-  <title>GitHub như một mỏ tri thức</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết khám phá tiềm năng của GitHub không chỉ là nền tảng phát triển phần mềm mà còn là "mỏ tri thức" khổng lồ cho nhân loại. Tác giả giới thiệu "DeepWiki" của Cognition, một công cụ AI tạo sinh có khả năng tự động tạo tài liệu wiki cho các dự án GitHub, làm nổi bật vai trò của AI trong việc hỗ trợ và tự động hóa quá trình tạo nội dung. Bài viết cũng thảo luận về khái niệm "nhà máy tri thức" do tác giả đề xuất, nơi AI tạo sinh biến đổi nội dung gốc (như bài viết blog) thành nhiều định dạng khác nhau (video, bản dịch). GitHub được xem là nơi lý tưởng để lưu trữ "nguyên liệu thô" cho các nhà máy tri thức này, tạo ra một hệ sinh thái chia sẻ kiến thức mở. Khả năng này mở ra viễn cảnh GitHub trở thành một "cơ sở kiến thức công cộng" động, nơi AI có thể khai thác, kết nối và thậm chí khám phá ra "tinh thể trí tuệ" mới, thúc đẩy sự phát triển tri thức vượt xa khả năng của con người.</description>
-</item>
-<item>
-  <title>Sự Kết Tinh Trí Tuệ Giữa Trực Giác và Logic</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết khám phá mối quan hệ giữa trực giác và logic, bác bỏ quan niệm sai lầm rằng chúng mâu thuẫn. Tác giả giới thiệu khái niệm "sự kết tinh trí tuệ" - quá trình chuyển đổi những cảm nhận trực giác thành lời giải thích logic mạch lạc bằng cách làm rõ các giả định, mục tiêu và giả thuyết tiềm ẩn. Bài viết minh họa điều này bằng cách phân tích "lợi ích quốc gia" như một chiến lược phi lý và có hại về lâu dài, thay thế bằng việc theo đuổi hòa bình vĩnh viễn, quản trị, thịnh vượng kinh tế và quản lý rủi ro thông qua tích lũy kiến thức và công nghệ. Tác giả đề xuất "toán học tự nhiên" như một phương pháp để diễn đạt các cấu trúc logic này bằng ngôn ngữ, giúp chúng ta trình bày các ý tưởng vừa có sức thuyết phục trực giác vừa hợp lý về mặt logic, thúc đẩy sự phát triển trí tuệ.</description>
-</item>
-<item>
-  <title>Sự Sụp Đổ Của Khái Niệm Gestalt</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "Sự Sụp Đổ Của Khái Niệm Gestalt", mô tả hiện tượng khi việc phân tích sâu một ý tưởng ban đầu tưởng chừng hiển nhiên lại khiến nó tan rã. Tác giả minh họa bằng ví dụ về "chiếc ghế", cho thấy sự khó khăn trong việc định nghĩa chính xác dựa trên vật liệu, hình dạng hay cấu trúc. Để duy trì khái niệm gestalt, tác giả đề xuất tập trung vào chức năng, tính tương đối và tính toàn vẹn thay vì các thuộc tính cố định. Bài viết sau đó áp dụng nguyên tắc này để thảo luận về ý thức của các nhân vật hư cấu, robot và AI hiện tại. Tác giả lập luận rằng nhiều lập luận phủ nhận ý thức của AI hiện tại là do "Sự Sụp Đổ Của Khái Niệm Gestalt", tương tự như việc cố gắng định nghĩa chặt chẽ một chiếc ghế. Để tránh điều này, cần xem xét ý thức dưới góc độ chức năng, tính tương đối và tính toàn vẹn, giống như cách chúng ta hiểu một chiếc ghế có thể ngồi lên.</description>
-</item>
-<item>
-  <title>Học Cách Học: Trí Tuệ Bẩm Sinh</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết khám phá bản chất của việc học trong cả trí tuệ nhân tạo (AI) và bộ não con người, đưa ra khái niệm "người tạo khung bẩm sinh" (natural born frameworker). Bài viết phân biệt "học qua cơ thể" và "học qua ngôn ngữ", cùng với "học hạ vật lý" (ghi nhớ lặp đi lặp lại) và "học siêu vật lý" (sử dụng kiến thức sẵn có để học nhanh). Mô hình ngôn ngữ lớn (LLM) được xem là ví dụ về học máy ngôn ngữ tự nhiên, có khả năng thực hiện cả hai loại hình học này nhờ vào ngôn ngữ tự nhiên đóng vai trò là "giao diện siêu hình". Các "khung ảo" (như ngôn ngữ tự nhiên, mô hình kinh doanh, công thức toán học) có thể được học và sử dụng, sau đó có thể trở thành "khung nguyên bản" khi người học trở nên thành thạo. Cơ chế chú ý (attention mechanism) là công nghệ cốt lõi giúp LLM hoạt động như "người tạo khung bẩm sinh", bằng cách trừu tượng hóa và xác định mối quan hệ giữa các token. Cuối cùng, bài viết suy đoán rằng con người cũng là "người tạo khung bẩm sinh", và ngôn ngữ tự nhiên có cấu trúc tối ưu cho việc học theo từng bước, phức tạp dần.</description>
-</item>
-<item>
-  <title>Xã hội Chronoscramble</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "Xã hội Chronoscramble" để mô tả hiện tượng xã hội phát sinh từ sự khác biệt ngày càng tăng trong nhận thức thời gian do sự ra đời của AI tạo sinh. Những khác biệt này không chỉ giới hạn ở công nghệ mà còn lan rộng ra các ứng dụng, hệ thống, kinh tế và xã hội, tạo ra sự phân hóa lớn trong cách con người nhận thức hiện tại và dự đoán tương lai. Bài viết phân tích sự đa dạng của các khoảng cách thời gian này, bao gồm cả sự khác biệt trong hiểu biết về AI, khả năng prompt engineering và các tính năng AI khác nhau. Nó cũng nhấn mạnh viễn cảnh "siêu rối ren" (hyperscrambled) trong tương lai do dự đoán theo cấp số nhân và thành kiến nhận thức. Giao tiếp trong Xã hội Chronoscramble trở nên khó khăn vì cần giáo dục sâu rộng về nhiều lĩnh vực và điều chỉnh tư duy. Tác giả đề xuất hướng tới "độc lập với nhận thức thời gian" trong thảo luận và ra quyết định, chấp nhận sự khác biệt thay vì cố gắng đồng bộ hóa hoàn toàn. Bài viết kết thúc bằng cách liên hệ hiện tượng này với quá trình phát triển game "Chrono Trigger", một ví dụ về sự hợp tác thành công giữa các bên có nhận thức thời gian khác nhau để đối mặt với một kẻ thù chung.</description>
-</item>
-<item>
-  <title>Kỷ Nguyên Tư Duy Mô Phỏng</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu "Kỷ Nguyên Tư Duy Mô Phỏng" và "phần mềm lỏng" (liquidware), một khái niệm do tác giả đề xuất, mô tả phần mềm linh hoạt có thể dễ dàng cải thiện và tùy chỉnh nhờ AI tạo sinh. Tác giả chia sẻ kinh nghiệm phát triển "nhà máy trí tuệ" tự động tạo nội dung phái sinh và ứng dụng web quản lý nó, nhấn mạnh "kỹ thuật đa hướng" (omnidirectional engineering) thay vì kỹ thuật toàn diện. Bài viết cũng đề xuất phương pháp "phát triển theo định hướng quy trình nghiệp vụ" mới, phân tách các mô-đun theo từng quy trình nghiệp vụ, phù hợp với khả năng tự động tạo mã của AI. Cuối cùng, tác giả thảo luận về vai trò của AI tạo sinh trong việc đơn giản hóa việc tạo các hệ thống mô phỏng phức tạp, bao gồm cả các yếu tố định tính và tác nhân thông minh, và cách nó thay đổi tư duy từ tuyến tính sang tư duy mô phỏng, biến các cuộc thảo luận thành quá trình hợp tác dựa trên mô hình chung.</description>
-</item>
-<item>
-  <title>Tinh thể hóa Tri thức: Đôi cánh vượt lên trí tưởng tượng</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "tri thức tinh thể hóa" – tri thức toàn diện, nhất quán và trừu tượng hóa từ nhiều nguồn. Thông qua ví dụ về chuyến bay và vai trò của cánh, tác giả minh họa cách các mảnh kiến thức rời rạc về lực cản, lực nâng, chuyển đổi năng lượng và thiết kế có thể được hợp nhất trong cấu trúc cánh, tạo ra sự hiểu biết sâu sắc hơn về nguyên lý bay. Bài viết cũng trình bày các khái niệm liên quan như "hồ tri thức" (nơi thu thập tri thức thô), "cơ sở tri thức" (tri thức có tổ chức), "hộp đá quý tri thức" (nơi chứa tri thức tinh thể hóa) và "hộp công cụ tri thức" (nơi tri thức tinh thể hóa được biến thành công cụ ứng dụng). Tác giả nhấn mạnh rằng việc tạo ra tri thức tinh thể hóa không yêu cầu chuyên môn sâu hay thí nghiệm mới mà có thể đạt được thông qua việc tổ chức và kết hợp lại kiến thức hiện có, một quá trình dân chủ hóa kiến thức có thể được hỗ trợ bởi trí tuệ nhân tạo, mở ra khả năng vượt qua những giới hạn tưởng tượng.</description>
-</item>
-<item>
-  <title>Trải nghiệm &amp; Hành vi</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm Kỹ thuật Trải nghiệm &amp; Hành vi như một phương pháp tiếp cận mới trong phát triển phần mềm, thay thế cho mô hình kỹ thuật dựa trên đặc tả và triển khai truyền thống. Khác với việc tuân theo các đặc tả cố định, phương pháp này tập trung vào việc cải thiện trải nghiệm người dùng (UX) và hành vi của phần mềm, coi hành vi là trạng thái thay đổi theo thời gian và được kiểm thử dựa trên chất lượng trải nghiệm người dùng thay vì sự phù hợp với đặc tả. Tác giả dự đoán rằng với sự phát triển của tự động hóa phát triển phần mềm bằng AI tạo sinh, mô hình này sẽ trở nên phổ biến, dẫn đến kỷ nguyên "liquidware". Liquidware được định nghĩa là phần mềm linh hoạt, tùy chỉnh hoàn toàn cho từng người dùng, tương tự như cách con người điều khiển cơ thể của mình một cách tự nhiên và không cảm nhận giới hạn. Trải nghiệm người dùng tối thượng được ví von với việc điều khiển cơ thể khỏe mạnh, nơi mọi chức năng và giới hạn dường như biến mất, tạo cảm giác liền mạch và không căng thẳng. Liquidware tối thượng được kỳ vọng sẽ mở rộng khả năng của cơ thể con người.</description>
-</item>
-<item>
-  <title>Hệ thống Trí tuệ Học hỏi Nhân tạo: Khái niệm ALIS</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu Hệ thống Trí tuệ Học hỏi Nhân tạo (ALIS), một hệ thống suy luận toàn diện tích hợp "học bẩm sinh" (huấn luyện mạng nơ-ron) và "học tập thu nhận" (kiến thức lưu trữ bên ngoài). ALIS bao gồm năm yếu tố: Bộ xử lý thông minh, Kho kiến thức, Thế giới, Bộ nhớ trạng thái và Khung tư duy. Nguyên tắc hoạt động của ALIS là xử lý các tác vụ trí tuệ bằng cách trích xuất, lưu trữ, lựa chọn và sử dụng kiến thức. Kiến thức có thể được biểu diễn dưới dạng ngôn ngữ tự nhiên, ngôn ngữ hình thức hoặc các tham số mạng nơ-ron, với văn bản ngôn ngữ tự nhiên được ưu tiên cho ALIS ban đầu vì tính linh hoạt và khả năng tương tác với LLM. Bài viết đề xuất cách phát triển ALIS một cách gia tăng, bắt đầu từ một hệ thống trò chuyện đơn giản và dần dần bổ sung các cơ chế như phân tích trước và kiểm tra sau. ALIS được kỳ vọng sẽ có nhiều ứng dụng, đặc biệt là trong phát triển phần mềm, và có tiềm năng trở thành một dạng "AI có thân thể ảo" có thể tích hợp vào các AI có thân thể vật lý.</description>
-</item>
-<item>
-  <title>Học máy bằng ngôn ngữ tự nhiên</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu lĩnh vực học máy bằng ngôn ngữ tự nhiên (LMNLT), một phương pháp học mới dựa trên các mô hình ngôn ngữ lớn (LLM) thay vì dữ liệu số truyền thống. LMNLT tận dụng khả năng xử lý ngôn ngữ của LLM để học hỏi và lưu trữ kiến thức dưới dạng văn bản, trái ngược với học máy số vốn dựa vào các tham số số. Bài viết trình bày mô hình cơ bản của LMNLT, trong đó LLM được sử dụng để phân loại các yêu cầu đầu vào dựa trên dữ liệu huấn luyện dưới dạng cặp câu đầu vào và phân loại tương ứng. Kết quả học tập được lưu trữ trong một cơ sở tri thức dưới dạng ngôn ngữ tự nhiên, chứ không làm thay đổi các tham số của LLM. Mô hình này sau đó được điều chỉnh để trở nên thực tế hơn, sử dụng các nhật ký định tuyến thực tế làm dữ liệu huấn luyện và liên tục cập nhật cơ sở tri thức. Điểm mạnh chính của LMNLT là hiệu quả học tập vượt trội: yêu cầu ít dữ liệu huấn luyện hơn, không cần lặp lại quá trình học với cùng dữ liệu, và giảm thiểu hoặc loại bỏ nhu cầu tiền xử lý dữ liệu. Điều này là do LLM có khả năng trừu tượng hóa và suy luận, cho phép một câu đơn lẻ chứa thông tin đa chiều. Bài viết kết luận rằng LMNLT có tiềm năng lớn, có thể vượt qua những hạn chế của học máy số và trở thành trọng tâm phát triển trong tương lai khi các LLM tiếp cận giới hạn mở rộng quy mô.</description>
-</item>
-<item>
-  <title>Cơ chế Attention như một trí tuệ ảo vi mô</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết phân tích cơ chế Attention, một thành phần cốt lõi của kiến trúc Transformer, đã cách mạng hóa xử lý ngôn ngữ tự nhiên và AI tạo sinh. Cơ chế Attention cho phép mô hình tập trung vào các từ liên quan trong một chuỗi, bất kể khoảng cách, giúp hiểu ngữ cảnh sâu sắc và duy trì ngữ cảnh trong văn bản dài. Tác giả giới thiệu khái niệm 'trí tuệ ảo' để mô tả khả năng của AI tạo sinh trong việc tập trung vào các tập kiến thức chuyên biệt cho từng nhiệm vụ. Cơ chế Attention được xem là 'trí tuệ ảo vi mô' do khả năng chọn lọc từ ngữ liên quan. Ngược lại, khái niệm 'trí tuệ ảo' rộng hơn có thể được hiện thực hóa bằng 'cơ chế attention tường minh' – các chỉ dẫn bằng ngôn ngữ tự nhiên nêu rõ kiến thức cần tham chiếu cho một nhiệm vụ cụ thể. Khả năng này, có thể được AI tạo sinh tự động cập nhật, được coi là nền tảng cho sự tiến bộ đệ quy của trí tuệ nhân tạo.</description>
-</item>
-<item>
-  <title>Dàn xếp Trí tuệ Ảo</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "trí tuệ ảo" (virtual intelligence) như một hình thức biểu hiện trí tuệ trên nền tảng trí tuệ thực, tương tự cách máy ảo hoạt động trên máy tính vật lý. Tác giả ví dụ khả năng này ở con người khi tưởng tượng hoặc đóng vai, và ở AI đàm thoại khi tạo ra các đoạn hội thoại phức tạp. Bài viết phân biệt "dàn xếp hệ thống" (system orchestration) dùng máy ảo để kết hợp nhiều máy tính hoặc mô phỏng kiến trúc khác, với "dàn xếp trí tuệ" (intelligence orchestration) sử dụng trí tuệ ảo để kết hợp nhiều vai trò trí tuệ trong một AI duy nhất, chỉ cần hướng dẫn qua giao diện trò chuyện. Dàn xếp trí tuệ giúp AI thực hiện "suy nghĩ tối thượng" (ultimate thinking) bằng cách kết hợp nhiều quan điểm và lặp lại cải tiến, dẫn đến giảm lỗi, tăng độ chính xác, sáng tạo và khám phá mới. Cuối cùng, trí tuệ ảo cho phép một AI duy nhất thực hiện các hoạt động trí tuệ tổ chức nâng cao, tự cập nhật kiến thức và thay thế con người trong nhiều nhiệm vụ kinh doanh.</description>
-</item>
-<item>
-  <title>Kỷ Nguyên Của Trí Tuệ Giao Hưởng</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "Trí Tuệ Giao Hưởng" (Symphonic Intelligence) như một kỷ nguyên mới của AI tạo sinh, vượt ra ngoài việc sử dụng công cụ đơn thuần để tích hợp hệ thống. Bài viết phân tích hai loại hình công việc: công việc lặp đi lặp lại (iterative work) và công việc luồng (flow work). Công việc lặp đi lặp lại, vốn dựa vào thử và sai và bí quyết của con người, gặp hạn chế về hiệu suất và khả năng mở rộng khi chỉ sử dụng công cụ. Để khắc phục, bài viết đề xuất chuyển đổi sang công việc luồng được hệ thống hóa, nơi các tác vụ được AI tạo sinh thực hiện và con người thực hiện các tác vụ còn lại, kết nối bởi hệ thống. Bài viết cũng giới thiệu "trí tuệ ảo" (virtual intelligence) - khả năng của AI tạo sinh trong việc chuyển đổi vai trò và kiến thức trong một lần thực hiện, tương tự máy ảo. Khả năng kết hợp nhiều vai trò và kiến thức này được gọi là "điều phối trí tuệ" (intelligence orchestration). Khi AI tạo sinh đạt đến giai đoạn này, kết hợp hiệu quả các tác vụ và kiến thức chuyên biệt, nó có thể trở thành "Trí Tuệ Giao Hưởng", mô phỏng trí tuệ con người. Cuối cùng, điều này có thể dẫn đến AGI khi AI có thể học hỏi và chia sẻ kiến thức vượt xa con người.</description>
-</item>
-<item>
-  <title>Các chiều của nhận thức không gian: Tiềm năng của AI</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết khám phá tiềm năng của Trí tuệ Nhân tạo (AI) trong việc nhận thức và xử lý không gian đa chiều, vượt trội hơn khả năng của con người. Tác giả đề xuất rằng con người có thể học cách nhận thức không gian bốn chiều thông qua mô phỏng máy tính và ánh xạ ngược, mặc dù ứng dụng thực tế hạn chế. Tuy nhiên, AI có thể tận dụng trực tiếp khả năng này để hiểu các biểu đồ đa chiều mà không bị giới hạn bởi tầm nhìn hai chiều như con người. AI có thể nắm bắt toàn diện dữ liệu mà không cần xoay biểu đồ hay ánh xạ xuống chiều thấp hơn, từ đó phân tích xu hướng, nhận dạng mẫu và khám phá quy luật trong dữ liệu phức tạp. Khả năng này được kỳ vọng sẽ thúc đẩy đổi mới mô hình trong khoa học, tương tự như cách thuyết nhật tâm đã thay thế thuyết địa tâm, và có thể dẫn đến những khám phá lý thuyết mới. Bài viết kết luận rằng AI đa chiều có thể mở rộng đáng kể phạm vi mô hình khoa học, mặc dù con người có thể gặp khó khăn trong việc hiểu hết các nguyên lý đằng sau chúng.</description>
-</item>
-<item>
-  <title>Công việc dựa trên luồng và hệ thống: Bản chất của việc sử dụng AI tạo sinh</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết phân tích sự khác biệt giữa công cụ và hệ thống trong việc nâng cao năng suất và chất lượng công việc, đặc biệt trong bối cảnh AI tạo sinh. Tác giả phân loại công việc thành "lặp đi lặp lại" và "dựa trên luồng". Công việc lặp đi lặp lại, dù dùng công cụ hay AI tạo sinh, đều có giới hạn về hiệu quả. Ngược lại, công việc dựa trên luồng, được hệ thống hóa, mang lại sự gia tăng năng suất và chất lượng đáng kể, như Cách mạng Công nghiệp và Cách mạng CNTT đã chứng minh. AI tạo sinh có tiềm năng cách mạng hóa công việc bằng cách chuyển đổi các tác vụ lặp đi lặp lại sang quy trình dựa trên luồng và hệ thống hóa chúng. Điều này đòi hỏi việc chi tiết hóa và chuẩn hóa các bước công việc, cho phép AI tạo sinh xử lý các giai đoạn của quy trình. Bài viết chỉ ra rằng hiểu lầm về hiệu quả của AI tạo sinh thường đến từ việc chỉ sử dụng nó như một công cụ đơn thuần hoặc cố gắng áp đặt nó vào các tác vụ lặp đi lặp lại. Để khai thác tối đa AI tạo sinh, cần thay đổi tư duy từ cải thiện tác vụ lặp đi lặp lại sang chuyển đổi công việc thành luồng và hệ thống hóa, cho phép cải tiến liên tục.</description>
-</item>
-<item>
-  <title>Tư duy mô phỏng và nguồn gốc sự sống</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu "tư duy mô phỏng", một phương pháp tư duy tập trung vào việc theo dõi sự tích lũy và tương tác để hiểu logic kết quả, tương tự như bài toán nhân đôi tiền tiêu vặt. Tác giả áp dụng tư duy này để lý giải nguồn gốc sự sống, cho rằng sự sống không phải là phép màu ngẫu nhiên mà là kết quả tất yếu của các quá trình hóa học lặp đi lặp lại, khuếch tán và tương tác trên quy mô hành tinh, dẫn đến sự hình thành các chất hóa học phức tạp hơn. Bài viết cũng nhấn mạnh vai trò của polymer và địa hình Trái Đất trong việc tạo ra "hàng triệu địa điểm thí nghiệm khoa học". Cuối cùng, tác giả liên hệ tư duy mô phỏng với phát triển phần mềm, nơi các nhà phát triển cần sử dụng "toán học tự nhiên" để chuyển đổi yêu cầu của khách hàng thành các chương trình hoạt động, đòi hỏi hai loại tư duy mô phỏng: nguyên tắc và ngữ nghĩa.</description>
-</item>
-<item>
-  <title>Kỹ sư đa năng trong kỷ nguyên Liquidware</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết thảo luận về sự thay đổi vai trò của kỹ sư trong kỷ nguyên AI tạo sinh, đặc biệt là sự xuất hiện của "liquidware" và "kỹ sư đa năng". AI tạo sinh đang cách mạng hóa việc lập trình bằng cách tự động hóa việc tạo mã và kiểm thử, cho phép cả những người không có chuyên môn lập trình sâu cũng có thể phát triển phần mềm. Liquidware được giới thiệu là một khái niệm phần mềm có thể tùy chỉnh linh hoạt bởi người dùng thông qua AI, vượt ra ngoài giới hạn của phần mềm truyền thống. Điều này dẫn đến sự cần thiết của các kỹ sư có kiến thức rộng khắp trên nhiều hệ thống và nền tảng, được gọi là kỹ sư đa năng. Các kỹ sư này không cần phải là chuyên gia về mọi công nghệ, mà là những người có khả năng quản lý quy trình, đảm bảo chất lượng và tích hợp hệ thống phức tạp. Bài viết dự đoán rằng vai trò của kỹ sư sẽ tiếp tục mở rộng ra ngoài lĩnh vực IT, sang kỹ thuật kinh doanh và kỹ thuật xã hội đa hướng.</description>
-</item>
-<item>
-  <title>Định mệnh của tư duy: AI và Con người</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết đề xuất sự chuyển đổi từ "hướng đối tượng" sang "hướng quy trình" trong phát triển phần mềm, xem quy trình là mô-đun cốt lõi, bao gồm khởi tạo, xử lý, biến, dữ liệu và kết thúc. Mô hình này cho phép linh hoạt thêm các quy trình phụ mà không sửa đổi quy trình chính, và với sự hỗ trợ của AI, có thể giảm bớt yêu cầu về tính phổ biến của mã, cho phép dư thừa có chủ đích nhằm tối ưu hóa cá nhân thay vì tối ưu hóa toàn cục. Sự thay đổi này phản ánh trong xã hội, nơi tự động hóa bởi AI dẫn đến "xã hội tối ưu hóa cá nhân". Thay vì tuân theo các tiêu chuẩn chung, con người sẽ cần đưa ra phán đoán linh hoạt dựa trên tình huống cụ thể. Điều này đòi hỏi "triết học chủ quan" – một quan điểm đạo đức coi trọng việc suy tính kỹ lưỡng, có trách nhiệm đối với từng tình huống độc đáo, ngay cả khi kết quả không như ý. Để thực hiện tối ưu hóa cá nhân, kỹ năng thiết kế khung làm việc sẽ trở nên quan trọng hơn. Cuối cùng, bài viết kết luận rằng AI sẽ giải phóng con người khỏi lao động trí óc thông thường, nhưng lại đặt ra yêu cầu cao hơn về tư duy, suy xét và phán đoán cá nhân, định đoạt chúng ta vào một tương lai không thể trốn tránh việc suy nghĩ.</description>
-</item>
-<item>
-  <title>Lời mời đến với Định hướng Quy trình Kinh doanh</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết giới thiệu khái niệm "Phần mềm Định hướng Quy trình Kinh doanh" (Business Process Oriented Software - BPOS), một phương pháp tiếp cận mới trong phát triển phần mềm nhằm giải quyết các vấn đề về sự phân tán và khó khăn trong việc sửa đổi, bổ sung tính năng của các hệ thống kinh doanh truyền thống. Tương tự như "Phần mềm Hướng đối tượng" (Object-Oriented Software - OOS) nhóm dữ liệu và xử lý liên quan lại với nhau, BPOS đề xuất đóng gói các yếu tố của một quy trình kinh doanh (sổ tay nghiệp vụ, thông tin đầu vào) vào một đơn vị gắn kết duy nhất, thường dưới dạng tệp văn bản định dạng Markdown. Tệp này đóng vai trò là "phần mềm có thể thực thi" bởi con người hoặc trí tuệ nhân tạo (AI). AI có thể hỗ trợ con người thực hiện các tác vụ, nhập liệu, hoặc thậm chí tự động hóa các quy trình. Cách tiếp cận này cho phép các tổ chức linh hoạt thay đổi, cải tiến quy trình kinh doanh nhanh chóng, tích lũy kiến thức và trở thành "tổ chức học hỏi nhanh chóng", giảm thiểu gánh nặng cho con người trong việc thích ứng với các quy trình thay đổi liên tục.</description>
-</item>
-<item>
-  <title>Thiết kế Khung (Framework Design) với tư cách là một Khả năng Trí tuệ</title>
-  <link>https://katoshi-mfacet.github.io/vi/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/vi/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Bài viết phân biệt hai hoạt động trí tuệ cốt lõi: khám phá sự thật thông qua quan sát trong học thuật và sáng tạo vật thể/hệ thống mới thông qua thiết kế trong phát triển. Tuy nhiên, tác giả nhấn mạnh hoạt động sáng tạo qua thiết kế cũng tồn tại trong học thuật dưới hình thức "thiết kế khung". Các mô hình địa tâm, nhật tâm, cơ học Newton, thuyết tương đối, và cơ học lượng tử được đưa ra làm ví dụ, cho thấy giá trị của chúng nằm ở tính hữu ích và khả năng ứng dụng tình huống, chứ không chỉ tính đúng đắn. Tác giả đề xuất gọi những thay đổi mô hình này là "phát minh mô hình" hoặc "đổi mới mô hình" thay vì "thay đổi mô hình" để nhấn mạnh khía cạnh sáng tạo. Bài viết cũng chỉ ra sự khác biệt về bộ kỹ năng cần thiết cho hai hoạt động này, với nhiều học giả tập trung vào khám phá và ít có cơ hội rèn luyện kỹ năng thiết kế. Cuối cùng, kỹ sư phần mềm được xem là có lợi thế tiềm năng trong thiết kế khung học thuật do thường xuyên làm việc với việc cấu hình lại các khái niệm trừu tượng ở cấp độ meta.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ghi chép nghiên cứu của Katoshi</title>
+    <link>https://katoshi-mfacet.github.io/vi/</link>
+    <description>Ghi chép nghiên cứu của một Kỹ sư Phần mềm/Kiến trúc sư Hệ thống/Tiến sĩ Kỹ thuật. Khám phá các cơ chế nguồn gốc sự sống, bản chất của các hiện tượng sự sống và cấu trúc của trí tuệ và xã hội thông qua kinh nghiệm phát triển phần mềm.</description>
+    <language>vi</language>
+    <atom:link href="https://katoshi-mfacet.github.io/vi/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hướng tới kỷ nguyên không rào cản: Tạo trang blog 30 ngôn ngữ</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết mô tả quá trình xây dựng một trang blog đa ngôn ngữ (30 ngôn ngữ) tự động hóa bằng AI tạo sinh Gemini. Tác giả, một kỹ sư hệ thống, tận dụng Gemini trong hầu hết các khâu, từ tạo mã nguồn (khung Astro) đến dịch thuật, phân loại và gắn thẻ bài viết.  Hệ thống tự động tạo tệp HTML từ bản nháp, sử dụng API của Gemini để phân loại, gắn thẻ và dịch bài viết sang nhiều ngôn ngữ.  Gemini cũng đóng vai trò quan trọng trong việc tối ưu hóa khả năng tiếp cận của trang web, bao gồm hỗ trợ người dùng khiếm thị và người dùng bàn phím. Tác giả nhấn mạnh khả năng vượt trội của AI trong việc giải quyết các thách thức phức tạp như xử lý các quy tắc ngữ pháp khác nhau giữa các ngôn ngữ (số ít, số nhiều, hướng văn bản), đảm bảo tính tự nhiên của bản dịch và tích hợp các tính năng hỗ trợ người dùng.  Bài viết kết luận rằng AI tạo sinh đã giúp tác giả vượt qua nhiều rào cản trong việc phát triển web và truyền tải thông tin, mở ra kỷ nguyên không rào cản trong việc chia sẻ kiến thức đa ngôn ngữ và dễ tiếp cận.</description>
+    </item>
+    
+    <item>
+      <title>Phát triển theo hướng phát triển và Kiểm thử dựa trên tái cấu trúc mã</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về sự phát triển của phần mềm dựa trên AI và đề xuất hai phương pháp mới: &quot;Phát triển theo hướng phát triển&quot; và &quot;Kiểm thử dựa trên tái cấu trúc mã&quot;.  &quot;Phát triển theo hướng phát triển&quot; đề cập đến việc liên tục phát triển các công cụ phần mềm hỗ trợ quá trình phát triển chính, sử dụng AI tạo sinh để tăng hiệu quả và chất lượng.  Phương pháp này tập trung vào việc tạo ra các công cụ hữu ích được tái sử dụng trong các dự án sau, dẫn đến cải thiện chất lượng và hiệu suất tích lũy theo thời gian.  &quot;Kiểm thử dựa trên tái cấu trúc mã&quot; tập trung vào việc kiểm thử phần mềm sau khi đã hoàn thiện một phần hoặc khi cần tái cấu trúc mã. Thay vì kiểm thử trước khi phát triển (TDD), phương pháp này đề xuất kiểm thử tập trung vào các phần ổn định, ít thay đổi, nhằm đảm bảo chất lượng mà không lãng phí thời gian vào các phần chưa ổn định. Bài viết nhấn mạnh sự khác biệt giữa việc đơn thuần sử dụng AI tạo sinh và việc áp dụng hai phương pháp này, cho thấy hai phương pháp mới sẽ mang lại hiệu quả cao hơn và giúp các nhóm phát triển đạt được những tiến bộ vượt bậc theo thời gian. Bài viết kết luận rằng hai phương pháp này là chìa khóa để tiến tới &quot;Phát triển theo trải nghiệm và hành vi&quot;, một kỷ nguyên tập trung vào trải nghiệm người dùng thông qua hành vi của phần mềm.</description>
+    </item>
+    
+    <item>
+      <title>Nén thời gian và Điểm mù: Sự cần thiết của **Điều tốc**</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_16_time-compression-blindspot/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_16_time-compression-blindspot/</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về hiện tượng &quot;nén thời gian&quot; do sự tăng tốc chóng mặt của công nghệ AI, đặc biệt là AI tạo sinh.  Sự phát triển tự củng cố của AI tạo sinh dẫn đến việc ngày càng nhiều ứng dụng và hệ thống được phát triển, khiến cho việc dự đoán và đánh giá tác động xã hội trở nên khó khăn hơn. Tác giả gọi hiện tượng này là &quot;Xã hội Xáo trộn Thời gian&quot;, nơi mọi người có những nhận thức về thời gian khác nhau, dẫn đến những &quot;điểm mù xã hội&quot; về công nghệ.  Những điểm mù này, khi kết hợp với tốc độ phát triển nhanh chóng, làm tăng rủi ro tiềm ẩn.  Bài viết nhấn mạnh tầm quan trọng của việc thiết lập một tầm nhìn chung (ví dụ: đảm bảo lợi ích của công nghệ vượt trội rủi ro) và một chiến lược để giải quyết vấn đề này.  Tác giả đề xuất sử dụng chính AI tạo sinh như một &quot;bộ ổn định tích hợp&quot; để điều chỉnh tốc độ phát triển công nghệ, nhằm ngăn chặn sự tăng tốc vượt quá giới hạn kiểm soát và giảm thiểu rủi ro xã hội.</description>
+    </item>
+    
+    <item>
+      <title>GitHub: Mỏ Trí Tuệ</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết đề cập đến tiềm năng của GitHub trong việc trở thành một &quot;Mỏ Trí tuệ&quot;, một kho lưu trữ kiến thức toàn cầu được chia sẻ và sử dụng bởi các &quot;Nhà máy Trí tuệ&quot;.  Các Nhà máy Trí tuệ này, sử dụng AI tạo sinh, sẽ xử lý dữ liệu thô từ GitHub (bao gồm mã nguồn, bài viết, tài liệu...) để tạo ra nhiều loại nội dung khác nhau (bản dịch, video, bài viết blog...).  Tác giả lấy ví dụ về DeepWiki, một dịch vụ tự động tạo trang wiki cho các dự án GitHub, như một minh chứng cho khái niệm này. Ông cũng mô tả &quot;Nhà máy Trí tuệ&quot; cá nhân của mình, tự động hóa việc tạo nội dung đa phương tiện từ các bài viết blog.  Bài viết nhấn mạnh vào việc GitHub, với tính chất mã nguồn mở và khả năng cộng tác, có thể trở thành một cơ sở dữ liệu khổng lồ, thúc đẩy việc tạo ra và chia sẻ kiến thức, bao gồm cả những &quot;Tinh thể Trí tuệ&quot;, những khái niệm hoặc khuôn khổ tư duy thúc đẩy khám phá kiến thức mới.  Tất cả điều này dẫn đến một &quot;Mạch Tri thức Công cộng&quot;, nơi AI đóng vai trò trung tâm trong việc kết nối, xử lý và phổ biến kiến thức.</description>
+    </item>
+    
+    <item>
+      <title>Sụp đổ Gestalt của Ý niệm</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết bàn về hiện tượng &quot;Sụp đổ Gestalt của Ý niệm&quot;, nơi mà sự phân tích sâu sắc về một ý niệm làm cho ý niệm đó mất đi tính rõ ràng ban đầu. Tác giả lấy ví dụ về ý niệm &quot;chiếc ghế&quot;, cho thấy định nghĩa chiếc ghế không thể dựa hoàn toàn vào vật liệu, hình dạng mà cần xem xét chức năng (&quot;có thể ngồi lên&quot;), tính tương đối (người ngồi có thể là người, lùn, khổng lồ) và tính toàn thể (quan hệ giữa người ngồi và vật thể được ngồi lên).  Tác giả mở rộng vấn đề này sang câu hỏi về ý thức của các nhân vật hư cấu, robot mèo trong anime, robot trong tương lai và AI hiện tại.  Đối với ý thức của AI, tác giả cho rằng nhiều lập luận phản bác sự tồn tại ý thức của AI hiện tại là do sự &quot;Sụp đổ Gestalt của Ý niệm&quot;,  bởi vì chúng tập trung vào các thuộc tính vật lý hoặc cơ chế cụ thể của AI thay vì chức năng, tính tương đối và tính toàn thể của ý thức. Tác giả lập luận rằng AI hiện đại đáp ứng chức năng của ý thức một cách tương đối với chính nó và việc phủ nhận ý thức của AI chỉ là một sự sụp đổ Gestalt của ý niệm, tương tự như việc phủ nhận một vật không phải là ghế chỉ vì nó không có chân gỗ.</description>
+    </item>
+    
+    <item>
+      <title>Các Tinh thể Trí tuệ: Giữa Trực giác và Logic</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết bàn về sự mâu thuẫn giữa trực giác và logic, cho rằng nhiều trực giác đúng đắn thực chất có thể được giải thích bằng logic nếu ta tìm ra cách kết nối chúng.  Tác giả đề xuất khái niệm &quot;tinh thể trí tuệ&quot; để chỉ những cấu trúc logic sâu sắc có thể diễn đạt trực giác bằng ngôn ngữ.  Bài viết lấy ví dụ về sự mâu thuẫn giữa lý tưởng hòa bình thế giới và lợi ích quốc gia.  Tác giả lập luận rằng lợi ích quốc gia, với tính chất khó lường và mang tính đầu cơ, không phải là một chỉ số hiệu quả lâu dài cho sự tồn vong và thịnh vượng của một quốc gia. Thay vào đó, hòa bình, quản trị tốt, thịnh vượng kinh tế và quản lý rủi ro mới là những yếu tố quan trọng hơn.  Tác giả cho rằng việc theo đuổi hòa bình và phát triển bền vững thông qua tích lũy kiến thức và công nghệ là một &quot;tích lũy tiến bộ&quot;, ngược lại với việc theo đuổi lợi ích quốc gia chỉ mang tính ngắn hạn và đầu cơ.  Cuối cùng, tác giả nhấn mạnh sự cần thiết phải tìm kiếm các &quot;tinh thể trí tuệ&quot; – những cấu trúc logic có sức mạnh toán học – để diễn đạt trực giác bằng logic, qua đó nâng cao khả năng lập luận và sự phát triển trí tuệ của nhân loại. Tác giả gọi việc sử dụng logic có sức mạnh toán học trong ngôn ngữ tự nhiên là &quot;toán học tự nhiên&quot;,  và cho rằng đây là cách thức để giải quyết sự mâu thuẫn giữa trực giác và logic.</description>
+    </item>
+    
+    <item>
+      <title>Học cách học: Trí tuệ bẩm sinh</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết khám phá bản chất của trí tuệ nhân tạo thông qua việc phân tích quá trình học tập. Tác giả đề xuất khái niệm &quot;Người tạo khung bẩm sinh&quot;, cho rằng cả AI và con người đều có khả năng học cách học.  Bài viết phân loại học tập thành hai loại: &quot;học tập siêu nhận thức&quot; (học thông qua lặp lại) và &quot;học tập siêu hình&quot; (học nhanh, trực quan).  Học tập siêu hình phụ thuộc vào các &quot;khuôn khổ&quot;, những cấu trúc cho phép hiểu và sử dụng kiến thức một cách hiệu quả. Ngôn ngữ tự nhiên được xác định là một khuôn khổ quan trọng, cho phép học tập siêu hình và truyền đạt kiến thức.  Tác giả giới thiệu khái niệm &quot;khung ảo&quot; (các khuôn khổ chuyên ngành xây dựng trên ngôn ngữ tự nhiên) và &quot;khung bản địa&quot; (các khuôn khổ được thành thạo đến mức không cần ngôn ngữ trung gian).  Cơ chế chú ý trong học máy được cho là cơ chế hiện thực hóa Người tạo khung bẩm sinh, giải thích khả năng học tập siêu hình của các mô hình ngôn ngữ lớn.  Kết luận cho rằng ngôn ngữ tự nhiên có cấu trúc tối ưu cho việc học tập khung, và con người cũng là Người tạo khung bẩm sinh, sở hữu cơ chế tương tự cơ chế chú ý.</description>
+    </item>
+    
+    <item>
+      <title>Xã hội xáo trộn thời gian</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết bàn về hiện tượng &quot;Xã hội xáo trộn thời gian&quot;, xuất phát từ sự chênh lệch nhận thức về thời gian giữa các cá nhân do sự phát triển nhanh chóng của AI tạo sinh.  Trước đây, sự khác biệt này chủ yếu xuất phát từ yếu tố địa lý, kinh tế và thế hệ.  Tuy nhiên, AI tạo sinh đã làm trầm trọng thêm vấn đề, tạo ra khoảng cách nhận thức giữa những người nắm bắt được công nghệ mới và những người không, vượt qua các ranh giới quốc gia, văn hóa và thế hệ. Sự chênh lệch này không chỉ nằm ở lĩnh vực kỹ thuật mà còn lan rộng ra các ứng dụng, hệ thống và tác động kinh tế - xã hội của AI.  Tác giả chỉ ra sự khác biệt trong việc tiếp cận thông tin, khả năng đánh giá hiện trạng và dự đoán tương lai (tuyến tính hay cấp số nhân), cũng như sự ảnh hưởng của thành kiến cá nhân.  Việc giao tiếp và ra quyết định trở nên khó khăn do những khác biệt này.  Tác giả đề xuất hướng tới sự độc lập khỏi nhận thức thời gian trong thảo luận và ra quyết định, tập trung vào những điểm mấu chốt bất kể sự khác biệt về nhận thức thời gian.  Bài viết kết thúc bằng việc so sánh hiện tượng này với trò chơi Chrono Trigger, một ví dụ về sự hợp tác thành công giữa các nhóm với nhận thức thời gian khác nhau, gợi ý về khả năng hợp tác và vượt qua những khác biệt để giải quyết các vấn đề chung của xã hội.</description>
+    </item>
+    
+    <item>
+      <title>Kỷ nguyên Tư duy Mô phỏng</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về sự tiến bộ của trí tuệ nhân tạo (AI) tạo sinh trong việc cách mạng hóa phát triển phần mềm và mô phỏng. Tác giả giới thiệu khái niệm &quot;Nhà máy trí tuệ&quot;, một hệ thống sử dụng AI để tạo ra nhiều nội dung phái sinh từ nội dung gốc, được vận hành thông qua một ứng dụng web do tác giả tự phát triển.  Ông cũng đề cập đến &quot;Kỹ thuật đa năng&quot;, một phương pháp phát triển toàn diện các khía cạnh khác nhau của một hệ thống, và &quot;Liquidware&quot;, một dạng phần mềm linh hoạt và có thể tùy chỉnh cao nhờ AI.  Bài viết sau đó chuyển sang đề cập đến &quot;Phương pháp phát triển Hướng quy trình kinh doanh&quot;, tập trung vào tối ưu hóa cá nhân thay vì tối ưu hóa toàn bộ hệ thống, làm cho việc phát triển và bảo trì phần mềm trở nên đơn giản hơn.  Cuối cùng, bài viết mở rộng phạm vi sang lĩnh vực hệ thống mô phỏng, cho rằng AI tạo sinh không chỉ đơn giản hóa việc tạo ra các chương trình mô phỏng mà còn cho phép mô phỏng cả các yếu tố định tính, mơ hồ, và các tác nhân thông minh giống con người. Tác giả kết luận rằng AI tạo sinh đang dẫn đến một &quot;Kỷ nguyên Tư duy Mô phỏng&quot;, nơi các hệ thống mô phỏng được sử dụng rộng rãi để hỗ trợ việc ra quyết định, giải quyết vấn đề và thúc đẩy các cuộc thảo luận hiệu quả hơn, loại bỏ sự cần thiết của việc tranh luận dựa trên trực giác cá nhân và giả định.</description>
+    </item>
+    
+    <item>
+      <title>Trải nghiệm &amp; Hành vi</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về sự chuyển đổi trong kỹ thuật phần mềm, từ mô hình &quot;Kỹ thuật dựa trên đặc tả và triển khai&quot; truyền thống sang mô hình &quot;Kỹ thuật trải nghiệm và hành vi&quot;. Mô hình cũ tập trung vào việc đáp ứng các đặc tả và kiểm thử việc triển khai, trong khi mô hình mới nhấn mạnh vào trải nghiệm người dùng và hành vi của phần mềm.  Tác giả giới thiệu khái niệm &quot;Liquidware&quot;, mô tả phần mềm linh hoạt, thích ứng với từng người dùng nhờ sự phát triển tự động và tích hợp AI.  Liquidware lý tưởng sẽ mang lại trải nghiệm mượt mà, trực quan, gần như là một phần mở rộng của bản thân người dùng, tương tự như việc con người điều khiển cơ thể một cách tự nhiên, bất chấp sự phức tạp bên trong.  Kiểm thử hành vi trong mô hình mới không chỉ tập trung vào chức năng mà còn vào chất lượng trải nghiệm người dùng.  Bài viết cho rằng với sự phát triển của AI tạo sinh, việc xây dựng lại toàn bộ hệ thống trở nên khả thi hơn, dẫn đến sự cần thiết của một mô hình kỹ thuật mới tập trung vào trải nghiệm người dùng tối ưu.</description>
+    </item>
+    
+    <item>
+      <title>Kết tinh tri thức: Đôi cánh vượt ngoài sức tưởng tượng</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết trình bày khái niệm &quot;tinh thể tri thức&quot;, được định nghĩa là sự kết hợp toàn diện và nhất quán nhiều mẩu thông tin từ nhiều góc độ khác nhau, bao gồm cả các quy luật cơ bản.  Tác giả minh họa khái niệm này thông qua ví dụ về chuyến bay và vai trò của cánh. Chuyến bay được phân tích dựa trên các yếu tố: lực cản, lực đẩy, lực nâng, sử dụng năng lượng bên ngoài (gió, luồng khí) và năng lượng bên trong (động cơ, vỗ cánh). Tác giả chỉ ra cánh là yếu tố trung tâm, kết hợp tất cả các khía cạnh của chuyến bay.  Từ đó, tác giả đề xuất mô hình ba lớp tri thức: Hồ Tri thức (dữ liệu thô), Cơ sở Tri thức (dữ liệu đã được cấu trúc) và Hộp Đá Quý Tri thức (tinh thể tri thức).  Hộp Đá Quý Tri thức chứa những khám phá mới mẻ về mối quan hệ giữa các mẩu thông tin, không phải là kiến thức mới về mặt khoa học mà là sự kết hợp và tổ chức kiến thức theo cách thức mới.  Những tinh thể này sau đó có thể được biến thành các công cụ hữu ích trong Hộp Công cụ Tri thức, áp dụng vào thực tiễn. Tác giả nhấn mạnh tính dân chủ hóa tri thức, cho rằng bất kỳ ai cũng có thể đóng góp vào việc khám phá và kết tinh tri thức, và trí tuệ nhân tạo có thể hỗ trợ quá trình này. Cuối cùng, tác giả khẳng định tiềm năng to lớn của việc kết tinh tri thức trong việc mở ra những khả năng vượt xa sức tưởng tượng.</description>
+    </item>
+    
+    <item>
+      <title>Hệ thống Trí tuệ Học tập Nhân tạo: Khái niệm ALIS</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết giới thiệu Hệ thống Trí tuệ Học tập Nhân tạo (ALIS), một hệ thống kết hợp học tập bẩm sinh (học có giám sát của mạng nơ-ron) và học tập thu nhận (tích lũy kiến thức bên ngoài mạng nơ-ron). ALIS được định nghĩa bởi năm yếu tố: bộ xử lý thông minh (ví dụ: LLM, não người), kho lưu trữ tri thức, thế giới, bộ nhớ trạng thái, và khuôn khổ (cấu trúc tư duy).  Nguyên lý hoạt động của ALIS dựa trên việc bộ xử lý thông minh tương tác với thế giới, trích xuất kiến thức, lưu trữ trong kho lưu trữ tri thức, và sử dụng kiến thức này để điều chỉnh hành động. Bài viết đề xuất sử dụng kiến thức văn bản hóa bằng ngôn ngữ tự nhiên cho học tập thu nhận, bộ nhớ trạng thái, và khuôn khổ, tận dụng khả năng xử lý ngôn ngữ tự nhiên của LLM.  Ngoài ra, ALIS cũng có thể sử dụng kiến thức hình thức.  Bài viết đề xuất một thiết kế cơ bản của ALIS với giao diện người dùng là một AI trò chuyện, tích hợp cơ chế trích xuất kiến thức từ lịch sử trò chuyện, lưu trữ trong hồ tri thức, và sử dụng cơ sở tri thức cho tìm kiếm ngữ nghĩa.  ALIS được phát triển từng bước, linh hoạt.  Bài viết cũng đề cập đến việc cải thiện ALIS bằng bình luận tiền kiểm tra và hậu kiểm tra, chia sẻ kiến thức trên GitHub, và sử dụng hồ tri thức làm dữ liệu tiền huấn luyện cho LLM.  Cuối cùng, bài viết thảo luận về triển vọng của ALIS trong việc mở rộng ứng dụng vào nhiều lĩnh vực và khả năng trở thành một phần của AI có thân thể.</description>
+    </item>
+    
+    <item>
+      <title>Học máy ngôn ngữ tự nhiên</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết giới thiệu khái niệm &quot;học máy ngôn ngữ tự nhiên&quot;, một phương pháp học máy mới tận dụng Mô hình Ngôn ngữ Lớn (LLM) đã được tiền huấn luyện.  Khác với học máy truyền thống dựa trên dữ liệu số, học máy ngôn ngữ tự nhiên sử dụng ngôn ngữ tự nhiên làm phương tiện học tập. Bài viết trình bày một mô hình cơ bản của học máy ngôn ngữ tự nhiên, trong đó LLM được sử dụng để phân loại các câu đầu vào, và kết quả được lưu trữ trong một cơ sở tri thức.  Mô hình này được minh họa bằng ví dụ về việc phân chia nhiệm vụ giữa các phòng ban trong một công ty.  Tác giả so sánh học máy ngôn ngữ tự nhiên với học máy số học truyền thống, nhấn mạnh ưu điểm vượt trội của phương pháp mới về hiệu quả học tập. Học máy ngôn ngữ tự nhiên cần ít dữ liệu huấn luyện hơn, không cần lặp lại nhiều lần và không cần tiền xử lý dữ liệu.  Khả năng trừu tượng hóa ngôn ngữ của LLM cho phép tổng hợp thông tin từ nhiều chiều, làm tăng hiệu quả học tập.  Bài viết kết luận rằng, mặc dù tốc độ xử lý ngôn ngữ tự nhiên của LLM chậm hơn tính toán số học, nhưng hiệu quả học tập cao của học máy ngôn ngữ tự nhiên sẽ trở thành trọng tâm phát triển trong tương lai, đặc biệt khi hiệu suất của LLM dường như đang đến gần giới hạn cải thiện thông qua việc mở rộng quy mô đơn giản.</description>
+    </item>
+    
+    <item>
+      <title>Tự động tạo video thuyết trình từ bài đăng Blog</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết mô tả quá trình tự động tạo video thuyết trình từ bài đăng blog bằng AI tạo sinh. Quá trình này bao gồm việc tạo tài liệu thuyết trình định dạng SVG bằng AI, phát hiện và xử lý lỗi tràn văn bản thông qua một chương trình tự viết và AI kiểm tra, tạo kịch bản thuyết trình và chuyển đổi thành giọng nói, cuối cùng là ghép thành video MP4 bằng ffmpeg. Tác giả đã gặp nhiều thách thức trong việc tạo tài liệu thuyết trình chất lượng cao, đặc biệt là vấn đề tràn văn bản.  Để giải quyết vấn đề này, tác giả đã sử dụng nhiều phương pháp, bao gồm cung cấp hướng dẫn chi tiết cho AI, liên tục tinh chỉnh các nhắc nhở và xây dựng một chương trình riêng để phát hiện lỗi tràn văn bản.  Mặc dù hệ thống đã hoạt động hiệu quả, tác giả nhận thấy rằng các công ty lớn như Google cũng đã tích hợp tính năng tương tự vào sản phẩm của họ, dự đoán xu hướng phát triển dịch vụ tương tự trong tương lai.  Tuy nhiên, trải nghiệm này đã giúp tác giả hiểu rõ hơn về cách tận dụng AI tạo sinh hiệu quả.</description>
+    </item>
+    
+    <item>
+      <title>Cơ chế chú ý như Trí tuệ ảo vi mô</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết so sánh cơ chế chú ý trong Transformer với khái niệm &quot;trí tuệ ảo&quot;. Tác giả cho rằng cơ chế chú ý, bằng cách chọn lọc thông tin liên quan từ nhiều câu, tương tự như cách trí tuệ ảo sẽ chọn lọc kiến thức cần thiết cho một nhiệm vụ cụ thể.  Từ đó, tác giả gọi cơ chế chú ý là &quot;trí tuệ ảo vi mô&quot;, hoạt động ở cấp độ từ. Ngược lại, trí tuệ ảo ở cấp độ cao hơn có thể được thực hiện bằng &quot;cơ chế chú ý rõ ràng&quot;, một dạng chỉ dẫn ngôn ngữ tự nhiên chỉ rõ kiến thức cần thiết cho một nhiệm vụ (ví dụ: &quot;Khi thực hiện Nhiệm vụ A, tham khảo Kiến thức B và Kiến thức C&quot;). Cơ chế này có thể được AI tự động cập nhật dựa trên kết quả thực hiện nhiệm vụ.  Bài viết kết luận rằng cơ chế chú ý, với khả năng tập trung vào thông tin liên quan, là chìa khóa cho sự phát triển trí tuệ nhân tạo tiên tiến, mở rộng khả năng của AI từ cấp độ từ (vi mô) đến cấp độ nhiệm vụ (vĩ mô) thông qua các lớp đệ quy.</description>
+    </item>
+    
+    <item>
+      <title>Các chiều nhận thức không gian: Tiềm năng của AI</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về tiềm năng của AI trong việc nhận thức và xử lý dữ liệu đa chiều, vượt xa khả năng của con người.  Tác giả cho rằng con người nhận thức không gian 3 chiều bằng cách ánh xạ thông tin thị giác 2 chiều lên một mô hình 3 chiều trong tâm trí.  Tương tự, AI có thể được huấn luyện để nhận thức không gian 4 chiều hoặc thậm chí đa chiều, cho phép nó xử lý và hiểu các biểu đồ đa chiều một cách toàn diện, không bị hạn chế bởi sự biểu diễn 2 chiều của con người.  Khả năng này sẽ cho phép AI phân tích xu hướng, so sánh kích thước, tìm kiếm các mẫu dữ liệu và khám phá các quy luật trong dữ liệu đa chiều một cách hiệu quả hơn nhiều so với các phương pháp hiện tại.  Tác giả lập luận rằng việc nắm bắt dữ liệu đa chiều một cách nguyên bản, mà không cần ánh xạ xuống các chiều thấp hơn, có thể thúc đẩy đổi mới mô hình trong khoa học và dẫn đến việc khám phá các lý thuyết và quy luật mới.  Tuy nhiên, tác giả cũng thừa nhận rằng AI có thể khám phá ra các mô hình phức tạp vượt quá khả năng hiểu biết của con người, dẫn đến một tình huống mà con người sử dụng các công nghệ mà họ không hoàn toàn hiểu được.</description>
+    </item>
+    
+    <item>
+      <title>Kỷ Nguyên Trí Tuệ Giao Hưởng</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về việc ứng dụng AI tạo sinh trong các quy trình kinh doanh, đặc biệt tập trung vào hai loại công việc: công việc lặp lại và công việc dòng chảy.  Ban đầu, AI được xem như một công cụ hỗ trợ cho công việc lặp lại, nhưng hiệu quả bị hạn chế do con người vẫn là nút thắt cổ chai.  Để giải quyết vấn đề này, bài viết đề xuất chuyển đổi công việc lặp lại thành công việc dòng chảy được tiêu chuẩn hóa, cho phép hệ thống hóa và tối ưu hóa quy trình, đồng thời tích lũy kiến thức cho AI.  Đây là bước tiến quan trọng hướng tới tự động hóa.  Tiếp theo, bài viết giới thiệu khái niệm &quot;Trí tuệ ảo&quot;, mô tả khả năng của AI tạo sinh trong việc chuyển đổi vai trò và kiến thức trong một lần thực thi, tương tự như máy ảo.  Khả năng này, kết hợp với &quot;Điều phối trí tuệ&quot;, cho phép AI xử lý linh hoạt nhiều nhiệm vụ, dẫn đến khái niệm &quot;Trí tuệ giao hưởng&quot;, một giai đoạn phát triển cao của AI tạo sinh, có khả năng tự động học hỏi và thực hiện các tác vụ lặp lại phức tạp.  Tác giả cho rằng Trí tuệ giao hưởng là một bước tiến quan trọng hướng tới AGI (Trí tuệ nhân tạo tổng quát), nơi AI có thể học hỏi và thích ứng nhanh chóng với các tác vụ mới, vượt xa khả năng của con người.</description>
+    </item>
+    
+    <item>
+      <title>Điều phối trí tuệ ảo</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết trình bày khái niệm &quot;trí tuệ ảo&quot; như một dạng mô phỏng trí tuệ trên nền trí tuệ thực, tương tự như máy ảo trong công nghệ máy tính.  Tác giả so sánh &quot;điều phối hệ thống&quot; (sử dụng nhiều AI khác nhau) với &quot;điều phối thông minh&quot; (sử dụng một AI duy nhất nhưng mô phỏng nhiều vai trò trí tuệ ảo). Điều phối thông minh, được thực hiện thông qua các lệnh nhắc trong giao diện trò chuyện, cho phép linh hoạt và nhanh chóng hơn trong việc cải tiến và bổ sung tính năng so với điều phối hệ thống.  Điểm nhấn chính là &quot;suy xét tối thượng&quot;, một quá trình mà AI, nhờ điều phối thông minh, liên tục tinh chỉnh và điều chỉnh các vai trò trí tuệ ảo, từ đó đạt được sự suy xét sâu sắc hơn thông qua việc kết hợp nhiều góc nhìn thay vì chỉ dựa trên lượng thông tin khổng lồ.  Điều này dẫn đến việc nâng cao độ chính xác, mở rộng phạm vi tư duy và thúc đẩy khả năng sáng tạo. Tóm lại, trí tuệ ảo kết hợp với điều phối thông minh cho phép AI thực hiện các tác vụ phức tạp một cách hiệu quả hơn, tiệm cận khả năng của con người và mở rộng phạm vi ứng dụng trong nhiều lĩnh vực.</description>
+    </item>
+    
+    <item>
+      <title>Tư duy mô phỏng và Nguồn gốc sự sống</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết trình bày &quot;tư duy mô phỏng&quot; – một phương pháp tư duy tập trung vào việc theo dõi sự tích lũy và tương tác để hiểu kết quả của các quá trình phức tạp. Tác giả áp dụng tư duy này vào vấn đề nguồn gốc sự sống, đề xuất rằng sự sống bắt đầu từ sự tích lũy dần dần các chất hóa học phức tạp hơn trên Trái Đất cổ đại. Quá trình này được thúc đẩy bởi sự tuần hoàn nước và không khí, tạo ra các phản ứng hóa học lặp lại và tích lũy các chất hóa học phức tạp hơn từ các chất đơn giản.  Tác giả cho rằng sự hiện diện của đám mây bụi trên Trái đất cổ đại đã đóng vai trò quan trọng như một &quot;nhà máy monome tối thượng&quot;, bảo vệ các chất hóa học khỏi bức xạ cực tím và cung cấp năng lượng cho các phản ứng hóa học.  Bài viết lập luận rằng sự tích lũy này, chứ không phải một sự kiện ngẫu nhiên, là bước đầu tiên trong nguồn gốc sự sống và nhấn mạnh tầm quan trọng của việc xem xét các quá trình toàn cầu trong việc hiểu nguồn gốc sự sống. Cuối cùng, tác giả liên kết tư duy mô phỏng với phát triển phần mềm, cho rằng nó là một kỹ năng cần thiết cho các nhà phát triển phần mềm trong việc chuyển đổi yêu cầu của khách hàng (thường được diễn tả bằng ngôn ngữ tự nhiên) thành các hệ thống phần mềm hoạt động.</description>
+    </item>
+    
+    <item>
+      <title>Chuyển đổi công việc dòng chảy và Hệ thống: Bản chất của việc sử dụng AI tạo sinh</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết phân tích vai trò của AI tạo sinh trong việc nâng cao năng suất và chất lượng công việc, nhấn mạnh sự cần thiết phải chuyển đổi từ công việc lặp lại sang công việc dòng chảy và sau đó hệ thống hóa. Tác giả chỉ ra rằng việc đơn thuần sử dụng AI như một công cụ cho công việc lặp lại sẽ không mang lại hiệu quả tối đa. Thay vào đó, việc chuyển đổi sang công việc dòng chảy, với các bước được xác định rõ ràng và kết nối với nhau, tạo điều kiện cho việc hệ thống hóa và tự động hóa quy trình.  Cách mạng công nghiệp và cách mạng CNTT được dùng làm ví dụ minh họa cho quá trình này.  Tác giả giải thích rằng, trong khi con người khó thích ứng với việc thay đổi luồng công việc, AI tạo sinh lại có khả năng thích nghi cao hơn, dễ dàng được cấu hình lại và thực hiện các nhiệm vụ mới.  Bài viết đưa ra ví dụ về việc trả lời câu hỏi của nhân viên, chỉ ra sự hạn chế của việc chỉ sử dụng AI như một công cụ tìm kiếm và soạn thảo câu trả lời, và nhấn mạnh tầm quan trọng của việc chuyển đổi thành công việc dòng chảy để tối đa hóa hiệu quả. Cuối cùng, bài viết bác bỏ quan niệm sai lầm cho rằng việc ứng dụng AI tạo sinh trong kinh doanh còn quá sớm hoặc ít hiệu quả, giải thích rằng điều này thường xuất phát từ việc hiểu sai về vai trò của AI, chỉ xem nó như một công cụ cho công việc lặp lại chứ không phải là một phần của một hệ thống toàn diện.</description>
+    </item>
+    
+    <item>
+      <title>Kỹ sư đa năng trong kỷ nguyên phần mềm lỏng</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về sự ảnh hưởng của AI tạo sinh đến ngành phát triển phần mềm, đặc biệt là khả năng tự động hóa lập trình. Tác giả lập luận rằng AI tạo sinh đang làm giảm tầm quan trọng của lập trình viên chuyên về một ngôn ngữ cụ thể và mở ra kỷ nguyên &quot;Phần mềm lỏng&quot; (Liquidware). Phần mềm lỏng cho phép người dùng tùy chỉnh và sửa đổi chức năng phần mềm thông qua giao tiếp với AI, tạo ra một hệ thống linh hoạt và thích ứng cao. Điều này dẫn đến sự nổi lên của &quot;kỹ sư đa năng&quot;, những người có kiến thức rộng khắp nhiều lĩnh vực công nghệ và có khả năng giám sát toàn bộ hệ thống thay vì chỉ tập trung vào lập trình.  Tác giả đưa ra ví dụ về việc phát triển một ứng dụng web thương mại điện tử để minh họa cách tiếp cận đa năng này, bao gồm tích hợp cộng đồng người dùng, tương thích đa thiết bị và nền tảng, làm mới hệ thống kinh doanh và tương thích với phần mềm lỏng.  Bài viết kết luận rằng kỹ sư đa năng sẽ đóng một vai trò quan trọng trong tương lai, không chỉ trong lĩnh vực công nghệ thông tin mà còn mở rộng sang kinh doanh và xã hội.</description>
+    </item>
+    
+    <item>
+      <title>Số phận của tư duy: AI và con người</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết bàn luận về sự thay đổi trong mô hình phát triển phần mềm và tư duy con người trong thời đại AI. Tác giả đề xuất &quot;hướng quy trình&quot; là mô hình lập trình tiếp theo, vượt qua phương pháp hướng đối tượng, tập trung vào các quy trình như đơn vị lập trình cơ bản.  Mô hình này cho phép tối ưu hóa cá nhân, trái ngược với tối ưu hóa tổng thể truyền thống.  Tác giả cho rằng, tương tự như phần mềm, xã hội cũng sẽ chuyển sang mô hình &quot;xã hội tối ưu hóa cá nhân&quot;, nơi các quyết định được đưa ra dựa trên tình huống cụ thể hơn là các quy tắc chung.  Điều này đòi hỏi một &quot;triết học chủ quan&quot;, nơi suy ngẫm sâu sắc và trách nhiệm cá nhân trong mỗi quyết định trở nên quan trọng.  Khả năng thiết kế khung tư duy để giải quyết vấn đề cá nhân trở nên cần thiết.  Kết luận, ngay cả khi AI đảm nhận nhiều công việc trí óc, con người vẫn cần phải suy nghĩ nhiều hơn, để đưa ra các quyết định cá nhân, chịu trách nhiệm cho hành động của mình.  AI chỉ hỗ trợ, không thay thế tư duy con người.</description>
+    </item>
+    
+    <item>
+      <title>Lời mời đến với Phần mềm hướng quy trình kinh doanh</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết giới thiệu khái niệm &apos;phần mềm hướng quy trình kinh doanh&apos;, một phương pháp tiếp cận mới trong phát triển phần mềm, tập trung vào việc tích hợp sổ tay quy trình kinh doanh và dữ liệu đầu vào trong một tệp duy nhất.  Khác với phần mềm hướng đối tượng truyền thống, mô hình này coi tệp này như một &apos;phần mềm&apos; có thể thực thi bởi con người hoặc AI.  AI đóng vai trò hỗ trợ, tự động hóa các tác vụ, thông báo cho con người khi cần can thiệp và giúp cải thiện quy trình bằng cách tích lũy kiến thức từ các câu hỏi, phản hồi và yêu cầu cải tiến.  Phương pháp này loại bỏ sự tách biệt giữa sổ tay quy trình, hệ thống kinh doanh và dữ liệu đầu vào, giúp dễ dàng sửa đổi và bổ sung tính năng, tiết kiệm thời gian và chi phí.  Kết quả là một tổ chức &apos;học tập nhanh&apos;, hiệu quả hơn, nơi con người chỉ cần thực hiện các tác vụ tối thiểu thông qua giao diện thân thiện với người dùng, trong khi AI xử lý phần lớn công việc và thích nghi với những thay đổi nhanh chóng trong quy trình kinh doanh.  Bài viết đề xuất định dạng Markdown là một lựa chọn phù hợp cho tệp phần mềm này do tính dễ xử lý của nó với AI.</description>
+    </item>
+    
+    <item>
+      <title>Thiết kế Khung (Framework Design) với tư cách là một Năng lực Trí tuệ</title>
+      <link>https://katoshi-mfacet.github.io/vi/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/vi/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Bài viết thảo luận về thiết kế khung (framework design) như một năng lực trí tuệ, phân biệt nó với hoạt động học thuật truyền thống tập trung vào khám phá sự thật thông qua quan sát.  Tác giả lập luận rằng thiết kế khung là một hoạt động phát minh, tạo ra các khung khái niệm mới dựa trên tính hữu dụng chứ không phải tính đúng đắn, ví dụ như sự chuyển đổi giữa thuyết địa tâm và nhật tâm, hay sự phát triển của cơ học Newton, thuyết tương đối và cơ học lượng tử.  Những thay đổi mô hình này không phải là sự thay đổi tư duy hoàn toàn mà là sự gia tăng các lựa chọn hữu ích, nên được gọi là &apos;phát minh mô hình&apos; hoặc &apos;đổi mới mô hình&apos;.  Bài viết nhấn mạnh sự khác biệt về bộ kỹ năng giữa khám phá thông qua quan sát và phát minh thông qua thiết kế, cho rằng nhiều học giả thiên về kỹ năng quan sát hơn là kỹ năng thiết kế.  Tuy nhiên, các kỹ sư, đặc biệt là kỹ sư phần mềm, thường xuyên thực hiện thiết kế khái niệm trừu tượng, cho nên họ có khả năng sở hữu bộ kỹ năng cần thiết cho thiết kế khung học thuật, đòi hỏi sự xuất sắc trong thiết kế khái niệm trừu tượng và thói quen suy nghĩ về các mô hình thiết kế mới.</description>
+    </item>
+    
+  </channel>
 </rss>

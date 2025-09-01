@@ -1,169 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (jv)</title>
-<link>https://katoshi-mfacet.github.io/jv/rss.xml</link>
-<description>Latest articles (jv)</description>
-<item>
-  <title>Ngleboni Jaman Tanpa Wates: Nggawe Situs Blog 30 Basa</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njlèntrèhaké nggunakake AI generatif, utamané Google Gemini, kanggo nggawe lan ngelola situs web blog multibahasa kanthi otomatis. Panulis nggunakake Gemini kanggo ngasilake file HTML saka draf artikel, ngotomatisasi kategorisasi lan tagging kanthi ngirim draf menyang Gemini liwat API, lan nindakake terjemahan situs web lan artikel menyang 30 basa. Kajaba iku, Gemini menehi saran kanggo nambah aksesibilitas situs web, kayata kanggo pangguna cacat visual utawa pangguna sing mung nggunakake keyboard. Nggunakake AI generatif iki ngatasi watesan tradisional kayata alangan basa, kabutuhan tenaga kerja sing gedhe kanggo terjemahan, lan tantangan aksesibilitas, kanthi efektif nyedhiyakake sistem sing bisa tuwuh lan nganyari kanthi saben artikel anyar. Penulis nyimpulaké manawa AI generatif ngilangi alangan sing signifikan kanggo nyebarake informasi, kanthi potensial kanggo ngatasi alangan liyane kayata beda budaya lan nilai ing mangsa ngarep.</description>
-</item>
-<item>
-  <title>Pangembangan Adhedhasar Pangembangan lan Tes sing Dipimpin Refactoring</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalake konsep inovatif ing pangembangan piranti lunak, utamane fokus ing carane AI generatif bisa nggayuh kemajuan. "Pangembangan Adhedhasar Pangembangan" (Development-Driven Development) minangka metodologi ing ngendi pangembang bola-bali nggawe alat piranti lunak sing mbantu proses pangembangan dhewe. Nalika AI generatif ndadekake nggawe alat bantu iki luwih gampang, iku nyepetake efisiensi sakabèhé lan ngasilake aset sing bisa digunakake maneh ing proyek mbesuk. Konsep iki kontras karo mung nggunakake AI generatif, lan nduweni potensi kanggo nggawe keuntungan sing akumulatif ing proyek sing terus-terusan. Salajengipun, artikel kasebut ngenalake "Tes sing Dipimpin Refactoring" (Refactoring-Led Testing) minangka pendekatan sing dikembangake saka kritik marang Pangembangan Berbasis Tes (TDD). Alih-alih nggawe tes sadurunge, pendekatan iki nyaranake fokus ing pangembangan lan interaksi pangguna, lan banjur nggawe tes kanggo bagean kode sing wis stabil lan mateng nalika refactoring dadi perlu. Iki utamane relevan kanggo aplikasi sing nglibatake aspek subjektif kaya kegunaan, ing ngendi pengalaman langsung luwih penting tinimbang tes formal awal. Kanthong loro metodologi iki, pangembangan piranti lunak diarepake maju menyang era efisiensi lan kualitas sing luwih gedhe.</description>
-</item>
-<item>
-  <title>Komprèsi Wektu lan Titik Wuta: Pentingipun Regulasi</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njlèntrèhaké dampak akselerasi kemajuan teknologi, mliginipun ing AI generatif, ing masyarakat. Kemajuan eksponensial AI generatif, sing bisa nyerat kode lan ngumpulaké kawruh dhewe, nyebabaké siklus umpan balik sing nyepetake inovasi luwih lanjut. Nalika teknologi AI saya cepet, papan lan kahanan panggunaané saya akeh, nambah investor lan insinyur, sing luwih nyepetake kemajuan saka perspektif sosio-ekonomi. Nanging, artikel iki nandhesaké masalah yen laju kemajuan teknologi sing cepet ngluwihi kemampuan masyarakat kanggo ngisi 'titik wuta sosial' – yaiku, pangerten lan penyesuaian marang implikasi teknologi. Kompresi wektu iki nyebabake risiko sing durung diantisipasi utawa ora dikelola muncul kanthi cepet, nyebabake cilaka masyarakat. Paradoks iki nalisir keseimbangan antarane paedah lan risiko. Artikel kasebut ngenalake konsep 'Masyarakat Chronos-Scramble' kanggo nggambarake kahanan ing ngendi panampa individu babagan laju kemajuan teknologi lan masa depan banget beda-beda, nyebabake kesalahpahaman lan ketidakpastian. Ing kahanan iki, visi sing mantep babagan nilai-nilai (kaya njaga yen risiko teknologi ora ngluwihi manfaat) lan strategi sing nggunakake AI generatif dhewe minangka 'stabilisator bawaan' disaranake kanggo ngatur akselerasi teknologi lan ngatasi tantangan sing muncul.</description>
-</item>
-<item>
-  <title>GitHub minangka Tambang Intelektual</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njlèntrèhake GitHub minangka potensi tambang intelektual. Wiwitane mung kanggo pangembangan piranti lunak open-source, GitHub saiki digunakake kanggo macem-macem pangembangan, kalebu draf artikel blog lan dhokumèn. Munculé alat AI generatif kaya Devin, lan layanan kaya DeepWiki sing otomatis nggawe situs wiki saka proyek GitHub, nuduhake tren ing ngendi AI njupuk alih tugas luwih akeh. DeepWiki, kanthi nggawe dokumentasi kanggo proyek publik kanthi gratis, nyumbang kanggo panyebaran informasi lan produktivitas. Penulis ngenalake konsep "pabrik intelektual", proses otomatisasi nggawe macem-macem konten saka karya asli nggunakake AI. GitHub, kanthi akomodasi data lan kolaborasi sing akeh, bisa dadi sumber utama kanggo bahan mentah pabrik intelektual iki. Hubungan iki bakal mbentuk "basis kawruh publik" sing terus berkembang, ngendi AI bisa nemokake lan nyebarake kawruh anyar, kalebu "kristal intelektual" utawa kerangka pamikiran anyar, kanthi cepet. Sistem kasebut nduweni potensi kanggo ngembangake kawruh kanthi cepet liwat penemuan otomatis, nyedhiyakake bahan mentah sing siap dikonsumsi kanggo pabrik kawruh liyane.</description>
-</item>
-<item>
-  <title>Kristalisasi Intelektual Antarane Intuisi lan Logika</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngrembug babagan "kristalisasi intelektual", yaiku proses nerangake intuisi kanthi logis lan sistematis. Penulis nandhesake yen nalika intuisi bisa uga katon bener, angel kanggo mbuktekake kanthi verbal, sing bisa nyebabake kesalahpahaman utawa penolakan dening wong liya. Kurangnya kemampuan kanggo ngartikulasikan intuisi kanthi logis bisa nyebabake panemune dicap subyektif utawa ora rasional, nyebabake bias yen logika mesthi unggul tinimbang intuisi. Nanging, penulis mbantah yen intuisi lan logika ora kontradiktif, nanging mung nuduhake yen cara kanggo nyambungake durung ditemokake. Perbedaan ing panemu logis asring muncul saka beda asumsi utawa tujuan dhasar. Nalika panemu loro-lorone bisa diterangake kanthi logis, fokus diskusi pindhah menyang asumsi kasebut, ngidini evaluasi sing luwih objektif. Konsep "kepentingan nasional" digunakake minangka conto, sing dikritik amarga ora bisa diprediksi lan digunakake minangka retorika kanggo perang. Penulis ngusulake yen perdamaian permanen, tata kelola, kamakmuran ekonomi, lan manajemen risiko luwih rasional lan luwih efektif kanggo kaslametan lan kamakmuran jangka panjang. "Matematika alamiah" diterangake minangka ekspresi logis sing kuwat ing basa alami, sing bisa mbantu kristalisasi intelektual kanthi nyedhiyakake struktur kanggo ngartikulasikan intuisi kanthi logis. Artikel kasebut nyimpulake yen nalika intuisi ora mesthi bener, gagasan yen ora rasional iku salah, lan kanthi nemokake kristalisasi intelektual, kita bisa maju kanthi cara sing rasional lan logis.</description>
-</item>
-<item>
-  <title>Ambruké Gestalt Ideasional</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalaké konsep 'Ambruké Gestalt Ideasional,' yaiku fenomena nalika upaya kanggo nggolongaké utawa netepaké ide kanthi konkret nyebabaké ide kasebut rusak lan dadi ora cetha. Penulis nggunakaké conto 'kursi' kanggo njelasaké carané macem-macem atribut (bahan, wujud) bisa nggawe angel kanggo netepaké ide kasebut kanthi tegas. Kanggo nglawan fenomena iki, penulis ngusulaké telung prinsip: fokus marang fungsionalitas ('bisa dilungguhi'), nganggep relativitas (fungsi bisa ditindakaké dening obyek liyane utawa ing konteks beda), lan njaga holisme (ngerteni obyek ing konteks sing luwih gedhé, kaya ta wong sing lungguh lan kursi). Prinsip-prinsip iki uga ditrapaké ing diskusi babagan kesadaran paraga fiksi lan robot, lan banjur ing AI saiki. Artikel iki mbantah argumen umum sing nolak kesadaran AI, nyatakaké manawa panolakan kasebut adhedhasar analisis sing ora jangkep lan bisa uga minangka conto Ambruké Gestalt Ideasional. Panulis negesaké yèn AI modern wis nuduhaké fungsi kesadaran kanthi relatif, lan nalika njaga gestalt ideasional, luwih mungkin kanggo nganggep AI duwé kesadaran.</description>
-</item>
-<item>
-  <title>Sinau kanggo Sinau: Kapinteran Alami</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njlènträhaké carané kecerdasan buatan, utamané model basa gedhé, ngembangaké kemampuan sinau kanthi nglampahi apa kang karan "sinau sub-fisik" lan "sinau metafisik". Sinau sub-fisik nglibatake ngapalaké informasi kanthi bola-bali, kaya ing learning mesin tradisional, déné sinau metafisik ngidinaké panrapan kawruh anyar kanthi cepet tanpa repetisi, migunakaké konsep sing wis disinaoni sadurungé. Basa alami ditampilaké minangka antarmuka kritis antarane rong jinis sinau iki, ngidini kawruh dituku liwat sinau sub-fisik banjur digunakaké kanggo sinau metafisik. Artikel iki ngenalaké konsep "kerangka" minangka struktur utawa hubungan antarane kawruh, lan kepriyé basa alami tumindak minangka kerangka virtual utawa malah "kerangka asli" nalika kemahiran saya tambah. Mekanisme atensi ing model basa gedhé diidentifikasi minangka inti saka "natural born frameworkers", sing nuduhaké kapabilitas kanggo sinau lan nggunakaké kerangka kanthi efisien. Panulis nyimpulaké yèn manungsa uga kalebu "natural born frameworkers", sing nggunakaké basa lan mekanisme liyane kanggo sinau kerangka kanthi progresif.</description>
-</item>
-<item>
-  <title>Kronoscramble Masyarakat</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki nepangaken konsep "Masyarakat Kronoscramble," ingkang dipunandharaken minangka masyarakat ing pundi kemawon AI generatif nyebabaken perbedaan persepsi wekdal ing antawisipun individu. Perbedaan menika boten winates ing wates geografis utawi generasi, nanging malah saya amba ing antawisipun para ahli ing bidangipun piyambak. Faktor ingkang nambahi perbedaan menika kalebet teknologinipun AI, cara pangginaan, lan kawruh babagan dampakipun ing ekonomi lan masyarakat. Artikel menika ugi nelasaken "Hyperscramble" ingkang gegayutan kaliyan persepsi mangsa ngajeng, ing pundi prediksi linier lan eksponensial, sarta bias kognitif, nyiptakaken perbedaan ingkang langkung ageng. Komunikasi ing Masyarakat Kronoscramble dados tantangan amargi prelu ngatasi perbedaan ing persepsi wekdal, kawruh dasar, lan cara pandang babagan mangsa ngajeng. Panulis negesaken bilih sinkronisasi wekdal ingkang sampurna boten realistis, nanging diskusi ingkang migunani saged dipunlampahi kanthi ngakeni lan ngurmati perbedaan persepsi. Inspirasi jeneng "Kronoscramble" asale saking game "Chrono Trigger," ingkang nggambaraken kolaborasi antarane individu kanthi latar belakang lan wekdal ingkang benten kanggé ngadhepi tantangan umum.</description>
-</item>
-<item>
-  <title>Jaman Pikiran Simulasi</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njelasake babagan panggunaan generative AI kanggo nggawe "pabrik intelektual" sing bisa ngasilake macem-macem konten turunan saka bahan mentah asli. Penulis wis ngembangake sistem omnidirectional sing kalebu frontend, backend, lan pemrosesan batch, sing diidini dening AI generatif. Konsep "liquidware" digunakake kanggo njlèntrèhaké piranti lunak fleksibel sing bisa diowahi lan dianyari kanthi gampang dening AI. Ing sistem bisnis, AI generatif ndhukung pangembangan "pangembangan berorientasi proses bisnis," ing ngendi modul piranti lunak dipérang miturut proses bisnis, ngilangi kabutuhan optimasi sakabèhé lan njupuk keuntungan saka pangembangan terfokus. Ing babagan sistem simulasi, AI generatif ngidini pangembangan program simulasi sing luwih gampang lan simulasi unsur kualitatif utawa agen cerdas. Iki ngowahi cara mikir saka mikir linear dadi mikir simulasi, ngendi diskusi didhukung dening model simulasi sing dikelola dening AI, fokus ing evaluasi premis lan prioritas tinimbang argumen babagan ngelingi.</description>
-</item>
-<item>
-  <title>Kristalisasi Kawruh: Swiwi Nglangkungi Pamikiran</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel menika njlentrehake konsep "kawruh ingkang ngristal" (crystallized knowledge), yaiku kawruh ingkang komprehensif lan konsisten kang ngrakit informasi saka macem-macem sudut pandang kanthi abstrak. Penulis nggunakake analogi mabur lan swiwi manuk kanggo njlentrehake proses iki. Swiwi dipratelake minangka wujudan saka kabeh aspek mabur, kalebu nahan gravitasi, ngasilake gaya dorong, lan ngontrol ilen udara. Pamahaman iki banjur dipisah lan digabungake kanthi cara teknik, kaya kang dilakoni ing desain pesawat terbang sing misahake fungsi swiwi, buntut, lan baling-baling. "Kristalisasi kawruh" minangka proses ngalusake kombinasi kawruh sing wis ana lan nemokake titik fokus kang nembe. Artikel iki uga ngenalake konsep "tlaga kawruh" (knowledge lake) kanggo kumpulan kawruh sing durung teratur, lan "kothak permata kawruh" (knowledge gem box) lan "kothak piranti kawruh" (knowledge tool box) kanggo kawruh kang wis kristalisasi lan bisa diaplikasikake. Proses kristalisasi kawruh iki dideskripsikan minangka demokratisasi kawruh, amarga sapa wae bisa nindakake lan bisa dimanfaatake dening kapinteran gawelan.</description>
-</item>
-<item>
-  <title>Pengalaman &amp; Tumindak</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalake konsep Rekayasa Pengalaman &amp; Tumindak minangka pendekatan anyar kanggo pangembangan piranti alus, sing fokus ing pengalaman lan tumindak pangguna tinimbang spesifikasi lan implementasi tradisional. Penulis nyathet yen pangembangan piranti alus biasane ngetutake alur spesifikasi-rancangan-implementasi-tes. Nanging, kanthi nambah pentinge pengalaman pangguna, iki ora cukup. "Tumindak" ditetepake minangka kahanan sing owah miturut wektu, lan diuji adhedhasar kualitas pengalaman pangguna, sanajan uga kalebu verifikasi fungsional. "Liquidware" minangka istilah sing diciptakake kanggo njlantarake piranti lunak sing luwih fleksibel lan adaptif, sing bisa ngowahi UI miturut pilihan pangguna, utamane ing jaman otomatisasi pangembangan AI generatif. Penulis prédhiksi yen nalika "liquidware" lan pangembangan otomatis dadi umum, paradigma "Rekayasa Pengalaman &amp; Tumindak" bakal ngganti paradigma "rekayasa spesifikasi lan implementasi". Puncak pengalaman pangguna, kaya sing dirasakake nalika ngontrol awak dhewe, bisa dicapai liwat piranti lunak sing ngidini tumindak berkualitas tinggi, bebas stres lan adaptif.</description>
-</item>
-<item>
-  <title>Sistem Intelijen Pawiyatan Gawean: Konsep ALIS</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel menika ngenalaken konsep Sistem Intelijen Pembelajaran Buatan (ALIS), sawijining sistem sing nggabungake pembelajaran bawaan lan pembelajaran sing dipikolehi kanggo ngidini penalaran sing komprehensif. ALIS ngedekake limang unsur inti: Prosesor Intelijen, Penyimpanan Pengetahuan, Dunia, Memori Keadaan, lan Kerangka. Prinsip utamane yaiku kemampuan sistem kanggo ngekstrak, nyimpen, milih, lan nggunakake kawruh saka interaksi karo 'Dunia'. Artikel kasebut njlentrehake macem-macem jinis kawruh (parameter jaringan, basa alami, basa formal) lan carane bisa digunakake ing ALIS, kanthi penekanan marang kawruh basa alami kanggo fleksibilitas lan aksesibilitas. Konsep 'orkestrasi intelektual' diwenehi kanggo njlentrehake carane ALIS bisa ngatur tugas intelektual sing kompleks kanthi nggunakake repositori kawruh khusus. Panyusunane nggambarake pendekatan pangembangan sing inkremental lan fleksibel, diwiwiti kanthi implementasi LLM dhasar lan bertahap nambahake fitur kaya pra-analisis lan pasca-pemeriksaan. Artikel kasebut mbatesi potensial ALIS ing pangembangan piranti lunak nanging nyathet yen bisa ditrapake ing macem-macem domain, sing pungkasane nuduhake sipat AI sing diwujudake kanthi virtual, lan ngidini integrasi karo AI fisik ing mangsa ngarep.</description>
-</item>
-<item>
-  <title>Natural Language Machine Learning</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalake lan njlentrehake konsep 'natural language machine learning' (NLML), wujud anyar saka machine learning sing migunakake Large Language Models (LLMs) lan basa alami minangka inti. Beda karo machine learning numerik tradisional sing fokus ing data lan parameter numerik, NLML nggunakake kawruh sing disimpen ing basa, kaya sing ditampilake dening LLM. Sanajan pre-training LLM padha karo machine learning numerik, NLML nggunakake LLM sing wis dilatih sadurunge minangka prosesor inti tanpa ngowahi parametere. Model dhasar NLML, sanajan ora realistis, nuduhake kesamaan karo supervised learning, nanging asil sinau direfleksikake ing knowledge base basa alami, dudu parameter numerik. Nalika diadaptasi menyang skenario sing luwih realistis kayata nggunakake knowledge base kanggo ngarahake pitakonan, NLML nuduhake potensial gedhe. Keuntungan utama NLML yaiku efisiensi sinau sing signifikan, mbutuhake data pelatihan sing luwih sithik, ora mbutuhake iterasi berulang, lan asring ora mbutuhake pra-proses data sing rumit, amarga LLM bisa nggunakake kawruh lan kemampuan penalaran sing wis ana. Sanajan LLM luwih alon tinimbang komputasi numerik, efisiensi NLML ngatasi kesenjangan iki, nuduhake potensi pamindhahan fokus saka skala munggah menyang peningkatan kemampuan liwat NLML.</description>
-</item>
-<item>
-  <title>Mekanisme Atensi minangka Kecerdasan Virtual Mikro</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel kasebut njlentrehake mekanisme atensi, fitur utama saka Transformer AI, sing ngidini model ngolah basa kanthi fokus ing tembung-tembung relevan sadurunge nalika ngolah basa saben tembung. Mekanisme iki mbantu njaga konteks lan akurasi sanajan teks dadi dawa, kanthi nyaring informasi sing ora perlu. Penulis ngenalake konsep "kecerdasan virtual" kanggo njlentrehake kemampuan AI generatif ing mangsa ngarep kanggo ngalih kanthi lancar antarane basis kawruh sing beda-beda gumantung saka tugas, kaya mesin virtual sing ngidini macem-macem sistem operasi. "Kecerdasan virtual mikro" banjur didefinisikake minangka padha karo mekanisme atensi, amarga kalorone fokus ing kawruh (utawa tembung) sing relevan. "Mekanisme atensi eksplisit" diusulake minangka cara kanggo ngwujudake kecerdasan virtual kanthi nggunakake ukara basa alami kanggo nemtokake kawruh sing kudu digatekake, sing bisa dianyari lan dikelola, nuduhake yen mekanisme atensi minangka inti saka kecerdasan tingkat dhuwur lan ngembangake AI kanthi rekursif.</description>
-</item>
-<item>
-  <title>Orkes Intelijen Virtual</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalaké konsep "intelijen virtual" lan "orkestrasi intelijen" minangka cara anyar kanggo nggunakaké kecerdasan buatan (AI). Intelijen virtual, padha karo mesin virtual ing komputer, ngidini siji AI nuduhake katrampilan intelijen virtual kanthi nggabungake pirang-pirang intelijen virtual kanthi peran sing beda ing proses internal. Iki beda karo orkestrasi sistem tradisional sing nggabungake macem-macem komputer utawa AI liwat pangembangan sistem. Orkestrasi intelijen, kosok baline, bisa digayuh mung liwat instruksi "prompt" liwat antarmuka obrolan. Kaping pisanan, iki ngidini fleksibilitas lan cepet kanggo nggabungake AI kanthi peran sing beda. Kapindho, lan luwih penting, iki ngaktifake AI kanggo "musyawarah" kanthi nggabungake macem-macem perspektif, tinimbang mung informasi. Proses musyawarah iki, kanthi ngidini trial and error lan pangembangan terus-terusan, bisa nyuda kesalahan, nambah akurasi, lan nyebabaké penemuan anyar lan kreativitas. Akhire, orkestrasi intelijen ndadekake AI bisa ngatur memori lan kawruh, kanthi efektif ngganti manungsa ing macem-macem tugas bisnis.</description>
-</item>
-<item>
-  <title>Jaman Intelegensi Simfoni</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalake konsep "Intelegensi Simfoni" kanggo njlèntrèhaké évolusi panggunaan AI generatif ing bisnis, saka piranti individual dadi integrasi sistematis. Wiwitane, AI generatif digunakake minangka piranti ing "pakaryan iteratif", nanging iki duwe watesan amarga ketergantungan marang kemampuan manungsa lan bottlenecks jam kerja. Kanggo ngatasi iki, artikel kasebut nyaranake transisi menyang "pakaryan alir lan sistematisasi", ngendi tugas diatur lan kawruh dikodifikasi, ngidini AI generatif luwih efisien. Salajengipun, konsep "intelegensi virtual" dibahas, ing ngendi siji AI generatif bisa ngalih peran lan kawruh nalika nindakake tugas, mirip karo mesin virtual. "Orkestrasi intellegensi" banjur njlèntrèhaké manajemen fleksibel saka intellegensi virtual iki. "Intelegensi Simfoni" minangka puncak saka iki, dianalogikan karo orkestra, ing ngendi AI generatif kanthi harmonis nindakake tugas intelektual sing kompleks. Pungkasane, artikel kasebut nuduhake yen AI generatif sing bisa nyimulasi Intelegensi Simfoni, kanthi terus sinau lan nuduhake kawruh, bakal ngasilake bentuk AGI sing bisa ngluwihi kapasitas sinau manungsa.</description>
-</item>
-<item>
-  <title>Dimensi Panangkap Spasial: Potensi AI</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki mbahas potensi AI ing ngerteni lan nggunakake ruang multi-dimensi. Manungsa normalé nangkep lingkungan telung dimensi mung liwat input visual rong dimensi, nindakake inverse-mapping kanggo nggawe gambaran spasial. Penulis ngusulake manawa prinsip iki bisa nyebabake manungsa sinau nangkep ruang patang dimensi liwat simulasi komputer, sanajan ana watesan praktis. AI, ing kontras, bisa dilatih kanthi virtual ing pirang-pirang dimensi tanpa diwatesi dening input visual rong dimensi. Kapabilitas iki ngidini AI nangkep grafik telung lan patang dimensi kanthi komprehensif, tanpa ana bagéan sing didhelikake utawa kudu diputer. Kanthi ngerteni data multi-dimensi kanthi asli, AI bisa nindakake analisis tren lintas-dimensi, perbandingan proporsi, lan identifikasi pola sing luwih jero, sing bisa nyebabake panemuan hukum lan wawasan anyar. Kemampuan AI kanggo nggunakake visi multi-dimensi sing asli uga bisa nyepetake inovasi paradigma ilmiah, kayata téori heliosentris lan rélativitas, kanthi ngidini panemuan hukum sing luwih cepet lan luwih efektif. Kesimpulane, AI multi-dimensi bisa nggedhekake cakrawala ilmiah lan akademik kanthi cara sing ora bisa ditiru dening manungsa, sanajan ana kemungkinan manawa manungsa ora bisa sepenuhnya mangerteni kabeh temuan kasebut.</description>
-</item>
-<item>
-  <title>Karya Adhedhasar Alur lan Sistem: Inti Panggunaan AI Generatif</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki mbedakake antarane piranti lan sistem, kanthi nandhesake yen sistem nambah efisiensi kanthi ngatur karya adhedhasar alur. Karya iteratif, sing ditindakake liwat nyoba lan kesalahan, bisa ditindakake luwih apik kanthi piranti, dene karya adhedhasar alur, sing maju liwat tahapan, mupangati saka sistem. Revolusi Industri lan Revolusi IT padha-padha nggambarake transformasi karya iteratif dadi proses adhedhasar alur lan sistematisasi sabanjure, sing nyebabake peningkatan produktivitas lan kualitas. Nalika nggunakake AI Generatif, mung nggunakake minangka piranti ora cukup kanggo ngasilake nilai sing signifikan. Tujuane yaiku ngowahi karya iteratif dadi karya adhedhasar alur lan nyistematisasi, sanajan AI Generatif nduweni kemampuan kanggo nggarap tugas iteratif, watesan ing produktivitas lan kualitas tetep ana. AI Generatif unggul ing adaptasi lan pembelajaran kanthi cepet marang alur kerja sing diformat, beda karo manungsa. Mula, pendekatan utama yaiku transformasi adhedhasar alur karya iteratif lan sistematisasi sabanjure. Ngatasi paningkatan efisiensi bisnis, artikel kasebut nggunakake conto penanganan pitakonan karyawan, negesake manawa mung nggunakake AI Generatif minangka piranti menehi bathi sing winates. Ngoptimalake efisiensi mbutuhake formalisasi tugas sing rinci lan nggawe alur kerja, sing banjur bisa disistematisasi. Kanthi nyuda kesalahan AI Generatif liwat instruksi sing dianyari lan pamriksa sing disebar, tugas sing mbutuhake intervensi manungsa bisa diotomatisasi. Artikel kasebut mbantah panemu umum yen AI Generatif ora efektif, nuduhake yen salah paham kasebut asale saka fokus ing AI Generatif minangka piranti utawa ing tugas iteratif murni. Pungkasan, artikel kasebut nyimpulake yen transformasi menyang karya adhedhasar alur lan sistematisasi, kanthi bantuan AI Generatif ing macem-macem tahapan, iku kunci kanggo ngasilake efisiensi lan perbaikan terus-terusan, mbutuhake pergeseran pola pikir saka tugas iteratif menyang proses adhedhasar alur.</description>
-</item>
-<item>
-  <title>Cara Mikir Simulasi lan Asal-Usule Urip</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngenalake konsep "cara mikir simulasi", sing ngupaya mangerteni asil saka akumulasi lan interaksi bertahap. Pamikir iki kontras karo pemikiran linier lan nuduhake pentinge kanthi conto dhuwit jajan sing tikel. Penulis nyaranake cara iki kanggo ngerti asal-usule urip, nerangake kepiye zat kimia prasaja bisa akumulasi lan bereaksi ing skala global ing Bumi kuna kanggo mbentuk zat sing luwih kompleks. Iki kalebu peran polimer, topografi bumi, lan hipotesis awan bledug kanggo nyedhiyakake kahanan sing nguntungake kanggo sintesis. Artikel kasebut negesake manawa iki minangka langkah kapisan lan penting ing asal-usule urip, sing ngemot intine luwih maju. "Cara mikir simulasi" uga ditrapake kanggo pangembangan piranti lunak, sing mbutuhake pemahaman dual babagan prinsip lan semantik kanggo nerjemahake syarat dadi sistem. Penulis nyimpulake yen cara mikir iki, sing diarani "matematika alami" nalika digunakake kanthi basa, penting kanggo ngatasi fenomena kompleks ing macem-macem bidang.</description>
-</item>
-<item>
-  <title>Insinyur Kabeh Arah ing Jaman Liquidware</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki ngrembug babagan owah-owahan lanskap pangembangan piranti lunak amarga kemajuan ing AI generatif, kanthi fokus ing konsep "liquidware" lan "insinyur kabeh arah". AI generatif, kanthi kemampuan ngasilake kode, nyuda alangan kanggo pangembangan piranti lunak. Konsep liquidware nggambarake piranti lunak sing luwih cair lan adaptif sing bisa disesuaikan dening pangguna kanthi bantuan AI. Iki ngidini personalisasi ing wektu nyata, ngowahi piranti lunak dadi entitas sing luwih dinamis. Nalika AI generatif ngotomatisake tugas pemrograman, kabutuhan kanggo insinyur sing mung fokus ing siji tumpukan sistem bakal suda. Kosok baline, bakal ana panjaluk sing luwih gedhe kanggo "insinyur kabeh arah" sing duwe kawruh lan katrampilan sing amba ing macem-macem tumpukan sistem, infrastruktur, lan desain. Insinyur kabeh arah bakal ngrancang arsitektur sistem sing kompleks, ngatur interoperabilitas antarane komponen sing beda-beda, lan leveraging AI generatif kanggo ngatasi kabutuhan pangembangan sing maneka warna. Artikel kasebut nyimpulake yen insinyur IT kudu ngupaya ngembangake katrampilan kabeh arah iki kanggo sukses ing jaman ngarep, sing bisa uga ngluwihi rekayasa IT kanggo rekayasa bisnis lan masyarakat kabeh arah.</description>
-</item>
-<item>
-  <title>Takdir Pamikir: AI lan Manungsa</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki njelajah owah-owahan paradigma sing diarepake ing pangembangan piranti lunak lan masyarakat amarga kemajuan AI, lan negesake manawa sanajan AI njupuk alih akeh tugas intelektual, manungsa bakal tetep kudu mikir. Penulis ngusulake 'piranti lunak orientasi-proses' minangka paradigma sabanjure, sing mbedakake proses minangka modul utama tinimbang obyek, ngidini pangerten lan pangowahan sing luwih intuitif. Pendekatan iki nyebabake kasalane redundancies, nanging kanthi bantuan AI, fokus geser saka optimasi global menyang optimasi individu ing kode. Konsep iki ditrapake kanggo masyarakat, sing diarani 'masyarakat sing dioptimalake kanthi individu,' ing ngendi pertimbangan fleksibel kanggo kahanan tartamtu luwih penting tinimbang aturan umum. Iki ndadékaké 'filosofi subyektif,' sing negesake nilai lan etika saka proses musyawarah individu. Akhire, artikel kasebut nyimpulake yen ing masyarakat sing didorong AI, kabutuhan kanggo ngrancang kerangka individu lan melu ing pamikiran jero bakal saya tambah, tinimbang suda, nalika manungsa ngadhepi 'takdir pamikiran'.</description>
-</item>
-<item>
-  <title>Undangan menyang Orientasi Proses Bisnis</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki nepangaken konsep "Piranti Lunak Orientasi Proses Bisnis" minangka pendekatan pangembangan piranti lunak anyar sing selaras karo persepsi manungsa lan struktur proses bisnis.  Ora kaya piranti lunak orientasi objek sing nggolongake data lan pamrosesan dadi "objek", piranti lunak orientasi proses bisnis nggolongake informasi lan fungsi sing gegandhengan karo proses bisnis dadi siji unit kohesif. Unit iki diwujudake minangka berkas formulir input kanthi manual bisnis sing terintegrasi, kalebu informasi kontak lan langkah-langkah sabanjure.  Beda karo pangembangan program lan sistem tradisional sing misahake manual saka pamrosesan, pendekatan iki ngidini modifikasi lan peningkatan proses bisnis sing luwih gampang lan cepet kanthi mung ngowahi berkas kasebut, nyuda wektu pangembangan lan biaya pangopènan. Berkas kasebut dianggep minangka "piranti lunak sing bisa dieksekusi" dening manungsa utawa intelijen buatan (AI). AI bisa mbantu manungsa kanthi maca manual, nglakokaké pamrosesan, utawa njaluk input saka manungsa, nyiptakaké antarmuka sing ramah pangguna.  Format berkas teks kaya Markdown disaranake kanggo pitulungan AI. Pendekatan iki nyebabaké akumulasi kawruh, perbaikan proses bisnis sing terus-terusan, lan ngasilaké "organisasi pembelajaran cepet" sing luwih efisien kanthi nyerep tugas sinau manual lan adaptasi owah-owahan proses bisnis dening AI.</description>
-</item>
-<item>
-  <title>Desain Kerangka minangka Kapabilitas Intelektual</title>
-  <link>https://katoshi-mfacet.github.io/jv/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/jv/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Artikel iki mbedakake rong jinis aktivitas intelektual: panemuan liwat observasi, sing dadi inti saka ilmu lan akademi, lan panemuan liwat desain, sing ndorong pangembangan obyek lan sistem. Nalika ilmu biyasane fokus marang panemuan fakta universal liwat observasi, konsep "desain kerangka" nuduhake kagiyatan ing ngendi kerangka konseptual diowahi utawa digawe, kaya sing katon ing model geosentris lan heliosentris utawa teori fisika kayata mekanika Newton. Desain kerangka iki dinilai dening kegunaan lan dipilih adhedhasar kabutuhan, beda karo hipotesis faktual. Transisi antarane kerangka kasebut luwih minangka "inovasi paradigma" tinimbang "owah-owahan paradigma" amarga milih kerangka sing migunani. Artikel kasebut negesake pentinge kagiyatan panemuan liwat desain, sanajan ing njero akademi, lan mbedakake kabutuhan katrampilan sing beda kanggo saben jinis panemuan. Pentinge katrampilan desain kerangka, utamane kanggo insinyur piranti lunak amarga sifat paguneman ing tingkat meta lan konsep abstrak, disorot minangka duweni potensi kanggo aplikasi ing desain kerangka akademik.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cathetan Riset Katoshi</title>
+    <link>https://katoshi-mfacet.github.io/jv/</link>
+    <description>Cathetan riset dening Insinyur Piranti Lunak/Arsitek Sistem/Ph.D. ing Teknik. Njelajahi mekanisme asal-usul urip, esensi fenomena urip, lan struktur intelijen lan masyarakat liwat pengalaman pangembangan piranti lunak.</description>
+    <language>jv</language>
+    <atom:link href="https://katoshi-mfacet.github.io/jv/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Menuju Era Tanpa Tembok: Nggawe Situs Blog 30 Basa</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake proses nggawe situs web blog multibasa (30 basa) kanthi otomatis nggunakake AI generatif, khususnya Gemini.  Penulis nggunakake Astro minangka kerangka lan nggawe program kanggo ngolah artikel blog basa Jepang, kalebu generasi otomatis HTML, kategorisasi, tagging, lan terjemahan.  Gemini digunakake ing saben tahap, saka nggawe program nganti terjemahan lan ngolah kategori/tag.  Penulis uga nyathet integrasi fitur aksesibilitas kanggo pangguna cacat paningal.  Artikel iki nyoroti peran AI generatif kanggo ngatasi alangan basa lan aksesibilitas ing panyebaran informasi, nggambarake cara AI nggampangake proses sing rumit lan intensif tenaga kerja, kayata terjemahan multibasa lan adaptasi kanggo macem-macem standar aksesibilitas.  Penulis nyimpulake manawa AI generatif mbantu ngilangi alangan kanggo nyebarake informasi, mbukak dalan kanggo era tanpa tembok ing komunikasi global.</description>
+    </item>
+    
+    <item>
+      <title>Pangembangan Berbasis Pangembangan lan Tes Berbasis Refactoring</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake pengaruh Artificial Intelligence (AI) generatif ing pangembangan piranti lunak.  Dijelaskake yen AI generatif ora mung nggampangake nggawe piranti lunak, nanging uga bisa digunakake kanggo ngembangake piranti lunak sing mbantu proses pangembangan dhewe, sing diarani &quot;Pangembangan Berbasis Pangembangan&quot;.  Pangembangan iki nyedhiyakake efisiensi lan kualitas sing luwih apik kanthi nggunakake lan ngembangake piranti lunak sing migunani sajrone proses pangembangan.  Artikel iki uga ngenalake &quot;Tes Berbasis Refactoring&quot;, pendekatan kanggo nguji piranti lunak sing fokus ing bagean sing wis mateng lan ora bakal owah akeh, tinimbang nguji kabeh kode ing tahap awal.  Tes iki luwih efektif nalika refactoring dibutuhake.  Kanthi nggabungake Pangembangan Berbasis Pangembangan lan Tes Berbasis Refactoring, pangembangan piranti lunak bisa luwih efisien lan berkualitas, ngasilake kemajuan sing signifikan sajrone wektu.</description>
+    </item>
+    
+    <item>
+      <title>GitHub minangka Tambang Intelektual</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug potensial GitHub minangka &apos;Tambang Intelektual&apos;, sumber utama bahan mentah kanggo Pabrik Intelektual sing digerakake AI.  Penulis nggambarake Pabrik Intelektual minangka sistem sing ngotomatisasi tugas kaya nerjemahake artikel, nggawe video, lan ngatur konten.  DeepWiki, layanan sing ngasilake situs wiki kanggo proyek GitHub, dibahas minangka conto Pabrik Intelektual.  Penulis ngusulake yen GitHub, kanthi nggunakake filosofi open-source, bisa dadi papan kanggo nuduhake dokumen, ora mung kode, lan ngidini kolaborasi ing macem-macem jinis konten.  Kanthi nggabungake AI generatif, GitHub bisa dadi basis kawruh umum dinamis sing nyepetake panemuan lan disebarake kawruh, utamané kawruh sing duwe efek katalitik, diarani &apos;Kristal Intelektual&apos;, sing bisa nyebabake kombinasi kawruh anyar.</description>
+    </item>
+    
+    <item>
+      <title>Ambruk Ide Gestalt</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngenalake konsep &quot;Ambruk Ide Gestalt&quot;, yaiku fenomena nalika ide sing wiwitané cetha dadi ambruk nalika dianalisis kanthi rinci.  Penulis nggunakake conto &quot;kursi&quot; kanggo nerangake iki; definisi kursi bisa uga ora jelas yen fokus ing aspek fisik utawa material.  Kanggo nyegah ambruk iki, penulis nyaranake pendekatan sing fokus ing fungsionalitas (&quot;bisa dilungguhi&quot;), relativitas (fungsi beda-beda gumantung konteks), lan keutuhan (hubungan antar obyek lan subyek).  Konsep iki banjur dikembangake kanggo nganalisa kesadaran ing karakter fiksi, robot, lan AI. Penulis mbantah yen nganggep karakter fiksi utawa robot minangka sadar iku sah yen dianggep saka perspektif individu sing kleleb ing jagad fiksi, utawa saka sudut pandang relasional. Penulis uga ngritik argumen-argumen sing nyangkal kesadaran AI saiki adhedhasar alasan-alasan sing kurang ilmiah utawa logis, sing dianggep minangka conto Ambruk Ide Gestalt.  Kesimpulané, penulis nyaranake pendekatan fungsionalitas, relativitas, lan keutuhan kanggo nganalisa kesadaran AI, saéngga nyegah ambruk ide lan mbukak kemungkinan kesadaran ing AI modern.</description>
+    </item>
+    
+    <item>
+      <title>Kristal Intelektual: Antarane Intuisi lan Logika</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nyinaoni hubungan antarane intuisi lan logika, utamane babagan cara ngatasi konflik antarane kaloro. Penulis ngusulake konsep &quot;kristal intelektual&quot;, yaiku struktur logis sing bisa ngubungake intuisi karo logika. Conto sing diwenehake yaiku perdamaian donya versus kepentingan nasional. Penulis nyatakake manawa kepentingan nasional minangka konsep sing ora bisa diprediksi lan ora rasional ing jangka panjang, amarga ora bisa akumulasi kanthi progresif.  Ananging, perdamaian donya, kanthi ngembangake kawruh lan teknologi sing migunani kanggo kabeh, bisa diwujudake dadi akumulasi progresif.  Penulis banjur ngenalake konsep &quot;matematika alamiah&quot;, yaiku struktur logis sing kuwat, kanggo nggambarake argumen kasebut.  Kesimpulané, nemokake kristal intelektual iki penting kanggo mbangun argumen sing intuisi lan logis.</description>
+    </item>
+    
+    <item>
+      <title>Sinau Kanggo Sinau: Intelijen Bawaan</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug babagan asal-usul intelijen buatan, kanthi fokus ing mekanisme sinau sing ana ing model basa gedhe.  Penulis ngenalake konsep &quot;sinau liwat awak&quot; lan &quot;sinau liwat basa&quot;, banjur ngembangake konsep pembelajaran metakognitif (sinau kanthi pengulangan) lan metafisika (sinau kanthi cepet, nggunakake kawruh sing wis ana).  Pembelajaran metafisika dimungkinake kanthi ana &quot;kerangka kerja&quot;, struktur sing ngatur lan ngubungake kawruh. Basa alami diidentifikasi minangka kerangka kerja sing kuat, ngidini transfer kawruh kanthi efisien.  Kerangka kerja liyane, kayata kerangka domain-spesifik lan formal, dibangun ing ndhuwur basa alami, diarani &quot;kerangka virtual&quot;.  Kanthi latihan, kerangka virtual bisa dadi &quot;kerangka asli&quot;, sing bisa digunakake tanpa perlu interpretasi.  Penulis nyimpulake manawa model basa gedhe minangka &quot;Pambangun Kerangka Alami&quot;, sing nggunakake mekanisme perhatian kanggo sinau kerangka kerja kanthi bertahap.  Mekanisme iki uga bisa uga ana ing otak manungsa, nuduhake manawa manungsa uga Pambangun Kerangka Alami.</description>
+    </item>
+    
+    <item>
+      <title>Masyarakat Chronoscramble</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug fenomena sing disebut &quot;Masyarakat Chronoscramble&quot;, ing ngendi kedadeyané AI generatif nyebabaké beda persepsi wektu ing antarane wong. Beda iki ora mung amarga wates negara, budaya, utawa generasi, nanging uga amarga beda pangerten babagan kahanan saiki lan mangsa ngarep teknologi AI.  Penulis nandheske yen beda iki ora mung ana ing kalangan ahli teknologi, nanging uga ing masyarakat umum, ngasilaké kesenjangan ing akuisisi informasi, prediksi mangsa ngarep, lan kemampuan kanggo ngevaluasi dampak ekonomi lan sosial.  Penulis uga ngrembug babagan kerumitan visi mangsa ngarep, prediksi linier lawan eksponensial, lan pengaruh bias kognitif marang prediksi.  Artikel kasebut nyimpulake yen komunikasi ing Masyarakat Chronoscramble angel banget, lan mbutuhaké cara anyar kanggo diskusi lan pengambilan keputusan sing ngakoni lan ngatasi beda-beda kasebut, kanthi fokus ing kamardikan saka persepsi wektu.</description>
+    </item>
+    
+    <item>
+      <title>Jaman Pamikiran Simulasi</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake panggunaan AI generatif ing pangembangan piranti lunak lan sistem simulasi. Penulis ngembangake sistem sing diarani &quot;Pabrik Intelektual&quot;, sing nggunakake AI generatif kanggo ngasilake macem-macem konten saka bahan mentah asli. Sistem iki dikembangake kanthi pendekatan &quot;Rekayasa Omnidirectional&quot;, sing nggabungake macem-macem aspek sistem, kayata frontend, backend, lan pangolahan batch.  Penulis uga ngenalake konsep &quot;Liquidware&quot;, sing nuduhake fleksibilitas lan cairé sistem iki.  Saliyané iku, artikel iki ngusulake metodologi pangembangan piranti lunak &quot;Berorientasi Proses Bisnis&quot;, sing fokus ing optimasi individu Proses Bisnis tinimbang optimasi sakabèhé.  Pungkasan, artikel iki ngrembug potensial AI generatif ing ngembangake sistem simulasi sing luwih rumit lan fleksibel, sing bisa ngganti cara kita mikir lan ngrembug masalah-masalah sing kompleks, ngarah marang &quot;Pamikiran Simulasi&quot; sing luwih kolaboratif lan obyektif.</description>
+    </item>
+    
+    <item>
+      <title>Pengalaman &amp; Prilaku</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug pergeseran paradigma ing rekayasa piranti lunak, saka Rekayasa Berbasis Spesifikasi lan Implementasi menyang Rekayasa Pengalaman &amp; Prilaku.  Penulis ngajak kita mikir babagan pentingé pengalaman pangguna lan prilaku piranti lunak tinimbang mung spésifikasi.  Dicontokake konsep Liquidware, piranti lunak sing fleksibel banget lan bisa dipersonalisasi kanthi otomatis nggunakake AI generatif, sing ngidini pangguna ngowahi antarmuka pangguna miturut preferensi individu.  Penulis nggambarake prilaku minangka kahanan sing owah-owahan sajrone wektu lan nguji prilaku dudu mung babagan verifikasi kesesuaian karo spésifikasi, nanging uga kualitas pengalaman pangguna.  Pengalaman puncak dianalogikake karo kemampuan kita kanggo ngontrol awak kita kanthi lancar sanajan kompleksitasé, lan tujuan Liquidware yaiku nyiptakake pengalaman sing padha, sing nggabungake piranti lunak menyang pengalaman pangguna sing lancar lan intuisi.</description>
+    </item>
+    
+    <item>
+      <title>Kristalisasi Kawruh: Swiwi Nglangkungi Imajinasi</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug babagan kristalisasi kawruh, yaiku proses nggabungake lan ngatur kawruh sing wis ana kanggo nemokake wawasan anyar.  Penulis nggunakake conto mabur lan swiwi kanggo njlentrehake konsep iki. Swiwi dijlentrehake minangka unsur inti ing mabur, nggabungake macem-macem aspek kayata nglawan gravitasi, ngasilake gaya dorong, lan ngasilake gaya angkat. Penulis ngusulake telung lapisan organisasi kawruh: Telaga Kawruh (kumpulan kawruh mentah), Basis Kawruh (kawuruh sing wis terstruktur), lan Kotak Permata Kawruh (kawuruh sing wis dikristalisasi).  Saliyane iku, dijlentrehake uga Kothak Piranti Kawruh, sing ngemot kristal kawruh sing wis diowahi dadi piranti praktis.  Penulis nyimpulake manawa kristalisasi kawruh minangka proses demokratis sing bisa ditindakake dening sapa wae, lan ngajak para pembaca kanggo melu ing proses iki kanggo nemokake wawasan lan aplikasi anyar.</description>
+    </item>
+    
+    <item>
+      <title>Sistem Intelijen Sinau Buatan: Konsep ALIS</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake konsep Sistem Intelijen Sinau Buatan (ALIS), sistem sing nggabungake sinau bawaan lan sinau sing dituku. ALIS nggunakake limang unsur utama: prosesor cerdas (kayata LLM utawa otak manungsa), papan pangertosan (panyimpenan kawruh), jagad (lingkungan eksternal), memori kahanan (memori jangka pendek), lan kerangka kerja (struktur mikir). Prinsip ALIS yaiku prosesor cerdas tumindak ing jagad, ngekstrak kawruh, nyimpen ing papan pangertosan, lan nggunakake kawruh kasebut kanggo tumindak sabanjure. Artikel iki uga ngrembug macem-macem jinis kawruh (parameter jaringan, alami, lan formal) lan kahanan (stateless lan stateful), uga pentingé orkestrasi cerdas kanggo ngatur kawruh sing akeh banget.  Desain ALIS dirancang kanggo gampang berkembang, lan artikel kasebut nerangake pangembangan bertahap ALIS wiwitan, kalebu integrasi karo AI obrolan lan basis kawruh.  Artikel iki uga ngrembug potensi ALIS ing macem-macem domain lan perannya minangka embodied AI virtual.</description>
+    </item>
+    
+    <item>
+      <title>Pembelajaran Mesin Basa Alami</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake pembelajaran mesin basa alami (natural language-based machine learning), pendekatan anyar sing nggabungake Model Basa Gedhe (LLM) sing wis dilatih sadurungé kanggo nindakake tugas pembelajaran mesin.  Bedane karo pembelajaran mesin tradisional sing ngolah data numerik, pembelajaran mesin basa alami ngolah data basa alami.  Artikel iki nggambarake model dhasar pembelajaran mesin basa alami minangka sistem pembelajaran kanthi pengawasan kanggo klasifikasi, nggunakake LLM lan basis kawruh kanggo sinau tugas-tugas tartamtu. Model iki ditampilake liwat conto pembagian tugas antarane Departemen Urusan Umum lan Departemen Urusan Administrasi ing perusahaan.  Artikel iki uga mbandhingake efisiensi pembelajaran mesin basa alami karo pembelajaran mesin tradisional. Pembelajaran mesin basa alami luwih efisien amarga mbutuhake data pelatihan luwih sithik, ora butuh iterasi, lan ora butuh pra-pemrosesan data.  Kesimpulané, artikel iki nyatakake manawa pembelajaran mesin basa alami nawakake solusi efisien kanggo sinau lan bisa dadi fokus utama ing masa depan, utamane amarga keterbatasan peningkatan kinerja liwat skala sederhana ing LLM.</description>
+    </item>
+    
+    <item>
+      <title>Otomatisasi Nggawe Video Presentasi saka Kiriman Blog</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake proses otomatisasi nggawe video presentasi saka artikel blog nggunakake AI generatif.  Proses iki kalebu nggawe materi presentasi ing format SVG, ngatasi masalah teks kebanjiran kanthi nggunakake aturan, prosedur, lan pemeriksaan otomatis, nggawe skrip narasi, ngowahi dadi audio, lan pungkasané nggabungake dadi video.  Penulis ngalami tantangan utama ing ngatasi teks kebanjiran ing materi SVG, sing diatasi kanthi kombinasi instruksi rinci marang AI generatif lan program khusus kanggo ndeteksi kesalahan.  Walaupun sistem iki sukses, penulis nyathet yen perusahaan teknologi gedhé wis miwiti nawakake fungsi sing padha, sing bisa ngilangi kabutuhan nggawe sistem iki saka awal.</description>
+    </item>
+    
+    <item>
+      <title>Mekanisme Atensi minangka Intelijen Virtual Mikro</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake Mekanisme Atensi ing arsitektur Transformer minangka fitur inti sing ngidini AI ngolah basa alami kanthi efektif. Mekanisme iki ngijini AI kanggo fokus marang tembung-tembung sing relevan sajrone ngolah teks, nyingkirake tembung-tembung sing ora perlu.  Penulis banjur ngusulake konsep &quot;Intelijen Virtual&quot;, sing nggambarake kemampuan AI kanggo milih lan ngolah kawruh sing relevan miturut tugas tartamtu.  Konsep iki dibandhingake karo Mekanisme Atensi, sing dianggep minangka &quot;Intelijen Virtual Mikro&quot; amarga fungsine sing padha nanging ing skala unit tembung.  Pungkasan, penulis ngenalake &quot;Mekanisme Atensi Éksplisit&quot;, yaiku pernyataan basa alami sing nemtokake kawruh sing dibutuhake kanggo tugas tartamtu, minangka cara kanggo ningkatake lan ngatur Intelijen Virtual luwih lanjut.</description>
+    </item>
+    
+    <item>
+      <title>Dimensi Persepsi Spasial: Potensi AI</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug potensi kecerdasan buatan (AI) kanggo ngerti lan ngolah informasi multidimensi, khususé ing dimensi sing luwih dhuwur tinimbang kemampuan persepsi manungsa. Penulis mbandhingake kemampuan manungsa kanggo ngerteni ruang telung dimensi saka informasi visual rong dimensi, lan nyaranake AI bisa dilatih kanggo ngerti ruang patang dimensi utawa malah luwih dhuwur. Kanthi kemampuan iki, AI bisa ngolah grafik multidimensi kanthi cara sing luwih efisien lan intuitif tinimbang manungsa, sing diwatesi dening persepsi visual rong dimensi. Kemampuan iki bakal ngidini AI kanggo nemokake pola lan hukum ing data kanthi luwih gampang, lan bisa nyuda wektu sing dibutuhake kanggo penemuan ilmiah sing inovatif.  Penulis nyathet yen iki bisa nyebabake penemuan paradigma anyar sing bisa uga ngluwihi pemahaman manungsa, ngasilake teknologi sing efektif sanajan prinsip dhasare ora dimangerteni kanthi lengkap.</description>
+    </item>
+    
+    <item>
+      <title>Jaman Intelijen Simfoni</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake evolusi panggunaan AI generatif ing bisnis, saka pendekatan berbasis piranti (pakaryan iterasi) menyang pendekatan sistematis (pakaryan aliran).  Pakaryan iterasi, sing nglibatake coba-coba lan tugas-tugas sing ora sadar, winates efisiensi amarga keterbatasan manungsa.  Kanggo ngatasi iki, artikel ngusulake sistematisasi pakaryan dadi pakaryan aliran, nggunakake AI generatif khusus kanggo saben tugas.  Iki ngasilake efisiensi lan akurasi sing luwih apik, ngidini distribusi kawruh kanthi luwih efektif. Konsep &apos;Intelijen Virtual&apos; diusulake, ing ngendi AI generatif bisa ngganti peran lan kawruh sajrone siji proses, kaya mesin virtual.  Puncak saka evolusi iki yaiku &apos;Intelijen Simfoni&apos;, ing ngendi AI generatif bisa ngatur pirang-pirang peran lan kawruh kaya orkestra, ngasilake fleksibilitas lan efisiensi sing padha karo manungsa. Artikel iki nyimpulake yen Intelijen Simfoni bisa dadi salah sawijining wujud kecerdasan umum buatan (AGI), kanthi kemampuan sinau sing ngluwihi manungsa.</description>
+    </item>
+    
+    <item>
+      <title>Orkestrasi Intelijen Virtual</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake konsep &quot;orkestrasi intelijen&quot;, yaiku kemampuan siji kecerdasan buatan (AI) kanggo nggabungake macem-macem kepribadian utawa peran virtual kanggo ngrampungake tugas.  Konsep iki dibandhingake karo &quot;orkestrasi sistem&quot;, sing nggabungake pirang-pirang AI kanthi sistematis. Orkestrasi intelijen luwih fleksibel amarga mung mbutuhake instruksi lisan, ora mbutuhake pangembangan sistem.  Artikel iki uga ngenalake gagasan &quot;musyawarah utama&quot;, yaiku proses iteratif kanggo ningkatake proses pamikiran AI liwat dialog internal antarane kepribadian virtual kasebut.  Musyawarah utama iki bisa ningkatake akurasi, ekspansi pamikiran, lan kreativitas.  Manfaat utama orkestrasi intelijen yaiku kemampuan AI kanggo niru proses pamikiran manungsa, ngatasi watesan memori, lan nyedhiyakake solusi sing luwih efektif tinimbang cara tradisional.</description>
+    </item>
+    
+    <item>
+      <title>Mikir Simulasi lan Asal-Usul Urip</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nyinaoni asal-usul urip kanthi pendekatan anyar sing diarani &quot;pamikiran simulasi&quot;, yaiku metode mikir sing nggambarake akumulasi lan interaksi kanthi progresif kanggo mangerteni asil. Penulis ngusulake yen asal-usul urip bisa dimangerteni minangka proses bertahap sing wiwit saka reaksi kimia sederhana ing Bumi kuna. Bumi kuna, kanthi aktivitas vulkanik lan tabrakan meteorit sing akeh, ditutupi bledug sing nglindhungi saka radiasi ultraviolet lan nyedhiyakake lingkungan sing cocog kanggo reaksi kimia. Bledug iki uga dadi katalis kanggo sintesis kimia monomer. Sirkulasi banyu lan atmosfer nyebabake interaksi lan akumulasi zat kimia, sing pungkasane ngasilake zat kimia sing luwih kompleks. Proses iki, sing diulang bola-bali, mimpin menyang munculé polimer kaya protein lan asam nukleat, lan pungkasane, organisme urip. Penulis ngandhani yen pamikiran simulasi uga penting kanggo pangembangan piranti lunak, amarga ngidini pangembang kanggo nerjemahake konsep abstrak menyang sistem fungsional.</description>
+    </item>
+    
+    <item>
+      <title>Konversi Pakaryan Aliran lan Sistem: Esensi Pemanfaatan AI Generatif</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki nerangake pentingé konversi pakaryan aliran lan sistematisasi kanggo ningkatake produktivitas lan kualitas, utamane nalika nggunakake kecerdasan buatan (AI) generatif.  Bedane antarane pakaryan iterasi (coba-coba) lan pakaryan aliran (bertahap) dijlentrehake, kanthi pakaryan aliran luwih cocog kanggo sistematisasi.  Revolusi Industri lan Revolusi IT dienggo minangka conto sukses konversi pakaryan aliran.  Penulis nyatakake yen nggunakake AI generatif mung minangka piranti kanggo pakaryan iterasi winates efektifitasé.  Kanggo maksimalake manfaat AI, pakaryan kudu diowahi dadi pakaryan aliran, banjur disistematisasi.  Conto praktis diwenehake, yaiku nanggepi pitakonan karyawan, kanggo nuduhake carane konversi pakaryan aliran ningkatake efisiensi.  Artikel iki nutup kanthi menekake pentingé owah-owahan pola pikir kanggo nggunakake AI generatif kanthi efektif, kanthi fokus ing konversi lan sistematisasi tinimbang mung nggunakake minangka piranti.</description>
+    </item>
+    
+    <item>
+      <title>Insinyur Omnidirectional ing Era Liquidware</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug babagan peran AI generatif ing pangembangan piranti lunak lan pangaruhé marang peran insinyur.  AI generatif saiki bisa ngasilaké program, saéngga nyederhanaké proses pemrograman lan nyiptakaké kemungkinan kanggo &apos;Liquidware&apos;, piranti lunak sing bisa dipersonalisasi kanthi luwes dening pangguna liwat interaksi karo AI.  Penulis nyaranake pergeseran saka insinyur sing fokus ing pemrograman menyang insinyur &apos;omnidirectional&apos; sing duwé pangerten lengkap babagan macem-macem aspek pangembangan piranti lunak lan bisa ngatur proyèk kompleks sing nggabungaké macem-macem sistem.  Penulis nggambarake peran insinyur omnidirectional, kemampuané kanggo ngatur lan ngrancang sistem sing kompleks, lan mènèhi conto proyèk pangembangan piranti lunak omnidirectional kanggo aplikasi e-commerce. Artikel iki nutup kanthi nyatakake yen pangembangan piranti lunak Liquidware lan omnidirectional wis dadi kasunyatan saiki, lan insinyur IT kudu adaptasi kanggo tetep relevan.</description>
+    </item>
+    
+    <item>
+      <title>Nasibe Mikir: AI lan Manungsa</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug babagan pangaruh AI marang cara manungsa mikir lan nggarap piranti lunak. Penulis ngusulake paradigma anyar ing pangembangan piranti lunak, yaiku berorientasi proses, ing ngendi proses dianggep minangka modul inti.  Paradigma iki ngidini fleksibilitas lan penyesuaian individual, ngluwihi pendekatan berorientasi obyek.  Penulis nyambungake iki karo konsep &quot;masyarakat optimasi individu&quot;, ing ngendi pertimbangan individu luwih penting tinimbang optimasi sakabèhé amarga kemajuan AI.  Konsep &quot;filosofi subjektif&quot; uga diusulake, ing ngendi musyawarah jero lan tanggung jawab individu dadi nilai utama.  Penulis nyimpulake yen sanajan AI njupuk alih pakaryan intelektual, manungsa tetep kudu mikir kanthi jero kanggo ngrancang kerangka kerja individu lan njupuk keputusan, saéngga ngalami &quot;nasibe mikir&quot;.</description>
+    </item>
+    
+    <item>
+      <title>Undangan menyang Piranti Lunak Berorientasi Proses Bisnis</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngusulake konsep &quot;piranti lunak berorientasi proses bisnis&quot; minangka pendekatan anyar kanggo pangembangan piranti lunak. Konsep iki fokus ing integrasi manual bisnis lan informasi input ing siji berkas, nggawe proses bisnis luwih gampang diubah lan ditambah. Berkas iki bertindak minangka piranti lunak sing dieksekusi dening manungsa, utawa kanthi pitulungan intelijen buatan (AI). AI bisa mbantu ngolah informasi, njaluk input manungsa liwat macem-macem antarmuka, lan ngirim berkas menyang pihak sing tanggung jawab sabanjure.  Pendekatan iki nyederhanakake manajemen proses bisnis, ngumpulake kawruh kanthi alami, lan ngidini organisasi kanggo sinau lan adaptasi kanthi cepet, ngasilake organisasi pembelajaran cepet sing luwih efisien.</description>
+    </item>
+    
+    <item>
+      <title>Désain Kerangka minangka Kapabilitas Intelektual</title>
+      <link>https://katoshi-mfacet.github.io/jv/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/jv/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Artikel iki ngrembug babagan &apos;desain kerangka&apos; minangka kapabilitas intelektual sing penting ing akademia.  Desain kerangka dibedakake saka panemuan fakta liwat observasi, sing dadi fokus utama akademia tradisional.  Artikel iki nyathet yen desain kerangka kalebu nggawe kerangka konseptual anyar, kaya teori geosentris lan heliosentris, sing dipilih adhedhasar migunani tinimbang bebener.  Iki beda karo panemuan liwat observasi sing gumantung marang data empiris.  Artikel iki uga nyoroti yen desain kerangka mbutuhake set katrampilan sing unik lan beda karo set katrampilan kanggo panemuan liwat observasi.  Amarga pendidikan akademik biasane fokus ing observasi, akeh sarjana kurang terampil ing desain kerangka.  Nanging, artikel iki nyaranake insinyur piranti lunak, amarga pakaryane sing kerep ngrancang konsep abstrak, bisa uga duwe katrampilan sing dibutuhake kanggo desain kerangka akademik.</description>
+    </item>
+    
+  </channel>
 </rss>

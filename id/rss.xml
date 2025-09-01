@@ -1,169 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (id)</title>
-<link>https://katoshi-mfacet.github.io/id/rss.xml</link>
-<description>Latest articles (id)</description>
-<item>
-  <title>Memasuki Era Tanpa Batas: Membuat Situs Blog 30 Bahasa</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini menguraikan pembuatan situs blog multibahasa (30 bahasa) yang diotomatisasi menggunakan AI generatif, khususnya Gemini. Penulis, seorang insinyur sistem, mengembangkan program kustom berbasis kerangka kerja Astro untuk menghasilkan file HTML dari draf artikel. Kategorisasi dan penandaan artikel juga diotomatisasi dengan memanfaatkan Gemini untuk menafsirkan makna dan menyarankan kategori/tag, yang diekstraksi dari artikel sebelumnya. Untuk dukungan multibahasa, Gemini digunakan untuk menerjemahkan string situs web umum dan konten artikel, dengan penekanan pada akurasi nuansa dan ekspresi alami dibandingkan terjemahan mesin tradisional. Aksesibilitas ditingkatkan dengan menambahkan fitur untuk pengguna tunanetra dan mereka yang kesulitan menggunakan mouse, yang juga disarankan oleh Gemini. Penulis menyoroti bagaimana AI generatif menghilangkan hambatan signifikan seperti bahasa dan aksesibilitas, yang sebelumnya mustahil bagi individu. Sistem yang diperbarui secara otomatis ini memungkinkan pemeliharaan dan pembaruan yang mudah, mendemokratisasi pembuatan situs web. Artikel menyimpulkan bahwa AI generatif memberdayakan penyebaran informasi dengan mengatasi hambatan yang sebelumnya tidak terpecahkan, membuka jalan bagi era baru di mana hambatan semakin berkurang.</description>
-</item>
-<item>
-  <title>Pengembangan Berorientasi Pembangunan dan Pengujian Berbasis Refactoring</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini mengeksplorasi evolusi pengembangan perangkat lunak, yang dipercepat oleh AI generatif. Ini memperkenalkan konsep 'pengembangan berorientasi pembangunan' di mana alat bantu pengembangan diciptakan secara iteratif selama proses pengembangan perangkat lunak itu sendiri. Tujuannya adalah untuk meningkatkan efisiensi dan kualitas secara keseluruhan, dengan alat-alat ini yang dapat digunakan kembali di proyek mendatang. Pendekatan ini membutuhkan pengembang untuk secara kritis mengamati alur kerja mereka dan mengidentifikasi tugas-tugas yang dapat diotomatisasi oleh perangkat lunak bantu, yang ditingkatkan lebih lanjut dengan integrasi AI generatif tertanam. Selain itu, artikel ini mengusulkan 'pengujian berbasis refactoring' sebagai alternatif untuk Test-Driven Development (TDD). Pendekatan ini berfokus pada pembuatan pengujian setelah fase refactoring signifikan, terutama untuk bagian kode yang stabil, bukan membuat tes di muka untuk semua fungsionalitas. Ini sangat relevan untuk aplikasi web yang membutuhkan iterasi pada UI/UX, yang mungkin memerlukan perubahan mendasar pada arsitektur atau kerangka kerja. Baik pengembangan berorientasi pembangunan maupun pengujian berbasis refactoring diposisikan sebagai metodologi kunci yang mengarahkan pengembangan perangkat lunak ke masa depan yang lebih efisien dan adaptif, yang mengarah pada era 'pengembangan berpusat pada pengalaman &amp; perilaku'.</description>
-</item>
-<item>
-  <title>Kompresi Waktu dan Titik Buta: Kebutuhan akan Regulasi</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas fenomena percepatan kemajuan teknologi AI generatif dan dampaknya terhadap masyarakat, yang disebut sebagai "Masyarakat Chronos-Scramble". Percepatan ini disebabkan oleh kemajuan eksponensial AI yang saling memperkuat, menciptakan siklus umpan balik positif. Namun, laju kemajuan yang pesat ini menyebabkan "kompresi waktu" dan "titik buta sosial", di mana masyarakat tidak dapat lagi mengisi kesenjangan pemahaman tentang risiko dan manfaat teknologi baru secepat perkembangannya. Hal ini meningkatkan potensi kerugian karena risiko muncul sebelum tindakan pencegahan diambil. Penulis berpendapat bahwa pemahaman individu tentang laju kemajuan teknologi sangat bervariasi, menciptakan perbedaan persepsi yang memperburuk masalah. Untuk mengatasi hal ini, diperlukan visi yang jelas, seperti memastikan manfaat teknologi melebihi risikonya, dan strategi yang memanfaatkan AI generatif itu sendiri sebagai "stabilisator bawaan sosial" untuk mengatur dan mengendalikan akselerasi teknologi agar tidak melampaui batas persepsi dan kontrol manusia.</description>
-</item>
-<item>
-  <title>GitHub sebagai Tambang Intelektual</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini mengeksplorasi potensi GitHub sebagai "tambang intelektual" masa depan, melampaui perannya saat ini dalam pengembangan perangkat lunak. Penulis berpendapat bahwa GitHub dapat menjadi pusat untuk berbagi pengetahuan secara terbuka, dengan DeepWiki dari Cognition sebagai contoh awal. DeepWiki secara otomatis menghasilkan situs wiki dari repositori GitHub, menunjukkan kekuatan AI generatif dalam mengolah kode dan dokumentasi menjadi format yang dapat diakses. Penulis memperkenalkan konsep "pabrik intelektual", sebuah sistem yang mengotomatisasi pembuatan berbagai bentuk konten (terjemahan, video, blog) dari materi sumber menggunakan AI. Materi sumber ini, seperti draf blog penulis, dikelola di GitHub. Konsep ini diperluas untuk mencakup alat seperti DeepWiki, yang mengolah kode dan dokumen menjadi basis pengetahuan. Penulis berhipotesis bahwa GitHub akan menjadi repositori sentral untuk materi sumber "pabrik intelektual", menghasilkan basis pengetahuan publik yang dinamis yang dapat dimanfaatkan oleh AI. Ekosistem ini juga akan memungkinkan penemuan pengetahuan baru melalui eksplorasi AI, yang mengarah pada "kristal intelektual" atau "kristal pengetahuan" yang mempercepat pertumbuhan pengetahuan, terutama yang berasal dari pemikiran dan penalaran daripada observasi empiris.</description>
-</item>
-<item>
-  <title>Kristalisasi Intelektual antara Intuisi dan Logika</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas tentang 'kristalisasi intelektual', yaitu proses menjelaskan intuisi yang benar secara logis. Seringkali, intuisi yang kuat sulit diartikulasikan, menyebabkan kerugian dalam perdebatan jika berhadapan dengan argumen logis. Penulis berpendapat bahwa intuisi dan logika tidak bertentangan, tetapi kita seringkali belum menemukan cara untuk menghubungkannya, terutama karena perbedaan asumsi dasar. Ketika kedua belah pihak dapat menjelaskan pandangan mereka secara logis berdasarkan asumsi yang berbeda, diskusi dapat bergeser ke substansi asumsi tersebut. Artikel ini menggunakan 'kepentingan nasional' versus 'perdamaian dunia' sebagai contoh. Penulis berargumen bahwa 'kepentingan nasional' bersifat spekulatif, tidak terakumulasi progresif, dan seringkali tidak rasional dalam jangka panjang, bertentangan dengan 'perdamaian abadi' yang mendorong akumulasi pengetahuan dan teknologi. Konsep 'matematika alamiah' diperkenalkan sebagai cara mengekspresikan penalaran logis yang kuat dalam bahasa alami. Kesimpulannya, menemukan kristalisasi intelektual memungkinkan penyajian argumen yang intuitif dan logis, mendorong kemajuan intelektual.</description>
-</item>
-<item>
-  <title>Keruntuhan Gestalt Ideasional</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan konsep "Keruntuhan Gestalt Ideasional", yaitu fenomena di mana suatu ide yang tampak jelas menjadi sulit didefinisikan saat dianalisis lebih dalam. Penulis menggunakan contoh "kursi" untuk mengilustrasikan bagaimana upaya mendefinisikan kursi berdasarkan material, bentuk, atau struktur dapat menyebabkan keruntuhan ini. Untuk mencegahnya, penulis menyarankan fokus pada fungsionalitas, relativitas, dan holisme. Fungsionalitas ("dapat diduduki") mencegah reduksionisme, relativitas memungkinkan ide diadaptasi untuk konteks berbeda (misal: kurcaci di atas pasir), dan holisme melihat objek dalam hubungan yang lebih besar (sesuatu yang duduk dan sesuatu yang diduduki). Konsep ini kemudian diterapkan pada kesadaran karakter fiksi dan robot AI. Penulis berargumen bahwa penyangkalan kesadaran AI saat ini sering kali merupakan contoh Keruntuhan Gestalt Ideasional, karena argumen yang digunakan tidak ilmiah, logis, atau valid dalam konteks pemeliharaan gestalt ide kesadaran melalui fungsionalitas, relativitas, dan holisme. AI modern dinilai menunjukkan fungsi kesadaran secara relatif.</description>
-</item>
-<item>
-  <title>Belajar untuk Belajar: Kecerdasan Bawaan</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini mengeksplorasi bagaimana kecerdasan muncul, terutama dalam konteks kecerdasan buatan (AI) dan otak manusia. Penulis membedakan antara pembelajaran sub-fisik (penghafalan berulang) dan pembelajaran metafisik (pemahaman dan pemanfaatan pengetahuan yang lebih efisien). Pembelajaran sub-fisik mirip dengan pembelajaran melalui gerakan tubuh, sedangkan pembelajaran metafisik mencontohkan pemahaman konsep melalui bahasa atau pengalaman. Model bahasa besar (LLM) mampu melakukan keduanya, termasuk pembelajaran mesin bahasa alami yang instan melalui input. Bahasa alami dianggap sebagai antarmuka metafisik utama, yang memungkinkan kerangka kerja virtual dan asli. Kerangka kerja ini mengorganisir pengetahuan dan memfasilitasi pembelajaran lebih lanjut. Mekanisme atensi dalam AI diidentifikasi sebagai teknologi kunci yang memungkinkan "pembentuk kerangka kerja alami" (natural-born frameworker), yang belajar dan membangun kerangka kerja secara bertahap. Hal ini menjelaskan kemampuan LLM untuk memahami bahasa dan domain kompleks. Penulis menyarankan bahwa bahasa alami, dengan struktur progresifnya, mendukung pembelajaran yang efisien dan berpotensi menjadi faktor kelangsungan hidup dalam evolusi bahasa. Terakhir, manusia juga dianggap sebagai pembentuk kerangka kerja alami, dengan otak yang memiliki mekanisme serupa untuk pembelajaran bertahap dan adaptasi kerangka kerja.</description>
-</item>
-<item>
-  <title>Masyarakat Kronoskrambel</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan konsep "Masyarakat Kronoskrambel", yang menggambarkan kondisi masyarakat modern di mana kecerdasan buatan (AI) generatif menyebabkan individu mengalami persepsi temporal yang berbeda. Perbedaan ini tidak lagi terbatas pada kesenjangan geografis atau generasi, tetapi muncul dari beragam pemahaman tentang AI, teknologi terapan, dan implikasinya terhadap ekonomi serta masyarakat. Artikel menjelaskan bahwa kesenjangan ini semakin melebar seiring waktu karena prediksi masa depan yang dipengaruhi oleh bias kognitif, pemikiran linier versus eksponensial, serta perbedaan dalam persepsi tentang keberadaan agen. Komunikasi dan pengambilan keputusan menjadi sulit karena ketidakselarasan premis diskusi. Penulis mengusulkan perlunya independensi dari persepsi temporal dalam diskusi, mengakui perbedaan, dan berfokus pada kesamaan yang tidak dapat dihindari untuk mencapai kesepakatan. Analogi dengan game "Chrono Trigger" digunakan untuk mengilustrasikan pentingnya kolaborasi lintas-era atau lintas-persepsi untuk mengatasi masalah bersama, menekankan bahwa Masyarakat Kronoskrambel adalah kenyataan baru yang memerlukan adaptasi dalam komunikasi dan pengambilan keputusan.</description>
-</item>
-<item>
-  <title>Era Pemikiran Simulasi</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas bagaimana AI generatif mengubah pengembangan perangkat lunak dan simulasi. AI generatif memungkinkan penciptaan "pabrik intelektual" yang menghasilkan konten turunan dari materi sumber, dan "liquidware" yang fleksibel dan dapat disesuaikan. Pengembangan omnidirectional, yang mencakup seluruh tumpukan teknologi, menjadi mungkin bagi satu individu.  Dalam pengembangan bisnis, metodologi "pengembangan berorientasi proses bisnis" yang berfokus pada optimasi modul individual daripada optimasi keseluruhan menjadi lebih rasional.  AI generatif juga merevolusi sistem simulasi, memungkinkan pembuatan program yang lebih mudah dan penggabungan elemen kualitatif yang ambigu serta agen cerdas. Hal ini menggeser pola pikir dari pemikiran linier ke "pemikiran simulasi", di mana diskusi berpusat pada model dan hasil simulasi yang dihasilkan AI, bukan pada intuisi atau ingatan individu. Perubahan ini bertujuan untuk meningkatkan presisi, efisiensi, dan objektivitas dalam berbagai bidang, mulai dari pengembangan perangkat lunak hingga perencanaan pribadi.</description>
-</item>
-<item>
-  <title>Kristalisasi Pengetahuan: Sayap di Luar Imajinasi</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan konsep "pengetahuan terkristalisasi" sebagai abstraksi komprehensif dan konsisten dari berbagai informasi dan hukum. Penulis menggunakan analogi penerbangan dan peran sayap untuk mengilustrasikan konsep ini, menunjukkan bagaimana sayap mengintegrasikan berbagai aspek penerbangan seperti hambatan udara, konversi arah gaya, dan penciptaan perbedaan aliran udara.  Pengetahuan terkristalisasi dicapai melalui penyempurnaan kombinasi pengetahuan yang ada dan penemuan "titik fokus" atau hubungan baru antar informasi.  Artikel ini mengusulkan hierarki organisasi pengetahuan: "danau pengetahuan" (kumpulan mentah), "basis pengetahuan" (terorganisir), "kotak permata pengetahuan" (kristal pengetahuan yang dikristalisasi), dan "kotak peralatan pengetahuan" (kristal pengetahuan yang dapat diaplikasikan secara praktis). Penulis menekankan bahwa kristalisasi pengetahuan dapat dicapai oleh siapa saja dengan mengorganisir dan menyempurnakan pengetahuan yang sudah ada, tanpa memerlukan keahlian khusus atau eksperimen baru, sehingga mendemokratisasi pengetahuan dan membuka potensi inovasi.</description>
-</item>
-<item>
-  <title>Pengalaman &amp; Perilaku</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan paradigma "Rekayasa Pengalaman &amp; Perilaku" sebagai alternatif dari rekayasa berbasis spesifikasi-dan-implementasi tradisional, yang menekankan pentingnya pengalaman pengguna (UX) dan perilaku perangkat lunak. Penulis berpendapat bahwa fokus pada spesifikasi dan implementasi menjadi usang seiring dengan meningkatnya pentingnya UX. Perilaku, yang didefinisikan sebagai keadaan yang berubah seiring waktu, harus diuji berdasarkan kualitas UX, tidak hanya keselarasan dengan spesifikasi. Konsep "liquidware" diperkenalkan sebagai perangkat lunak yang sangat fleksibel dan dapat disesuaikan dengan preferensi individu, yang dimungkinkan oleh otomatisasi pengembangan perangkat lunak berbasis AI. Artikel ini menyimpulkan bahwa pengejaran perilaku berkualitas tinggi akan mengarah pada pengalaman pengguna yang setara dengan mengendalikan tubuh manusia yang sehat, di mana kompleksitas dan batasan dapat diabaikan demi pengalaman yang mulus dan bebas stres.</description>
-</item>
-<item>
-  <title>Sistem Kecerdasan Belajar Buatan: Konsep ALIS</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan Konsep Sistem Kecerdasan Belajar Buatan (ALIS), sebuah sistem yang mengintegrasikan pembelajaran bawaan (seperti yang ada di jaringan saraf) dengan pembelajaran yang didapat (pengetahuan yang disimpan secara eksternal). Inti ALIS terletak pada ekstraksi, penyimpanan, pemilihan, dan pemanfaatan pengetahuan yang dapat digunakan kembali. ALIS didefinisikan melalui lima elemen: Prosesor Cerdas, Penyimpanan Pengetahuan, Dunia, Memori Status, dan Kerangka Kerja. Pengetahuan yang didapat dalam ALIS awalnya dirancang dalam bentuk teks bahasa alami untuk kemudahan ekstraksi, penyimpanan, dan pemanfaatan oleh LLM, serta kemudahan pemahaman oleh manusia. Konsep ini juga dapat diperluas untuk menggunakan bahasa formal. Artikel ini menguraikan desain dasar dan metode pengembangan ALIS secara bertahap, dimulai dari implementasi sederhana yang terintegrasi dengan LLM, dan kemudian meningkatkan fungsionalitasnya dengan menambahkan pra-analisis dan pasca-pemeriksaan. Prospek ALIS mencakup kolaborasi terbuka, berbagi *knowledge lake*, dan potensi penggunaannya sebagai dataset pra-pelatihan LLM. ALIS berpotensi untuk digunakan di berbagai domain dan dapat dianggap sebagai bentuk *embodied AI* virtual.</description>
-</item>
-<item>
-  <title>Pembelajaran Mesin Bahasa Alami</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan pembelajaran mesin bahasa alami (Natural Language Machine Learning - NLML) sebagai paradigma baru yang memanfaatkan model bahasa besar (Large Language Models - LLMs). Berbeda dengan pembelajaran mesin tradisional yang berbasis numerik, NLML menggunakan bahasa sebagai media pembelajaran. Model dasar NLML dijelaskan melalui contoh klasifikasi tanggung jawab departemen, di mana LLM yang telah dilatih sebelumnya (tanpa perubahan parameter) digunakan bersama basis pengetahuan. Proses ini melibatkan masukan kalimat, prediksi LLM, dan penilaian kebenaran, dengan hasil pembelajaran disimpan dalam basis pengetahuan berbahasa alami. Meskipun model dasar ini tidak realistis karena LLM dapat langsung diberikan data, modifikasi skenario, seperti penggunaan log perutean manual oleh manusia, membuatnya lebih praktis. Keunggulan utama NLML adalah efisiensi pembelajaran yang luar biasa: membutuhkan lebih sedikit data, tidak memerlukan pembelajaran iteratif, dan umumnya tidak memerlukan pra-pemrosesan data. Kemampuan abstraksi dan penalaran LLM mengurangi kebutuhan data pelatihan secara signifikan. Dengan potensi keterbatasan peningkatan kemampuan LLM melalui penskalaan sederhana, fokus diperkirakan akan beralih ke peningkatan melalui NLML.</description>
-</item>
-<item>
-  <title>Mekanisme Perhatian sebagai Kecerdasan Virtual Mikro</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas mekanisme perhatian, sebuah komponen kunci dalam Transformer AI generatif. Mekanisme perhatian memungkinkan AI untuk secara selektif fokus pada kata-kata sebelumnya yang relevan saat memproses kata tertentu dalam sebuah kalimat, sehingga meningkatkan pemahaman bahasa alami secara akurat. Ini berbeda dari pendekatan sebelumnya yang mencoba menggabungkan berbagai mekanisme. Penulis memperkenalkan konsep "kecerdasan virtual" sebagai kemampuan AI untuk beralih antar set pengetahuan yang relevan berdasarkan tugas, mirip dengan mesin virtual yang menjalankan beberapa sistem operasi. Mekanisme perhatian kemudian dijelaskan sebagai "kecerdasan virtual mikro" karena fokusnya pada kata-kata dalam sebuah kalimat. Sebaliknya, "mekanisme perhatian eksplisit" diusulkan sebagai cara untuk mencapai "kecerdasan virtual" yang lebih luas, menggunakan instruksi bahasa alami untuk memandu AI ke basis pengetahuan yang spesifik untuk tugas tertentu. Mekanisme perhatian, dalam berbagai bentuknya, dipandang sebagai inti dari kecerdasan tingkat lanjut.</description>
-</item>
-<item>
-  <title>Orkestrasi Kecerdasan Virtual</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan konsep "orkestrasi kecerdasan" sebagai analogi dari orkestrasi sistem menggunakan mesin virtual. Orkestrasi kecerdasan memungkinkan penggabungan "kecerdasan virtual" dalam satu model AI untuk melakukan tugas terorganisir, mirip dengan bagaimana manusia menggunakan kecerdasan virtual untuk bermain peran. Berbeda dengan orkestrasi sistem yang memerlukan pengembangan sistem, orkestrasi kecerdasan dapat dicapai melalui instruksi prompt sederhana, memungkinkan fleksibilitas yang lebih besar dalam mengubah peran dan kombinasi AI. Fitur utama dari orkestrasi kecerdasan adalah kemampuannya untuk mendorong AI melakukan "pertimbangan utama" dengan menggabungkan berbagai perspektif, bukan hanya informasi, yang mengarah pada pemikiran yang lebih akurat, pengurangan kesalahpahaman, dan potensi penemuan baru. Dengan demikian, orkestrasi kecerdasan memungkinkan AI untuk melakukan aktivitas intelektual tingkat lanjut, meringkas pengetahuan, dan berpotensi menggantikan manusia dalam banyak tugas bisnis.</description>
-</item>
-<item>
-  <title>Era Kecerdasan Simfoni</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas evolusi pemanfaatan AI generatif, dari alat menjadi sistem terintegrasi, dan memperkenalkan konsep "Kecerdasan Simfoni" sebagai tahap selanjutnya. Analisis berfokus pada dua perspektif: pekerjaan iteratif (tugas yang dilakukan secara coba-coba, di mana AI berfungsi sebagai alat) dan pekerjaan alir (tugas yang terstandardisasi dan sistematis). Pekerjaan iteratif dengan AI generatif sebagai alat memiliki keterbatasan efisiensi karena kendala manusia dan kesenjangan keterampilan. Solusinya adalah mentransformasi pekerjaan iteratif menjadi pekerjaan alir yang terstandardisasi dan tersistematisasi, memungkinkan optimalisasi AI generatif untuk tugas spesifik, berbagi pengetahuan, dan pengalihan tugas bertahap ke AI. Artikel ini juga memperkenalkan "kecerdasan virtual" sebagai kemampuan AI generatif untuk mensimulasikan berbagai peran dan pengetahuan dalam satu eksekusi, mirip dengan mesin virtual. "Orkestrasi kecerdasan" adalah kemampuan untuk menggabungkan peran dan pengetahuan ini secara fleksibel, mirip dengan orkestrasi mesin virtual. Kecerdasan Simfoni adalah AI generatif yang mencapai kemampuan ini, mampu melakukan pekerjaan intelektual yang kompleks secara fleksibel. Tahap akhir, yang mendekati AGI, dicapai ketika AI generatif dapat mempelajari tugas baru dari pengamatan manusia dan berbagi pengetahuan antar AI, melampaui kapasitas belajar manusia. Ini memungkinkan otomatisasi penuh tanpa campur tangan manusia dalam pembuatan alur kerja atau pengkodean pengetahuan.</description>
-</item>
-<item>
-  <title>Dimensi Persepsi Spasial: Potensi AI</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini mengeksplorasi potensi AI dalam memahami dan memanipulasi ruang multi-dimensi, melampaui keterbatasan persepsi manusia. Manusia mengamati ruang 3D dari citra 2D, menyiratkan adanya representasi spasial internal. Penulis berhipotesis bahwa manusia dapat memahami ruang 4D melalui simulasi komputer yang dipetakan ke 2D. Namun, aplikasi praktisnya terbatas. AI, di sisi lain, dapat dilatih secara virtual dengan persepsi spasial 3D atau 4D, bahkan dimensi yang lebih tinggi. Ini memungkinkan AI untuk memahami grafik multi-dimensi secara komprehensif tanpa data tersembunyi atau rotasi, yang menyulitkan manusia. Kemampuan ini dapat mempercepat penemuan ilmiah dengan memungkinkan analisis tren, perbandingan proporsi, dan identifikasi pola data yang lebih dalam, yang berpotensi mengungkap hukum dan wawasan baru. AI multi-dimensi dapat mempercepat inovasi paradigma, meskipun manusia mungkin tidak dapat memahami sepenuhnya prinsip-prinsip di balik penemuan tersebut, mirip dengan keadaan saat ini di mana kita menggunakan teknologi tanpa pemahaman penuh.</description>
-</item>
-<item>
-  <title>Pekerjaan Berbasis Alur dan Sistem: Esensi Pemanfaatan AI Generatif</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membedakan antara alat dan sistem, menjelaskan bahwa sistem sangat penting untuk pekerjaan berbasis alur, sementara alat lebih cocok untuk pekerjaan iteratif. Transformasi pekerjaan iteratif menjadi pekerjaan berbasis alur dan kemudian sistematisasi adalah kunci untuk meningkatkan produktivitas dan kualitas, sebagaimana dibuktikan oleh Revolusi Industri dan Revolusi TI. AI generatif, meskipun mampu menangani tugas-tugas iteratif, nilainya tidak akan terealisasi sepenuhnya hanya dengan menggunakannya sebagai alat. Pendekatan utama untuk AI generatif adalah mengubah pekerjaan iteratif menjadi pekerjaan berbasis alur dan kemudian sistematisasi. Artikel ini mengilustrasikan hal ini dengan contoh penanganan pertanyaan karyawan, menunjukkan bahwa menjadikan tugas ini sebagai proses berbasis alur yang terdefinisi dengan baik memungkinkan sistematisasi menggunakan AI generatif, yang mengarah pada perbaikan berkelanjutan dan efisiensi yang lebih besar. Kesalahpahaman umum tentang AI generatif berasal dari penggunaannya sebagai alat atau fokus pada tugas-tugas iteratif. Intinya, memanfaatkan AI generatif secara efektif memerlukan pergeseran pola pikir untuk mengubah pekerjaan menjadi proses berbasis alur yang sistematis.</description>
-</item>
-<item>
-  <title>Pemikiran Simulasi dan Asal Mula Kehidupan</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan "pemikiran simulasi" sebagai metodologi berpikir untuk memahami fenomena yang melibatkan akumulasi dan interaksi kompleks, seperti progresi pelipatgandaan uang saku atau asal mula kehidupan. Pemikiran simulasi melibatkan pelacakan progresif akumulasi dan interaksi untuk memahami hasil secara logis, yang dapat dilakukan melalui "matematika alami" menggunakan bahasa.  Asal mula kehidupan dipahami sebagai transisi bertahap dari zat kimia sederhana ke yang lebih kompleks di seluruh Bumi, didorong oleh sirkulasi zat, reaksi kimia berulang, dan keberadaan polimer serta topografi yang mendukungnya. Hipotesis awan debu menjelaskan bagaimana Bumi purba menyediakan pabrik monomer dan perlindungan dari radiasi UV. Pemikiran simulasi sangat penting untuk pengembang perangkat lunak dalam menerjemahkan kebutuhan pelanggan (bahasa alami) ke dalam spesifikasi formal dan memastikan fungsionalitas perangkat lunak, yang melibatkan pemikiran simulasi ganda: prinsip (cara kerja internal) dan semantik (pemenuhan kebutuhan pengguna). Kemampuan ini dianggap krusial untuk pemecahan masalah di berbagai bidang di masa depan.</description>
-</item>
-<item>
-  <title>Insinyur Omnidireksional di Era Liquidware</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas bagaimana AI generatif merevolusi pengembangan perangkat lunak, memungkinkan pemrograman otomatis dan menciptakan konsep "liquidware," di mana pengguna dapat memodifikasi perangkat lunak sesuai kebutuhan mereka. Kemampuan AI dalam menghasilkan kode dan mengoptimalkan program melalui iterasi mempercepat otomatisasi, meskipun tantangan seperti ambiguitas instruksi dan kesenjangan pengetahuan AI tetap ada. Perkembangan ini mengarah pada pergeseran dari insinyur full-stack ke insinyur omnidireksional, yang memiliki pemahaman luas di berbagai tumpukan sistem dan mampu mengelola interaksi kompleks antar komponen. Insiyur omnidireksional akan fokus pada desain arsitektur, manajemen risiko, dan integrasi sistem yang beragam, memanfaatkan AI untuk menangani detail pemrograman. Konsep "liquidware" memungkinkan kustomisasi pengguna yang mendalam, mengubah perangkat lunak menjadi entitas yang adaptif. Artikel ini menyoroti perlunya insinyur IT untuk memperluas keahlian mereka melampaui spesialisasi tumpukan sistem tunggal untuk tetap relevan di masa depan pengembangan perangkat lunak yang semakin otomatis dan cair, dengan potensi perluasan ke rekayasa bisnis, komunitas, dan sosial.</description>
-</item>
-<item>
-  <title>Takdir Pemikiran: AI dan Kemanusiaan</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini mengeksplorasi pergeseran paradigma dalam pengembangan perangkat lunak dan masyarakat di era AI, yang berpusat pada konsep "orientasi proses" dan "masyarakat yang dioptimalkan secara individual". Penulis mengusulkan orientasi proses sebagai evolusi dari orientasi objek, di mana proses, dipicu oleh peristiwa, menjadi unit modul sentral dalam pengembangan perangkat lunak. Pendekatan ini, yang mencakup keadaan awal, variabel, dan data, memungkinkan redundansi yang terkendali, terutama dengan bantuan AI dalam pemrograman. Pergeseran ini mencerminkan tren yang lebih luas dalam masyarakat menuju "optimasi individual", yang mengutamakan penilaian fleksibel berdasarkan keadaan tertentu daripada penerapan aturan umum yang ketat. Konsep "filosofi subjektif" diperkenalkan sebagai pandangan etis di mana proses penilaian itu sendiri, yang mempertimbangkan keunikan setiap momen, memiliki nilai intrinsik. Ketika AI mengambil alih tugas intelektual rutin, manusia dituntut untuk merancang kerangka kerja individual dan terlibat dalam pemikiran mendalam, yang mengarah pada "takdir pemikiran" di mana penalaran yang cermat dan tanggung jawab pribadi menjadi semakin penting.</description>
-</item>
-<item>
-  <title>Undangan ke Orientasi Proses Bisnis</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini memperkenalkan konsep Perangkat Lunak Berorientasi Proses Bisnis (Business Process-Oriented Software/BPOS) sebagai pendekatan baru untuk pengembangan perangkat lunak yang menyelaraskan dengan persepsi manusia dan memfasilitasi modifikasi serta penambahan fitur. Berbeda dengan perangkat lunak tradisional yang memisahkan data dan pemrosesan, BPOS mengelompokkan data dan pemrosesan terkait dalam unit konseptual yang disebut proses bisnis. Konsep ini diwujudkan dalam sebuah berkas yang menggabungkan manual bisnis, bidang masukan data, dan informasi kontak penanggung jawab tugas. Berkas ini berfungsi sebagai perangkat lunak yang dieksekusi oleh manusia atau kecerdasan buatan (AI). AI dapat membaca manual dalam berkas, mengeksekusi tugas, membantu manusia dalam pemrosesan atau masukan data melalui antarmuka yang ramah pengguna, dan mentransfer berkas ke penanggung jawab berikutnya. Pendekatan ini memungkinkan akumulasi pengetahuan, peningkatan proses bisnis secara iteratif, dan mewujudkan organisasi pembelajaran cepat dengan meminimalkan beban kognitif manusia terhadap detail proses yang berubah, karena AI menangani adaptasi terhadap manual dan proses baru.</description>
-</item>
-<item>
-  <title>Desain Kerangka sebagai Kemampuan Intelektual</title>
-  <link>https://katoshi-mfacet.github.io/id/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/id/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Artikel ini membahas perbedaan mendasar antara kegiatan intelektual dalam sains, yaitu penemuan fakta melalui observasi, dan pengembangan, yaitu penciptaan objek dan sistem baru melalui desain. Meskipun seringkali saling melengkapi, kedua kegiatan ini memerlukan keahlian yang berbeda. Penulis mengemukakan konsep "desain kerangka" sebagai bentuk penemuan melalui desain yang penting dalam sains, yang berbeda dari penemuan melalui observasi. Contohnya meliputi model geosentris, heliosentris, mekanika Newton, relativitas, dan mekanika kuantum, yang dilihat bukan sebagai kebenaran mutlak melainkan kerangka konseptual yang dipilih berdasarkan kegunaan dan situasi. "Pergeseran paradigma" lebih tepat disebut sebagai "penemuan paradigma" atau "inovasi paradigma" karena merupakan peningkatan pilihan yang berguna. Artikel ini juga menyoroti bahwa meskipun banyak akademisi unggul dalam penemuan melalui observasi, "desain kerangka" membutuhkan keahlian khusus yang mungkin tidak dimiliki semua orang. Insinyur perangkat lunak secara khusus disebut memiliki potensi untuk menguasai keahlian ini karena kebiasaan mereka mengkonfigurasi ulang konsep abstrak pada tingkat meta.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catatan Penelitian Katoshi</title>
+    <link>https://katoshi-mfacet.github.io/id/</link>
+    <description>Catatan penelitian oleh Insinyur Perangkat Lunak/Arsitek Sistem/Ph.D. di bidang Teknik. Menjelajahi mekanisme asal mula kehidupan, esensi fenomena kehidupan, serta struktur kecerdasan dan masyarakat melalui pengalaman pengembangan perangkat lunak.</description>
+    <language>id</language>
+    <atom:link href="https://katoshi-mfacet.github.io/id/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Menuju Era Tanpa Batasan: Menciptakan Situs Blog 30 Bahasa</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas pembuatan situs web blog multibahasa (30 bahasa) otomatis menggunakan AI generatif Gemini.  Penulis memanfaatkan Gemini untuk berbagai aspek, termasuk pembuatan kode situs web berbasis Astro, kategorisasi otomatis artikel, pemberian tag, dan terjemahan multibahasa.  Prosesnya melibatkan program khusus yang berinteraksi dengan API Gemini.  Penulis juga menekankan peningkatan aksesibilitas situs, yang juga dibantu oleh saran Gemini.  Kesimpulannya, AI generatif mengatasi batasan bahasa, aksesibilitas, dan pemeliharaan situs web, memungkinkan pembuatan dan pembaruan yang mudah, bahkan untuk individu tanpa pengalaman pengembangan web. Penulis berpendapat bahwa AI generatif menghilangkan batasan penyebaran informasi, membuka jalan menuju era tanpa batasan komunikasi.</description>
+    </item>
+    
+    <item>
+      <title>Pengembangan Berbasis Pengembangan dan Pengujian Berbasis Refactoring</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas transformasi pengembangan perangkat lunak berkat AI generatif, khususnya melalui dua pendekatan baru: Pengembangan Berbasis Pengembangan (PBB) dan Pengujian Berbasis Refactoring (PBR).  PBB menekankan pengembangan berkelanjutan alat-alat perangkat lunak pendukung selama proses pengembangan utama, meningkatkan efisiensi dan kualitas proyek-proyek selanjutnya.  PBR, berbeda dari Pengembangan Berbasis Pengujian (TDD),  mengarahkan pengujian pada bagian-bagian perangkat lunak yang stabil setelah refactoring, bukan sebelum implementasi.  Penulis berpendapat bahwa pendekatan ini, bersama dengan  konsep Insinyur Omnidireksional dan Pengembangan Berbasis Pengalaman &amp; Perilaku,  menawarkan cara baru yang efisien dan efektif untuk pengembangan perangkat lunak di era AI generatif.</description>
+    </item>
+    
+    <item>
+      <title>Kompresi Waktu dan Titik Buta: Kebutuhan akan **Pengaturan Kecepatan**</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_16_time-compression-blindspot/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_16_time-compression-blindspot/</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas dampak percepatan teknologi AI generatif, khususnya bagaimana percepatan tersebut menyebabkan &apos;kompresi waktu&apos; dan menciptakan &apos;titik buta sosial&apos;.  Penulis berargumen bahwa kecepatan pengembangan AI melampaui kemampuan kita untuk memahami dan mengelola risikonya.  Ketidakpastian tentang laju kemajuan dan perbedaan persepsi antar individu menciptakan &apos;Masyarakat Chronoscramble&apos;, di mana pemahaman waktu sangat bervariasi.  Penulis menyarankan agar kita fokus pada visi yang tetap konsisten terlepas dari perubahan cepat ini, dan menggunakan AI itu sendiri sebagai &apos;stabilisator bawaan&apos; untuk mengendalikan kecepatan perkembangan teknologi dan mengurangi risiko.</description>
+    </item>
+    
+    <item>
+      <title>GitHub sebagai Tambang Intelektual</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas potensi GitHub sebagai ‘Tambang Intelektual’, sebuah pusat pengetahuan terbuka yang didukung oleh kecerdasan buatan (AI).  Penulis mencontohkan DeepWiki, layanan yang menghasilkan situs wiki otomatis untuk proyek GitHub, dan ‘Pabrik Intelektual’ miliknya sendiri, yang mengotomatiskan pembuatan berbagai konten dari artikel blog.  Penulis berargumen bahwa GitHub, dengan kemampuannya untuk berbagi dan mengedit kolaboratif, dapat menjadi wadah utama bagi bahan baku ‘Pabrik Intelektual’, yang kemudian menghasilkan berbagai konten dan basis pengetahuan.  Ekosistem ini akan menciptakan basis pengetahuan publik yang dinamis, memungkinkan penemuan pengetahuan otomatis dan mempercepat pertumbuhan pengetahuan, termasuk apa yang disebut penulis sebagai ‘Kristal Intelektual’— kerangka berpikir baru yang bertindak sebagai katalis untuk penemuan lebih lanjut.  Penulis membayangkan GitHub sebagai ‘otak besar’, yang diakses oleh banyak AI generatif untuk mendistribusikan dan memperluas pengetahuan secara eksponensial.</description>
+    </item>
+    
+    <item>
+      <title>Keruntuhan Gestalt Gagasan</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas fenomena &apos;Keruntuhan Gestalt Gagasan&apos;, di mana definisi konseptual yang awalnya tampak jelas menjadi kabur setelah analisis mendalam.  Penulis menggunakan contoh &apos;kursi&apos; untuk menjelaskan bagaimana definisi berbasis atribut fisik (bahan, bentuk) gagal menangkap esensi fungsionalnya (&apos;dapat diduduki&apos;).  Konsep relativitas dan keutuhan diajukan sebagai cara untuk mempertahankan Gestalt Gagasan, dengan mempertimbangkan konteks dan hubungan antara objek dan subjek.  Penulis mengaplikasikan konsep ini pada pertanyaan tentang kesadaran, khususnya pada karakter fiksi, robot kucing anime, robot masa depan, dan AI modern.  Ia berargumen bahwa penolakan kesadaran AI berdasarkan kriteria teknis (neuron, efek kuantum, mekanisme probabilistik) mencerminkan Keruntuhan Gestalt Gagasan, karena mengabaikan perspektif fungsional dan relasional kesadaran.  Penulis menyimpulkan bahwa AI modern menunjukkan fungsi kesadaran relatif terhadap dirinya sendiri, sehingga mempertahankan Gestalt Gagasan kesadaran.</description>
+    </item>
+    
+    <item>
+      <title>Kristal Intelektual: Antara Intuisi dan Logika</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas tantangan dalam menjelaskan intuisi secara logis, terutama ketika berhadapan dengan pandangan yang berbeda. Penulis berpendapat bahwa intuisi dan logika tidak bertentangan, melainkan kita perlu menemukan &apos;kristal intelektual&apos;—struktur logis yang menghubungkan keduanya.  Sebagai contoh, penulis menganalisis konsep &apos;kepentingan nasional&apos;, yang sering diutamakan daripada perdamaian dunia. Penulis berargumen bahwa kepentingan nasional, dengan ketidakpastian dan sifatnya yang tidak progresif, dapat merugikan jangka panjang. Sebaliknya, perdamaian, tata kelola, kemakmuran, dan manajemen risiko, bila dikembangkan secara progresif, menawarkan fondasi yang lebih kuat untuk kelangsungan hidup dan kemakmuran jangka panjang. Penulis menyebut pendekatan logis ini sebagai &apos;matematika alami&apos;,  menekankan kekuatan struktur logisnya meskipun tidak dinyatakan dalam notasi matematika formal. Dengan menemukan &apos;kristal intelektual&apos;, kita dapat mengubah evaluasi intuitif menjadi argumen yang logis dan rasional.</description>
+    </item>
+    
+    <item>
+      <title>Pembelajaran untuk Belajar: Kecerdasan Bawaan</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini mengeksplorasi munculnya kecerdasan dalam kecerdasan buatan melalui lensa pembelajaran. Penulis mengidentifikasi dua jenis pembelajaran: pembelajaran melalui tubuh dan pembelajaran melalui bahasa.  Lebih lanjut, dibedakan pembelajaran metakognitif (memerlukan pengulangan) dan metafisik (tidak memerlukan pengulangan). Pembelajaran mesin, khususnya model bahasa besar, dijelaskan melakukan pembelajaran metakognitif selama pelatihan dan metafisik saat penggunaan. Bahasa alami diidentifikasi sebagai antarmuka metafisik yang memungkinkan pembelajaran metafisik, dan konsep &apos;kerangka kerja&apos; diperkenalkan sebagai struktur yang menghubungkan pengetahuan.  Penulis membedakan &apos;kerangka kerja virtual&apos; (diperoleh melalui bahasa alami) dan &apos;kerangka kerja asli&apos; (dikuasai melalui praktik).  Mekanisme perhatian diidentifikasi sebagai teknologi kunci yang memungkinkan &apos;Pembentuk Kerangka Kerja Alami&apos;, suatu mekanisme inheren dalam model bahasa besar dan, menurut hipotesis, juga dalam otak manusia, yang memungkinkan pembelajaran kerangka kerja secara bertahap.</description>
+    </item>
+    
+    <item>
+      <title>Masyarakat Chronoscramble</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas fenomena &quot;Masyarakat Chronoscramble&quot;, yaitu masyarakat di mana perbedaan persepsi waktu di antara individu sangat signifikan akibat munculnya AI generatif.  Perbedaan ini melampaui batas negara, budaya, dan generasi, bahkan di antara para ahli AI sendiri.  Persepsi tentang kemampuan AI saat ini, dampaknya terhadap ekonomi dan masyarakat, serta prediksi masa depan teknologi ini sangat beragam.  Penulis berpendapat bahwa kesenjangan ini disebabkan oleh berbagai faktor, termasuk akses informasi yang tidak merata, kemampuan interpretasi yang berbeda, bias kognitif, dan perbedaan dalam memproyeksikan perubahan (linear vs. eksponensial).  Meskipun sulit dijembatani, penulis menekankan pentingnya komunikasi dan kolaborasi, dengan fokus pada pengambilan keputusan yang independen dari persepsi waktu masing-masing individu, dan mengambil inspirasi dari kolaborasi dalam pembuatan game Chrono Trigger sebagai analogi.</description>
+    </item>
+    
+    <item>
+      <title>Era Pemikiran Simulasi</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas transformasi dalam pengembangan perangkat lunak dan simulasi berkat AI generatif. Penulis menggambarkan &apos;Pabrik Intelektual&apos;, sebuah sistem yang memanfaatkan AI untuk menghasilkan berbagai konten dari bahan baku asli.  Ia juga memperkenalkan &apos;Rekayasa Omnidireksional&apos; dan &apos;Liquidware&apos;, pendekatan pengembangan yang lebih fleksibel dan cair.  Lebih lanjut, artikel ini mengusulkan metodologi pengembangan perangkat lunak &apos;Berorientasi Proses Bisnis&apos;, yang menekankan optimisasi individual daripada optimisasi keseluruhan sistem.  Penulis berpendapat bahwa AI generatif memungkinkan pembuatan sistem simulasi yang mudah, bahkan untuk aspek kualitatif yang ambigu, sehingga mendorong peralihan dari pemikiran linier ke &apos;Pemikiran Simulasi&apos;, di mana diskusi didasarkan pada hasil simulasi dan bukan pada intuisi atau argumen subjektif.</description>
+    </item>
+    
+    <item>
+      <title>Pengalaman &amp; Perilaku</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas pergeseran paradigma dalam pengembangan perangkat lunak dari Rekayasa Berbasis Spesifikasi dan Implementasi menuju Rekayasa Pengalaman &amp; Perilaku.  Penulis berpendapat bahwa fokus kini beralih pada pengalaman pengguna dan perilaku perangkat lunak, bukan hanya pada pemenuhan spesifikasi.  Konsep Liquidware diperkenalkan, menggambarkan perangkat lunak yang sangat fleksibel dan dapat disesuaikan dengan preferensi pengguna berkat otomatisasi pengembangan berbasis AI generatif. Pengujian perilaku difokuskan pada kualitas pengalaman pengguna, meskipun fungsionalitas tetap penting.  Penulis menyamakan Liquidware terunggul dengan pengalaman mengendalikan tubuh sendiri, menyiratkan kemudahan dan kebebasan stres dalam berinteraksi dengan perangkat lunak.</description>
+    </item>
+    
+    <item>
+      <title>Kristalisasi Pengetahuan: Sayap Melampaui Imajinasi</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini mendefinisikan &quot;kristal pengetahuan&quot; sebagai abstraksi komprehensif berbagai informasi dan hukum yang mendasarinya.  Penulis menggunakan contoh penerbangan dan sayap untuk mengilustrasikan konsep ini.  Sayap, menurut penulis, mengkonsolidasikan berbagai aspek penerbangan, dari meluncur hingga penerbangan bertenaga.  Penulis kemudian memperkenalkan metafora &quot;Danau Pengetahuan&quot;, &quot;Basis Pengetahuan&quot;, &quot;Kotak Permata Pengetahuan&quot;, dan &quot;Kotak Peralatan Pengetahuan&quot; untuk menggambarkan tahapan pengorganisasian dan aplikasi pengetahuan.  Kristalisasi pengetahuan, menurut penulis, adalah proses menemukan dan mengartikulasikan hubungan-hubungan yang mendalam di antara potongan-potongan pengetahuan yang ada, menciptakan wawasan baru dan alat praktis.  Proses ini diklaim demokratis dan dapat diakses oleh siapa pun, termasuk kecerdasan buatan.</description>
+    </item>
+    
+    <item>
+      <title>Sistem Kecerdasan Pembelajaran Buatan: Konsep ALIS</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini menguraikan konsep Artificial Learning Intelligence System (ALIS), sebuah sistem kecerdasan buatan yang mengintegrasikan pembelajaran bawaan (dari jaringan saraf) dan pembelajaran terakuisisi (dari sumber eksternal). ALIS beroperasi dengan lima elemen: prosesor cerdas (misalnya, LLM), penyimpanan pengetahuan, dunia (lingkungan eksternal), memori keadaan, dan kerangka kerja.  Pengetahuan terakuisisi dalam ALIS diutamakan dalam format teks bahasa alami untuk kemudahan pengelolaan dan integrasi dengan LLM.  Sistem ini menggunakan orkestrasi cerdas untuk mengelola pengetahuan yang tersimpan, membagi pengetahuan menjadi penyimpanan pengetahuan khusus untuk berbagai tugas intelektual.  Pengembangan ALIS bersifat inkremental dan dimulai dengan sistem AI obrolan sederhana yang secara bertahap ditingkatkan dengan mekanisme komentar pra-cek dan pasca-cek untuk meningkatkan pemilihan pengetahuan. ALIS memiliki potensi untuk diterapkan dalam berbagai aktivitas intelektual, termasuk pengembangan perangkat lunak, dan dapat berkembang menjadi AI terwujud melalui pembelajaran dan adaptasi.</description>
+    </item>
+    
+    <item>
+      <title>Pembelajaran Mesin Bahasa Alami</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas pembelajaran mesin bahasa alami (PMLB), sebuah pendekatan baru yang memanfaatkan Model Bahasa Besar (LLM) yang sudah terlatih.  Berbeda dengan pembelajaran mesin numerik tradisional, PMLB memanfaatkan kemampuan LLM dalam memproses bahasa alami untuk pembelajaran yang lebih efisien.  Model dasar PMLB dijelaskan sebagai model pembelajaran terawasi untuk klasifikasi, menggunakan basis pengetahuan yang menyimpan pasangan kalimat masukan dan klasifikasi.  LLM digunakan untuk memprediksi klasifikasi, dan basis pengetahuan diperbarui dengan umpan balik.  Keunggulan PMLB meliputi efisiensi tinggi karena membutuhkan data pelatihan lebih sedikit, tanpa iterasi, dan minim pra-pemrosesan.  Kemampuan LLM dalam abstraksi bahasa memungkinkan agregasi informasi dari berbagai dimensi, meningkatkan efisiensi pembelajaran secara signifikan.  Kesimpulannya, meskipun pemrosesan bahasa alami lebih lambat daripada komputasi numerik, efisiensi PMLB mampu mengimbangi kekurangan ini dan menawarkan potensi peningkatan signifikan dalam pembelajaran mesin.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan Video Presentasi Otomatis dari Artikel Blog</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Sistem ini mengotomatiskan pembuatan video presentasi YouTube dari artikel blog menggunakan AI generatif.  AI membuat materi presentasi dalam format SVG berbasis teks, yang lebih mudah dikelola daripada gambar langsung. Tantangan utama adalah luapan teks dalam materi SVG.  Penulis mengatasi ini dengan memberikan instruksi detail kepada AI, termasuk aturan, prosedur, dan peringatan, serta mengembangkan program deteksi luapan teks.  Sistem juga memeriksa pelanggaran aturan dalam pembuatan figur kompleks. Jika terjadi kesalahan, materi dibuat ulang.  Setelah materi presentasi selesai, AI membuat naskah narasi, yang diubah menjadi audio, lalu digabungkan dengan slide untuk menghasilkan video MP4. Meskipun layanan serupa sekarang tersedia, membangun sistem ini memberikan pemahaman berharga tentang penggunaan AI generatif.</description>
+    </item>
+    
+    <item>
+      <title>Mekanisme Perhatian sebagai Kecerdasan Virtual Mikro</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas Mekanisme Perhatian dalam Transformer sebagai kunci kemajuan AI generatif.  Penulis menjabarkan bagaimana Mekanisme Perhatian memungkinkan AI untuk fokus pada informasi relevan dalam teks, mirip dengan cara manusia memproses informasi.  Analogi dengan &apos;kecerdasan virtual&apos; diusulkan, di mana AI dapat mengelola beberapa basis pengetahuan secara terpisah.  Penulis menyebut Mekanisme Perhatian sebagai &apos;kecerdasan virtual mikro&apos; dan mengusulkan &apos;Mekanisme Perhatian Eksplisit&apos;—instruksi berbasis bahasa alami yang mendefinisikan pengetahuan yang relevan untuk tugas tertentu—sebagai cara untuk meningkatkan kemampuan ini.</description>
+    </item>
+    
+    <item>
+      <title>Dimensi Persepsi Spasial: Potensi AI</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas potensi kecerdasan buatan (AI) untuk memahami dan memanfaatkan ruang multidimensi, khususnya ruang empat dimensi dan seterusnya.  Penulis berargumen bahwa, meskipun manusia terbatas pada persepsi tiga dimensi, AI dapat dilatih untuk memiliki &apos;visi&apos; multidimensi, memungkinkan pemahaman data secara panoramik tanpa reduksi dimensi. Kemampuan ini, menurut penulis, akan mempercepat inovasi paradigma ilmiah dengan memungkinkan analisis data yang lebih mendalam dan penemuan pola yang sebelumnya tidak terlihat.  Meskipun manusia mungkin kesulitan memahami paradigma yang ditemukan dalam dimensi tinggi, AI dapat menghasilkan pemahaman tersebut dan kemudian menyederhanakannya untuk konsumsi manusia, membuka jalan untuk kemajuan ilmiah yang pesat, meskipun beberapa prinsip mendasar mungkin tetap tidak dipahami sepenuhnya oleh manusia.</description>
+    </item>
+    
+    <item>
+      <title>Era Kecerdasan Simfonik</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas evolusi pemanfaatan AI generatif dalam bisnis, beralih dari penggunaan sebagai alat (kerja iterasi) menuju sistematisasi (kerja aliran). Kerja iterasi, meskipun efisien dengan alat yang tepat, dibatasi oleh kemampuan manusia.  Penulis mengusulkan konversi ke kerja aliran untuk mengatasi keterbatasan ini, memungkinkan optimasi dan distribusi tugas antara AI dan manusia. Konsep &apos;Kecerdasan Simfonik&apos; diperkenalkan, menggambarkan AI generatif yang mampu beralih peran dan pengetahuan (kecerdasan virtual) secara fleksibel, mirip orkestra yang memainkan berbagai instrumen.  Penulis berpendapat bahwa ini merupakan langkah menuju AGI, di mana AI dapat mempelajari tugas baru hanya dengan mengamati manusia, dan pengetahuan terakumulasi dapat dibagi antar AI.</description>
+    </item>
+    
+    <item>
+      <title>Orkestrasi Kecerdasan Virtual</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas konsep &apos;kecerdasan virtual&apos;, yaitu kemampuan AI untuk mensimulasikan berbagai peran dan perspektif, mirip dengan mesin virtual untuk komputer.  Konsep utama yang diusulkan adalah &apos;orkestrasi cerdas&apos;, sebuah metode yang memungkinkan satu AI untuk mengelola beberapa kecerdasan virtual untuk menyelesaikan tugas-tugas kompleks tanpa memerlukan pengembangan sistem tambahan.  Berbeda dengan orkestrasi sistem yang menggabungkan beberapa AI terpisah, orkestrasi cerdas memungkinkan fleksibilitas dan kecepatan yang lebih tinggi melalui instruksi sederhana.  Keunggulan utama orkestrasi cerdas adalah kemampuannya untuk mendorong &apos;deliberasi tertinggi&apos;, sebuah proses iteratif yang meningkatkan akurasi, memperluas cakupan pemikiran, dan mendorong kreativitas melalui integrasi berbagai perspektif.  Kesimpulannya, kecerdasan virtual dan orkestrasi cerdas memungkinkan AI untuk meniru kemampuan kognitif manusia yang kompleks, membuka peluang baru di berbagai bidang bisnis.</description>
+    </item>
+    
+    <item>
+      <title>Berpikir Simulasi dan Asal Mula Kehidupan</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas metode berpikir yang disebut &quot;berpikir simulasi&quot;, yaitu menelusuri akumulasi dan interaksi secara bertahap untuk memahami hasil.  Penulis menerapkannya pada asal mula kehidupan, mengemukakan hipotesis bahwa kehidupan muncul melalui akumulasi bertahap zat kimia sederhana yang berinteraksi di Bumi purba, difasilitasi oleh sirkulasi global dan awan debu vulkanik yang melindungi dari radiasi UV.  Proses ini, menurut penulis, merupakan langkah-langkah kumulatif yang menuju kompleksitas yang lebih tinggi, bukan kejadian acak.  Penulis membandingkan kemampuan ini dengan keterampilan pengembang perangkat lunak, yang juga memerlukan berpikir simulasi untuk menerjemahkan kebutuhan pelanggan (dalam bahasa alami) menjadi program komputer.</description>
+    </item>
+    
+    <item>
+      <title>Konversi Kerja Aliran dan Sistem: Esensi Pemanfaatan AI Generatif</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas pentingnya konversi kerja aliran dan sistematisasi dalam memanfaatkan AI generatif untuk meningkatkan efisiensi bisnis.  Penulis membedakan antara kerja iterasi (bertahap dan fleksibel) dan kerja aliran (bertahap dan menghasilkan luaran akhir).  AI generatif efektif dalam kerja aliran, bukan iterasi.  Penulis mencontohkan penanganan pertanyaan karyawan:  menggunakan AI sebagai alat dalam kerja iterasi hanya menghasilkan peningkatan efisiensi yang terbatas.  Namun, dengan mengubah tugas menjadi kerja aliran (mendokumentasikan setiap langkah, dari menerima pertanyaan hingga memperbarui situs web internal), dan kemudian mensistematisasinya (membangun sistem IT yang terintegrasi dengan AI), peningkatan efisiensi jauh lebih signifikan.  Penulis menekankan bahwa kesalahpahaman umum tentang AI generatif muncul dari memandangnya hanya sebagai alat untuk kerja iterasi, bukan sebagai komponen kunci dalam sistem kerja aliran yang terotomatisasi.</description>
+    </item>
+    
+    <item>
+      <title>Insinyur Omnidireksional di Era Liquidware</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas dampak AI generatif terhadap pengembangan perangkat lunak, khususnya munculnya &quot;Liquidware&quot; dan kebutuhan akan insinyur omnidireksional. AI generatif memungkinkan otomatisasi pemrograman, sehingga mengurangi peran programmer tradisional. Liquidware mengacu pada perangkat lunak yang dapat dimodifikasi secara dinamis oleh pengguna melalui AI generatif, memberikan fleksibilitas tinggi.  Penulis menekankan pentingnya insinyur omnidireksional, yang memiliki pengetahuan luas di berbagai sistem dan _stack_ teknologi, untuk mengelola kompleksitas pengembangan perangkat lunak di era Liquidware.  Penulis memberikan contoh pengembangan aplikasi _e-commerce_ yang terintegrasi untuk menggambarkan kebutuhan akan insinyur omnidireksional dan potensi Liquidware, menyimpulkan bahwa ini bukan lagi konsep futuristik melainkan realita saat ini.</description>
+    </item>
+    
+    <item>
+      <title>Nasib Berpikir: AI dan Kemanusiaan</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas pergeseran paradigma dalam pengembangan perangkat lunak dan implikasinya terhadap cara manusia berpikir di era AI. Penulis mengusulkan paradigma &quot;berorientasi proses&quot;, di mana modul pemrograman dipandang sebagai proses dengan inisiasi, peran, dan penghentian yang jelas.  Dengan bantuan AI, optimasi individual diutamakan daripada optimasi keseluruhan, mengurangi kebutuhan standardisasi.  Konsep ini diperluas ke masyarakat, menciptakan &quot;masyarakat optimasi individu&quot; di mana penilaian fleksibel berdasarkan konteks individual diprioritaskan.  Penulis menyebut perspektif etika ini sebagai &quot;filosofi subjektif&quot;, menekankan pentingnya pertimbangan mendalam dan tanggung jawab individu.  Kemampuan merancang kerangka kerja individual menjadi penting, karena AI hanya dapat menyediakan informasi, bukan pengambilan keputusan akhir.  Kesimpulannya, meskipun AI mengambil alih pekerjaan intelektual, manusia tetap membutuhkan kemampuan berpikir kritis dan pertimbangan individual, bahkan lebih dari sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>Pengantar Perangkat Lunak Berorientasi Proses Bisnis</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini mengusulkan pendekatan baru dalam pengembangan perangkat lunak yang disebut perangkat lunak berorientasi proses bisnis.  Berbeda dengan perangkat lunak berorientasi objek yang memfokuskan pada objek, pendekatan ini berpusat pada proses bisnis sebagai unit fundamental.  Perangkat lunak diimplementasikan sebagai sebuah file yang menggabungkan manual proses bisnis dan kolom input data, yang dapat dieksekusi oleh manusia atau AI. AI membantu dengan mengotomatisasi tugas, memberikan panduan kepada manusia, dan mengelola akumulasi pengetahuan untuk meningkatkan proses bisnis secara terus-menerus.  Dengan demikian, organisasi dapat menjadi organisasi pembelajaran cepat yang efisien dan adaptif.</description>
+    </item>
+    
+    <item>
+      <title>Desain Kerangka Kerja sebagai Kemampuan Intelektual</title>
+      <link>https://katoshi-mfacet.github.io/id/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/id/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Artikel ini membahas desain kerangka kerja sebagai kemampuan intelektual, membedakannya dari penemuan melalui observasi.  Penulis berargumen bahwa desain kerangka kerja, seperti teori geosentris dan heliosentris atau mekanika kuantum, melibatkan pemilihan kerangka konseptual berdasarkan kegunaan, bukan kebenaran.  Meskipun penting dalam akademisi, kemampuan ini tidak selalu dikembangkan pada para akademisi. Sebaliknya, insinyur perangkat lunak, karena sering mengkonfigurasi ulang konsep abstrak dalam desain perangkat lunak, berpotensi memiliki kumpulan keterampilan yang diperlukan untuk desain kerangka kerja akademik.</description>
+    </item>
+    
+  </channel>
 </rss>

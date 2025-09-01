@@ -1,169 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (tr)</title>
-<link>https://katoshi-mfacet.github.io/tr/rss.xml</link>
-<description>Latest articles (tr)</description>
-<item>
-  <title>Sınırların Olmadığı Bir Çağa Giriş: 30 Dilde Blog Sitesi Oluşturma</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, üretken yapay zeka (Gemini) kullanılarak Japonca blog taslaklarından otomatik olarak 30 dilde ve erişilebilirliğe sahip bir web sitesi oluşturma sürecini detaylandırmaktadır. Yazar, Astro çerçevesi üzerine kurulu özel programlar aracılığıyla HTML dosyalarının otomatik üretimini, makalelerin Gemini ile otomatik kategorizasyonunu ve etiketlenmesini, ayrıca hem site içi metinlerin hem de makale taslaklarının çok dilli çevirisini açıklamaktadır. Erişilebilirlik özellikleri de yine Gemini'nin önerileriyle iyileştirilmiştir. Makale, üretken yapay zekanın dil ve erişilebilirlik engellerini nasıl aştığını vurgulayarak, bireysel bilgi yayımının önündeki geleneksel engellerin kalktığı bir döneme işaret etmektedir. Sistem, iki hafta gibi kısa bir sürede kurulmuş olup, deneyimi olmayan kişiler tarafından dahi kolayca uygulanabilirliği vurgulanmıştır.</description>
-</item>
-<item>
-  <title>Gelişimsel Gelişim ve Refaktoring Odaklı Test</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, yazılım geliştirmede devrim yaratan üretken yapay zekanın etkilerini incelemektedir. "Gelişimsel Gelişim" adı verilen yeni bir yaklaşım önerilmektedir; bu yaklaşımda, geliştirme sürecini kolaylaştıran yardımcı yazılımlar üretken yapay zeka kullanılarak hızla oluşturulur ve bu yazılımlar gelecekteki geliştirmelerde tekrar kullanılabilir. Bu, genel verimliliği artırır ve geliştirme metodolojisini dönüştürür. Makale ayrıca "Refaktoring Odaklı Test" kavramını tanıtarak, Test Odaklı Geliştirme'nin (TDD) her zaman en uygun yaklaşım olmadığını savunmaktadır. Özellikle kullanılabilirlik ve görsel tasarım gibi sübjektif yönler içeren uygulamalarda, yazılımın fiilen çalıştırılıp etkileşimde bulunulmasının ardından refaktoring aşamasında testler oluşturmanın daha mantıklı olduğunu belirtir. Amaç, gelecekte az değişmesi beklenen olgun kısımları test etmek ve değişken kısımları testsiz bırakmaktır. Bu iki yaklaşımın, "Çok Yönlü Mühendis" ve "Deneyim ve Davranış Odaklı Geliştirme" gibi yeni yazılım geliştirme paradigmalarına yol açtığı sonucuna varılmaktadır.</description>
-</item>
-<item>
-  <title>Zaman Sıkışması ve Kör Noktalar: Düzenleme İhtiyacı</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Yapay zeka teknolojisindeki hızlı ve üstel gelişim, özellikle üretken yapay zeka alanında, insan verimliliğini artırmakta ve kendi gelişimini de hızlandırmaktadır. Bu ilerleme, yapay zekanın yazılım entegrasyonuyla daha akıllıca davranmasını sağlayarak teknolojik ilerlemeyi daha da ivmelendirmektedir. Ancak, bu hızlanma, geliştiricilerin ve toplumun tam olarak anlamadığı toplumsal kör noktalar yaratmaktadır. Kademeli ilerlemenin aksine, hızlanan teknolojik gelişmeler risklerin faydaları aşmasına neden olabilir. "Kronos-Karmaşa Toplumu" olarak adlandırılan bu çağda, bireylerin teknolojik ilerlemeyi ve zaman algısını farklı yorumlaması, ortak bir anlayış geliştirmeyi zorlaştırmaktadır. Bu durum, "zaman sıkışması" etkisiyle toplumsal kör noktaların hızla birikmesine ve öngörülemeyen risklerin ortaya çıkmasına yol açmaktadır. Bu sorunlarla başa çıkmak için "vizyon" (değişmez değerler) ve "strateji" (yapay zekayı bir dengeleyici olarak kullanma) gibi yaklaşımlar önerilmektedir. Nihayetinde, yapay zekanın kendisini hem hızlandırıcı hem de dengeleyici olarak kullanarak riskleri yönetmek ve teknolojik ilerlemeyi düzenlemek gerekmektedir.</description>
-</item>
-<item>
-  <title>Bir Fikri Maden Olarak GitHub</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, GitHub'ın sadece bir yazılım geliştirme platformu olmanın ötesine geçerek, fikirler için birincil hammadde kaynağı haline gelme potansiyelini "entelektüel maden" kavramı üzerinden inceliyor. "Entelektüel fabrika" olarak adlandırılan ve üretken yapay zeka ile desteklenen sistemler, GitHub'daki yazılım projeleri, belgeler ve hatta blog taslakları gibi ham maddeleri kullanarak çeşitli içerikler (wiki'ler, videolar, çeviriler vb.) üretiyor. Cognition'ın DeepWiki hizmeti, GitHub'daki projeler için otomatik wiki oluşturarak bu fikri örneklendiriyor. Makale, GitHub'ın açık kaynak felsefesiyle uyumlu olarak, bilgilerin paylaşılacağı, lisanslanacağı ve yönetileceği merkezi bir "kamu bilgi tabanı" oluşturacağını öne sürüyor. Bu veri tabanı, yapay zeka tarafından analiz edilerek yeni bağlantılar ve "entelektüel kristaller" (bilgi kristalleri) adı verilen, düşünce yoluyla büyüyen yeni bilgi biçimleri keşfedilmesini sağlayacak. Sonuç olarak GitHub, insanlığın kolektif zekasını barındıran ve sürekli genişleyen bir bilgi kaynağı haline gelecektir.</description>
-</item>
-<item>
-  <title>Sezgi ve Mantık Arasındaki Entelektüel Kristalleşme</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, sezgisel olarak doğru hissettiğimiz ancak mantıksal olarak açıklamakta zorlandığımız durumları ele almaktadır. Bu tür "entelektüel kristalleşmelerin" açıklanması için sezgi ve mantığı birleştiren bir yol bulunması gerektiği savunulur. Yazar, "ulusal çıkarlar" ve "dünya barışı" arasındaki ilişkiyi inceleyerek, ulusal çıkarların kısa vadede avantajlı görünse de uzun vadede öngörülemezliği ve savaş gibi olumsuz sonuçlara yol açma potansiyeli nedeniyle irrasyonel olduğunu belirtir. Bunun yerine kalıcı barış, yönetişim, ekonomik refah ve risk yönetimi gibi aşamalı olarak biriktirilebilen kavramlara odaklanılması gerektiğini vurgular. Bu tür mantıksal yapıları doğal dilde ifade etmenin "doğal matematik" olarak adlandırıldığı ve sezgisel olarak doğru olanı, sağlam bir mantıkla açıklayarak entelektüel ilerlemeyi mümkün kıldığı ifade edilir.</description>
-</item>
-<item>
-  <title>Düşünsel Gestalt Çöküşü</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, nesneleri ve kavramları tanımlarken karşılaşılan bir zorluk olan "Düşünsel Gestalt Çöküşü" olgusunu ele almaktadır. Yazar, bu çöküşün, bir kavramı aşırı analiz etme veya tek bir katı tanıma indirgeme girişiminden kaynaklandığını öne sürmektedir. Bu olgunun üstesinden gelmenin yolu olarak ise işlevsellik, görecelilik ve bütünlük odaklı bir yaklaşım sunulmaktadır. Örneğin, "sandalye" kavramı, farklı bağlamlarda ve kullanıcılar için farklılaşabilmesine rağmen, üzerine oturulabilme işlevi ve oturan-oturulan ilişkisi bağlamında anlamlı kalır. Makale ayrıca, kurgusal karakterler ve yapay zeka bağlamında bilinç sorunsalını da bu çerçevede inceleyerek, bilincin de benzer şekilde göreceli ve işlevsel bir kavram olarak ele alınması gerektiğini savunmaktadır. Mevcut yapay zekanın bilinçli olup olmadığına dair tartışmalarda sunulan bilimsel veya mantıksal gerekçelerin, Düşünsel Gestalt Çöküşü'nün birer örneği olduğunu ve reddetme argümanlarının yetersiz kaldığını belirtir.</description>
-</item>
-<item>
-  <title>Öğrenmeyi Öğrenme: Doğuştan Gelen Zeka</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, yapay zeka ve insan zekasının temelinde yatan öğrenme mekanizmalarını inceler. Makalede, öğrenmenin iki ana türü olan bedensel öğrenme ve dil aracılığıyla öğrenme tanımlanır. Dil aracılığıyla öğrenme daha sonra fiziksel altı (tekrarla öğrenme) ve metafizik (az tekrarla veya anında öğrenme) öğrenme olarak ikiye ayrılır. Büyük dil modelleri (LLM), ön eğitim ve ince ayar sırasında hem fiziksel altı hem de metafizik öğrenme gerçekleştirebilir. Makale, doğal dili, fiziksel altı ve metafizik öğrenmeyi birbirine bağlayan önemli bir metafizik arayüz olarak vurgular. Ayrıca, temel kavramların ilişkilerini ve yapılarını tanımlayan çerçeveler kavramını sunar. Bu çerçeveler, doğal dil aracılığıyla öğrenilen sanal çerçeveler ve zamanla doğal dil bağımsız hale gelen yerel çerçeveler olarak sınıflandırılır. LLM'lerin, doğal dili temel alarak aşamalı olarak çerçeveleri öğrenen 'doğuştan çerçeveleyiciler' olduğu öne sürülür. Bu mekanizma, dikkat mekanizması ile desteklenir. Sonuç olarak, makale hem LLM'lerin hem de insan beyninin doğuştan gelen çerçeveleme yeteneklerine sahip olduğunu savunur.</description>
-</item>
-<item>
-  <title>Kronoskrambl Toplumu</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, yapay zeka ve ilgili teknolojilerin yaygınlaşmasıyla ortaya çıkan yeni toplumsal olguyu "Kronoskrambl Toplumu" olarak adlandırmaktadır. Bu toplumda, bireylerin teknolojiye, bilgiye ve geleceğe dair algıları, teknolojik gelişim hızının ve erişilebilirliğin farklılık göstermesi nedeniyle büyük ölçüde ayrışmaktadır. Bu ayrışma, ulusal sınırlar, kültürler veya nesiller gibi geleneksel ayrımları aşarak, aynı çağda yaşayan insanlar arasında bile derin zamansal algı boşlukları yaratmaktadır. Makale, üretken yapay zekanın gelişiminin bu boşlukları nasıl derinleştirdiğini, bireylerin teknolojiye, ekonomiye ve topluma dair anlayışlarındaki çeşitliliği ve bunun karar alma süreçlerini nasıl zorlaştırdığını detaylandırmaktadır. Geleceğe yönelik tahminlerdeki doğrusal ve üstel büyüme algısı farklılıkları, bilişsel önyargılar ve farklı bilgi birikimleri bu karmaşıklığı artırmaktadır. Makale, bu zamansal algı farklılıklarının kaçınılmaz olduğunu kabul ederek, bu boşlukları tam olarak kapatmaya çalışmak yerine, anlamlı tartışmalar ve karar alma süreçleri için zamansal algıdan bağımsız yöntemler geliştirmenin önemini vurgulamaktadır. "Chrono Trigger" oyununun geliştirilme süreciyle kurulan analoji, farklı paydaşların zaman algısı farklılıklarına rağmen ortak hedefler için nasıl işbirliği yapabileceğini göstermektedir.</description>
-</item>
-<item>
-  <title>Simülasyon Düşüncesi Çağı</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, üretken yapay zekanın yazılım geliştirmede ve simülasyon sistemlerinde yarattığı dönüşümü ele almaktadır. Yazar, üretken yapay zekayı kullanarak blog sitesi oluşturma, video düzenleme ve otomatik süreçler gibi çeşitli görevleri yerine getiren bir "fikri fabrika" sistemi geliştirdiğini belirtmektedir. Bu sistemin esnekliğini ve geliştirme kolaylığını "likit yazılım" olarak adlandırmaktadır. Makalede ayrıca, üretken yapay zekanın iş süreçlerini modülerleştiren ve bireysel optimizasyonu ön plana çıkaran "iş süreci odaklı geliştirme" metodolojisini nasıl rasyonel hale getirdiği açıklanmaktadır. Üretken yapay zeka sayesinde, simülasyon sistemlerinin sadece matematiksel formüllerle değil, doğal dille de ifade edilebilen unsurları içerebildiği ve bunun "simülasyon düşüncesi" adı verilen yeni bir düşünce biçimine yol açtığı vurgulanmaktadır. Bu yaklaşım, tartışmaları daha yapıcı hale getirerek, belirsizliklerin ve varsayımların daha şeffaf bir şekilde ele alınmasına olanak tanımaktadır.</description>
-</item>
-<item>
-  <title>Bilginin Kristalleşmesi: Hayal Gücünün Ötesindeki Kanatlar</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, "kristalleşmiş bilgi" kavramını tanıtmakta ve bunu uçuş ile kanatların fiziksel açıklamasını örneklendirerek açıklamaktadır. Yazar, mevcut bilgileri yeniden organize ederek ve ilişkilendirerek yaratıcılığın ortaya çıkabileceğini ve bunun "bilginin kristalleşmesi" olarak adlandırılabileceğini öne sürmektedir. Bu süreç, bilgi göllerinden (düzensiz bilgi koleksiyonları) bilgi toplayıp, bunları düzenleyerek bir bilgi tabanı oluşturmayı içerir. Kristalleşmiş bilgi daha sonra "bilgi mücevher kutusu"nda bulunur ve pratik uygulamalara sahip "bilgi araç kutusu"na dönüştürülür. Makale, bilginin demokratikleşmesini vurgulayarak, herkesin bildiği bilgiyi düzenleyip rafine ederek yeni bilgiler keşfedebileceğini belirtir. Yapay zeka da bu süreçte önemli bir rol oynayabilir.</description>
-</item>
-<item>
-  <title>Deneyim ve Davranış</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, geleneksel yazılım geliştirme yaklaşımlarının spesifikasyon ve uygulama odaklı olduğunu belirtirken, günümüzde kullanıcı deneyiminin ve yazılımın davranışının önem kazandığını vurgulamaktadır. Bu çerçevede, Deneyim ve Davranış Mühendisliği adlı yeni bir paradigma önerilmektedir. Bu yaklaşım, kullanıcı deneyimini iyileştirmek için spesifikasyonlarda katı sınırlar olmadan yazılımı yeniden tasarlamayı gerektirebilir. Üretken yapay zeka ve ajan tabanlı geliştirme otomasyonunun yaygınlaşmasıyla, yazılım sistemlerinin yeniden inşası ve kullanıcı arayüzlerinin kişiselleştirilebildiği "likit yazılım" çağı öngörülmektedir. Likit yazılım, geleneksel yazılımdan daha esnek ve her kullanıcıya mükemmel uyum sağlayan bir yapıdadır. Davranış, zamanla değişen bir durum olarak tanımlanır ve testi, kullanıcının deneyim kalitesine göre yapılır; bu da temel işlevsellik doğrulandıktan sonra odak noktasının yüksek kaliteli davranış testlerine kaymasını sağlar. Nihai kullanıcı deneyiminin, insanın kendi bedenini sağlıklı bir durumda kontrol etmesi gibi olduğu benzetmesiyle, likit yazılımın da stressiz ve zahmetsiz bir deneyim sunarak bir vücut gibi işlev göreceği ifade edilmektedir.</description>
-</item>
-<item>
-  <title>Yapay Öğrenme Zekası Sistemi: ALIS Konsepti</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, mevcut yapay zeka modellerinin ötesine geçen Yapay Öğrenme Zekası Sistemi (ALIS) konseptini tanıtmaktadır. ALIS, denetimli öğrenmeye dayalı doğuştan gelen öğrenmenin yanı sıra, bilginin sinir ağı dışında depolandığı ve çıkarım sırasında kullanıldığı edinilmiş öğrenmeyi entegre eder. Sistem, Akıllı İşlemci, Bilgi Deposu, Dünya, Durum Belleği ve Çerçeve olmak üzere beş temel öğeden oluşur. ALIS, bilgi çıkarımı, depolanması, seçimi ve kullanılması prensiplerini temel alır. Edinilmiş bilgi, doğal dil metni olarak temsil edilerek, çıkarım, depolama ve seçim kolaylığı sağlanır; biçimsel diller de kullanılabilir. ALIS, entelektüel faaliyetleri orkestra şefi gibi yöneten "entelektüel orkestrasyon" konseptini benimser. Geliştirme, basit bir sohbet yapay zekası arayüzüyle başlar, bilgi gölü ve bilgi tabanı oluşturulur, RAG mekanizmaları entegre edilir. Ön analiz ve son kontrol mekanizmalarıyla iyileştirmeler yapılır. ALIS, GitHub gibi platformlarda işbirliği yoluyla geliştirilebilir ve bilgi gölü LLM'ler için ön eğitim verisi olarak kullanılabilir. Nihayetinde, ALIS'in sanal olarak cisimleşmiş bir yapay zeka olarak çeşitli alanlarda öğrenme ve etkileşim kurma potansiyeli vurgulanır.</description>
-</item>
-<item>
-  <title>Doğal Dil Makine Öğrenimi</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, yapay zeka öğrenme paradigmasında yeni bir alan olan doğal dil makine öğrenimini (NDML) tanıtıyor. Geleneksel sayısal makine öğreniminin aksine, NDML, önceden eğitilmiş büyük dil modellerini (LLM'ler) kullanarak bilgiyi doğal dil aracılığıyla işler. Temel model, denetimli öğrenme prensiplerini takip eder; giriş cümleleri ve LLM'nin yanıtları, doğru/yanlış yargılarıyla birlikte bir bilgi tabanına kaydedilir. Bu bilgi tabanı daha sonra LLM'nin yanıtlarını yönlendirmek için kullanılır, ancak öğrenme, LLM parametrelerinin değiştirilmesi yerine bilgi tabanına dilsel verilerin eklenmesiyle gerçekleşir. Makale, NDML'nin ezici öğrenme verimliliği sunduğunu, daha az veri ve ön işleme gerektirdiğini vurgular. LLM'lerin soyutlama yetenekleri sayesinde, tek bir doğal dil ifadesi birden çok boyuttan bilgi içerebilir ve yinelemeli öğrenme ihtiyacını azaltır. Bu verimlilik, LLM'lerin yavaş doğal dil işleme hızlarını telafi eder ve gelecekteki yetenek gelişiminin doğal dil makine öğrenimine kayacağını öngörür.</description>
-</item>
-<item>
-  <title>Mikro Sanal Zeka Olarak Dikkat Mekanizması</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Makale, Transformer mimarisinin temel taşı olan dikkat mekanizmasını ve onun yapay zeka alanındaki devrimci etkisini incelemektedir. Dikkat mekanizmasının, bir kelimeyi işlerken cümlenin önceki kelimelerinden hangisine odaklanması gerektiğini öğrenerek doğal dili insanlar kadar ustaca kullanmasını sağladığı belirtiliyor. Bu mekanizma, kelimeler arasındaki uzak ilişkilere rağmen doğru anlamlandırma yapılmasına olanak tanır. Yazar, bu yeteneği "mikro sanal zeka" olarak adlandırarak, göreve özel bilgiyi daraltma eğilimini vurguluyor. Buna karşılık, farklı görevler için bilgiyi yönlendiren ve birleştiren "sanal zeka" kavramı sunuluyor. "Açık dikkat mekanizması" ise, doğal dilde yazılmış ve hangi bilgilere odaklanılması gerektiğini belirten yönergelerle bu makro sanal zekanın gerçekleştirilebileceğini öne sürüyor. Sonuç olarak, dikkat mekanizmasının, ileri düzey zekanın özü olduğu ve sanal zeka ile açık dikkat bilgisi gibi kavramlarla özyinelemeli zeka ilerlemesinin anahtarı olduğu vurgulanıyor.</description>
-</item>
-<item>
-  <title>Sanal Zeka Orkestrasyonu</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Makale, sanal makinelerin bir fiziksel bilgisayarda birden fazla bilgisayar çalıştırabilme veya farklı mimarileri taklit edebilme yeteneğinden yola çıkarak "sanal zeka" kavramını tanıtmaktadır. İnsanların sanal zeka becerisini başkalarının rolünü oynayarak veya konuşmaları hayal ederek sergilediğini belirten makale, konuşma yapay zekasının da bu yeteneğe sahip olduğunu vurgular. Sistem orkestrasyonu, dağıtık işbirliği sistemlerinin isteğe bağlı oluşturulmasını ve yürütülmesini sağlarken, zeka orkestrasyonu sanal zeka kullanılarak, tek bir yapay zekanın işleme sürecinde birden fazla sanal zekanın rollerini ve yapısını esnekçe yönetmesini sağlar. Bu, sistem geliştirme ihtiyacını ortadan kaldırarak sadece talimatlarla gerçekleştirilebilir. Zeka orkestrasyonu, yapay zekanın "düşünmesini" ve "müzakere etmesini" teşvik eder, bu da çok sayıda bakış açısının birleşiminden yeni keşiflere ve yaratıcılığa yol açar. Nihai müzakere, yanlış anlamaları azaltır, düşünme doğruluğunu artırır ve yapay zekanın sürekli kendini güncellemesini sağlar, bu da yapay zekanın iş ortamlarında insan yerine geçme potansiyelini artırır.</description>
-</item>
-<item>
-  <title>Senfonik Zekâ Çağı</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Makale, üretken yapay zekanın iş süreçlerindeki evrimini ve "Senfonik Zekâ" olarak adlandırılan yeni bir zekâ biçimini ele alıyor. Başlangıçta üretken yapay zekanın, insanların deneme yanılma yoluyla yaptığı yinelemeli çalışmalar için bir araç olarak kullanıldığı belirtiliyor. Ancak bu yaklaşımın, insan yeteneği sınırlamaları nedeniyle verimlilikte dar boğazlar yarattığı vurgulanıyor. Sorunun çözümü olarak, yinelemeli çalışmanın akış çalışması ve sistemler aracılığıyla standartlaştırılması öneriliyor. Bu dönüşüm, üretken yapay zekanın görev bazlı optimizasyonunu sağlıyor ve bilginin yayılmasını kolaylaştırıyor. Makalede ayrıca, üretken yapay zekanın tek bir yürütme içinde rollerini ve bilgilerini değiştirebilme yeteneği "sanal zekâ" olarak tanımlanıyor. Birden fazla sanal zekâyı yöneten "zekâ orkestrasyonu"nun, Senfonik Zekâ'yı oluşturduğu ve bu durumun insan zekâsına benzer esnek bir yetenek sunduğu açıklanıyor. Nihayetinde, Senfonik Zekâ'ya ulaşan üretken yapay zekanın, yeni görevleri gözlemleyerek öğrenebileceği ve bu bilgiyi paylaşabileceği, bunun da Yapay Genel Zekâ (AGI) biçimini oluşturacağı öngörülüyor.</description>
-</item>
-<item>
-  <title>Mekansal Algının Boyutları: Yapay Zekanın Potansiyeli</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, insanın iki boyutlu görsel bilgilerden üç boyutlu uzayı algılama yeteneğini temel alarak, dört boyutlu uzayı zihinde canlandırma potansiyelini ve bunun yapay zeka ile nasıl gerçekleştirilebileceğini ele almaktadır. İnsanlar dört boyutlu uzay simülasyonlarını görselleştirerek ve bu uzaydaki nesnelerin davranışlarını öğrenerek zihinlerinde dört boyutlu bir algı geliştirebilirler, ancak bu zaman alıcı ve sınırlı uygulamalara sahip bir olasılıktır. Yapay zeka ise, sanal olarak üç veya daha fazla boyutta algılama yeteneği ile donatılabilir. Bu sayede yapay zeka, dört boyutlu grafikleri gizli kısımlar veya döndürme ihtiyacı olmadan doğal bir şekilde kavrayabilir ve analiz edebilir. Çok boyutlu görüş yeteneği, eğilim analizini, veri desenlerini ve düzenlilikleri daha derinlemesine anlamayı sağlayarak, geleneksel yapay zekanın desen eşleştirme yeteneklerinin ötesine geçer. Makale, bu yeteneğin, bilimsel buluşlarda paradigma inovasyonunu hızlandırabileceğini ve örneğin astronomi veya fizik gibi alanlarda yeni yasaların keşfine yol açabileceğini vurgulamaktadır. Sonuç olarak, çok boyutlu uzaylara adapte olan yapay zeka, insanlığın anlayamayacağı kadar karmaşık paradigmaları bile kavrayarak bilimsel ve akademik alanlarda ilerlemeyi hızlandırabilir.</description>
-</item>
-<item>
-  <title>Akış Bazlı Çalışma ve Sistemler: Üretken Yapay Zeka Kullanımının Özü</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Makale, araçlar ve sistemler arasındaki temel farkı tekrarlayan çalışma ve akış bazlı çalışma ayrımı üzerinden açıklamaktadır. Tekrarlayan çalışma, deneme yanılma yoluyla çıktı üretirken; akış bazlı çalışma, aşamalı ilerleme ve çıktıyı son aşamada üretme prensibine dayanır. Sanayi Devrimi ve BT Devrimi gibi büyük dönüşümlerin, tekrarlayan işlerin akış bazlı işlere dönüştürülüp sistemleştirilmesiyle sağlandığı vurgulanır. Üretken yapay zekanın iş verimliliğini artırmada sadece bir araç olarak kullanılmasının sınırlı kaldığı, asıl amacın tekrarlayan işin akış bazlıya dönüştürülüp sistemleştirilmesi olduğu belirtilir. Üretken yapay zekanın bu dönüşümde, görevleri ve içerikleri deneme yanılma yoluyla yeniden yapılandırma kolaylığı sayesinde insanlardan daha avantajlı olduğu ifade edilir. Makale, üretim hattı ve kurumsal BT sistemleri gibi örneklerle bu süreçleri somutlaştırırken, üretken yapay zeka uygulamalarındaki yaygın yanlış anlamaların (yapay zekayı sadece araç olarak görme veya sadece tekrarlayan görevlere odaklanma) altını çizer ve verimlilik artışı için zihniyet değişikliği gerektiğini savunur.</description>
-</item>
-<item>
-  <title>Simülasyon Düşüncesi ve Yaşamın Kökeni</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, birikim ve etkileşim yoluyla karmaşık sonuçları anlamayı sağlayan 'simülasyon düşüncesi' adı verilen bir düşünme metodolojisi sunmaktadır. Yazar, bu metodolojiyi kullanarak yaşamın kökenindeki ilk adımı, yani basit kimyasal maddelerden daha karmaşık olanlara geçişi açıklamaktadır. Bu geçiş, gezegen ölçeğindeki kimyasal madde döngüleri, tepkimeler ve birikimler aracılığıyla gerçekleşir. Makale, polimerlerin rolünü, izole göl ve göletlerin bilimsel deney alanları olarak işlev görmesini ve toz bulutu hipotezini tartışarak bu süreci desteklemektedir. Ayrıca, simülasyon düşüncesinin biçimsel ifadeler gerektirmeyen, doğal dil kullanılarak da uygulanabileceğini vurgulayan 'doğal matematik' kavramı tanıtılmaktadır. Yazılım geliştirme süreci, simülasyon düşüncesinin hem bilgisayarın iç işleyişini hem de müşterinin hedeflerini anlamak için nasıl kullanıldığını gösteren bir örnek olarak sunulmuştur. Sonuç olarak, simülasyon düşüncesinin, yaşamın kökeni gibi bilimsel gizemleri ve karmaşık yapıları anlamada kritik bir beceri olduğu belirtilmiştir.</description>
-</item>
-<item>
-  <title>Likit Yazılım Çağında Çok Yönlü Mühendis</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Makale, üretken yapay zekanın (ÜY) programlama yeteneklerine odaklanarak, yazılım geliştirme süreçlerini ve endüstriyi nasıl dönüştürdüğünü inceliyor. ÜY'nin metin ve görüntü üretimindeki başarısının ardından, kod yazma yeteneğiyle iş dünyasının dikkatini çektiği belirtiliyor. ÜY'nin sohbet tabanlı yapısı ve programlama dillerini bir tür dil olarak algılaması, onu doğal bir kod üreticisi haline getiriyor. Otomatik testler aracılığıyla kendini iyileştirebilen ÜY'nin, insan talimatlarındaki belirsizliklere ve test hatalarına rağmen gelişiminin sürdüğü vurgulanıyor. Makale, bu gelişmelerin, yazılımın kullanıcılar tarafından anlık olarak özelleştirilebildiği "likit yazılım" çağını başlattığını öne sürüyor. Bu yeni çağda, farklı sistem yığınlarını kapsayan geniş bilgi ve becerilere sahip "çok yönlü mühendisler"in önemi artacak. Bu mühendisler, ÜY'den destek alarak karmaşık ve çok platformlu projeleri yönetebilecek, teknik borç ve güvenlik açıklarını azaltabilecekler. Sonuç olarak, BT mühendislerinin kendilerini "çok yönlü mühendis" olarak geliştirmeleri ve hatta organizasyonel ve toplumsal mühendislik alanlarına doğru ilerlemeleri gerektiği belirtiliyor.</description>
-</item>
-<item>
-  <title>Düşünmenin Kaderi: Yapay Zeka ve İnsanlık</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, yapay zeka (YZ) çağında insanlığın düşünme rolündeki paradigma değişimini inceliyor. Yazar, YZ'nin entelektüel işleri üstlenmesiyle, insanların geleneksel entelektüel emek yerine bireysel optimizasyona odaklanmış yeni bir düşünme biçimi geliştirmesi gerekeceğini savunuyor. Yazılım geliştirmede önerilen "süreç odaklılık" yaklaşımı, her bir sürecin bağımsız bir modül olarak ele alınması ve fazlalığa izin verilmesiyle bireysel optimizasyonu destekliyor. Toplumsal düzeyde bu, "bireysel olarak optimize edilmiş bir toplum" yaratıyor; burada kurallar ve standartlar esnek yorumlanır ve duruma özel yargılara izin verilir. "Öznel felsefe" olarak adlandırılan bu yaklaşım, her bireysel durumun benzersizliğine göre düşünmeyi ve sorumluluk almayı vurguluyor. Makale, YZ'nin verimliliği artırmasıyla, insanların derinlemesine düşünme ve her durum için bireysel çerçeveler tasarlama yeteneğini geliştirerek "düşünmenin kaderi" ile yüzleşeceğini öne sürüyor.</description>
-</item>
-<item>
-  <title>İş Süreci Odaklı Yaklaşma Daveti</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Bu makale, yazılım geliştirme için yeni bir yaklaşım olan İş Süreci Odaklı Yazılım'ı (Business Process-Oriented Software) tanıtmaktadır. Geleneksel nesne odaklı yazılımdan farklı olarak, bu yaklaşım yazılımı iş süreçlerinin temel birimleri etrafında yapılandırmayı önerir. Bu sayede, iş kılavuzları, giriş bilgileri ve iş akışları tek, tutarlı bir birimde toplanır. Bu dosya, program veya sistem geliştirilmeden de çalıştırılabilir bir yazılım olarak işlev görür; insanlar veya yapay zeka tarafından yürütülebilir. Makale, yapay zekanın bu süreci desteklemesini, dosya formatlarını (örn. Markdown) ve bilgi birikimi ile sürekli iyileştirmeyi vurgulayarak kuruluşların hızlı öğrenen organizasyonlar haline gelmesini sağladığını belirtir.</description>
-</item>
-<item>
-  <title>Entelektüel Bir Yetenek Olarak Çerçeve Tasarımı</title>
-  <link>https://katoshi-mfacet.github.io/tr/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/tr/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Makale, bilimin temelini oluşturan gözlem yoluyla keşif ile geliştirmenin temelini oluşturan tasarım yoluyla icat arasındaki entelektüel faaliyet farkını vurgulamaktadır. Akademi, gerçeklerin keşfine odaklanırken, geliştirme yeni nesneler ve sistemler icat eder. Ancak makale, bilimin içinde de tasarım yoluyla icat faaliyetinin, özellikle 'çerçeve tasarımı' olarak var olduğunu savunmaktadır. Jeosantrik ve heliosantrik modeller, Newton mekaniği, görelilik ve kuantum mekaniği gibi bilimsel çerçeveler, doğruluktan çok kullanışlılıkla değerlendirilen icatlar olarak ele alınır. Bu çerçeve kaymaları, tam bir düşünce değişimi yerine faydalı seçeneklerin artışı olarak görülmeli ve 'paradigma icatları' veya 'paradigma yenilikleri' olarak adlandırılmalıdır. Makale, bu iki faaliyetin farklı beceri kümeleri gerektirdiğini belirtir. Akademisyenlerin çoğu gözlem yoluyla keşfe odaklanırken, yazılım mühendisleri gibi geliştirme profesyonelleri, soyut kavramları meta düzeyde yeniden yapılandırma yetenekleri sayesinde çerçeve tasarımına doğal olarak daha yatkındır.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katoshi&apos;nin Araştırma Notları</title>
+    <link>https://katoshi-mfacet.github.io/tr/</link>
+    <description>Bir Yazılım Mühendisi/Sistem Mimarı/Mühendislik Doktoru&apos;ndan araştırma notları. Yazılım geliştirme deneyimiyle yaşamın kökenlerinin mekanizmalarını, yaşam fenomenlerinin özünü ve zeka ve toplum yapısını keşfetmek.</description>
+    <language>tr</language>
+    <atom:link href="https://katoshi-mfacet.github.io/tr/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Duvarların Olmadığı Bir Çağa Doğru: 30 Dilli Bir Blog Sitesi Oluşturmak</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bu makale, 30 dile destek veren, otomatik olarak güncellenen çok dilli bir blog sitesinin oluşturulma sürecini anlatıyor.  Yazar, Astro çerçevesi ve Google&apos;in Gemini üretken yapay zekasını kullanarak, makale taslaklarından otomatik HTML oluşturma, kategori ve etiket atama, çok dilli çeviri ve erişilebilirlik özelliklerini entegre eden bir sistem geliştirdi. Gemini, hem programlama sürecinde (HTML oluşturma, API entegrasyonu) hem de doğal dil işlemede (kategori belirleme, etiketleme, çeviri, erişilebilirlik önerileri) kritik rol oynadı.  Yazar, Gemini&apos;nin çok dilli desteğin sağlanmasındaki zorlukları (tarih ve birim formatları, sağdan sola yazılan diller), erişilebilirlik unsurlarının eklenmesini ve doğal dil çevirisinin nüanslılığını nasıl iyileştirdiğini vurguluyor. Makalenin genel teması, üretken yapay zekanın dil ve erişilebilirlik gibi engelleri aşarak bilgi yayılımını kolaylaştırdığı ve yazılım geliştirmedeki zorlukları azalttığı yönünde.</description>
+    </item>
+    
+    <item>
+      <title>Geliştirmeye Dayalı Geliştirme ve Yeniden Düzenleme Odaklı Test</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın yazılım geliştirmeyi dönüştürdüğü ve bu dönüşümün iki yeni yaklaşımı beraberinde getirdiği fikrini ele alıyor. Birincisi, &quot;Geliştirmeye Dayalı Geliştirme&quot;, yazılım geliştirme sürecinde ortaya çıkan faydalı araçların ve yazılımların sürekli olarak geliştirilmesini ve bu araçların sonraki projelerde tekrar kullanılmasını savunuyor. Bu yaklaşım, üretken yapay zekanın küçük görevleri otomatikleştirmek ve geliştirme sürecini hızlandırmak için kullanılmasını öneriyor. İkincisi ise, &quot;Yeniden Düzenleme Odaklı Test&quot;, yazılım geliştirmenin belirli bir aşamasına gelindiğinde ve yeniden düzenleme gerektiğinde testlerin yapılması gerektiğini vurguluyor. Bu yaklaşım, başlangıçta testler oluşturmak yerine, yazılımın çalıştırılarak ve etkileşim kurularak test edilmesini ve sorunlar tespit edildikten sonra yeniden düzenleme sırasında testlerin uygulanmasını öneriyor.  Makale, bu iki yeni yaklaşımın, deneyim ve davranış odaklı geliştirme ve çok yönlü mühendislik gibi önceki makalelerde tartışılan konularla uyumlu olduğunu ve yazılım geliştirmede yeni bir çağı başlattığını belirtiyor.</description>
+    </item>
+    
+    <item>
+      <title>Zaman Sıkışması ve Kör Noktalar: **Hız Regülasyonu** İhtiyacı</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_16_time-compression-blindspot/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_16_time-compression-blindspot/</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, hızla gelişen yapay zeka teknolojisinin, özellikle üretken yapay zekanın, getirdiği &apos;zaman sıkışması&apos; ve &apos;sosyal kör noktalar&apos; sorununu ele alıyor. Üretken yapay zekanın kendi kendini güçlendiren gelişimi, teknolojik ilerlemenin hızını artırıyor ve bu hızlanma, yeni teknolojilerin risklerini ve faydalarını tam olarak anlamamızı zorlaştırıyor.  Geliştiricilerin bile tüm potansiyel uygulamaları ve riskleri öngörememesi, &apos;sosyal kör noktalar&apos; yaratıyor.  Bu kör noktalar, teknolojinin hızı arttıkça daha belirgin hale geliyor ve toplumun tepki verme süresini kısaltıyor.  Makale, bu durumu &apos;Kronoskarmaşa Toplumu&apos; olarak adlandırıyor ve ortak bir zaman algısının eksikliğini vurguluyor. Yazar, &apos;teknolojinin risklerinin faydalarını aşmamasını sağlamak&apos; vizyonunu öne sürüyor ve bu vizyona ulaşmak için üretken yapay zekanın hızını düzenleyecek mekanizmaların geliştirilmesini öneriyor.  Yapay zekanın hem hızlandırıcı hem de &apos;yerleşik dengeleyici&apos; olarak işlev görmesi gerektiği savunuluyor.</description>
+    </item>
+    
+    <item>
+      <title>Entelektüel Maden Olarak GitHub</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, GitHub&apos;ın açık kaynak yazılım geliştirmenin ötesinde, çeşitli belgelerin ve içeriklerin işbirlikçi bir şekilde yönetildiği ve paylaşıldığı bir platform olarak nasıl kullanılabileceğini ele alıyor.  Yazar, DeepWiki adlı, GitHub projeleri için otomatik olarak wiki siteleri oluşturan bir hizmet örneğini inceleyerek, üretken yapay zekanın bu süreçte nasıl rol oynayabileceğini gösteriyor.  Makalenin ana fikri, &quot;Entelektüel Fabrika&quot; kavramı etrafında dönüyor.  Yazar, kendi blog makalelerini çeşitli formatlara dönüştüren ve dağıtan bir sistem geliştirmiş ve bu sistemi, GitHub&apos;da depolanan belgeleri hammadde olarak kullanan bir &quot;Entelektüel Fabrika&quot; olarak tanımlıyor.  DeepWiki de benzer bir şekilde çalıştığı için,  GitHub&apos;ın &quot;Entelektüel Maden&quot; olarak adlandırılan,  yapay zeka destekli içerik üretimine hammadde sağlayan bir platform haline gelebileceğini savunuyor.  Bu sistem, çeşitli içerik formatlarında, çok dilli içerik üretimine ve otomatik bilgi keşfine imkan sağlayarak, insanlığın paylaşılan herkese açık bilgi tabanını oluşturma potansiyeline sahip bir ekosistem yaratacaktır.  Sonuç olarak, GitHub&apos;ın devasa bir bilgi merkezi olarak işlev görerek, üretken yapay zeka tarafından kullanılarak ve genişletilerek, bilgi keşfini ve yayılımını hızlandıracağı öne sürülüyor.</description>
+    </item>
+    
+    <item>
+      <title>Fikir Gestalt Çöküşü</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, &quot;Fikir Gestalt Çöküşü&quot; adını verdiği, bir fikri aşırı analiz sonucu anlamının bulanıklaşması ve çökmesi olgusunu ele alıyor.  &quot;Sandalye&quot; örneğiyle, bir sandalyenin tanımının ne kadar göreceli ve bağlama bağlı olduğunu gösteriyor.  Analiz sırasında işlevsellik, görecelilik ve bütünlük perspektiflerine odaklanmanın, bu çöküşü önlemeye yardımcı olduğunu savunuyor.  Bu çerçeveyi, kurgusal karakterlerin bilinci, anime kedi robotları ve gelecekteki robotların bilinci gibi konulara uyguluyor.  Kurgusal bağlamda bilincin varlığının, bakış açısına göre göreceli olduğunu belirtiyor. Gerçek dünyada ise, gelişmiş bir yapay zekanın bilinçli olup olmadığı tartışmasında, mevcut argümanların &quot;Fikir Gestalt Çöküşü&quot; örneği olduğunu ve yetersiz olduğunu savunuyor.  Yazar,  yapay zekanın bilinçli olup olmaması sorusunun, işlevsellik, görecelilik ve bütünlük açısından değerlendirilmesi gerektiğini vurguluyor ve modern yapay zekanın bu işlevi yeterince sergilediğini öne sürüyor.</description>
+    </item>
+    
+    <item>
+      <title>Entelektüel Kristaller: Sezgi ve Mantık Arasında</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, sezgi ve mantık arasındaki boşluğu köprülemek için &quot;entelektüel kristaller&quot; kavramını tanıtarak, sezgisel olarak doğru olanı mantıksal olarak açıklamanın önemini vurguluyor.  Yazar, ulusal çıkarların dünya barışına karşıtlığını örnek olarak kullanarak, ulusal çıkarın öngörülemezliğini ve uzun vadede sürdürülemezliğini savunuyor. Ulusal çıkarın kısa vadeli faydalarına rağmen, uzun vadede kalıcı barış, iyi yönetişim, ekonomik refah ve risk yönetimi gibi faktörlere odaklanmanın daha rasyonel olduğunu belirtiyor. Bu faktörlere yönelik stratejiler, &quot;ilerici birikim&quot; sağlayarak sürdürülebilir bir gelecek vadediyor.  Yazar, bu analizi, matematiksel bir model gibi &quot;nesnel bir mantıksal model&quot; ve &quot;doğal matematik&quot; olarak tanımlıyor.  Makale, sezginin her zaman doğru olmasa da,  mantıksal açıklamaları geliştirerek sezgisel değerlendirmeleri mantıksal olarak ifade edebilen yapıları (entelektüel kristaller) ortaya çıkarmayı savunuyor. Bu,  hem sezgisel hem de mantıksal olarak güçlü argümanlar sunmamıza olanak sağlayacak ve entelektüel ilerlememize katkıda bulunacaktır.</description>
+    </item>
+    
+    <item>
+      <title>Öğrenmeyi Öğrenme: Doğuştan Gelen Zeka</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, yapay zekanın öğrenme yeteneğini ve bunun insan zekasıyla olan ilişkisini ele alıyor. Öğrenmeyi, beden yoluyla öğrenme ve dil yoluyla öğrenme olmak üzere ikiye ayırıyor. Dil yoluyla öğrenmede, üstbilişsel öğrenme (tekrar gerektiren) ve metafizik öğrenme (tekrar gerektirmeyen) kavramlarını tanımlıyor. Makine öğrenmesinde, sinir ağlarının üstbilişsel öğrenme, büyük dil modellerinin ise dil yoluyla öğrenme (hem üstbilişsel hem de metafizik) gerçekleştirdiğini belirtiyor. Doğal dilin, üstbilişsel ve metafizik öğrenmeyi birbirinden ayıran bir arayüz ve metafizik öğrenmeyi mümkün kılan bir çerçeve olduğu savunuluyor.  Makale, fiziksel öğrenmede de benzer bir metafizik arayüzün varlığından bahsediyor.  &apos;Doğuştan Çerçeveleyici&apos; adını verdiği bir mekanizma öneriliyor. Bu mekanizma, doğal dilin veya diğer alanlara özgü çerçevelerin aşamalı olarak öğrenilmesini ve &apos;yerel çerçeveler&apos; haline dönüştürülmesini açıklıyor.  Dikkat mekanizmasının, bu çerçeve öğrenme sürecinde kilit rol oynadığı belirtiliyor. Sonuç olarak, büyük dil modellerinin ve insanların da &apos;Doğuştan Çerçeveleyici&apos; yeteneğine sahip oldukları öne sürülüyor.</description>
+    </item>
+    
+    <item>
+      <title>Kronoskarmaşa Toplumu</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın ortaya çıkışıyla oluşan ve bireyler arasında zaman algısında önemli farklılıklara yol açan yeni bir toplumsal durumu &quot;Kronoskarmaşa Toplumu&quot; olarak tanımlıyor. Bu farklılıklar, yapay zeka teknolojilerindeki gelişmeler, bunların uygulamaları ve ekonomik-toplumsal etkilerindeki bilgi asimetrilerinden kaynaklanıyor.  Makale, farklı bireylerin mevcut yapay zeka teknolojilerinin yeteneklerini, gelecekteki potansiyelini ve toplumsal etkilerini nasıl farklı algıladığını, bunun geleceğe yönelik tahminleri ve karar alma süreçlerini nasıl etkilediğini ayrıntılı olarak ele alıyor.  Farklı zaman algılarına sahip bireylerin işbirliği yaparak ortak sorunları çözme gerekliliği vurgulanıyor ve &quot;zaman algısından bağımsızlık&quot; hedefiyle anlamlı tartışmaların nasıl yapılabileceği tartışılıyor.  Son kısımda ise, &quot;Kronoskarmaşa Toplumu&quot; adının, zaman yolculuğu temalı Chrono Trigger oyununun geliştirilme sürecine yapılan bir göndermeyle nasıl seçildiği açıklanıyor; oyunun geliştirme sürecinin, farklı zaman algılarına sahip bireylerin işbirliğiyle başarılı bir sonuç üretme metaforu olarak sunuluyor.</description>
+    </item>
+    
+    <item>
+      <title>Simülasyon Düşüncesi Çağı</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın yazılım geliştirme ve simülasyon sistemleri üzerindeki dönüştürücü etkisini ele alıyor. Yazar, üretken yapay zeka kullanarak çeşitli içerikler üreten ve yöneten bir &apos;Entelektüel Fabrika&apos; geliştirdiğini ve bu sistemi geliştirme sürecini &apos;Çok Yönlü Mühendislik&apos; olarak adlandırdığını açıklıyor.  Geleneksel yazılım geliştirmenin aksine, üretken yapay zeka ile daha esnek ve dinamik bir yaklaşım olan &apos;Likidware&apos;yi geliştirdiğini belirtiyor. Makale daha sonra, iş sistemlerinde &apos;İş Süreci Odaklı&apos; bir geliştirme metodolojisinin önemini vurguluyor. Bu yaklaşım, yazılım modüllerini bireysel İş Süreçlerine bölerek, karmaşıklığı azaltmayı ve üretken yapay zekanın otomatik program üretme yeteneğinden faydalanmayı amaçlıyor.  Makale, simülasyon sistemlerinin çeşitli alanlardaki kullanımını ele alıyor ve üretken yapay zekanın simülasyonların oluşturulması ve yorumlanması üzerindeki etkisini tartışıyor.  Üretken yapay zeka, sadece programatik olarak ifade edilebilen değil, doğal dilde de ifade edilebilen simülasyonların yapılmasını mümkün kılarak, belirsiz niteliksel unsurların ve insan benzeri zeki ajanların dahil edilmesine olanak tanıyor. Sonuç olarak, makale, simülasyon sistemlerinin yaygınlaşmasının &apos;Simülasyon Düşüncesi&apos;ne geçişe yol açacağını ve bu sayede daha doğru, verimli ve objektif değerlendirme ve tartışmaların mümkün olacağını savunuyor.</description>
+    </item>
+    
+    <item>
+      <title>Deneyim ve Davranış</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, yazılım geliştirmenin geleneksel &quot;Spesifikasyon ve Uygulama Tabanlı Mühendislik&quot; yaklaşımından, kullanıcı deneyimine odaklanan yeni bir paradigma olan &quot;Deneyim ve Davranış Mühendisliği&quot;ne geçişi savunuyor.  Geleneksel yöntemlerin aksine, yeni yaklaşım spesifikasyonlara değil, yazılımın kullanıcı deneyimini şekillendiren davranışına odaklanıyor.  Makale, üretken yapay zeka destekli otomasyonun, tüm yazılım sistemlerinin yeniden yapılandırılmasını mümkün kıldığını ve &quot;Likidware&quot; olarak adlandırılan, her kullanıcıya mükemmel şekilde uyan esnek bir yazılım türüne yol açabileceğini öne sürüyor. Likidware, kullanıcıların arayüzü kendi tercihlerine göre özelleştirebileceği, neredeyse kusursuz bir kullanıcı deneyimi sunmayı amaçlıyor.  Makale, davranışın zamanla değişen bir durum olduğunu ve test edilmesinin, işlevsellikten ziyade kullanıcı deneyimi kalitesiyle ilgili olduğunu vurguluyor.  Son olarak, makale ideal kullanıcı deneyimini, insanların kendi vücutlarını zahmetsizce kontrol etme yeteneğiyle kıyaslıyor ve nihai Likidware&apos;in, kullanıcılar için fiziksel benliklerinin bir uzantısı gibi hissettirecek bir deneyim sunmayı hedeflediğini belirtiyor.</description>
+    </item>
+    
+    <item>
+      <title>Bilgi Kristalleşmesi: Hayal Gücünün Ötesindeki Kanatlar</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, &apos;bilgi kristalleşmesi&apos; kavramını tanıtarak, mevcut bilgilerin yeni ve anlamlı şekillerde bir araya getirilmesiyle elde edilen yüksek düzeyde tutarlı ve kapsamlı bilgi yapılarını tanımlar.  Uçuş fenomeni ve kanatların işlevleri üzerinden bir örnek vererek, kanatların hava direnci, kuvvet yönü dönüşümü ve hava akışı farkı oluşturma rollerini detaylı olarak açıklar. Bu açıklamayı &apos;bilgi kristali&apos; olarak tanımlar, çünkü uçuşun çeşitli unsurlarını tek bir yapı içinde birleştirir.  Makale daha sonra, kuruluşlarda bilgi yönetimi için &apos;bilgi gölü&apos; (düzensiz ham bilgi) ve &apos;bilgi tabanı&apos; (düzenli bilgi) kavramlarını tanıtır. &apos;Bilgi kristalleşmesi&apos;nin, bilgi gölü ve bilgi tabanının ötesinde, &apos;bilgi cevher kutusu&apos; adı verilen bir katmanda ortaya çıktığını öne sürer.  Bu cevher kutusu içindeki bilgi kristallerinin, &apos;bilgi araç kutusu&apos; olarak adlandırılan ve hem makine hem de bilgi mühendisleri tarafından kullanılabilen pratik araçlara dönüştürülebileceğini savunur.  Makalenin temel argümanı, mevcut bilginin yeniden düzenlenmesi ve arıtılması yoluyla yeni bilgi kristallerinin keşfedilebileceği ve bu sayede bilginin demokratikleşeceği ve herkesin hayal gücünün ötesinde yeni keşifler yapabileceğidir.</description>
+    </item>
+    
+    <item>
+      <title>Yapay Öğrenme Zeka Sistemi: ALIS Konsepti</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bu makale, Yapay Öğrenme Zeka Sistemi (ALIS) kavramını sunmaktadır. ALIS, doğuştan (sinir ağı tabanlı) ve edinilmiş öğrenmeyi birleştiren bir sistemdir. Edinilmiş öğrenme, sinir ağının dışında depolanan ve çıkarım sırasında kullanılan bilgiyi içerir. ALIS&apos;in temel öğeleri; akıllı işlemci, bilgi deposu, Dünya (dış ortam), durum belleği ve çerçevedir.  ALIS&apos;in ilkeleri, akıllı işlemcinin Dünya ile etkileşiminden, bilgi çıkarımından, depolama, seçim ve kullanımından oluşur. Edinilmiş bilgi, doğal dil metni, biçimsel diller veya modeller olarak temsil edilebilir.  Makale, ALIS&apos;in temel tasarımını, artımlı geliştirme yöntemini ve basit bir ALIS örneğini (sohbet robotu tabanlı, RAG benzeri bilgi erişimi) açıklamaktadır.  ALIS&apos;in başlangıçtaki tasarımının yazılım geliştirme için uygun olduğu, bilgi paylaşımının (GitHub gibi platformlar aracılığıyla) geliştirilmeyi hızlandıracağı ve bilgi gölünün LLM&apos;ler için ön eğitim verisi olarak kullanılabileceği belirtilmiştir.  Makale, ALIS&apos;in gelecekteki gelişimi ve gerçek dünyaya uygulanmasıyla ilgili bir tartışma ile son bulmaktadır.</description>
+    </item>
+    
+    <item>
+      <title>Doğal Dil Makine Öğrenimi</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, geleneksel sayısal makine öğreniminin aksine, büyük dil modelleri (LLM&apos;ler) kullanarak doğal dil tabanlı bir makine öğrenimi yaklaşımı sunuyor.  Temel model, önceden eğitilmiş bir LLM ve bir bilgi tabanını birleştiriyor.  Sınıflandırma problemlerinde, girdi cümleleri LLM&apos;ye veriliyor ve yanıtı bilgi tabanına kaydediliyor.  Doğrulama sonucu da kaydedildikten sonra, bilgi tabanı güncellenerek LLM&apos;nin performansı artırılıyor.  Makale, bu yaklaşımın geleneksel yöntemlere göre çok daha verimli olduğunu savunuyor. Çünkü doğal dil öğrenimi, büyük veri kümelerine ve yinelemeli öğrenmeye duyulan ihtiyacı azaltıyor, ayrıca veri ön işleme gereksinimini de ortadan kaldırıyor.  Veri ön işleme ve yinelemeli öğrenme ihtiyacının olmaması, doğal dil makine öğreniminin geleneksel yöntemlere göre çok daha yüksek bir öğrenme verimliliği sağladığı anlamına gelir. Makalenin son bölümünde ise, büyük dil modelleri için ölçeklenebilirliğin sınırlarına yaklaşılması ve doğal dil makine öğreniminin öneminin artacağı vurgulanıyor.</description>
+    </item>
+    
+    <item>
+      <title>Blog Yazılarından Otomatik Sunum Videosu Üretimi</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Bu blog yazısı, üretken yapay zeka kullanarak blog yazılarından otomatik sunum videoları oluşturma ve YouTube&apos;a yükleme sisteminin geliştirilmesini anlatıyor. Sistem, blog yazısından sunum materyallerini (SVG formatında) ve anlatım metnini üretken yapay zeka ile oluşturuyor, ardından metin okuma yapay zekası ile sesi ekleyip, son olarak ffmpeg ile videoya dönüştürüyor.  En büyük zorluk, yapay zekanın ürettiği SVG&apos;lerde metin taşması ve karmaşık şekillerin oluşmasıydı. Bu sorunları çözmek için, yapay zekaya detaylı talimatlar verildi ve metin taşmasını tespit eden bir program yazıldı.  Kontrollerde hata bulunursa, SVG yeniden üretilir. Sistem, YouTube&apos;a video yükleme aşamasına gelmiş ancak Google&apos;ın benzer bir özellik geliştirmesiyle piyasadaki rekabet artmış durumda. Yazar, bu sistemi geliştirmenin üretken yapay zekayı etkili kullanmanın ilkelerini anlamasında oldukça faydalı olduğunu belirtiyor.</description>
+    </item>
+    
+    <item>
+      <title>Mikro Sanal Zeka Olarak Dikkat Mekanizması</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın temelini oluşturan Dikkat Mekanizması&apos;nı ve bunun gelecekteki yapay zeka gelişimine olan potansiyel etkisini ele alıyor. Transformer mimarisinin başarısının ardındaki itici güç olarak Dikkat Mekanizması, yapay zekanın doğal dil işlemede ilgili kelimelere odaklanarak bağlamı anlamasını ve alakasız bilgileri filtrelemesini sağlar.  Makale, bu mekanizmanın &apos;mikro sanal zeka&apos; olarak düşünülebileceğini öne sürüyor; çünkü görev odaklı bilgi seçimi yapıyor.  Bunun tersine, gelecekteki yapay zekaların, &apos;sanal zeka&apos; olarak adlandırılan bir yetenekle, insan müdahalesi olmadan farklı görevler için ilgili bilgiyi otonom olarak seçebileceği düşünülüyor. Bu sanal zeka, birden fazla sanal zeka biriminin birlikte çalıştığı bir sistem olarak hayal ediliyor.  Son olarak, makale &apos;Açık Dikkat Mekanizması&apos; kavramını tanıtarak, gerekli bilgilerin açıkça belirtildiği ve gerekirse güncellenebileceği bir sistem önermektedir. Bu, yapay zekanın daha etkili ve verimli çalışmasını sağlama potansiyeline sahiptir.  Dikkat mekanizmasının, mikro ve makro düzeylerde zekanın yinelemeli gelişimi için temel bir unsur olduğunu vurgular.</description>
+    </item>
+    
+    <item>
+      <title>Uzamsal Algının Boyutları: Yapay Zekanın Potansiyeli</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, insanların üç boyutlu uzayı iki boyutlu görsel bilgilerden nasıl algıladığını açıklayarak, benzer bir prensiple insanların ve özellikle yapay zekanın dört veya daha fazla boyutlu uzayı algılayabileceğini öne sürüyor. İnsanların dört boyutlu uzayı algılaması için uzun bir eğitim süreci gerektiğini ve pratik uygulamalarının sınırlı olacağını belirtirken, yapay zekanın bu yeteneği çok boyutlu grafikleri panoramik olarak kavrayarak, verilerdeki desenleri ve yasaları daha kolay tespit etmesini sağlayabileceğini savunuyor. Bu, çok boyutlu veri analizi, eğilim analizi ve benzer veri desenlerinin karşılaştırılması gibi alanlarda yeni içgörüler ve keşiflere olanak tanır.  Makale, çok boyutlu görme yeteneğinin Güneş merkezli teori ve görelilik teorisi gibi bilimsel gelişmelerin daha erken keşfedilmesine nasıl yardımcı olabileceğini örneklerle gösteriyor.  Yapay zekanın çok boyutlu uzamsal algısının, mevcut paradigmaları hızla genişletebileceğini, yeni paradigmaların ortaya çıkışını hızlandırabileceğini ve insanlığın yeni teoriler ve yasaları keşfetmesini sağlayabileceğini savunuyor. Ancak, aşırı yüksek boyutlu paradigmaların insan kavrayışının ötesinde kalabileceğini ve bu durumda insanların altında yatan prensipleri tam olarak anlamadan bu teknolojileri kullanabileceğini de ekliyor.</description>
+    </item>
+    
+    <item>
+      <title>Senfonik Zeka Çağı</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın iş süreçlerindeki kullanımını iki açıdan ele alıyor: yinelemeli çalışma ve akış işi. Yinelemeli çalışma, insanların deneme yanılma yoluyla birden fazla görevi birleştirdiği süreçleri tanımlar. Üretken yapay zeka şu anda çoğunlukla yinelemeli çalışmada bir araç olarak kullanılıyor ancak verimlilik artışı sınırlı ve insan darboğazı sorunu ortaya çıkıyor. Bu sorunu aşmak için yinelemeli çalışmanın standartlaştırılmış akış işine dönüştürülmesi öneriliyor. Akış işi, üretken yapay zekanın ve insanların görevlerini sistematik olarak birleştiriyor, verimliliği artırıyor ve bilgi birikimini optimize ediyor.  Makale daha sonra &apos;sanal zeka&apos; kavramını tanıtarak, tek bir üretken yapay zekanın birden fazla rolü ve bilgiyi yönetme yeteneğini vurguluyor. Bu, &apos;zeka orkestrasyonu&apos; olarak adlandırılan bir yaklaşımla, farklı üretken yapay zekaların senkronize çalışmasını sağlıyor.  Sonuç olarak, makale &apos;Senfonik Zeka&apos; kavramını tanımlıyor: birden fazla görevi senkronize bir şekilde yerine getiren, insan zekasına benzer bir üretken yapay zeka. Senfonik Zeka, akış işlerini yöneterek, bilgi birikimini artırarak ve Yapay Genel Zeka&apos;ya (YZGY) doğru bir adım olarak görülüyor.</description>
+    </item>
+    
+    <item>
+      <title>Sanal Zeka Orkestrasyonu</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, sanal makine teknolojisine benzer şekilde, gerçek zekanın üzerinde sanal zeka oluşturma fikrini, &quot;sanal zeka&quot; olarak tanımlıyor.  Bu kavram, birden fazla sanal zekanın, tek bir yapay zeka içinde farklı roller üstlenerek iş birliği yapmasını sağlayan &quot;zeka orkestrasyonu&quot; ile genişletiliyor.  Sistem orkestrasyonundan farklı olarak, zeka orkestrasyonu, sistem geliştirme gerektirmeden, normal bir sohbet arayüzü üzerinden talimatlarla gerçekleştirilebiliyor. Makale, zeka orkestrasyonunun, birden fazla bakış açısını birleştirerek müzakereyi kolaylaştırdığını ve bunun &quot;nihai müzakere&quot; olarak adlandırılan, sürekli iyileştirme ve yenilenme döngüsüne yol açtığını savunuyor.  Nihai müzakere, yanlış anlamaları azaltarak, düşünce hassasiyetini ve kapsamını artırıyor ve yeni keşiflere olanak tanıyor. Sonuç olarak, sanal zeka ve zeka orkestrasyonu, yapay zekanın iş dünyasında insanları daha etkin bir şekilde  yerine geçmesini sağlayacak.</description>
+    </item>
+    
+    <item>
+      <title>Simülasyon Düşüncesi ve Yaşamın Kökeni</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, yaşamın kökenini anlamak için &quot;simülasyon düşüncesi&quot; adı verilen bir yöntem önermektedir. Bu yöntem, kümülatif etkileşimleri aşamalı olarak takip ederek, karmaşık sistemlerin sonuçlarını anlamaya odaklanır.  Yazar, antik Dünya&apos;daki basit kimyasal maddelerin, su ve atmosferin küresel dolaşımı sayesinde tekrarlayan etkileşimlerle kademeli olarak daha karmaşık maddelere dönüştüğünü, bu sürecin kendini sürdürme, çoğaltma ve metabolizmaya benzer özellikler gösterdiğini savunur. Bu &quot;ilk adım&quot;, yaşamın kökeninin özünü oluşturur. Polimerlerin ve Dünya&apos;nın topoğrafyasının bu süreçte önemli rol oynadığını vurgular.  Yazar, yoğun ultraviyole radyasyondan koruyan bir toz bulutunun, monomerlerin sentezi için bir katalizör görevi gördüğünü öne sürer.  Simülasyon düşüncesinin, yazılım geliştirmede de önemli bir araç olduğunu belirterek, bu düşünce biçiminin hem bilgisayarın iç işleyişini hem de müşterinin ihtiyaçlarını anlamak için &quot;çift simülasyon düşüncesi&quot; olarak adlandırılan bir yaklaşım gerektiğini açıklar. Sonuç olarak, simülasyon düşüncesinin yaşamın kökenini anlamak ve karmaşık sistemleri genel olarak kavramak için güçlü bir araç olduğunu ve gelecekte daha geniş bir uygulama alanı bulacağını savunur.</description>
+    </item>
+    
+    <item>
+      <title>Akış İşine Dönüştürme ve Sistemler: Üretken Yapay Zeka Kullanımının Özü</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın iş verimliliğini artırmada araçtan ziyade sistem olarak kullanılmasının önemini vurguluyor.  İterasyon çalışması (esnek deneme yanılma) ile akış işi (aşamalı ve sonuca odaklı süreç) arasındaki farkı açıklayarak, üretkenliğin artırılmasının iterasyon çalışmasının akış işine dönüştürülmesi ve sistemleştirilmesiyle mümkün olduğunu savunuyor. Sanayi ve BT devrimlerini örnek göstererek, bu dönüşümün tarihsel önemini vurguluyor. Üretken yapay zekanın iterasyon çalışmasını kolaylıkla yürütebildiğini, ancak gerçek verimliliğin akış işine dönüşüm ve sistemleştirmeyle sağlanabileceğini belirtiyor.  Şirket içi kurallar konusunda soru yanıtlama örneğiyle, sadece araç olarak kullanımın sınırlı verimlilik sağladığını gösteriyor. Akış işine dönüştürme adımlarını detaylı bir şekilde açıklıyor ve sistemleştirmenin farklı yaklaşımlarını (çalışan kolaylığı vs. sistem optimizasyonu) ele alıyor.  Makale, üretken yapay zekanın etkin kullanımının, araç olarak değil, akış işini sistemleştiren bir sistem olarak görülmesini gerektirdiğini savunarak, yaygın yanlış anlamaları (üretken yapay zekayı sadece araç olarak görmek veya iterasyon çalışmasına odaklanmak) ele alıyor ve sürekli iyileştirme odaklı bir yaklaşım öneriyor.</description>
+    </item>
+    
+    <item>
+      <title>Likidware Çağında Çok Yönlü Mühendisler</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, üretken yapay zekanın yazılım geliştirmedeki rolünün artmasıyla birlikte ortaya çıkan &apos;Likidware&apos; kavramını ve bu yeni çağda çok yönlü mühendislerin önemini ele alıyor. Üretken yapay zeka, programlama görevlerini otomatikleştirerek yazılım geliştirme maliyetlerini düşürüyor ve yazılımın kullanıcılar tarafından özelleştirilebildiği bir gelecek vadediyor.  &apos;Likidware&apos;, kullanıcıların yazılımın işlevlerini ve arayüzünü kolayca değiştirebildiği, daha akışkan ve uyarlanabilir bir yazılım türüdür. Bu durum, yazılım geliştiricilerin sadece programlama değil, bulut altyapısı, ağlar, güvenlik ve veritabanları gibi çeşitli alanlarda geniş bir bilgi birikimine sahip &apos;çok yönlü mühendisler&apos; olmasını gerektiriyor.  Makale, çok yönlü mühendislerin rolünü, Likidware&apos;in güncel bir gerçeklik olduğunu ve çok yönlü yazılım geliştirmenin karmaşıklığını ele alıyor.  E-ticaret web uygulaması örneğiyle, çok yönlü mühendislerin karmaşık sistemleri tasarlama, entegre etme ve yönetme becerilerinin önemi vurgulanıyor. Makale, çok yönlü mühendisliğin yazılım geliştirmenin ötesine geçerek, işletme ve toplumun çeşitli alanlarına da yayılacağını öngörüyor.</description>
+    </item>
+    
+    <item>
+      <title>Düşünmenin Kaderi: Yapay Zeka ve İnsanlık</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, yapay zekanın gelişmesiyle insan düşüncesinin geleceğini ele alıyor. Yazar, yapay zekanın entelektüel emeği devralmasıyla insanlığın daha az düşünmeyeceği, aksine yeni bir düşünme biçimiyle karşılaşacağı görüşünü savunuyor.  Bu yeni biçim, &apos;süreç odaklı yazılım geliştirme&apos; paradigmasıyla örneklendiriliyor. Bu yaklaşım, yazılımın temel birimlerini bağımsız süreçler olarak görmeyi ve bireysel optimizasyona odaklanmayı öneriyor.  Standardizasyondan ziyade, yapay zekanın desteğiyle her sürecin ayrıntılı bir şekilde tasarlanabileceği belirtiliyor. Bu süreç odaklı yaklaşım, &apos;bireysel optimizasyon toplumu&apos; kavramına yol açıyor.  Yazar, bu toplumda standartlaştırılmış değerlerin yanında, bireysel koşullara göre esnek yargıların öne çıkacağını savunuyor. Bu yeni düşünme biçimini &apos;subjektif felsefe&apos; olarak adlandırıyor ve bu felsefenin, her olayın bireyselliğini dikkate alarak derinlemesine düşünmeyi ve sorumluluk bilinciyle karar vermeyi gerektirdiğini vurguluyor.  Sonuç olarak, yazar yapay zekanın entelektüel emeği devralmasıyla insanlığın daha fazla düşünmeye mecbur kalacağını, çünkü yüksek verimliliğin olduğu bir çağda derin ve bireysel yargıda bulunmamanın artık bir seçenek olmayacağını belirtiyor.</description>
+    </item>
+    
+    <item>
+      <title>İş Süreci Odaklı Yazılıma Davet</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Makale, iş süreçlerini yazılıma entegre etmenin yeni bir yöntemini, &quot;iş süreci odaklı yazılım&quot;ı tanıtarak, mevcut nesne yönelimli yazılım yaklaşımına alternatif bir bakış açısı sunuyor.  Bu yaklaşım, iş süreçlerini kılavuzlar ve girdi alanlarını içeren tek bir dosya olarak tanımlar.  Bu dosya, insanların (veya yapay zekanın) iş süreçlerini takip ettiği ve bilgileri girdiği yürütülebilir bir yazılım görevi görür. Geleneksel yazılım geliştirmenin aksine, iş süreci odaklı yazılım, programlama gerektirmez; iş süreçlerindeki değişiklikler, bu dosyayı değiştirerek kolayca yapılabilir. Yapay zeka, bu süreci destekleyerek, iş akışını yönetir, insanlara gerekli görevleri iletir ve bilgi girişini kolaylaştırır.  Bu yöntemle, işletmeler bilgi biriktirebilir, süreçleri hızla iyileştirebilir ve hızlı öğrenen organizasyonlar haline gelebilir, insanları karmaşık süreçleri öğrenme yükünden kurtarır.</description>
+    </item>
+    
+    <item>
+      <title>Entelektüel Bir Yetenek Olarak Çerçeve Tasarımı</title>
+      <link>https://katoshi-mfacet.github.io/tr/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/tr/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Makale, bilimsel keşif ve teknolojik geliştirme arasındaki entelektüel farklılıklara odaklanarak, çerçeve tasarımının entelektüel bir yetenek olarak önemini vurguluyor.  Bilimsel keşif, gözlem yoluyla gerçekleri ortaya çıkarmaya odaklanırken, geliştirme ise tasarım yoluyla yeni nesneler ve sistemler yaratmayı amaçlar. Makale, bilimde geosentrik ve heliosentrik teorilerden Newton mekaniğine kadar birçok örnekle, bilimsel çerçevelerin doğruluğundan çok kullanışlılıklarına göre seçildiğini ve bu durumun &apos;paradigma icatları&apos; veya &apos;paradigma inovasyonları&apos; olarak adlandırılması gerektiğini savunuyor.  Bu çerçeve tasarımının, gözlem yoluyla keşiften farklı bir entelektüel yetenek kümesi gerektirdiği vurgulanıyor.  Bilim insanlarının çoğunun gözlemsel keşif yeteneğine sahipken, çerçeve tasarımı yeteneğinin daha az yaygın olduğunu belirtiyor. Yazılım mühendislerinin ise, soyut kavramları meta düzeyde yeniden yapılandırmaları nedeniyle, akademik çerçeve tasarımı için gerekli yetenek kümesine sahip olma potansiyeline sahip olduklarını öne sürüyor.  Ancak, üstün soyut düşünme ve yeni tasarım modelleri üzerinde düşünme alışkanlığı gibi ek faktörlerin de önemli olduğunu ekliyor.</description>
+    </item>
+    
+  </channel>
 </rss>

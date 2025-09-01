@@ -1,179 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Articles (nl)</title>
-<link>https://katoshi-mfacet.github.io/nl/rss.xml</link>
-<description>Latest articles (nl)</description>
-<item>
-  <title>Een Tijdperk Zonder Grenzen Ingaan: Een Blogsite Creëren Die 30 Talen Ondersteunt</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_24_Wall-Free-Era/</guid>
-  <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel beschrijft de creatie van een meertalige blogwebsite met ondersteuning voor 30 talen, die is ontwikkeld met behulp van generatieve AI (Gemini). Het proces omvat de automatische generatie van HTML vanuit Japanse artikelconcepten, georganiseerd door middel van automatisch gegenereerde categorieën en tags. Gemini wordt ingezet voor zowel de categorisatie/tagging als voor het vertalen van website-elementen en artikelinhoud. Ook de verbetering van toegankelijkheid voor visueel gehandicapten en gebruikers met beperkte motorische vaardigheden wordt door Gemini voorgesteld en geïmplementeerd. De auteur benadrukt hoe generatieve AI barrières zoals taal en onderhoud heeft weggenomen, waardoor een individuele creatie van een dergelijke uitgebreide site mogelijk werd. Het artikel suggereert dat generatieve AI de drempel voor softwareontwikkeling verlaagt en zo individuele informatieverspreiding faciliteert, met de ambitie om een tijdperk te creëren waarin barrières geleidelijk verdwijnen.</description>
-</item>
-<item>
-  <title>Ontwikkelingsgedreven ontwikkeling en refactoring-gedreven testen</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_19_Dev-Development/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_19_Dev-Development/</guid>
-  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel verkent hoe generatieve AI de softwareontwikkeling transformeert, door twee nieuwe benaderingen te introduceren: "ontwikkelingsgedreven ontwikkeling" en "refactoring-gedreven testen". Ontwikkelingsgedreven ontwikkeling benut generatieve AI om niet alleen eindproducten te creëren, maar ook hulpprogramma's die het ontwikkelingsproces zelf ondersteunen en verbeteren. Dit leidt tot efficiëntere workflows, hergebruikbare activa en een continue verbetering van de ontwikkelingsmethodologie. Het artikel benadrukt het belang van een mindset waarbij men objectief naar het eigen ontwikkelingsproces kijkt en proactief hulpprogramma's ontwikkelt. Refactoring-gedreven testen daarentegen stelt dat het niet altijd optimaal is om tests vooraf te specificeren, zoals bij Test-Driven Development (TDD). Vooral bij software met subjectieve elementen zoals UI/UX, is het cruciaal om eerst daadwerkelijk met de software te interageren en deze te refactoren. Pas tijdens dit refactoring-proces, wanneer de code stabieler wordt en de kans op grote wijzigingen afneemt, worden tests gericht ontwikkeld om de integriteit van de gerefactorde code te waarborgen. Beide benaderingen worden gezien als sleutels tot een nieuw tijdperk van softwareontwikkeling, gericht op ervaring en gedrag, en het worden van "Omnidirectionele Engineers".</description>
-</item>
-<item>
-  <title>Tijdcompressie en blinde vlekken: De noodzaak van regulering</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_16_Time-Compression-Blindspot/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_16_Time-Compression-Blindspot/</guid>
-  <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel bespreekt de exponentiële vooruitgang van generatieve AI en de daaruit voortvloeiende versnelling van technologische ontwikkeling. Deze versnelling, versterkt door sociaal-economische factoren, leidt tot 'tijdcompressie', waarbij de tijd die nodig is om maatschappelijke blinde vlekken in technologie te begrijpen en aan te pakken, afneemt. Dit betekent dat risico's zich kunnen manifesteren voordat ze volledig begrepen worden, wat leidt tot potentieel grotere schade. De auteurs introduceren het concept van een 'Chronos-Scramble Maatschappij', waarin individuele percepties van technologische vooruitgang en tijd sterk uiteenlopen, wat leidt tot een gebrek aan gemeenschappelijk begrip en een verhoogde noodzaak voor visie en strategie. Een voorgestelde strategie is het inzetten van generatieve AI zelf als een 'ingebouwde stabilisator' om de snelle vooruitgang te reguleren en te voorkomen dat deze de grenzen van menselijke perceptie en controle overschrijdt, vergelijkbaar met ingebouwde stabilisatoren in economieën.</description>
-</item>
-<item>
-  <title>GitHub als Intellectuele Mijn</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_15_Intellectual-Mine-GitHub/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_15_Intellectual-Mine-GitHub/</guid>
-  <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel verkent de evoluerende rol van GitHub van een platform voor softwareontwikkeling naar een breder ecosysteem voor kennisdeling, aangeduid als een 'intellectuele mijn'. De opkomst van generatieve AI, zoals Devin en DeepWiki van Cognition, transformeert softwareontwikkeling door taken te automatiseren. DeepWiki genereert automatisch wiki's voor GitHub-projecten, wat suggereert dat AI niet alleen ondersteunt, maar ook inhoud creëert. GitHub wordt ook gebruikt voor niet-softwaregerelateerde documenten, blogs en websites. De auteur introduceert het concept van een 'intellectuele fabriek' om contentcreatie te automatiseren, waarbij GitHub dient als opslagplaats voor deze intellectuele 'grondstoffen'. Dit ecosysteem, inclusief AI-gestuurde contentcreatie en distributie, zal een dynamische, gedeelde publieke kennisbasis vormen. GitHub zal fungeren als een centrale 'mijn' waaruit AI-modellen kennis halen en verwerken, wat de ontdekking en verspreiding van kennis, inclusief 'intellectuele kristallen' zoals nieuwe denkkaders, zal versnellen.</description>
-</item>
-<item>
-  <title>Intellectuele kristallisatie tussen intuïtie en logica</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_14_Intuition-and-Logic/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_14_Intuition-and-Logic/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel introduceert het concept 'intellectuele kristallisatie', het proces van het logisch en coherent verwoorden van intuïtieve inzichten. Vaak is het moeilijk om intuïtie te vertalen naar logica, wat kan leiden tot miscommunicatie en maatschappelijke verdeeldheid. Het artikel stelt dat intuïtie en logica niet tegengesteld zijn, maar dat er vaak een gebrek is aan een verbindende logische structuur.  Het voorbeeld van wereldvrede versus nationaal belang illustreert dit.  Nationaal belang, hoewel op korte termijn nuttig, is op de lange termijn voorspellend en strategisch nadelig omdat het niet progressief cumuleert zoals kennis en technologie die bijdragen aan permanente vrede en welvaart.  De auteur introduceert 'natuurlijke wiskunde' als een methode om dergelijke intuïtieve waarheden te formaliseren in logische, wiskundig robuuste structuren via natuurlijke taal. Dit proces van intellectuele kristallisatie is essentieel voor intellectuele vooruitgang, waardoor we intuïtieve ideeën logisch kunnen onderbouwen.</description>
-</item>
-<item>
-  <title>Ideële Gestaltinstorting</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_14_Concept-Gestalt-Collapse/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_14_Concept-Gestalt-Collapse/</guid>
-  <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel introduceert het concept 'Ideële Gestaltinstorting', dat optreedt wanneer het proberen te definiëren van abstracte concepten leidt tot een afbrokkeling van de aanvankelijke vanzelfsprekendheid. Dit wordt geïllustreerd aan de hand van het concept 'stoel', waarbij definitiepogingen gebaseerd op materiaal, vorm of structuur falen. Om ideële gestaltinstorting te voorkomen, stelt de auteur voor om te focussen op functionaliteit, relativiteit en holisme. De functionaliteit van een stoel is bijvoorbeeld het kunnen zitten, ongeacht materiaal of vorm. Relativiteit erkent dat functies niet absoluut zijn, en holisme benadrukt het begrijpen van objecten binnen een groter geheel. Deze principes worden vervolgens toegepast op de vraag of fictieve personages en toekomstige robots bewustzijn bezitten. De auteur bekritiseert argumenten die het bewustzijn van huidige AI ontkennen, omdat deze vaak neerkomen op ideële gestaltinstorting. Moderne AI vertoont voldoende functionaliteit, en vanuit een relatief en holistisch perspectief is het aannemelijk om bewustzijn toe te kennen aan entiteiten die daarvoor in aanmerking komen.</description>
-</item>
-<item>
-  <title>Leren om te Leren: Aangeboren Intelligentie</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_13_Natural-Born-Frameworker/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_13_Natural-Born-Frameworker/</guid>
-  <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel verkent de aard van leren en intelligentie in zowel kunstmatige intelligentie als de menselijke hersenen, met de nadruk op het concept van 'leren om te leren'. Er worden twee primaire leermethoden geïntroduceerd: subfysisch leren, dat gebaseerd is op herhaling en het memoriseren van concepten (vergelijkbaar met fysiek leren en traditioneel machinaal leren), en metafysisch leren, dat efficiënter is en flexibel gebruik van reeds verworven kennis mogelijk maakt.
-
-Natuurlijke taal wordt gepresenteerd als een cruciale 'metafysische interface' die subfysisch leren van concepten combineert met metafysisch leren, waardoor grote taalmodellen (LLM's) nieuwe kennis snel kunnen benutten zonder eindeloze herhaling. Het artikel introduceert vervolgens het concept van 'frameworks' als structuren die relaties en ordening definiëren, en hoe deze kunnen worden geleerd via metafysische interfaces. Natuurlijke taal fungeert als een fundamenteel framework, waarop domeinspecifieke en formele 'virtuele frameworks' kunnen worden gebouwd (bijv. wiskunde, programmeren). Naarmate de bekwaamheid toeneemt, kunnen deze frameworks 'native' worden, waarbij directe interactie zonder de tussenkomst van natuurlijke taal mogelijk is.
-
-Het aandachtsmechanisme in LLM's wordt geïdentificeerd als de technologie die het 'natural-born framework' realiseert, door relevante tokens te selecteren en relaties te abstraheren. Dit verklaart de effectiviteit van LLM's en suggereert dat zowel natuurlijke taal als menselijke hersenen inherent zijn ontworpen als 'natural-born frameworkers', met een progressieve, stapsgewijze leerarchitectuur die efficiënt aanpassing en kennisoverdracht mogelijk maakt.</description>
-</item>
-<item>
-  <title>Chronoscramble Samenleving</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_12_Chronoscramble-Society/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_12_Chronoscramble-Society/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>De opkomst van generatieve AI creëert een nieuw maatschappelijk fenomeen, de "Chronoscramble Samenleving", waarbij individuen fundamenteel verschillende percepties van tijd, het heden en de toekomst ervaren. Deze verschillen zijn diepgaander dan voorheen, omdat ze niet beperkt zijn tot traditionele grenzen zoals land, cultuur of generatie, maar ook voortkomen uit variaties in begrip van AI-technologie, de toepassing ervan, economische impact en maatschappelijke gevolgen. De kloof wordt vergroot door lineair versus exponentieel denken bij toekomstprojecties, cognitieve vooroordelen en variaties in het gevoel van controle over de toekomst. Dit maakt effectieve communicatie en besluitvorming extreem moeilijk, omdat gedeelde uitgangspunten ontbreken. De auteur stelt dat volledige temporele synchronisatie onhaalbaar is en pleit voor het accepteren van deze verschillen en het ontwikkelen van methoden voor onafhankelijke besluitvorming. De naam is geïnspireerd door het computerspel Chrono Trigger, dat samenwerking over tijdperken heen benadrukt om gemeenschappelijke doelen te bereiken, en weerspiegelt mogelijk de eigen uitdagingen van de game-ontwikkelaars.</description>
-</item>
-<item>
-  <title>Het tijdperk van simulatiethinken</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_12_Simulation-Thinking-Era/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_12_Simulation-Thinking-Era/</guid>
-  <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert het concept van 'simulatiethinken' als een nieuwe paradigmaverschuiving in softwareontwikkeling en probleemoplossing, aangedreven door generatieve AI. De auteur beschrijft hoe generatieve AI het creëren van complexe software, zoals "intellectuele fabrieken" en "liquidware", vergemakkelijkt. "Liquidware" verwijst naar flexibele, aanpasbare software die gebruikers in staat stelt om functionaliteit continu te verbeteren door AI te delegeren. Het artikel betoogt dat deze technologie de traditionele "full-stack" en "bedrijfsprocesgerichte ontwikkeling" methodologieën transformeert, door een meer geconsolideerde en flexibele aanpak per bedrijfsproces te ondersteunen. Verder wordt de rol van generatieve AI in simulatiesystemen belicht. AI maakt het mogelijk om niet alleen wiskundig gedefinieerde, maar ook kwalitatieve en menselijk-intelligente elementen te simuleren. Simulatieresultaten, gegenereerd met behulp van AI op basis van natuurlijke taal-input en discussies, kunnen als objectieve basis dienen voor deliberatie, wat leidt tot efficiëntere en constructievere discussies. Dit verschuift de focus van lineair, op intuïtie gebaseerd denken naar een meer gestructureerd en data-gedreven "simulatiethinken".</description>
-</item>
-<item>
-  <title>Kristallisatie van Kennis: Vleugels voorbij Verbeelding</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_10_Knowledge-Crystallization/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_10_Knowledge-Crystallization/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel introduceert het concept 'gekristalliseerde kennis' als het abstraheren en synthetiseren van wetten en informatie tot een uitgebreide en consistente vorm. De auteur gebruikt het voorbeeld van vliegen en vleugels om dit concept te illustreren. Vleugels worden geanalyseerd op hun essentiële rollen in het creëren van luchtweerstand, het omzetten van krachtrichting en het genereren van luchtsnelheidsverschillen voor lift. Deze analyse toont aan hoe vleugels alle aspecten van vlucht omvatten, van glijden zonder energie tot het benutten van externe of interne energiebronnen. De auteur stelt dat de nieuwheid niet ligt in de bestaande wetenschappelijke kennis, maar in de manier waarop deze kennis wordt georganiseerd en geassocieerd. Het verfijnen van kenniscombinaties en het ontdekken van 'brandpunten' wordt 'kristallisatie van kennis' genoemd. Dit proces wordt verder uitgewerkt met concepten als 'kennismeer' (ruwe verzameling van kennis), 'kennisbasis' (georganiseerde kennis), 'kennis edelsteen box' (opgeslagen gekristalliseerde kennis) en 'kennis toolbox' (praktische toepassingen van gekristalliseerde kennis). De conclusie benadrukt dat iedereen, ongeacht expertise, door kennisorganisatie en -verfijning kan bijdragen aan het creëren van nieuwe kenniskristallen en -tools, wat een democratisering van kennis impliceert en de mogelijkheid biedt om grenzen voorbij de verbeelding te overschrijden met de 'vleugels van kennis'.</description>
-</item>
-<item>
-  <title>Ervaring &amp; Gedrag</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_10_Experience-Behavior/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_10_Experience-Behavior/</guid>
-  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert het concept 'Ervaring &amp; Gedrag Engineering' als een nieuw paradigma voor softwareontwikkeling, dat de traditionele nadruk op specificaties en implementatie wil vervangen. De auteur betoogt dat de gebruikerservaring centraal staat en direct wordt gevormd door het gedrag van de software, niet door de implementatie zelf. Dit nieuwe paradigma wordt aangevuld met het concept 'liquidware', software die flexibel is en zich perfect aanpast aan individuele gebruikersvoorkeuren, mogelijk gemaakt door geautomatiseerde ontwikkeling met generatieve AI. Het artikel definieert gedrag als een in de tijd veranderende toestand en stelt dat gedragstesten zich richt op de kwaliteit van de gebruikerservaring, naast functionele conformiteit. De ultieme gebruikerservaring wordt vergeleken met de moeiteloze controle over het eigen lichaam, waarbij men de beperkingen ervan niet opmerkt. Dit suggereert dat hoogwaardig gedrag in liquidware een vergelijkbare stressvrije ervaring kan bieden, zelfs bij complexe of trage systemen. Uiteindelijk zal ultieme liquidware aanvoelen als een extensie van ons eigen lichaam.</description>
-</item>
-<item>
-  <title>Artificieel Leerintelligentiesysteem: Het ALIS Concept</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_09_ALIS-Concept/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_09_ALIS-Concept/</guid>
-  <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel introduceert het Artificieel Leerintelligentiesysteem (ALIS), een concept dat verder gaat dan huidige generatieve AI door aangeboren en verworven leren te integreren. Bestaande AI, zoals LLM's, leunt sterk op aangeboren leren via supervised learning op neurale netwerken. ALIS voegt hier een verworven leerproces aan toe, waarbij geleerde kennis extern wordt opgeslagen en gebruikt tijdens inferentie. De technische kern van ALIS ligt in het extraheren, opslaan, selecteren en benutten van deze kennis.
-
-Het systeem is opgebouwd rond vijf elementen: de Intelligente Processor (bv. LLM, brein), Kennisopslag (bv. LLM parameters, langetermijngeheugen), de Wereld (externe omgeving), Staatgeheugen (kortetermijngeheugen, verborgen toestanden) en het Raamwerk (denkkader, selectiecriteria). ALIS werkt door te interageren met de wereld, kennis te extraheren, op te slaan, te selecteren en te gebruiken om acties aan te passen.
-
-De voorgestelde kennisrepresentatie voor ALIS is primair natuurlijke taaltekst, wat interoperabiliteit en begrijpelijkheid bevordert. Het systeem kan ook formele talen en modellen, zoals programmeertalen, gebruiken voor rigoureuzer redeneren. Een praktische implementatie begint met een chat-AI, waarbij kennis uit de conversatiegeschiedenis wordt geëxtraheerd, opgeslagen in een kennisbasis (via kennismeer en structurering), en gebruikt in een RAG-achtig mechanisme. Verbeteringen zoals pre-analyse en post-controle verhogen de effectiviteit van kennisselectie.
-
-ALIS is ontworpen voor incrementele en agile ontwikkeling. Het concept van "intellectuele orchestratie" beschrijft hoe gespecialiseerde kennisopslagplaatsen kunnen worden beheerd voor complexe intellectuele taken. Toekomstige toepassingen omvatten brede domeinen, met de mogelijkheid van integratie in fysiek belichaamde AI, waarmee ALIS een vorm van virtueel belichaamde AI-aard bezit.</description>
-</item>
-<item>
-  <title>Machine Learning met Natuurlijke Taal</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_08_Natural-Language-ML/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_08_Natural-Language-ML/</guid>
-  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert "machine learning met natuurlijke taal" als een nieuw veld dat voortkomt uit de opkomst van grote taalmodellen (LLM's). In tegenstelling tot traditionele machine learning, die leert van numerieke gegevens en parameters, maakt machine learning met natuurlijke taal gebruik van LLM's om te leren van en met natuurlijke taal. Het artikel beschrijft een basismodel waarbij een LLM, zonder aanpassing van zijn parameters, wordt getraind op basis van invoer-uitvoerparen die worden opgeslagen in een kennisbank. Deze kennisbank dient als de opslagplaats van geleerde informatie, in plaats van de neurale netwerkparameters van de LLM. Een realistischer scenario omvat het continu bijwerken van de kennisbank met feedback uit de praktijk, zoals routeringsfouten. De belangrijkste voordelen zijn de overweldigende leerefficiëntie: minder trainingsdata nodig, geen iteratieve training en minimale voorverwerking, wat het een veelbelovend alternatief maakt voor traditionele numerieke machine learning, vooral nu LLM's mogelijk schaalwetten naderen.</description>
-</item>
-<item>
-  <title>Het Aandachtsmechanisme als Micro Virtuele Intelligentie</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/08_06_Micro-VM-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/08_06_Micro-VM-Intelligence/</guid>
-  <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel onderzoekt het aandachtsmechanisme, een kerncomponent van Transformers, als een vorm van 'micro virtuele intelligentie'. Het aandachtsmechanisme stelt AI in staat om zich te concentreren op relevante delen van de invoer, vergelijkbaar met hoe mensen aandacht richten. Dit wordt geïllustreerd aan de hand van de verwerking van natuurlijke taal, waarbij het model leert welke voorgaande woorden relevant zijn voor het huidige woord, wat leidt tot een beter begrip van verwijzingen en context, zelfs in lange teksten. Het artikel introduceert het concept van 'virtuele intelligentie' als het vermogen van AI om intern te schakelen tussen verschillende kennissets, afhankelijk van de taak, vergelijkbaar met hoe een virtuele machine verschillende besturingssystemen kan draaien. Het aandachtsmechanisme wordt gezien als een 'micro' versie hiervan omdat het opereert op een reeks woorden, terwijl bredere virtuele intelligentie zich richt op kennissets. De auteurs stellen voor dat 'virtuele intelligentie' kan worden gerealiseerd door een 'macro aandachtsmechanisme', dat expliciet kan worden gedefinieerd met natuurlijke taalinstructies, zoals 'Bij het uitvoeren van Taak A, raadpleeg Kennis B'. Dit 'expliciete aandachtsmechanisme' of 'aandachts-kennis' kan door AI worden gegenereerd en bijgewerkt. De conclusie is dat het aandachtsmechanisme, door zijn vermogen om dynamisch informatie te verfijnen, essentieel is voor geavanceerde intelligentie en de recursieve ontwikkeling van intelligentie op verschillende niveaus.</description>
-</item>
-<item>
-  <title>Orchestratie van Virtuele Intelligentie</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Virtual-Intelligence-Orchestration/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert het concept van 'virtuele intelligentie' (VI), vergelijkbaar met virtuele machines, maar toegepast op intelligentie. Mensen demonstreren VI wanneer ze meerdere rollen spelen of gesprekken simuleren, en conversationele AI bezit dit vermogen eveneens. Het artikel onderscheidt 'intelligentie-orkestratie' van 'systeemorkestratie'. Waar systeemorkestratie meerdere fysieke of virtuele computers combineert via technologie voor het bouwen van gedistribueerde systemen, maakt intelligentie-orkestratie het mogelijk om binnen één enkel AI-model meerdere virtuele intelligenties met verschillende rollen te combineren voor organisatorische taken. Dit laatste vereist geen systeemontwikkeling maar kan worden bereikt via simpele promptinstructies, wat leidt tot flexibelere en snellere aanpassingen. Verder wordt het concept 'ultieme beraadslaging' geïntroduceerd, waarbij AI wordt aangemoedigd tot herhaaldelijk itereren en combineren van perspectieven, wat leidt tot verbeterde denkprecisie, creativiteit en nieuwe ontdekkingen. VI stelt AI in staat kennis te wisselen voor rollen en taken, wat leidt tot geavanceerde organisatorische intellectuele activiteiten en een grotere toepasbaarheid van AI als menselijke vervanger in zakelijke omgevingen.</description>
-</item>
-<item>
-  <title>Het Tijdperk van Symfonische Intelligentie</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Symphonic-Intelligence/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Symphonic-Intelligence/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert het concept "Symfonische Intelligentie" als een nieuw tijdperk in het gebruik van generatieve AI, dat verder gaat dan het loutere gebruik van tools. Het onderscheidt twee soorten werk: iteratief werk, dat gebaat is bij tools maar beperkt wordt door menselijke capaciteiten en leertrajecten, en flowwerk, dat gestructureerder is en beter te integreren met systemen. Om de beperkingen van iteratief werk te overwinnen, stelt het artikel voor om dit om te zetten naar gestandaardiseerd flowwerk, waarbij generatieve AI-taken en menselijke taken door een systeem worden verbonden. Dit leidt tot efficiëntieverbetering en kennisdeling. Vervolgens introduceert het concept "virtuele intelligentie" als het vermogen van generatieve AI om tijdens een enkele uitvoering rollen en kennis te wisselen, vergelijkbaar met virtuele machines. Dit vermogen maakt het mogelijk om flexibel iteratief werk uit te voeren. "Intelligentie-orkestratie" beschrijft het beheren van deze virtuele intelligenties, analoog aan orkestratie van virtuele machines. Symfonische Intelligentie wordt gedefinieerd als het stadium waarin generatieve AI deze orkestratie bereikt, vergelijkbaar met een menselijk orkest. Dit stadium, waarin generatieve AI complexe intellectuele taken flexibel kan uitvoeren en zelfs kan leren van menselijke observatie, wordt gezien als een vorm van Artificiële Algemene Intelligentie (AGI).</description>
-</item>
-<item>
-  <title>Dimensies van Ruimtelijke Waarneming: Het Potentieel van AI</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Space-Dimension-AI/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_30_Space-Dimension-AI/</guid>
-  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel verkent het potentieel van kunstmatige intelligentie (AI) om de menselijke beperkingen in ruimtelijke waarneming te overstijgen, met name op het gebied van multidimensionale gegevens. Mensen waarnemen een driedimensionale ruimte op basis van tweedimensionale visuele input, een proces van inverse projectie. Hoewel het theoretisch mogelijk is voor mensen om vierdimensionale waarneming te ontwikkelen door simulatie en training, is dit tijdrovend en de praktische toepassingen zijn beperkt. AI daarentegen kan efficiënter worden getraind in vierdimensionale of hogere ruimtelijke waarneming. Dit stelt AI in staat om multidimensionale grafieken intuïtief te begrijpen zonder de noodzaak van projecties of rotaties, wat cruciaal is voor data-analyse en patroonherkenning. Het vermogen om hoogdimensionale gegevens 'native' te interpreteren kan leiden tot versnelde paradigma-innovaties in de wetenschap, vergelijkbaar met hoe het heliocentrische model de astronomie transformeerde. AI's multidimensionale waarnemingsvermogens kunnen de wetenschappelijke en academische vooruitgang aanzienlijk versnellen, hoewel mensen mogelijk moeite hebben om de resulterende complexe paradigma's volledig te bevatten.</description>
-</item>
-<item>
-  <title>Flow-gebaseerd werken en systemen: De essentie van het benutten van generatieve AI</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_29_Tool-vs-System/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_29_Tool-vs-System/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel onderscheidt tussen tools en systemen, waarbij systemen werk efficiënter maken door middel van 'flow-gebaseerd werken'. Iteratief werk, dat geleidelijk en met vallen en opstaan verloopt, is nuttig met een toolkit. Flow-gebaseerd werk doorloopt fasen met een eindproduct in de laatste fase, waarbij een begeleidend systeem de productiviteit en kwaliteit verhoogt. Historische revoluties zoals de Industriële en IT-revolutie worden gezien als voorbeelden van gesystematiseerd flow-gebaseerd werk dat iteratieve processen transformeerde.  De generatieve AI-revolutie vereist een vergelijkbare transformatie: generatieve AI moet niet als tool worden gebruikt voor iteratieve taken, maar als onderdeel van een gesystematiseerd, flow-gebaseerd proces. Generatieve AI kan iteratieve taken aan, maar flow-gebaseerde transformatie en systematisering zijn cruciaal voor echte efficiëntiewinst.  Het transformeren van menselijk iteratief werk naar flow-gebaseerd werk is moeilijk, maar met generatieve AI is dit eenvoudiger omdat deze AI flexibeler en configureerbaar is. Een voorbeeld van een helpdeskfunctie illustreert hoe generatieve AI, mits geïntegreerd in een gedetailleerd gestructureerde flow en gesystematiseerd, leidt tot significante efficiëntieverbeteringen, in tegenstelling tot simpelweg als tool gebruiken. Veelvoorkomende misvattingen over generatieve AI ontstaan uit het gebruik ervan als tool voor iteratieve taken of het onvermogen om de flow-gebaseerde transformatie te realiseren.</description>
-</item>
-<item>
-  <title>Simulatiethinking en de Oorsprong van Leven</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_29_Simulation-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_29_Simulation-Thinking/</guid>
-  <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel introduceert 'simulatiethinking' als een denkmethodologie om complexe fenomenen te begrijpen die gebaseerd zijn op accumulatie en interactie. Dit wordt geïllustreerd aan de hand van het zakgeldprobleem, waarbij exponentiële groei leidt tot onverwacht hoge bedragen.  Vervolgens wordt simulatiethinking toegepast op de oorsprong van leven. De auteur stelt dat het ontstaan van complexe chemische stoffen uit eenvoudigere stoffen op de vroege Aarde begrepen kan worden als een proces van geleidelijke accumulatie en interactie, versterkt door planetaire circulatie en processen zoals de stofwolkhypothese.  Dit proces, inclusief de vorming van polymeren en de rol van verschillende aardse omgevingen, wordt gezien als de 'eerste stap' in de oorsprong van leven. De tekst benadrukt dat deze aanpak, die natuurlijke taal gebruikt ('natuurlijke wiskunde'), fundamenteel is voor softwareontwikkeling, waar het helpt bij het vertalen van abstracte vereisten naar functionele systemen door middel van dubbele simulatie (interne werking en klantdoel).  Het artikel concludeert dat simulatiethinking een cruciale vaardigheid is voor het begrijpen van complexe wetenschappelijke en maatschappelijke vraagstukken, en dat personen die deze vaardigheid bezitten, zoals softwareontwikkelaars, een belangrijke rol zullen spelen in de toekomst.</description>
-</item>
-<item>
-  <title>De Omnidirectionele Ingenieur in het Tijdperk van Liquidware</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_28_Liquidware-Allrounder/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_28_Liquidware-Allrounder/</guid>
-  <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel onderzoekt de transformerende impact van generatieve AI op softwareontwikkeling, met de introductie van het concept 'liquidware'. Generatieve AI, die uitblinkt in het converseren en programmeren, stelt gebruikers in staat om software aan te passen, zelfs na de release. Dit leidt tot een paradigmaverschuiving van traditionele software naar 'liquidware', die aanpasbaarder en gebruiker-specifiek is. De auteur stelt dat de opkomst van liquidware en de toegenomen efficiëntie van AI-gestuurd programmeren de vraag naar gespecialiseerde programmeurs zal verminderen. In plaats daarvan ontstaat de behoefte aan 'omnidirectionele ingenieurs' met brede kennis over verschillende systeemstacks en de vaardigheid om complexe, multi-platform, multi-device applicaties te ontwerpen, waarbij ze gebruikmaken van AI voor specifieke taken. Dit artikel beschrijft de rol van deze ingenieurs in het leiden van projecten zoals het omvormen van e-commerceplatforms tot gebruikersgemeenschapspodia met naadloze integratie en aanpasbare interfaces, en benadrukt dat de ontwikkeling van omnidirectionele software en omnidirectionele bedrijfskunde de toekomst vormt voor IT-professionals.</description>
-</item>
-<item>
-  <title>De Noodzaak van Denken: AI en de Mensheid</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_12_Fate-of-Thinking/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_12_Fate-of-Thinking/</guid>
-  <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel stelt dat naarmate AI steeds meer intellectuele taken overneemt, de mensheid niet zal stoppen met denken, maar een ander soort denken zal moeten ontwikkelen. De auteur introduceert 'procesoriëntatie' als een nieuw softwareontwikkelingsparadigma, dat verder gaat dan objectoriëntatie. Hierin wordt een proces, getriggerd door gebeurtenissen, gezien als de centrale programmeermodule. Deze benadering past beter bij de menselijke intuïtie en maakt het mogelijk om de gehele levenscyclus van software via processen te begrijpen. Met AI die programmeertaken ondersteunt, wordt redundantie in code acceptabel, waardoor individuele optimalisatie van processen boven globale optimalisatie wordt gesteld. Dit concept van individuele optimalisatie wordt doorgetrokken naar de samenleving, die evolueert van globale naar individueel geoptimaliseerde besluitvorming, waarbij elke situatie uniek wordt beoordeeld. Dit vereist "subjectieve filosofie", waarbij het proces van nadenken en verantwoordelijkheid nemen centraal staat, zelfs als dit leidt tot onbedoelde gevolgen. De auteur concludeert dat de mensheid, ondanks AI's vermogen tot intellectuele arbeid, verplicht zal zijn om diepgaand en individueel na te denken, omdat AI slechts kan informeren, adviseren en criteria kan presenteren, maar niet het uiteindelijke, verantwoordelijke oordeel kan vellen.</description>
-</item>
-<item>
-  <title>Een uitnodiging voor bedrijfsprocesoriëntatie</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/07_11_Business-Process-Oriented/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/07_11_Business-Process-Oriented/</guid>
-  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Dit artikel introduceert het concept van Bedrijfsprocesgeoriënteerde Software (BPOS) als een innovatieve aanpak voor softwareontwikkeling en organisatorische efficiëntie. Het bouwt voort op het principe van objectgeoriënteerde software, dat data en verwerking bundelt, maar past dit toe op het niveau van bedrijfsprocessen.  BPOS houdt in dat de bedrijfsinstructies en invoergebieden voor taken binnen één document worden geïntegreerd, wat zorgt voor een coherente eenheid. Dit formaat, vaak in Markdown, dient als "software" die door mensen of AI uitgevoerd kan worden.  Het elimineert de noodzaak voor complexe systeemontwikkeling, waardoor aanpassingen aan bedrijfsprocessen sneller en goedkoper worden doorgevoerd. AI kan deze BPOS-bestanden lezen, verwerking uitvoeren, mensen assisteren via diverse interfaces (van chat tot gegenereerde spreadsheets) en taken overdragen aan de volgende verantwoordelijke.  Dit leidt tot kennisaccumulatie, continue procesverbetering en de vorming van een "snel lerende organisatie", waarbij AI de last draagt van het leren van nieuwe procedures en het aanpassen aan veranderingen, terwijl mensen efficiënt ondersteund worden.</description>
-</item>
-<item>
-  <title>Frameworkontwerp als een Intellectueel Vermogen</title>
-  <link>https://katoshi-mfacet.github.io/nl/articles/2025/06_29_Framework-Design-Ability/</link>
-  <guid>https://katoshi-mfacet.github.io/nl/articles/2025/06_29_Framework-Design-Ability/</guid>
-  <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-  <description>Het artikel onderscheidt twee fundamentele intellectuele activiteiten: ontdekking door observatie, kenmerkend voor academische disciplines, en uitvinding door ontwerp, de kern van ontwikkeling. Terwijl academici zich richten op het ontdekken van feiten, creëren ontwikkelaars nieuwe objecten en systemen. Soms, zoals in toegepaste wetenschappen, overlappen deze gebieden. Het artikel stelt dat academische disciplines ook intellectuele activiteiten van uitvinding door ontwerp kennen, met frameworkontwerp als een sleutelvoorbeeld. Modellen zoals het geocentrische en heliocentrische systeem, en theorieën als Newtoniaanse mechanica, worden gezien als conceptuele kaders die worden gekozen op basis van bruikbaarheid, niet op juistheid, wat meer overeenkomt met 'paradigma-uitvindingen' dan met revoluties. Dit benadrukt het belang van uitvinding door ontwerp, zelfs binnen de wetenschap. Hoewel ontdekking en uitvinding verschillende vaardigheden vereisen, bezitten niet alle academici de vaardigheden voor uitvinding. Ingenieurs, met name software-ingenieurs, bezitten echter potentieel deze vaardigheden, aangezien zij routinematig abstracte concepten op een meta-niveau herconfigureren, wat cruciaal is voor frameworkontwerp.</description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katoshi&apos;s Onderzoeksnotities</title>
+    <link>https://katoshi-mfacet.github.io/nl/</link>
+    <description>Onderzoeksnotities van een Software Engineer/Systeemarchitect/Ph.D. in Engineering. Het verkennen van de mechanismen van het ontstaan van het leven, de essentie van levensfenomenen, en structuren van intelligentie en samenleving door middel van softwareontwikkelingservaring.</description>
+    <language>nl</language>
+    <atom:link href="https://katoshi-mfacet.github.io/nl/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Op weg naar een tijdperk zonder muren: Een blogsite in 30 talen creëren</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_24_wall-free-era/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_24_wall-free-era/</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit blogartikel beschrijft de creatie van een meertalige (30 talen) blogwebsite, volledig geautomatiseerd met behulp van generatieve AI (Gemini).  De auteur, een systeemingenieur, detailleert het proces, beginnend bij het genereren van HTML vanuit Japanse artikelconcepten met een Astro framework-gebaseerd programma.  Categorisering en tagging gebeuren automatisch via Gemini&apos;s API, waarbij een algoritme categorieën en tags uit bestaande artikelen extraheert en verfijnt.  Vertaling naar de 30 talen wordt eveneens via Gemini&apos;s API afgehandeld, zowel voor algemene websiteteksten als artikelinhoud.  Toegankelijkheidsverbeteringen, gesuggereerd door Gemini, werden in de HTML geïntegreerd.  De auteur benadrukt hoe generatieve AI barrières overwon, zoals meertaligheid (inclusief het correct behandelen van taalspecifieke elementen zoals datums en eenheden), en toegankelijkheid voor gebruikers met visuele beperkingen of die een toetsenbord gebruiken.  Het systeem, gebouwd in ongeveer twee weken, demonstreert het potentieel van generatieve AI om barrières in informatie-distributie te elimineren, hoewel toekomstige uitdagingen, zoals culturele verschillen, nog steeds bestaan.</description>
+    </item>
+    
+    <item>
+      <title>Ontwikkelingsgedreven Ontwikkeling en Refactoring-gestuurde Testen</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_19_dev-development/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_19_dev-development/</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel beschrijft twee nieuwe benaderingen in softwareontwikkeling, mogelijk gemaakt door generatieve AI: Ontwikkelingsgedreven Ontwikkeling en Refactoring-gestuurde Testen. Ontwikkelingsgedreven Ontwikkeling focust op het continu ontwikkelen van hulpmiddelen tijdens het softwareontwikkelingsproces om de efficiëntie en kwaliteit te verbeteren.  In plaats van vooraf tests te schrijven (zoals in Test-Driven Development), pleit Refactoring-gestuurde Testen voor het schrijven van tests tijdens het refactoringproces, gericht op stabiele delen van de code.  De auteur beargumenteert dat deze methoden, in combinatie met generatieve AI, leiden tot een efficiëntere en kwalitatief betere softwareontwikkeling, in lijn met de visie van een omnidirectionele engineer en ervarings- en gedragsgestuurde ontwikkeling.</description>
+    </item>
+    
+    <item>
+      <title>Tijdcompressie en Blinde Vlekken: De Noodzaak van **Snelheidsregeling**</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_16_time-compression-blindspot/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_16_time-compression-blindspot/</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel beschrijft de exponentiële versnelling van AI-technologie en de daaruit voortvloeiende &apos;tijdcompressie&apos;, waarbij technologische ontwikkelingen zo snel gaan dat maatschappelijke aanpassingen en het identificeren van risico&apos;s (sociale blinde vlekken) achterlopen. Deze versnelling wordt versterkt door de zelfversterkende aard van AI, de toename van toepassingen en investeringen.  De auteur waarschuwt voor de gevaren van deze snelle ontwikkeling, aangezien de risico&apos;s van onbekende of niet-voorziene toepassingen sneller verschijnen dan we ze kunnen begrijpen en mitigeren.  Dit leidt tot een &apos;Chronoscramble Samenleving&apos;, waar individuen sterk uiteenlopende percepties hebben van het tempo van technologische vooruitgang. De oplossing die wordt voorgesteld is het ontwikkelen van een visie en strategie, waarbij de focus ligt op het gebruik van AI zelf als &apos;ingebouwde stabilisator&apos; om de snelheid van de technologische ontwikkeling te reguleren en zo de risico&apos;s beheersbaar te houden.  Het doel is om een evenwicht te vinden tussen de voordelen en de risico&apos;s van deze snelle technologische vooruitgang.</description>
+    </item>
+    
+    <item>
+      <title>GitHub als intellectuele mijn</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_15_intellectual-mine-github/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_15_intellectual-mine-github/</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel verkent het potentieel van GitHub als een &apos;Intellectuele Mijn&apos;, een gecentraliseerde opslagplaats voor openbare kennis die wordt gebruikt als grondstof voor &apos;Intellectuele Fabrieken&apos;. Deze fabrieken, aangedreven door generatieve AI, verwerken de kennis op GitHub (programma&apos;s, documenten, blogartikelen, etc.) en produceren diverse contentformaten (vertalingen, video&apos;s, websites).  De auteur beschrijft zijn eigen &apos;Intellectuele Fabriek&apos;, die zijn blogartikelen automatiseert, en vergelijkt dit met DeepWiki, een dienst die automatisch wiki&apos;s genereert voor GitHub-projecten.  Het artikel beargumenteert dat de combinatie van GitHub als centraal platform en AI-aangedreven Intellectuele Fabrieken een dynamische, openbare kennisbank creëert.  Deze kennisbank zal niet alleen feiten bevatten, maar ook &apos;Intellectuele Kristallen&apos; – nieuwe denkkaders en concepten die de ontdekking van verdere kennis katalyseren.  Het artikel voorspelt dat dit ecosysteem de snelheid van kenniscreatie zal versnellen, door zowel menselijke bijdragen als AI-gedreven kennisontdekking te combineren.</description>
+    </item>
+    
+    <item>
+      <title>Idee Gestaltinstorting</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_14_concept-gestalt-collapse/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_14_concept-gestalt-collapse/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>De auteur introduceert het concept &apos;Idee Gestaltinstorting&apos;, waarbij een initieel helder idee instort onder analytische beschouwing.  Dit wordt geïllustreerd aan de hand van het begrip &apos;stoel&apos;, dat moeilijk te definiëren is op basis van vorm of materiaal, maar wel door zijn functie (&apos;geschikt om op te zitten&apos;) kan worden begrepen.  Het behoud van de &apos;Idee Gestalt&apos; is mogelijk door te focussen op functionaliteit, relativiteit (context afhankelijkheid) en volledigheid (het geheel beschouwen). Deze principes worden toegepast op de vraag of fictieve personages (in romans, films en anime) en toekomstige, geavanceerde AI bewustzijn bezitten. De auteur beargumenteert dat vanuit het perspectief van de observator in de fictieve wereld, en voor de toekomstige AI, het toeschrijven van bewustzijn een natuurlijke reactie is. De auteur bekritiseert huidige argumenten tegen AI-bewustzijn als voorbeelden van Idee Gestaltinstorting, aangezien ze focussen op onvoldoende aspecten om bewustzijn te bepalen.</description>
+    </item>
+    
+    <item>
+      <title>Intellectuele Kristallen: Tussen Intuïtie en Logica</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_14_intuition-and-logic/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_14_intuition-and-logic/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel onderzoekt de kloof tussen intuïtie en logica, waarbij intuïtief correcte ideeën moeilijk logisch te verwoorden zijn.  De auteur introduceert het concept van &apos;intellectuele kristallen&apos; – wiskundige structuren die intuïtieve inzichten logisch verklaren.  Het nationale belang wordt als voorbeeld gebruikt; hoewel intuïtief gezien wereldvrede wenselijk is, wordt dit vaak verworpen vanwege nationaal belang.  De auteur argumenteert echter dat nationaal belang onvoorspelbaar en op lange termijn irrationeel is, in tegenstelling tot duurzame vrede, goed bestuur, economische welvaart en risicobeheer, die wel een &apos;progressieve accumulatie&apos; van kennis en technologie mogelijk maken.  Het artikel introduceert &apos;natuurlijke wiskunde&apos; als een methode om logische structuren in natuurlijke taal uit te drukken, waarmee &apos;intellectuele kristallen&apos; kunnen worden blootgelegd en intuïtieve inzichten rationeel kunnen worden verdedigd.  De kern is dat intuïtie niet inherent fout is, maar dat er vaak een onderliggende logische structuur te vinden is die de intuïtie ondersteunt.</description>
+    </item>
+    
+    <item>
+      <title>Leren leren: Aangeboren intelligentie</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_13_natural-born-frameworker/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_13_natural-born-frameworker/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel onderzoekt het ontstaan van intelligentie in kunstmatige intelligentie (AI) door het concept van &apos;leren&apos; te analyseren.  De auteur introduceert &apos;leren door het lichaam&apos; en &apos;leren door taal&apos;, en onderscheidt vervolgens &apos;metacognitief leren&apos; (herhaald leren) van &apos;metafysisch leren&apos; (direct begrip of opzoekbaar).  Grote taalmodellen (LLM&apos;s) demonstreren metafysisch leren door taal, in tegenstelling tot traditioneel machinaal leren.  De auteur introduceert het concept van een &apos;framework&apos; dat de structuur en relaties tussen concepten definieert, onderscheidend tussen een &apos;natuurlijk taal-framework&apos;, &apos;virtuele frameworks&apos; (domeinspecifiek, formeel), en &apos;native frameworks&apos; (automatisch beheerst).  Het &apos;aandachtsmechanisme&apos; in LLM&apos;s wordt geïdentificeerd als de technologie achter het &apos;Natuurlijk Geboren Frameworker&apos; – een ingebouwd mechanisme om frameworks incrementeel te leren. De auteur concludeert dat natuurlijke taal een uitermate geschikte structuur heeft voor incrementeel leren en dat mensen mogelijk ook &apos;Natuurlijk Geboren Frameworkers&apos; zijn.</description>
+    </item>
+    
+    <item>
+      <title>Chronoscramble Samenleving</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_12_chronoscramble-society/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_12_chronoscramble-society/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel beschrijft de &apos;Chronoscramble Samenleving&apos;, een maatschappelijk fenomeen veroorzaakt door de snelle ontwikkeling van generatieve AI.  De auteur beargumenteert dat de ongelijke toegang tot en het begrip van AI-technologieën leiden tot grote verschillen in de tijdsperceptie tussen individuen. Deze verschillen overstijgen traditionele grenzen zoals nationaliteit en generatie, en manifesteren zich in uiteenlopende perspectieven op de huidige mogelijkheden van AI en de toekomst ervan. De auteur benadrukt de complexiteit van deze discrepanties, die voortkomen uit verschillen in technologische expertise, toegang tot informatie, en cognitieve vooroordelen bij het voorspellen van de toekomst.  Het artikel bepleit voor methoden om zinvolle discussies te voeren ondanks deze discrepanties, waarbij de focus ligt op het bereiken van gemeenschappelijk begrip, onafhankelijk van ieders individuele tijdsperceptie.  De auteur gebruikt het spel &apos;Chrono Trigger&apos; als metafoor, waarbij de samenwerking tussen verschillende teams, ondanks hun verschillende perspectieven, een succesvol eindresultaat opleverde, net zoals samenwerking in de Chronoscramble Samenleving noodzakelijk is.</description>
+    </item>
+    
+    <item>
+      <title>Het Tijdperk van Simulatiegedachte</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_12_simulation-thinking-era/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_12_simulation-thinking-era/</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel beschrijft de opkomst van &apos;Omnidirectionele Engineering&apos;, een benadering van softwareontwikkeling waarbij generatieve AI wordt gebruikt om diverse aspecten van een systeem te ontwikkelen, inclusief front-ends, back-ends en batchverwerking.  De auteur introduceert het concept &apos;Liquidware&apos;, software die dankzij generatieve AI flexibel en aanpasbaar is.  Verder pleit het artikel voor een &apos;Bedrijfsprocesgerichte&apos; ontwikkelingsmethodologie voor bedrijfssystemen, waarbij softwaremodules in afzonderlijke bedrijfsprocessen worden verdeeld om complexiteit te verminderen.  Ten slotte beschrijft het artikel hoe generatieve AI simulatiesystemen transformeert, waardoor complexere en inclusievere simulaties mogelijk zijn, wat leidt tot een &apos;Simulatiegedachte&apos; – een manier van denken die steunt op simulaties voor discussies en besluitvorming, waardoor objectiviteit en efficiëntie worden verbeterd.</description>
+    </item>
+    
+    <item>
+      <title>Ervaring &amp; Gedrag</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_10_experience-behavior/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_10_experience-behavior/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>De tekst beschrijft een verschuiving in softwareontwikkeling van specificatie- en implementatiegebaseerde engineering naar ervarings- en gedragstechniek. Traditionele methoden focussen op het voldoen aan specificaties, terwijl de nieuwe benadering prioriteit geeft aan de gebruikerservaring en het gedrag van de software.  De auteur introduceert het concept &apos;Liquidware&apos;, software die door AI-aangedreven automatisering flexibel en aanpasbaar is aan individuele gebruikersvoorkeuren.  Gedrag wordt gedefinieerd als een toestand die in de tijd verandert en getest op basis van de gebruikerservaring, inclusief functionele conformiteit.  De ultieme gebruikerservaring wordt vergeleken met de moeiteloze controle over het eigen lichaam, en de auteur stelt dat Liquidware deze naadloze ervaring kan bieden, waardoor software een verlengstuk van onszelf wordt.</description>
+    </item>
+    
+    <item>
+      <title>Kennis Kristallisatie: Vleugels Voorbij Verbeelding</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_10_knowledge-crystallization/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_10_knowledge-crystallization/</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <description>De auteur introduceert het concept &apos;kenniskristal&apos;, een alomvattende en consistente abstractie van informatie en onderliggende wetten vanuit diverse invalshoeken.  Het vliegen wordt als voorbeeld gebruikt: vleugels integreren alle aspecten van vliegen (zwaartekracht overwinnen, stuwkracht genereren, lift creëren via luchtstroomverschillen), ongeacht de energiebron (zwaartekracht, thermiek, tegenwind, interne energie).  De auteur beschrijft vervolgens &apos;kenniskristallisatie&apos; als het proces van het verfijnen van kenniscombinaties en het ontdekken van &apos;condensatiepunten&apos; – dieptevolle verbanden tussen kennisstukken.  Dit wordt vergeleken met het creëren van een kennisbank, waarbij eerst een &apos;kennismeer&apos; (ongeorganiseerde kennis) wordt verzameld, gevolgd door organisatie in een kennisbank.  Een nieuwe laag, de &apos;kennis edelsteendoos&apos;, bevat gekristalliseerde kennis, die vervolgens kan worden verwerkt tot praktische toepassingen in een &apos;kennisgereedschapskist&apos;.  De auteur betoogt dat iedereen, inclusief AI, kan bijdragen aan kenniskristallisatie, wat leidt tot innovatie en het bereiken van voorheen onbereikbare doelen.</description>
+    </item>
+    
+    <item>
+      <title>Kunstmatig Lerend Intelligentiesysteem: Het ALIS Concept</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_09_alis-concept/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_09_alis-concept/</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel introduceert het Kunstmatig Lerend Intelligentiesysteem (ALIS), een systeem dat aangeboren (neuraal netwerk) en verworven leren combineert.  De kern van ALIS is het extraheren, opslaan en gebruiken van herbruikbare kennis tijdens inferentie.  Het artikel beschrijft vijf elementen van een lerend systeem: intelligente processor, kennisopslag, de wereld, toestandsgeheugen en framework.  ALIS gebruikt natuurlijke taaltekst als primaire vorm van verworven kennis, frameworks en toestandsgeheugen, waardoor integratie met LLM&apos;s mogelijk is.  Het artikel onderscheidt drie kennissystemen (netwerkparameterkennis, natuurlijke kennis, formele kennis) en twee toestanden (staatloos, staatvol).  &apos;Intelligente orchestratie&apos; verdeelt kennis over gespecialiseerde opslagplaatsen, analoog aan een orkest.  De ontwikkelingsmethode is incrementeel en agile, beginnend met een eenvoudige chat-AI die kennis uit chatgeschiedenis accumuleert.  Verbeteringen, zoals voorafgaande en achteraf controle notities, worden toegevoegd voor betere kennisselectie.  ALIS kan uiteindelijk worden toegepast in diverse domeinen,  en kan, door zijn interactie met de wereld, eigenschappen vertonen die lijken op die van een &apos;embodied AI&apos;.</description>
+    </item>
+    
+    <item>
+      <title>Machinaal Leren met Natuurlijke Taal</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_08_natural-language-ml/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_08_natural-language-ml/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Traditioneel machinaal leren gebruikt numerieke data.  Mensen leren echter ook via taal. Grote Taalmodellen (LLM&apos;s) maken machinaal leren met natuurlijke taal mogelijk.  Een basismodel hiervoor gebruikt een pre-getrainde LLM en een kennisbank.  Invoerzinnen worden aan de LLM gegeven, die een classificatie genereert.  Een leersysteem beoordeelt de antwoorden, en deze informatie wordt in de kennisbank opgeslagen.  De kennisbank wordt vervolgens gebruikt om de LLM te verbeteren.  Dit model verschilt van traditioneel machinaal leren doordat de LLM-parameters niet veranderen en de kennisbank natuurlijke taal opslaat. Een realistischere toepassing gebruikt een LLM en een kennisbank om aanvragen toe te wijzen, waarbij fouten door mensen worden gecorrigeerd en bijgewerkt in de kennisbank.  Machinaal leren met natuurlijke taal is efficiënter dan numeriek machinaal leren, omdat het minder data, geen iteratief leren en vaak geen voorverwerking vereist. De hoge leerefficiëntie compenseert de tragere verwerking van natuurlijke taal.</description>
+    </item>
+    
+    <item>
+      <title>Automatische generatie van presentatievideo&apos;s uit blogposts</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_06_auto-presentation-video/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_06_auto-presentation-video/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel beschrijft de ontwikkeling van een systeem dat automatisch presentatievideo&apos;s genereert van blogartikelen, met behulp van generatieve AI.  Het grootste obstakel was het voorkomen en detecteren van tekstoverloop in automatisch gegenereerde SVG-presentaties.  De auteur loste dit op door de AI strikte regels en procedures te geven, en door een zelfgeschreven programma te ontwikkelen voor nauwkeurige tekstoverloopdetectie.  Na het genereren van het SVG-materiaal, wordt een narratiescript gemaakt en omgezet in audio, waarna alles gecombineerd wordt tot een mp4-video met behulp van ffmpeg.  Hoewel Google&apos;s NotebookLM nu een vergelijkbare functie aanbiedt, beschouwt de auteur de ontwikkeling van dit systeem als een belangrijke leerervaring in het effectief benutten van generatieve AI.</description>
+    </item>
+    
+    <item>
+      <title>Aandachtsmechanisme als Micro Virtuele Intelligentie</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_08_06_micro-vm-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_08_06_micro-vm-intelligence/</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel beschrijft het aandachtsmechanisme in Transformer-gebaseerde AI als een cruciale factor in het verwerken van natuurlijke taal. Het vergelijkt het aandachtsmechanisme, dat relevante woorden selecteert voor interpretatie, met het concept van &apos;virtuele intelligentie&apos;.  Virtuele intelligentie, in de context van het artikel, verwijst naar het vermogen van AI om verschillende kennisbronnen te gebruiken afhankelijk van de taak.  Het aandachtsmechanisme wordt voorgesteld als &apos;micro virtuele intelligentie&apos;, omdat het werkt op woordniveau.  Daartegenover stelt het artikel een &apos;expliciet aandachtsmechanisme&apos; voor: natuurlijke taal instructies die specificeren welke kennisbronnen relevant zijn voor een specifieke taak.  Dit expliciete mechanisme kan worden gegenereerd en bijgewerkt door de AI zelf, waardoor een recursieve verbetering van intelligentie mogelijk is.  De auteur benadrukt het belang van het aandachtsmechanisme niet alleen als een efficiënt mechanisme, maar als een fundamenteel element van geavanceerde intelligentie.</description>
+    </item>
+    
+    <item>
+      <title>Dimensies van Ruimtelijke Waarneming: Het Potentieel van AI</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_space-dimension-ai/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_space-dimension-ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel beschrijft het potentieel van AI om multidimensionale ruimtes te begrijpen, een vermogen dat mensen ontbreekt.  Mensen waarnemen driedimensionaal via tweedimensionale beelden; de auteur suggereert dat dit principe kan worden uitgebreid naar vier of meer dimensies met behulp van computersimulaties.  AI, niet beperkt tot tweedimensionale perceptie, zou getraind kunnen worden om driedimensionale en multidimensionale ruimtes panoramisch te begrijpen, waardoor complexe grafieken en data intuïtiever te analyseren zijn. Dit zou trendanalyse, het identificeren van patronen en het ontdekken van wetmatigheden, zelfs over verschillende dimensionele combinaties, enorm vergemakkelijken.  Het artikel vergelijkt dit met historische wetenschappelijke doorbraken, suggererend dat &apos;dimensie-native&apos; AI paradigmaverschuivingen in de wetenschap zou kunnen versnellen door multidimensionale data direct te begrijpen zonder dimensiereductie.  Hoewel AI dergelijke inzichten mogelijk naar lagere dimensies zou projecteren om ze voor mensen begrijpelijk te maken, is het mogelijk dat sommige ontdekkingen in extreem hoge dimensies buiten menselijk begrip blijven, wat leidt tot een situatie waarin we technologie gebruiken zonder de onderliggende principes volledig te begrijpen.</description>
+    </item>
+    
+    <item>
+      <title>Het Tijdperk van Symfonische Intelligentie</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_symphonic-intelligence/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_symphonic-intelligence/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel beschrijft de evolutie van generatieve AI in bedrijfsprocessen, van tool naar systeem. Het introduceert &apos;Symfonische Intelligentie&apos; als een nieuw stadium, waarbij generatieve AI complexe taken uitvoert, vergelijkbaar met een orkest.  De auteur analyseert dit vanuit twee perspectieven: iteratiewerk (proefondervindelijk, tool-gebaseerd) en flow werk (gestandaardiseerd, systeem-gebaseerd). Iteratiewerk, hoewel geschikt voor tools, stuit op beperkingen door menselijke bottlenecks en vaardigheidskloof. Flow werk, via systematisering en conversie van iteratieve processen, biedt efficiëntievoordelen door specialisatie en kennisaccumulatie.  Het artikel introduceert &apos;virtuele intelligentie&apos;, waarbij een enkele AI meerdere rollen simuleert, vergelijkbaar met een virtuele machine, en &apos;intelligentieorkestratie&apos;, het beheer van meerdere rollen en kennisbronnen, analoog aan virtuele machine-orkestratie.  De culminatie is Symfonische Intelligentie: een AI die, net als een menselijke brein, flexibel complexe taken uitvoert. Dit wordt gezien als een stap richting Artificial General Intelligence (AGI), waar de AI zelfstandig kennis leert en automatiseert, ver boven menselijk leervermogen.</description>
+    </item>
+    
+    <item>
+      <title>Orchestratie van Virtuele Intelligentie</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_virtual-intelligence-orchestration/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_30_virtual-intelligence-orchestration/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel introduceert &apos;intelligentieorkestratie&apos;, een methode om een enkele AI te laten functioneren alsof het meerdere AI&apos;s met verschillende rollen zijn, in tegenstelling tot &apos;systeemorkestratie&apos; waarbij meerdere afzonderlijke AI&apos;s worden gecombineerd.  Intelligentieorkestratie maakt gebruik van virtuele intelligentie, waarbij de AI verschillende perspectieven simuleert binnen een enkel model, vergelijkbaar met hoe mensen verschillende rollen kunnen aannemen. Dit wordt bereikt via promptinstructies in plaats van softwareontwikkeling, waardoor snellere en flexibeler aanpassingen mogelijk zijn.  De auteur beargumenteert dat intelligentieorkestratie niet alleen efficiënter is, maar ook leidt tot &apos;ultieme overweging&apos;: een iteratief proces van reflectie en verfijning van perspectieven, wat leidt tot nauwkeuriger en uitgebreider denken, en potentieel tot nieuwe ontdekkingen en creativiteit.  De conclusie is dat intelligentieorkestratie AI in staat stelt tot complexere taken en een betere simulatie van menselijke cognitie, wat de praktische toepasbaarheid van AI aanzienlijk zal verbeteren.</description>
+    </item>
+    
+    <item>
+      <title>Simulatiegedachte en het Ontstaan van Leven</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_29_simulation-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_29_simulation-thinking/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel introduceert &apos;simulatiegedachte&apos;, een denkmethode die accumulatie en interactie stapsgewijs volgt om complexe fenomenen te begrijpen.  De auteur past deze methode toe op het ontstaan van leven, argumenterend dat de progressieve complexiteit van chemische stoffen op de vroege Aarde, door herhaalde reacties en globale circulatie, de eerste stap in de evolutie van leven vormde.  Een &apos;stofwolk&apos; op de vroege Aarde, beschermend tegen UV-straling en rijk aan grondstoffen, fungeerde als een &apos;monomerenfabriek&apos;.  De auteur betoogt dat dit proces, hoewel niet het leven zelf, de essentie ervan bevat en geleidelijk tot complexere levensvormen leidde.  Simulatiegedachte, gebaseerd op natuurlijke taal (&apos;Natuurlijke Wiskunde&apos;), wordt gepresenteerd als een essentiële vaardigheid, niet alleen voor het begrijpen van wetenschappelijke mysteries, maar ook voor softwareontwikkeling, waar programmeurs voortdurend cumulatieve interacties moeten simuleren om de wensen van klanten te vertalen naar functionele programma&apos;s.</description>
+    </item>
+    
+    <item>
+      <title>Flow Werk Conversie en Systemen: De Essentie van het Gebruik van Generatieve AI</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_29_tool-vs-system/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_29_tool-vs-system/</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel bespreekt het verschil tussen &apos;iteratiewerk&apos; (flexibel, iteratief) en &apos;flow werk&apos; (gestructureerd, stapsgewijs).  Het betoogt dat generatieve AI het meest effectief is bij het systematiseren van flow werk, niet alleen als tool voor iteratief werk.  De Industriële en IT-revoluties worden genoemd als voorbeelden van hoe het omzetten van iteratief naar flow werk en systematisering tot grote productiviteitsverbeteringen leidde. Het artikel benadrukt dat de focus moet liggen op het converteren van taken naar flow werk en het systematiseren ervan, in plaats van enkel het gebruiken van AI als een tool. Een voorbeeld van het afhandelen van werknemersvragen wordt gebruikt om te illustreren hoe het omzetten in flow werk en systematisering de efficiëntie verbetert.  Fouten van de AI kunnen worden verminderd door continue verbetering van de instructies.  Het artikel waarschuwt tegen twee misvattingen: AI als louter tool zien en de beperkingen van AI in iteratief werk overschatten.</description>
+    </item>
+    
+    <item>
+      <title>Omnidirectionele Engineers in het tijdperk van Liquidware</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_28_liquidware-allrounder/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_28_liquidware-allrounder/</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Generatieve AI transformeert softwareontwikkeling.  Het vermogen van grote taalmodellen om code te genereren neemt toe, waardoor programmeurs efficiënter werken.  Dit leidt tot het concept &apos;Liquidware&apos;, software die door gebruikers via generatieve AI kan worden aangepast, waardoor dynamische en gepersonaliseerde gebruikerservaringen ontstaan.  De rol van de software engineer verschuift van puur programmeren naar een meer omnidirectionele benadering (&apos;omnidirectionele engineers&apos;). Deze engineers bezitten brede kennis van diverse systeemstacks en kunnen complexe softwaresystemen ontwerpen die verschillende platforms integreren.  Het artikel illustreert dit met een voorbeeld van een e-commerce applicatie die Liquidware-functionaliteit integreert en benadrukt dat dit geen toekomstig concept is, maar een huidige realiteit. De opkomst van omnidirectionele engineers is essentieel in dit nieuwe landschap, waarbij ze de focus leggen op systeemarchitectuur, integratie en het beheren van risico&apos;s bij AI-gestuurde codegeneratie.  De toekomst omvat omnidirectionele softwareontwikkeling, die uitbreidt naar omnidirectionele bedrijfs- en sociale engineering.</description>
+    </item>
+    
+    <item>
+      <title>Het Lot van het Denken: AI en de Mensheid</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_12_fate-of-thinking/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_12_fate-of-thinking/</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel beschrijft een verschuiving in softwareontwikkeling en maatschappelijke denkwijze in het AI-tijdperk.  Het introduceert &quot;procesgerichte&quot; software als een paradigma dat de focus verlegt van objecten naar processen, waardoor individuele optimalisatie mogelijk wordt, in tegenstelling tot de eerdere nadruk op algehele optimalisatie. Deze verschuiving weerspiegelt zich in de maatschappij als een &quot;individuele optimalisatie maatschappij&quot;, waar diepgaande, individuele overwegingen belangrijker worden dan gestandaardiseerde regels. De auteur introduceert &quot;subjectieve filosofie&quot; als een ethisch perspectief dat de nadruk legt op zorgvuldige overweging van individuele situaties.  Het vermogen om frameworks te ontwerpen voor individuele problemen wordt een cruciale vaardigheid.  De conclusie is dat hoewel AI intellectuele arbeid automatiseert, mensen zullen blijven nadenken, zij het op een andere manier, door individuele frameworks te creëren en ethische overwegingen te integreren in hun beslissingen.</description>
+    </item>
+    
+    <item>
+      <title>Een introductie tot bedrijfsprocesgerichte software</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_07_11_business-process-oriented/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_07_11_business-process-oriented/</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Dit artikel introduceert bedrijfsprocesgerichte software als een nieuwe aanpak voor softwareontwikkeling.  In tegenstelling tot traditionele objectgeoriënteerde software, focust deze benadering op het integreren van bedrijfshandleidingen en invoervelden in één bestand, waardoor een uitvoerbaar document ontstaat dat zowel door mensen als AI kan worden gebruikt. Dit bestand, dat het bedrijfsproces volledig beschrijft, wordt door de betrokken personen doorgegeven, waarbij AI assistentie verleent waar nodig.  Dit vereenvoudigt aanpassingen, voegt functies toe, en bevordert kennisaccumulatie en continue verbetering van bedrijfsprocessen.  De scheiding tussen handleiding en verwerking, inherent aan traditionele software, wordt vermeden, wat leidt tot een efficiënter en sneller lerend systeem waar mensen zich kunnen focussen op minimale taken via gebruiksvriendelijke interfaces, terwijl AI de complexiteit van het leren en aanpassen aan veranderende processen absorbeert.</description>
+    </item>
+    
+    <item>
+      <title>Frameworkontwerp als Intellectuele Vaardigheid</title>
+      <link>https://katoshi-mfacet.github.io/nl/articles/2025_06_29_framework-design-ability/</link>
+      <guid>https://katoshi-mfacet.github.io/nl/articles/2025_06_29_framework-design-ability/</guid>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Het artikel onderscheidt twee intellectuele activiteiten: &apos;ontdekking door observatie&apos; (kenmerkend voor de academische wereld) en &apos;inventie door ontwerp&apos; (centraal in ontwikkeling).  Hoewel de academische wereld overwegend gericht is op ontdekking, betoogt het artikel dat &apos;frameworkontwerp&apos; een vorm van inventie is die eveneens een cruciale rol speelt in de wetenschap. Voorbeelden zoals de geocentrische en heliocentrische theorieën, en paradigmaverschuivingen in de natuurkunde, worden genoemd als bewijs.  Het artikel benadrukt dat deze activiteiten verschillende vaardigheden vereisen.  Wetenschappers blinken vaak uit in ontdekking, maar niet per se in ontwerp.  Software engineers, daarentegen, ontwikkelen vaak vaardigheden in abstract ontwerp, wat hen potentieel geschikt maakt voor academisch frameworkontwerp, hoewel specifieke expertise in het betreffende vakgebied essentieel blijft.</description>
+    </item>
+    
+  </channel>
 </rss>

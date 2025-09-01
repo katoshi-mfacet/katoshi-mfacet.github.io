@@ -1,2625 +1,1440 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/</loc>
     
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/about/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/archive/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/</loc>
     
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/archive/2025/06/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/archive/2025/07/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/archive/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/archive/2025/08/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/vocabulary/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/06_29_Framework-Design-Ability/</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/about/</loc>
+    
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_11_Business-Process-Oriented/</loc>
-    <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_12_Fate-of-Thinking/</loc>
-    <lastmod>2025-07-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_28_Liquidware-Allrounder/</loc>
-    <lastmod>2025-07-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_29_Simulation-Thinking/</loc>
-    <lastmod>2025-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_29_Tool-vs-System/</loc>
-    <lastmod>2025-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_30_Space-Dimension-AI/</loc>
-    <lastmod>2025-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_30_Symphonic-Intelligence/</loc>
-    <lastmod>2025-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/07_30_Virtual-Intelligence-Orchestration/</loc>
-    <lastmod>2025-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_06_Micro-VM-Intelligence/</loc>
-    <lastmod>2025-08-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_08_Natural-Language-ML/</loc>
-    <lastmod>2025-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_09_ALIS-Concept/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_10_Experience-Behavior/</loc>
-    <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_10_Knowledge-Crystallization/</loc>
-    <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_12_Chronoscramble-Society/</loc>
-    <lastmod>2025-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_12_Simulation-Thinking-Era/</loc>
-    <lastmod>2025-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_13_Natural-Born-Frameworker/</loc>
-    <lastmod>2025-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_14_Concept-Gestalt-Collapse/</loc>
-    <lastmod>2025-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_14_Intuition-and-Logic/</loc>
-    <lastmod>2025-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_15_Intellectual-Mine-GitHub/</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_16_Time-Compression-Blindspot/</loc>
-    <lastmod>2025-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_19_Dev-Development/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/articles/2025/08_24_Wall-Free-Era/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_24_wall-free-era/</loc>
     <lastmod>2025-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/</loc>
-    
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/business/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/business/digital-transformation/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/business/knowledge-management/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/business/operations-process/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/knowledge-learning/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/knowledge-learning/knowledge-concepts/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/knowledge-learning/learning-processes/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/philosophy/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/philosophy/consciousness-mind/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/philosophy/epistemology/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/philosophy/ethics/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/science/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/science/cognitive-science/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/science/life-science/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/science/physics/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/society-culture/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/society-culture/futures-studies/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/society-culture/social-change/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/artificial-intelligence/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/artificial-intelligence/ai-concepts-theory/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/artificial-intelligence/ai-societal-impact/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/artificial-intelligence/generative-ai/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/artificial-intelligence/machine-learning/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/data-science/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/simulation/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/software-development/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/software-development/development-methodologies/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/categories/technology/software-development/engineering-skills/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/rss.xml</loc>
-    
-    <changefreq>daily</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/</loc>
-    
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/academic-research/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_19_dev-development/</loc>
+    <lastmod>2025-08-19</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/accumulate/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/accuracy/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/acquired-learning/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/adapt/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/adaptability/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/administrative-affairs-department/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/afa-intellectual/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/agency/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/agent-functions/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/agi/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/agile-development/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ai-driven-software-development/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ai-run-software/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ai-technology-advance/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ai/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/aims/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/air-resistance/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/airflow-different-generation/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/algorithm/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/analytical-equations/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/anime/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/api/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/applied-technologies/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/architecture/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/argument/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/artificial-imbeciles/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_16_time-compression-blindspot/</loc>
+    <lastmod>2025-08-16</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/artificial-learning-intelligence-system/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_15_intellectual-mine-github/</loc>
+    <lastmod>2025-08-15</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/assumptions/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_14_concept-gestalt-collapse/</loc>
+    <lastmod>2025-08-14</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/astro-framework/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_14_intuition-and-logic/</loc>
+    <lastmod>2025-08-14</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/attention-knowledge/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_13_natural-born-frameworker/</loc>
+    <lastmod>2025-08-13</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/attention-mechanism/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_12_chronoscramble-society/</loc>
+    <lastmod>2025-08-12</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/automated-development/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_12_simulation-thinking-era/</loc>
+    <lastmod>2025-08-12</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/automated-website-generation/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_10_experience-behavior/</loc>
+    <lastmod>2025-08-10</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/automatic-programming/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_10_knowledge-crystallization/</loc>
+    <lastmod>2025-08-10</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/automation/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_09_alis-concept/</loc>
+    <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/autonomous-agents/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_08_natural-language-ml/</loc>
+    <lastmod>2025-08-08</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/backend/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_06_auto-presentation-video/</loc>
+    <lastmod>2025-08-06</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/barriers-to-information/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_08_06_micro-vm-intelligence/</loc>
+    <lastmod>2025-08-06</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/basic-design/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_30_space-dimension-ai/</loc>
+    <lastmod>2025-07-30</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/behavior/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_30_symphonic-intelligence/</loc>
+    <lastmod>2025-07-30</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/blog-drafts/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_30_virtual-intelligence-orchestration/</loc>
+    <lastmod>2025-07-30</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/body-control/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_29_simulation-thinking/</loc>
+    <lastmod>2025-07-29</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/body-work/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_29_tool-vs-system/</loc>
+    <lastmod>2025-07-29</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/bottleneck/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_28_liquidware-allrounder/</loc>
+    <lastmod>2025-07-28</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/bugs/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_12_fate-of-thinking/</loc>
+    <lastmod>2025-07-12</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/built-in-stabilizers/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_07_11_business-process-oriented/</loc>
+    <lastmod>2025-07-11</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/business-engineering/</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://katoshi-mfacet.github.io/pcm/articles/2025_06_29_framework-design-ability/</loc>
+    <lastmod>2025-06-29</lastmod>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/business-it-systems/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/business-process-oriented-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/business-process-oriented-software/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/business-process/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/catalyst/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_biz_process_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/catalytic-effect/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_business_admin/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/categorization-and-tagging/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_customer_service/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chair/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_legal/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chatbot/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_marketing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chemical-substances/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_organizational_theory/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chrono-trigger/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_project_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chronos-scramble-society/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_quality_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/chronoscramble-society/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_business_management/cid_risk_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/classification-problem/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_animation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/cloud-infrastructure/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_content_marketing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/code-quality/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/cognition/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_documentation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/cognitive-science/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_film/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/collaboration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_games/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/commonality/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_literature/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/complex-chemical-substances/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_media/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/complex-plenty-dimension-paradigms/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_presentation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/complex/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_sf/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/consciousness/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_ux_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/content-creation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_vector_graphics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/contextual-understanding/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_video_editing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/continuous-improvement/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_video_platforms/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/conversational-ai/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_creative/cid_video_production/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/conversational-generative-ai/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_cognitive_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/country/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_ethics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/creativity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_future_studies/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/crystallized-knowledge/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_logic/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/customer-interaction/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_mathematics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/data-model/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/data-models/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_philosophy/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/databases/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_science_of_philosophy/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/deep-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/deep-thinking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_ai_ml/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/deepwiki/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_computer_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/developer-tools/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_data_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/devin/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_human_computer_interaction/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/dimensional-perception/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_information_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/dimensional-structures/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_simulation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/discussion/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/distributed-cooperative-systems/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_system_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/document-management/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_tech_history/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/draft-answer/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_ai_ml/cid_knowledge_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/e-commerce/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_ai_ml/cid_nlp/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/efficiency/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_ai_ml/cid_speech_synthesis/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/embedding-vector-stores/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_computer_science/cid_formal_languages/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/embodied-ai/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_data_science/cid_data_analysis/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_data_science/cid_data_management/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/enix/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_data_science/cid_data_visualization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ethics/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_information_science/cid_information_retrieval/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/exception-clauses/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_mathematics/cid_statistics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/executable-file/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_astronomy/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/experience-and-behavior-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_biology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/experience-behavior-centric-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_chemistry/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/explicit-attention-mechanism/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_earth_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/exponential-growth/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_physics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/extenuating-circumstances/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_communication_studies/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/factory-production-lines/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_economics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/feature/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_education/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/finding-facts-by-observation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_geography/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/fine-tuning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_history/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/flight-systems/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_linguistics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/flow-based-transformation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_political_science/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/flow-based-work/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_psychology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/flow-work/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_social_science/cid_sociology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/flow/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_cloud_computing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/force-direction-conversion/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_databases/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/four-dimensional-space/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_dev_methodology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/framework-design/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_information_security/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/framework/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_programming_paradigms/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/frameworks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_software_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/frequently-asked-questions/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_software_testing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/frontend/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_web_dev/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/full-stack-engineer/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_science_philosophy/cid_natural_science/cid_earth_science/cid_meteorology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/functional-requirements/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/categories/cid_technology/cid_software_development/cid_web_dev/cid_web_frameworks/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/functionality/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_abstraction/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/future/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_accessibility/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/general-affairs-department/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_acquired_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/generative-ai/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_agency/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/geocentric-theory/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_agi/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/github/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_agile_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/gliding/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_assist/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/global-optimization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_driven_software_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/good-governance/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_engineer_chatbot/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/gradual-process/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_friendly_file/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/graphs/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/gravity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ai_technology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/headwind/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_air_resistance/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/health/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_airplane/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/heliocentric-theory/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_api/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/holism/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_applied_system/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/html-generation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_artificial_intelligence/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/human-beings-no-go-fit-fully-understand/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_artificial_learning_intelligence_system/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/human-beings/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_astro/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/human-learning-system/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_attention_knowledge/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/human-like-intelligent-agents/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_attention_mechanism/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/human-run-software/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_auto_generation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ideational-gestalt-collapse/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_auto_judgment/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ideational-gestalt/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_automated_testing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/imagination/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_automatic_programming/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/immersion/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_automation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/individually-optimized-society/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_automation_pipeline/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/individually-optimized/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_autonomous_agent/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/industrial-revolution/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_backend/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/information-dissemination/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_basic_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/information-retrieval/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_batch_processing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/innate-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_body_augmentation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/input-information/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_built_in_stabilizer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/input-tokens/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_business_efficiency/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/inquiry-desk/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_business_process/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/inquiry-history-data/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_business_process_improvement/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/instructions/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_business_process_oriented/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intellectual-crystallization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_business_process_oriented_software/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intellectual-factory/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cat_robot/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intellectual-mine/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_chemical_substance/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intellectual-orchestration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_chrono_trigger/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intellectual-work/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_chronoscramble_society/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intelligence-orchestration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_classification_problem/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intelligent-processor/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cloud_infrastructure/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/interact/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cloud_of_dust/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/intuition/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cognition_co/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/invention-through-design/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cognitive_ability/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/it-revolution/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_common_module/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/iterative-work/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_conceptual_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/keyboard-navigation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_consciousness/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-base/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_context_understanding/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-crystallization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_conversational_ai/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-crystals/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_css/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_cumulative_interaction/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-engineers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_decision_making/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-gem-box/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_deepwiki/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-graph/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_democratization_of_knowledge/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-lake/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_development_driven_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-management/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_devin/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-representation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_dimension_native/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-sharing/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_disappearance_of_walls/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-store/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_dual_simulation_thinking/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge-toolbox/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_embodied_ai/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/knowledge/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_experience_behavior_driven_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/kunu-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_experience_behavior_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/language-patterns/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_explicit_attention_mechanism/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/language-specific-formatting/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_exponential_growth/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/large-language-models/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_fast_learning_organization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/lasting-peace/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_fate_of_thinking/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/learning-mechanism/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ffmpeg/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/learning-organization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_fine_tuning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/learning-through-language/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_flow_work/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/learning-through-the-body/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_flow_work_conversion/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/learning-to-learn/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_formal_language/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/lift/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_formal_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/linear-growth/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_framework/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/liquidware/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_framework_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/logic/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_frontend/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/machine-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_full_stack_engineer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/maintenance/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_fullstack/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/make-believe/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_functional_suitability/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/manuals/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_functional_validity/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/mapping-plenty-axes-to-another-set-of-axes/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_gemini/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/markdown/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_generative_ai/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/mcp-memory-computation-perception/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_geocentric_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/memory-usage/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_gestalt/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/metabolism/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_github/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/metaphysical-connection-point/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_gliding/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/metaphysical-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_global_circulation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/micro-virtual-intelligence/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_governance/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/monomers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_helicopter/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/morally-good/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_heliocentric_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/multi-dimensional-data/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_high_dimensional_data/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/multi-dimensional-vision/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_html/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/multilingual-website/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_hyperscramble/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/national-interest/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_idea/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/native-frameworks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_idea_gestalt_collapse/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/natural-born-frameworker/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_independence_from_time_perception/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/natural-language-machine-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_individual_optimization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/natural-language-processing/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_individual_optimization_society/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/natural-language/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_industrial_revolution/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/natural-mathematics/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_information_gap/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/negative-bias/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_innate_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/neural-network/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_input_token_count/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/newtonian-mechanics/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intellectual_crystal/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/numerical-machine-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intellectual_factory/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/object-orientation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intellectual_mine/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/object-oriented-software/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intelligence_orchestration/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/object/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intelligent_orchestration/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/omnichannel/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_intelligent_processor/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/omnidirectional-engineer/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_it_revolution/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/omnidirectional-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_iteration_work/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/omnidirectional-software/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_javascript/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/open-source-software/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_katoshi_research_notes/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/orchestration-technology/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_accumulation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/organization-tasks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_base/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/origin-of-life/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_crystal/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/paradigm-innovations/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_crystallization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/paradigm-inventions/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_gembox/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/paradigm-shifts/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_lake/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/paradigms/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_store/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/parameter/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_knowledge_toolbox/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/patterns/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_language_acquisition/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/perspective/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_large_language_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/philosophical-arguments/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_lift/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/physical-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_linear_thinking/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/polymers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_liquidware/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/positive-bias/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_low_dimensional_mapping/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/post-checking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_machine_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/practical-sciences/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_machine_translation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/pre-analysis/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_markdown/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/pre-training-methods/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_marp/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/pre-training/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_mathematical_structure/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/principled-simulation-thinking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_meta_level/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/process-optimization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_metabolism/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/process-orientation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_metacognitive_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/process/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_metaphysical_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/programmatic-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_micro_virtual_intelligence/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/programming-languages/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_module/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/programming/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_monomer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/prompt-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_multidimensional_vision/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/prompt-instructions/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_multilingualization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/prosperity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_native_framework/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/public-knowledge-base/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_born_frameworker/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/qualitative-simulation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_language/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/quantum-effects/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_language_machine_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/quantum-mechanics/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_language_processing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/rag/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_language_text/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/rapid-learning-organization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_natural_mathematics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/rational/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_negative_bias/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/refactoring-driven-testing/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_neural_network/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/refactoring/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_newtonian_mechanics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/relativity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_notebooklm/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/replication/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_numerical_machine_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/requirements-analysis/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_object_oriented/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/researchers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_object_oriented_software/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/retrieval-augmented-generation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_objective_logical_model/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/right-to-left-layout/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_omnidevice/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/risk-assessment/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_omnidirectional_engineer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/risk-management/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_omnidirectional_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/robot/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_omnidirectional_software/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/role-playing/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_omniplatform/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/routing-logs/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_open_source/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/rpg/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_origin_of_life/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/scaling-laws/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_overall_optimization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/scholars/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_paradigm_innovation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/scientific-discovery/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_paradigm_invention/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/self-improving-systems/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_paradigm_shift/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/self-maintenance/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_plugin/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/semantic-simulation-thinking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_polymer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/sense-work/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_positive_bias/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/sensory-organs/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_pre_check_comment/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/sentience/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_pre_training/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/simulation-systems/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_preprocessing/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/simulation-thinking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_process_oriented/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/singularity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_programming/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/site-maintenance-automation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_progressive_accumulation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/societal-blind-spots/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_prompt/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/society/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_prompt_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-design/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_propeller/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-development-barriers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_propulsion/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_public_knowledge_base/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_qualitative_simulation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-engineers/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_quantum_mechanics/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/software-implementation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_rag/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/specifications-and-implementation-based-engineering/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_refactoring/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/square-enix/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_refactoring_driven_test/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/square/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_replication/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/state-memory/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_requirements_analysis/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/strategy/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_requirements_organization/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/sub-physical-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_rhetoric/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/subjective-philosophy/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_robot/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/supervised-learning/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_rule_violation_check/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/survival/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_scaling_law/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/symphonic-intelligence/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_scrap_and_build/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-engineer/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_self_maintenance/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-integration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_self_reinforcement/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-orchestration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_short_term_memory/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-prompt/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_simulation_system/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-stack/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_simulation_thinking/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system-technologies/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_skill_set/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/system/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_social_blind_spot/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/systematization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_software_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/tasks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_software_development_automation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/teacher-system/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_software_development_paradigm/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/technological-unemployment/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_software_engineer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/test-driven-development/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_software_module/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/test-results/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_specification_definition/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/test-specifications/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_specification_implementation_based_engineering/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/testing/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_speed_adjustment/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/theory-of-relativity/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_square_enix/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/thinking/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_state_memory/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/three-dimensional-space/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_state_transition/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/thrust/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_stockholm_syndrome/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/time-compression-effect/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_subjective_philosophy/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/time-machine/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_supervised_learning/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/time-perception-gaps/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_svg/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/tool/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_symphonic_intelligence/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/training-data/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_system_orchestration/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/transformer/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_system_prompt/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/translation-nuances/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_system_stack/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/trial-and-error/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_technical_debt/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/turning-them-to-logarithms/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_technological_progress/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/two-dimensional-picture/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_test_driven_development/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ui-ux/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_text_overflow/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/ultimate-deliberation/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_text_to_speech/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/uncertainty/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_theory_of_relativity/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/unconscious-tasks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_time_compression/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/updraft/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_time_machine/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/use-cases/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_time_perception/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/user-customization/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_training_data/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/user-experience/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_transformer/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/user-interface/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ui_ux/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/user-preferences/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_ultimate_deliberation/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/uv-light/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_updraft/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/veteran-staff/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_user_centered_design/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/virtual-frameworks/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_user_experience/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/virtual-intelligence-orchestration/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_user_interface/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/virtual-intelligence/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_virtual_framework/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/virtual-machine/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_virtual_intelligence/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/virtually-embodied-ai/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_virtual_intelligence_skill/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/vision/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_virtual_machine/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/website-accessibility/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_virtual_machine_technology/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/wings/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_web_app/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/workflow/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/tags/tid_world/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/world-peace/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/archive/2025/08/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/tags/world/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/archive/2025/07/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://katoshi-mfacet.github.io/pcm/m/vocabulary/</loc>
+    <loc>https://katoshi-mfacet.github.io/pcm/archive/2025/06/</loc>
     
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
